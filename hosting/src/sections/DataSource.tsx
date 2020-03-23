@@ -6,7 +6,7 @@ export default function DataSource(): JSX.Element {
     <Box>
       <Heading level={2}>Data Source</Heading>
       <Paragraph>
-        Data comes from <a href="https://ncovtracker.doh.gov.ph" target="_blank">ncovtracker.doh.gov.ph</a>.
+        Data comes from <a href="https://ncovtracker.doh.gov.ph" target="_blank" rel="noopener noreferrer">ncovtracker.doh.gov.ph</a>.
       </Paragraph>
     </Box>
   );

@@ -47,7 +47,11 @@ export default function Endpoints(): JSX.Element {
 
       <Paragraph>
         <strong>Base URL:</strong>{" "}
-        <a href="https://ncovph.com/api" target="_blank">
+        <a
+          href="https://ncovph.com/api"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           https://ncovph.com/api
         </a>
       </Paragraph>
@@ -101,7 +105,7 @@ export default function Endpoints(): JSX.Element {
         notes={[
           "For residence, up to province-level is guaranteed. City/municipality is often unspecified.",
           "Symptoms is currently blank in ncovtracker. I might remove this later on.",
-          "Status is currently blank in ncovtracker.",
+          "Status is currently blank in ncovtracker."
         ]}
       />
     </Box>
