@@ -36,7 +36,10 @@ export default function Endpoints(): JSX.Element {
       <Heading level={2}>Endpoints</Heading>
 
       <Paragraph>
-        <strong>Base URL:</strong> <a href="https://ncovph.com/api" target="_blank">https://ncovph.com/api</a>
+        <strong>Base URL:</strong>{" "}
+        <a href="https://ncovph.com/api" target="_blank">
+          https://ncovph.com/api
+        </a>
       </Paragraph>
 
       <Endpoint
@@ -49,6 +52,12 @@ export default function Endpoints(): JSX.Element {
         method="GET"
         path="/health"
         description="Check the health of the API."
+      />
+
+      <Endpoint
+        method="GET"
+        path="/nationalities"
+        description="Returns a list of nationalities."
       />
 
       <Endpoint
