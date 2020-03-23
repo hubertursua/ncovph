@@ -7,7 +7,7 @@ function Main(): JSX.Element {
   return (
     <GMain pad="large">
       <Heading color="brand">ncovph (alpha)</Heading>
-      <Paragraph>API for COVID-19 data.</Paragraph>
+      <Paragraph>API for COVID-19 data (Philippines)</Paragraph>
       <Box flex>
         <RateLimit />
         <Endpoints />
