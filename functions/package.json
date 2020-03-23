@@ -14,6 +14,7 @@
     "logs": "firebase functions:log"
   },
   "dependencies": {
+    "@sentry/node": "^5.14.2",
     "@types/express-rate-limit": "^5.0.0",
     "@types/graphql": "^14.5.0",
     "apollo-server-express": "^2.11.0",

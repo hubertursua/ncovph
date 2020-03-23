@@ -9,11 +9,14 @@ import * as provinces from "./provinces";
 import * as rateLimit from "./rateLimit";
 import * as regions from "./regions";
 import * as root from "./root";
+import * as sentryRequest from "./sentryRequest";
+import * as sentryError from "./sentryError";
 
 const router = Router();
 
 router.use(cors.handler);
 router.use(rateLimit.handler);
+router.use(sentryRequest.handler);
 router.use(health.path, health.handler);
 
 router.get(root.path, root.handler);
@@ -25,5 +28,7 @@ router.get(provinces.path, provinces.handler);
 router.get(cities.path, cities.handler);
 
 router.get(confirmedCases.path, confirmedCases.handler);
+
+router.use(sentryError.handler);
 
 export default router;
