@@ -1,15 +1,17 @@
 import { Router } from "express";
-import * as root from "./root";
-import * as health from "./health";
-import * as rateLimit from "./rateLimit";
-import * as confirmedCases from "./confirmedCases";
-import * as countries from "./countries";
-import * as regions from "./regions";
-import * as provinces from "./provinces";
 import * as cities from "./cities";
+import * as confirmedCases from "./confirmedCases";
+import * as cors from "./cors";
+import * as countries from "./countries";
+import * as health from "./health";
+import * as provinces from "./provinces";
+import * as rateLimit from "./rateLimit";
+import * as regions from "./regions";
+import * as root from "./root";
 
 const router = Router();
 
+router.use(cors.handler);
 router.use(rateLimit.handler);
 router.use(health.path, health.handler);
 

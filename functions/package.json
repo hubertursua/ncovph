@@ -18,6 +18,7 @@
     "@types/graphql": "^14.5.0",
     "apollo-server-express": "^2.11.0",
     "axios": "^0.19.2",
+    "cors": "^2.8.5",
     "express-healthcheck": "^0.1.0",
     "express-rate-limit": "^5.1.1",
     "firebase-admin": "^8.10.0",
