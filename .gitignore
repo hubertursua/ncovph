@@ -1,0 +1,19 @@
+.env*
+dist
+build
+package-lock.json
+node_modules
+.idea
+.vscode
+*.log
+
+## Compiled JavaScript files
+**/*.js
+**/*.js.map
+
+# Typescript v1 declaration files
+typings/
+
+# Firebase
+firebase-debug.log
+.firebase
