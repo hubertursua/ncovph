@@ -6,12 +6,14 @@ interface EndpointSectionProps {
   method: string;
   path: string;
   description: string;
+  notes?: string[];
 }
 
 function Endpoint({
   method,
   path,
-  description
+  description,
+  notes = [],
 }: EndpointSectionProps): JSX.Element {
   return (
     <Box
@@ -26,6 +28,14 @@ function Endpoint({
       <Box direction="column">
         <TryButton path={path} />
       </Box>
+      {(notes.length > 0) && (
+        <Paragraph>
+          <Heading level={4}>Notes</Heading>
+          <ul>
+            {notes.map((note) => (<li>{note}</li>))}
+          </ul>
+        </Paragraph>
+      )}
     </Box>
   );
 }
@@ -88,6 +98,11 @@ export default function Endpoints(): JSX.Element {
         method="GET"
         path="/confirmed-cases"
         description="Returns a list of all confirmed cases in the Philippines."
+        notes={[
+          "For residence, up to province-level is guaranteed. City/municipality is often unspecified.",
+          "Symptoms is currently blank in ncovtracker. I might remove this later on.",
+          "Status is currently blank in ncovtracker.",
+        ]}
       />
     </Box>
   );
