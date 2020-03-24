@@ -28,7 +28,7 @@ export default function Updates(): JSX.Element {
           <br />
           <br />
           {`Data for OFW cases is now available. An error reporting
-          tool was added which will inform me if the API cannot
+          tool was added which will inform me if the API cannot get
           data from the ncovtracker. I'll be working on health facilities
           and PUI data.`}
           <br />
