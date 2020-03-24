@@ -70,6 +70,28 @@ export default function Endpoints(): JSX.Element {
 
       <Endpoint
         method="GET"
+        path="/confirmed-cases"
+        description="Returns a list of all confirmed cases in the Philippines."
+        notes={[
+          "For residence, up to province-level is guaranteed. City/municipality is often unspecified.",
+          "For travel history, values will either be a country or 'Diamond Princess Cruise Ship' (since this is treated as a separate location).",
+          "Symptoms is currently blank in ncovtracker. I might remove this later on.",
+          "Status is currently blank in ncovtracker."
+        ]}
+      />
+
+      <Endpoint
+        method="GET"
+        path="/ofw-cases"
+        description="Returns a list of all OFW cases."
+        notes={[
+          "For cases which involve cruise ships, see the metadata.cruise_ship field.",
+          "Some cases will have a status, but most are marked as unspecified."
+        ]}
+      />
+
+      <Endpoint
+        method="GET"
         path="/nationalities"
         description="Returns a list of nationalities."
       />
@@ -96,28 +118,6 @@ export default function Endpoints(): JSX.Element {
         method="GET"
         path="/cities"
         description="Returns a list of cities and municipalities in the Philippines."
-      />
-
-      <Endpoint
-        method="GET"
-        path="/confirmed-cases"
-        description="Returns a list of all confirmed cases in the Philippines."
-        notes={[
-          "For residence, up to province-level is guaranteed. City/municipality is often unspecified.",
-          "For travel history, values will either be a country or 'Diamond Princess Cruise Ship' (since this is treated as a separate location).",
-          "Symptoms is currently blank in ncovtracker. I might remove this later on.",
-          "Status is currently blank in ncovtracker."
-        ]}
-      />
-
-      <Endpoint
-        method="GET"
-        path="/ofw-cases"
-        description="Returns a list of all OFW cases."
-        notes={[
-          "For cases which involve cruise ships, see the metadata.cruise_ship field.",
-          "Some cases will have a status, but most are marked as unspecified."
-        ]}
       />
     </Box>
   );
