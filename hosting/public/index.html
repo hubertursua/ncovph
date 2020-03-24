@@ -31,6 +31,9 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>ncovph</title>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-analytics.js"></script>
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -45,5 +48,21 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCvfdzYdaBSvoEEUX5W00XrJgdjCFkA58Y",
+        authDomain: "ncovidtracker-api.firebaseapp.com",
+        databaseURL: "https://ncovidtracker-api.firebaseio.com",
+        projectId: "ncovidtracker-api",
+        storageBucket: "ncovidtracker-api.appspot.com",
+        messagingSenderId: "854453106060",
+        appId: "1:854453106060:web:2c9a0bc57f4db24279d2a9",
+        measurementId: "G-J2N6FQ4TXL"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      window.analytics = firebase.analytics();
+    </script>
   </body>
 </html>
