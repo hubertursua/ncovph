@@ -21,6 +21,20 @@ export default function Updates(): JSX.Element {
     <Box>
       <Heading level={2}>Updates</Heading>
       <Update
+        date="March 24"
+        text={<>
+          {`Data for OFW cases is now available. An error reporting
+          tool was added which will inform me if the API cannot
+          data from the ncovtracker. I'll be working on health facilities
+          and PUI data.`}
+          <br />
+          <br />
+          {`Relationship of patients have been deprioritized
+          because DOH will have a hard time getting this data as more cases
+          come in (PH204 was the latest to have relationship data).`}
+        </>}
+      />
+      <Update
         date="March 23"
         text={`
           Beta version of the API is now up! Endpoint for
