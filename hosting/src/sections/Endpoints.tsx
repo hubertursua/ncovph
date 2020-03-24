@@ -74,7 +74,7 @@ export default function Endpoints(): JSX.Element {
         description="Returns a list of all confirmed cases in the Philippines."
         notes={[
           "For residence, up to province-level is guaranteed. City/municipality is often unspecified.",
-          "For travel history, values will either be a country or 'Diamond Princess Cruise Ship' (since this is treated as a separate location).",
+          "For travel history, this is strictly a country. Cruise ships have been translated to their respective countries (e.g. Diamond Princess = Japan). A field metadata.cruise_ship will show the name of the ship.",
           "Symptoms is currently blank in ncovtracker. I might remove this later on.",
           "Status is currently blank in ncovtracker."
         ]}

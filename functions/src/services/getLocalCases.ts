@@ -13,6 +13,7 @@ import getTravelHistoryDataFieldStatus from "../helpers/getTravelHistoryDataFiel
 import toTravelHistories from "../parsers/toTravelHistories";
 import getResidenceDataFieldStatus from "../helpers/getResidenceDataFieldStatus";
 import toResidence from "../parsers/toResidence";
+import toCruiseShip from '../parsers/toCruiseShip';
 
 function toConfirmedCasePatientLocal(data: [PHMasterlistArcGISFeature]): [ConfirmedCasePatientLocal] {
   return data.map(
@@ -33,6 +34,7 @@ function toConfirmedCasePatientLocal(data: [PHMasterlistArcGISFeature]): [Confir
       symptoms: toSymptoms(feature.symptoms),
       facility: feature.facility.trim(),
       metadata: {
+        cruise_ship: toCruiseShip(feature.travel_hx),
         field_status: {
           residence: getResidenceDataFieldStatus(feature.residence),
           travel_history: getTravelHistoryDataFieldStatus(feature.travel_hx),

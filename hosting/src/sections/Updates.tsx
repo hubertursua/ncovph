@@ -23,6 +23,10 @@ export default function Updates(): JSX.Element {
       <Update
         date="March 24"
         text={<>
+          {`Cruise ship now has its own field as metadata.cruise_ship. Read the
+          notes of /confirmed-cases to know how this is now handled.`}
+          <br />
+          <br />
           {`Data for OFW cases is now available. An error reporting
           tool was added which will inform me if the API cannot
           data from the ncovtracker. I'll be working on health facilities
