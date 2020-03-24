@@ -5,6 +5,7 @@ import Endpoints from "./sections/Endpoints";
 import RateLimit from "./sections/RateLimit";
 import SyncingCaching from "./sections/SyncingCaching";
 import Updates from "./sections/Updates";
+import Contributing from "./sections/Contributing";
 import IssueButton from "./components/IssueButton";
 import StarButton from "./components/StarButton";
 
@@ -23,6 +24,7 @@ function Main(): JSX.Element {
         <SyncingCaching />
         <RateLimit />
         <Endpoints />
+        <Contributing />
       </Box>
     </GMain>
   );
