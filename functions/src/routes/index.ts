@@ -5,12 +5,13 @@ import * as cors from "./cors";
 import * as countries from "./countries";
 import * as health from "./health";
 import * as nationalities from "./nationalities";
+import * as ofwCases from "./ofwCases";
 import * as provinces from "./provinces";
 import * as rateLimit from "./rateLimit";
 import * as regions from "./regions";
 import * as root from "./root";
-import * as sentryRequest from "./sentryRequest";
 import * as sentryError from "./sentryError";
+import * as sentryRequest from "./sentryRequest";
 
 const router = Router();
 
@@ -28,6 +29,7 @@ router.get(provinces.path, provinces.handler);
 router.get(cities.path, cities.handler);
 
 router.get(confirmedCases.path, confirmedCases.handler);
+router.get(ofwCases.path, ofwCases.handler);
 
 router.use(sentryError.handler);
 

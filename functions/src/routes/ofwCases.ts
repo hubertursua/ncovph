@@ -1,8 +1,8 @@
 import cache from "../cache";
 
-export const path = "/confirmed-cases";
+export const path = "/ofw-cases";
 
 export const handler = async (req, res) => {
-  const cases = cache.get("confirmed_cases");
+  const cases = cache.get("ofw_cases");
   res.json(cases);
 };

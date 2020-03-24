@@ -109,6 +109,16 @@ export default function Endpoints(): JSX.Element {
           "Status is currently blank in ncovtracker."
         ]}
       />
+
+      <Endpoint
+        method="GET"
+        path="/ofw-cases"
+        description="Returns a list of all OFW cases."
+        notes={[
+          "For cases which involve cruise ships, see the metadata.cruise_ship field.",
+          "Some cases will have a status, but most are marked as unspecified."
+        ]}
+      />
     </Box>
   );
 }

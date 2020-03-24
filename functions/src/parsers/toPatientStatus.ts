@@ -5,6 +5,10 @@ export default function toPatientStatus(status: string | null): PatientStatus {
     return PatientStatus.UNSPECIFIED;
   }
 
+  if (status.toUpperCase().includes("STABLE")) {
+    return PatientStatus.STABLE;
+  }
+
   switch (status.toUpperCase()) {
     case "UNDER INVESTIGATION":
       return PatientStatus.UNDER_INVESTIGATION;
