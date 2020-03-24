@@ -32,7 +32,7 @@ function Endpoint({
         <Paragraph>
           <Heading level={4}>Notes</Heading>
           <ul>
-            {notes.map((note) => (<li>{note}</li>))}
+            {notes.map((note) => (<li key={note}>{note}</li>))}
           </ul>
         </Paragraph>
       )}
