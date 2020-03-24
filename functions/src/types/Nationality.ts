@@ -1,4 +1,4 @@
-export enum Nationality {
+enum Nationality {
   AFGHAN = "Afghan",
   ALBANIAN = "Albanian",
   ALGERIAN = "Algerian",
