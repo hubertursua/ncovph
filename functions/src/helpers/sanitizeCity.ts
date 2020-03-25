@@ -13,8 +13,8 @@ export default function sanitizeCity(str: string): string {
     city = "Parañaque City";
   }
 
-  if (city === "Cainta, Rizal") {
-    city = "Cainta";
+  if (city.includes(", ")) {
+    city = city.split(", ").shift().trim();
   }
 
   return city;
