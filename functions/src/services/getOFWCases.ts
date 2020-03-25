@@ -18,7 +18,7 @@ function fixStatusEncoding(status: string): string {
     .replace("Nat�L", "Nat'L");
 }
 
-function toConfirmedCasePatientOFW(data: [OFMasterlistArcGISFeature]): [ConfirmedCasePatientOFW] {
+function toConfirmedCasePatientOFW(data: OFMasterlistArcGISFeature[]): ConfirmedCasePatientOFW[] {
   return data.map(
     (feature): ConfirmedCasePatientOFW => ({
       caseID: feature.Case_numbe.trim(),
@@ -44,7 +44,7 @@ function toConfirmedCasePatientOFW(data: [OFMasterlistArcGISFeature]): [Confirme
         },
       },
     }),
-  ) as [ConfirmedCasePatientOFW];
+  ) as ConfirmedCasePatientOFW[];
 }
 
 export default async function getOFWCases() {

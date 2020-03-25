@@ -4,11 +4,10 @@ import City from "../types/City";
 import Cities from "../consts/Cities";
 
 export default function getProvinceOfCity(city: City): Province | null {
-  const match = Cities.find((c) => (c.name === city));
+  const match = Cities.find((c) => (c.name.toUpperCase() === city.toUpperCase()));
 
   if (!match) {
-    console.error("Cannot match city to get its province:");
-    console.error(city);
+    console.error(`Cannot match city to get its province: ${city}`);
     process.exit();
   }
 

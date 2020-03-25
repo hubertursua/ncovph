@@ -15,7 +15,7 @@ import getResidenceDataFieldStatus from "../helpers/getResidenceDataFieldStatus"
 import toResidence from "../parsers/toResidence";
 import toCruiseShip from '../parsers/toCruiseShip';
 
-function toConfirmedCasePatientLocal(data: [PHMasterlistArcGISFeature]): [ConfirmedCasePatientLocal] {
+function toConfirmedCasePatientLocal(data: PHMasterlistArcGISFeature[]): ConfirmedCasePatientLocal[] {
   return data.map(
     (feature): ConfirmedCasePatientLocal => ({
       caseID: feature.PH_masterl.trim(),
@@ -46,7 +46,7 @@ function toConfirmedCasePatientLocal(data: [PHMasterlistArcGISFeature]): [Confir
         },
       },
     }),
-  ) as [ConfirmedCasePatientLocal];
+  ) as ConfirmedCasePatientLocal[];
 }
 
 export default async function getLocalCases() {
@@ -61,6 +61,3 @@ export default async function getLocalCases() {
     throw error;
   }
 }
-
-// console.log(JSON.stringify(await getLocalCases(), null, 2));
-// getLocalCases();
