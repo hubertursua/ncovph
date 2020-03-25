@@ -17,5 +17,9 @@ export default function sanitizeCity(str: string): string {
     city = "Parañaque City";
   }
 
+  if (city === "Jala-Jala") {
+    city = "Jalajala";
+  }
+
   return city;
 }
