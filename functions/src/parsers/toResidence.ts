@@ -9,5 +9,9 @@ export default function toResidence(residence: string | null): Residence {
     return null;
   }
 
+  if (sanitized.toUpperCase() === 'CHINA') {
+    return null;
+  }
+
   return toLocation(sanitized);
 }
