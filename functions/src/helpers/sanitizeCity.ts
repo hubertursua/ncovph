@@ -1,6 +1,10 @@
 export default function sanitizeCity(str: string): string {
   let city = str.trim();
 
+  if (city.includes(", ")) {
+    city = city.split(", ").shift().trim();
+  }
+
   if (city === "Valenzuela") {
     city = "Valenzuela City";
   }
@@ -11,10 +15,6 @@ export default function sanitizeCity(str: string): string {
 
   if (city === "Para�aque City") {
     city = "Parañaque City";
-  }
-
-  if (city.includes(", ")) {
-    city = city.split(", ").shift().trim();
   }
 
   return city;
