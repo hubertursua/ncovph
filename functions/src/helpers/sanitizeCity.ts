@@ -5,5 +5,9 @@ export default function sanitizeCity(str: string): string {
     city = "Valenzuela City";
   }
 
+  if (city === "Las Pi�as City") {
+    city = "Las Piñas City";
+  }
+
   return city;
 }
