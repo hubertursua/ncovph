@@ -1,5 +1,3 @@
-import "./utils/sentry"; // Should always be at the top
-
 import * as functions from "firebase-functions";
 import app from "./app";
 
