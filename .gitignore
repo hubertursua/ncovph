@@ -16,3 +16,7 @@ typings/
 # Firebase
 firebase-debug.log
 .firebase
+serviceAccountKey.json
+
+# App-specific
+functions/tmp

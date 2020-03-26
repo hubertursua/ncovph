@@ -28,7 +28,8 @@
     "i18n-iso-countries": "^5.1.0",
     "moment": "^2.24.0",
     "node-cache": "^5.1.0",
-    "snake-case": "^3.0.3"
+    "snake-case": "^3.0.3",
+    "uuid": "^7.0.2"
   },
   "devDependencies": {
     "firebase-functions-test": "^0.2.0",

@@ -1,3 +1,4 @@
+import "./firebase"; // Pre-initialize firebase-admin
 import * as functions from "firebase-functions";
 import app from "./app";
 
