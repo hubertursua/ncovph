@@ -1,7 +1,7 @@
 import NodeCache from "node-cache";
 import buildCache from "./buildCache";
-import getLocalCases from "../services/getLocalCases";
-import getOFWCases from "../services/getOFWCases";
+import getLocalCases from "../etl/getLocalCases";
+import getOFWCases from "../etl/getOFWCases";
 
 const cache = new NodeCache({
   deleteOnExpire: false,
