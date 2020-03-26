@@ -4720,7 +4720,7 @@ export default [
     "province": "Mindoro Oriental"
   },
   {
-    "name": "Bulalacao (San Pedro)",
+    "name": "Bulalacao",
     "province": "Mindoro Oriental"
   },
   {
