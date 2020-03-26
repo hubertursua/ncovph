@@ -5,6 +5,10 @@ export default function sanitizeCity(str: string): string {
     city = city.split(", ").shift().trim();
   }
 
+  if (city.toUpperCase().startsWith('CITY OF ')) {
+    city = `${city.substring(8)} City`;
+  }
+
   if (city === "Valenzuela") {
     city = "Valenzuela City";
   }
