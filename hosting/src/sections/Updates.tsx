@@ -3,14 +3,15 @@ import { Box, Heading, Paragraph } from "grommet";
 
 function Update({
   date,
-  text,
+  text
 }: {
-  date: string,
-  text: JSX.Element | string,
+  date: string;
+  text: JSX.Element | string;
 }): JSX.Element {
   return (
     <Paragraph>
-      <strong>{date}</strong><br />
+      <strong>{date}</strong>
+      <br />
       {text}
     </Paragraph>
   );
@@ -21,22 +22,37 @@ export default function Updates(): JSX.Element {
     <Box>
       <Heading level={2}>Updates</Heading>
       <Update
+        date="March 26"
+        text={
+          <>
+            {`Most of the work has been cleaning the city-province data of the new cases.
+          If you encountered blank results when calling the /confirmed-cases, that was the cause.`}
+            <br />
+            <br />
+            {`I'll be deploying later some backend changes so that the API saves a last known good data.
+          This will prevent the system from crashing. More about this after the release.`}
+          </>
+        }
+      />
+      <Update
         date="March 24"
-        text={<>
-          {`Cruise ship now has its own field as metadata.cruise_ship. Read the
+        text={
+          <>
+            {`Cruise ship now has its own field as metadata.cruise_ship. Read the
           notes of /confirmed-cases to know how this is now handled.`}
-          <br />
-          <br />
-          {`Data for OFW cases is now available. An error reporting
+            <br />
+            <br />
+            {`Data for OFW cases is now available. An error reporting
           tool was added which will inform me if the API cannot get
           data from the ncovtracker. I'll be working on health facilities
           and PUI data.`}
-          <br />
-          <br />
-          {`Relationship of patients have been deprioritized
+            <br />
+            <br />
+            {`Relationship of patients have been deprioritized
           because DOH will have a hard time getting this data as more cases
           come in (PH204 was the latest to have relationship data).`}
-        </>}
+          </>
+        }
       />
       <Update
         date="March 23"
