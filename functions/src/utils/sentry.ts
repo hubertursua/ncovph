@@ -6,3 +6,5 @@ const options = {
 };
 
 Sentry.init(options);
+
+export default Sentry;
