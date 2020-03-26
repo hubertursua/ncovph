@@ -7,8 +7,7 @@ export default function getProvinceOfCity(city: City): Province | null {
   const match = Cities.find((c) => (c.name.toUpperCase() === city.toUpperCase()));
 
   if (!match) {
-    console.error(`Cannot match city to get its province: ${city}`);
-    process.exit();
+    throw new Error(`Cannot match city to get its province: ${city}`);
   }
 
   return toProvince(match.province);
