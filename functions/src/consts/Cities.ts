@@ -5368,7 +5368,7 @@ export default [
     "province": "Rizal"
   },
   {
-    "name": "Rodriguez (Montalban)",
+    "name": "Rodriguez",
     "province": "Rizal"
   },
   {
