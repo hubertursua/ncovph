@@ -6,15 +6,21 @@ import getProvinceOfCity from "../helpers/getProvinceOfCity";
 import getRegionOfProvince from "../helpers/getRegionOfProvince";
 import toProvince from "./toProvince";
 import sanitizeCity from "../helpers/sanitizeCity";
+import sanitizeProvince from "../helpers/sanitizeProvince";
 
 export default function toLocation(str: string): Location {
   let city: City | null;
   let region: Region | null;
-  let province: Province | null = toProvince(str);
+  let province: Province | null = toProvince(sanitizeProvince(str));
 
   if (province) {
     region = getRegionOfProvince(province);
-    city = null;
+
+    if (str.includes(", ")) {
+      city = sanitizeCity(str);
+    } else {
+      city = null;
+    }
   } else {
     region = Region[str] || null;
 
