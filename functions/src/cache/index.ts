@@ -3,6 +3,7 @@ import buildCache from "./buildCache";
 import getLocalCases from "../etl/getLocalCases";
 import getOFWCases from "../etl/getOFWCases";
 import getHospitals from "../etl/getHospitals";
+import getForeignNationalCases from "../etl/getForeignNationalCases";
 
 const cache = new NodeCache({
   deleteOnExpire: false,
@@ -20,6 +21,13 @@ buildCache({
   func: getOFWCases,
   cacheKey: "ofw_cases",
   ttl: 60 * 15,
+});
+
+buildCache({
+  cache,
+  func: getForeignNationalCases,
+  cacheKey: "foreign_national_cases",
+  ttl: 60 * 15
 });
 
 buildCache({
