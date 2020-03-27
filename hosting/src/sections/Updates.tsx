@@ -22,6 +22,20 @@ export default function Updates(): JSX.Element {
     <Box>
       <Heading level={2}>Updates</Heading>
       <Update
+        date="March 27"
+        text={
+          <>
+            {`The new backend is now up. The API will always fallback to a "last known good data"
+            if in case the ArcGIS API cannot be contacted or the latest ArcGIS data cannot be parsed
+            by the service.`}
+            <br />
+            <br />
+            {`A separate health checking service is now running. It checks if the endpoints can be
+            accessed by the public. These new changes will improve the uptime of the API.`}
+          </>
+        }
+      />
+      <Update
         date="March 26"
         text={
           <>
