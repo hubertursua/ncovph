@@ -6,7 +6,9 @@ enum DataUrls {
   NCOVIDTRACKER_PUI_PER_HEALTH_FACILITY = 'https://services5.arcgis.com/mnYJ21GiFTR97WFg/arcgis/rest/services/PUI_fac_tracing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
   NCOVIDTRACKER_COUNTS = 'https://services5.arcgis.com/mnYJ21GiFTR97WFg/arcgis/rest/services/slide_fig/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
   NCOVIDTRACKER_CONFIRMED_CASES_TREND = 'https://services5.arcgis.com/mnYJ21GiFTR97WFg/arcgis/rest/services/confirmed/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=date%20ASC',
-  NCOVIDTRACKER_CONFIRMED_CASES_BY_AGE_GROUP = 'https://services5.arcgis.com/mnYJ21GiFTR97WFg/arcgis/rest/services/age_group/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&groupByFieldsForStatistics=age_categ%2Csex&outStatistics=%5B%7B%22statisticType%22%3A%22count%22%2C%22onStatisticField%22%3A%22FID%22%2C%22outStatisticFieldName%22%3A%22value%22%7D%5D&cacheHint=true  ',
+  NCOVIDTRACKER_HOSPITALS_LEVEL_1 = 'https://services5.arcgis.com/mnYJ21GiFTR97WFg/arcgis/rest/services/hosplevel12018/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
+  NCOVIDTRACKER_HOSPITALS_LEVEL_2 = 'https://services5.arcgis.com/mnYJ21GiFTR97WFg/arcgis/rest/services/hosplevel22018/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
+  NCOVIDTRACKER_HOSPITALS_LEVEL_3 = 'https://services5.arcgis.com/mnYJ21GiFTR97WFg/arcgis/rest/services/hosplevel32018/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
 }
 
 export default DataUrls;

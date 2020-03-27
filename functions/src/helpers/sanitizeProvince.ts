@@ -9,8 +9,8 @@ export default function sanitizeProvince(str: string): string | null {
     return null;
   }
 
-  if (province.includes(", ")) {
-    province = province.split(", ")[1].trim();
+  if (province.includes(",")) {
+    province = province.split(",")[1].trim();
   }
 
   return province;

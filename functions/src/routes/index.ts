@@ -6,6 +6,7 @@ import * as countries from "./countries";
 import * as health from "./health";
 import * as nationalities from "./nationalities";
 import * as ofwCases from "./ofwCases";
+import * as hospitals from "./hospitals";
 import * as provinces from "./provinces";
 import * as rateLimit from "./rateLimit";
 import * as regions from "./regions";
@@ -27,6 +28,8 @@ router.get(countries.path, countries.handler);
 router.get(regions.path, regions.handler);
 router.get(provinces.path, provinces.handler);
 router.get(cities.path, cities.handler);
+
+router.get(hospitals.path, hospitals.handler);
 
 router.get(confirmedCases.path, confirmedCases.handler);
 router.get(ofwCases.path, ofwCases.handler);

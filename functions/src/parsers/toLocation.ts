@@ -8,29 +8,40 @@ import toProvince from "./toProvince";
 import sanitizeCity from "../helpers/sanitizeCity";
 import sanitizeProvince from "../helpers/sanitizeProvince";
 
-export default function toLocation(str: string): Location {
+export default function toLocation(str: string): Location | null {
+  const trimmed = str.trim();
+
+  if (!trimmed) {
+    return null;
+  }
+
   let city: City | null;
   let region: Region | null;
-  let province: Province | null = toProvince(sanitizeProvince(str));
+  let province: Province | null = toProvince(sanitizeProvince(trimmed));
 
   if (province) {
     region = getRegionOfProvince(province);
 
-    if (str.includes(", ")) {
-      city = sanitizeCity(str);
+    if (trimmed.includes(", ")) {
+      city = sanitizeCity(trimmed);
     } else {
       city = null;
     }
   } else {
-    region = Region[str] || null;
+    region = Region[trimmed] || null;
 
     if (region) {
       province = null;
       city = null;
     } else {
-      city = sanitizeCity(str);
-      province = getProvinceOfCity(city);
-      region = getRegionOfProvince(province);
+      try {
+        city = sanitizeCity(trimmed);
+        province = getProvinceOfCity(city);
+        region = getRegionOfProvince(province);
+      } catch (error) {
+        console.error(trimmed)
+        throw new Error('www');
+      }
     }
   }
 
