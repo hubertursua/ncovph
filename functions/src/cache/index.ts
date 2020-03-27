@@ -12,21 +12,21 @@ buildCache({
   cache,
   func: getLocalCases,
   cacheKey: "confirmed_cases",
-  ttl: 60 * 5,
+  ttl: 60 * 15,
 });
 
 buildCache({
   cache,
   func: getOFWCases,
   cacheKey: "ofw_cases",
-  ttl: 60 * 5,
+  ttl: 60 * 15,
 });
 
 buildCache({
   cache,
   func: getHospitals,
   cacheKey: "hospitals",
-  ttl: 60 * 5,
+  ttl: 60 * 15,
 });
 
 export default cache;
