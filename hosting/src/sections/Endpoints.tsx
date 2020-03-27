@@ -92,6 +92,12 @@ export default function Endpoints(): JSX.Element {
 
       <Endpoint
         method="GET"
+        path="/hospitals"
+        description="Returns a list of hospitals."
+      />
+
+      <Endpoint
+        method="GET"
         path="/nationalities"
         description="Returns a list of nationalities."
       />
