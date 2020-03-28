@@ -15,7 +15,7 @@ const theme = {
 function App() {
   return (
     <Grommet theme={theme} full>
-      <Box flex>
+      <Box flex direction="row" justify="center">
         <Main />
       </Box>
     </Grommet>

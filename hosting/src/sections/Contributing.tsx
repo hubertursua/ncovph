@@ -1,10 +1,11 @@
 import React from "react";
 import { Box, Heading, Paragraph } from "grommet";
+import SectionTitle from "../components/SectionTitle";
 
 export default function Contributing(): JSX.Element {
   return (
     <Box>
-      <Heading level={2}>Contributing</Heading>
+      <SectionTitle title="Contributing" />
       <Heading level={3} margin={{ bottom: "xsmall" }}>Code</Heading>
       <Paragraph>
         Create an issue if it's not yet reported. Do a pull request with your fixes.

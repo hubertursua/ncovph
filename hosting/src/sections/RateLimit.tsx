@@ -1,10 +1,11 @@
 import React from "react";
-import { Box, Heading, Paragraph } from "grommet";
+import { Box, Paragraph } from "grommet";
+import SectionTitle from "../components/SectionTitle";
 
 export default function RateLimit(): JSX.Element {
   return (
     <Box>
-      <Heading level={2}>Rate Limit</Heading>
+      <SectionTitle title="Rate Limit" />
       <Paragraph>100 requests per 15 minutes</Paragraph>
     </Box>
   );
