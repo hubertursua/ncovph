@@ -4,6 +4,7 @@ import path from "path";
 import { v4 as uuidv4 } from "uuid";
 import { Bucket } from "@google-cloud/storage";
 import admin from "../firebase";
+import log from "../utils/log";
 
 export const TMP_DIR = os.tmpdir();
 
@@ -39,6 +40,7 @@ class Storage {
         )[0].toString('utf8')
       );
     } catch (error) {
+      log.error(error);
       throw error;
     }
   }
@@ -53,6 +55,7 @@ class Storage {
         { encoding: "utf8" },
         (error) => {
           if (error) {
+            log.error(error);
             return reject(error);
           }
 
@@ -65,7 +68,9 @@ class Storage {
 
   private async deleteTmpFile(filePath: string): Promise<void> {
     if (!filePath.startsWith(TMP_DIR)) {
-      throw new Error("This is not a tmp file.");
+      const invalidDirError = new Error("This is not a tmp file.");
+      log.error(invalidDirError);
+      throw invalidDirError;
     }
 
     await new Promise((resolve, reject) => {
@@ -73,6 +78,7 @@ class Storage {
         filePath,
         (error) => {
           if (error) {
+            log.error(error);
             return reject(error);
           }
 
