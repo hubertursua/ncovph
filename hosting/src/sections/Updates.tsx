@@ -21,6 +21,34 @@ function Update({
 const updates = [
   (
     <Update
+      key="March 28"
+      date="March 28"
+      text={
+        <>
+          {`We've got a couple of new endpoints today.`}
+          <br />
+          <br />
+          {`First, we now have an endpoint to get the list of hospitals. Note that this may not be the latest
+          list of hospitals in the Philippines. The ArcGIS datasets were named as hosplevel12018, hosplevel22018, and
+          hosplevel32018, implying that the data is dated 2018. There's a 2019 list in the DOH website but it's in PDF
+          format.`}
+          <br />
+          <br />
+          {`Foreign national cases are now available. It hasn't been updated recently but I'm putting this out just in case
+          someone needs the data.`}
+          <br />
+          <br />
+          {`And as you may have noticed, the documentation was cleaned up a bit.`}
+          <br />
+          <br />
+          {`Number of confirmed cases and PUI's per hospital is now being developed. The challenge is matching the hospital names
+          with the one in /hospitals.`}
+        </>
+      }
+    />
+  ),
+  (
+    <Update
       key="March 27"
       date="March 27"
       text={
