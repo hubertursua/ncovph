@@ -9,7 +9,7 @@ export default interface ConfirmedCasePatientLocal
   residence: Location;
   travel_history: string[];
   symptoms: string[];
-  facility: string;
-  // petsa?
+  facility: string | null;
   metadata: ConfirmedCasePatientLocalMetadata;
+  // petsa?
 }
