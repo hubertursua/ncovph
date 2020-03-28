@@ -46,7 +46,7 @@ export async function checkEndpoint(path: string): Promise<void> {
 }
 
 export default functions
-  .region("asia-east2")
+  .region("us-central1")
   .runWith({
     memory: "128MB",
     timeoutSeconds: 60
