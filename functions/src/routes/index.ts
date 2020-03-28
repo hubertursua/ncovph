@@ -10,6 +10,7 @@ import * as foreignNationalCases from "./foreignNationalCases";
 import * as hospitals from "./hospitals";
 import * as provinces from "./provinces";
 import * as rateLimit from "./rateLimit";
+import * as counts from "./counts";
 import * as regions from "./regions";
 import * as root from "./root";
 import * as sentryError from "./sentryError";
@@ -23,6 +24,7 @@ router.use(sentryRequest.handler);
 router.use(health.path, health.handler);
 
 router.get(root.path, root.handler);
+router.get(counts.path, counts.handler);
 
 router.get(nationalities.path, nationalities.handler);
 router.get(countries.path, countries.handler);
