@@ -6,7 +6,7 @@ export default function toTravelDate(str: string): TravelDate {
   let departure: Date;
 
   if (!str.includes("-")) {
-    arrival = moment(str).toDate();
+    arrival = moment(new Date(str)).toDate();
     departure = arrival;
   } else {
     const parts = str
@@ -14,13 +14,13 @@ export default function toTravelDate(str: string): TravelDate {
       .split("-")
       .map(p => p.trim());
 
-    arrival = moment(parts[0]).toDate(); // Assumes year is 2020
+    arrival = moment(new Date(parts[0])).toDate(); // Assumes year is 2020
     const months = moment.monthsShort().map(m => m.toUpperCase());
 
     if (months.includes(parts[1].substring(0, 3))) {
-      departure = moment(parts[1]).toDate();
+      departure = moment(new Date(parts[1])).toDate();
     } else {
-      departure = moment(`${parts[0].split(" ").shift()} ${parts[1]}`).toDate();
+      departure = moment(new Date(`${parts[0].split(" ").shift()} ${parts[1]}`)).toDate();
     }
   }
 
