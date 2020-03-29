@@ -7,5 +7,6 @@ export const handler = async (req, res) => {
     "/confirmed-cases": (cache.get("confirmed_cases") as object[]).length,
     "/ofw-cases": (cache.get("ofw_cases") as object[]).length,
     "/foreign-national-cases": (cache.get("foreign_national_cases") as object[]).length,
+    "/hospitals": (cache.get("hospitals") as object[]).length,
   });
 };
