@@ -43,7 +43,7 @@ export default async function buildCache({
   });
 
   try {
-    await getAndCacheData(cacheDataOptions);
+    getAndCacheData(cacheDataOptions);
   } catch (error) {
     log.error(error);
   }
