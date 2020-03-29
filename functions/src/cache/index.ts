@@ -7,6 +7,12 @@ import ConfirmedCasePatientLocal from "../types/ConfirmedCasePatientLocal";
 import ConfirmedCasePatientOFW from "../types/ConfirmedCasePatientOFW";
 import ConfirmedCasePatientForeignNational from "../types/ConfirmedCasePatientForeignNational";
 
+export const CacheKeys = {
+  CONFIRMED_CASES: "confirmed_cases",
+  OFW_CASES: "ofw_cases",
+  FOREIGN_NATIONAL_CASES: "foreign_national_cases",
+}
+
 const cache = new NodeCache({
   deleteOnExpire: false,
 });
@@ -15,21 +21,21 @@ const cache = new NodeCache({
   await buildCache<ConfirmedCasePatientLocal>({
     cache,
     func: getLocalCases,
-    cacheKey: "confirmed_cases",
+    cacheKey: CacheKeys.CONFIRMED_CASES,
     ttl: 60 * 15
   });
 
   await buildCache<ConfirmedCasePatientOFW>({
     cache,
     func: getOFWCases,
-    cacheKey: "ofw_cases",
+    cacheKey: CacheKeys.OFW_CASES,
     ttl: 60 * 15
   });
 
   await buildCache<ConfirmedCasePatientForeignNational>({
     cache,
     func: getForeignNationalCases,
-    cacheKey: "foreign_national_cases",
+    cacheKey: CacheKeys.FOREIGN_NATIONAL_CASES,
     ttl: 60 * 15
   });
 })();
