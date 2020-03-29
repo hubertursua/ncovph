@@ -1,8 +1,9 @@
 import storage from "../storage";
+import NodeCache from "node-cache";
 
 interface GetAndCacheDataProps {
   func: Function;
-  cache;
+  cache: NodeCache;
   cacheKey: string;
   ttl: number;
 }
@@ -14,11 +15,11 @@ export default function getAndCacheData({
   ttl,
 }: GetAndCacheDataProps): Promise<void> {
   return func()
-    .then(async (cases) => {
-      await storage.upload(cases, `${cacheKey}.json`);
-      cache.set(cacheKey, cases, ttl);
+    .then(async (data) => {
+      await storage.upload(data, `${cacheKey}.json`);
+      cache.set(cacheKey, data, ttl);
     })
-    .catch((err) => {
+    .catch((err: Error) => {
       throw err;
     });
 }
