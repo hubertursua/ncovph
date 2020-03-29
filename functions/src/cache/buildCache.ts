@@ -3,7 +3,7 @@ import log from "../utils/log";
 import getAndCacheData from "./getAndCacheData";
 import NodeCache from "node-cache";
 
-export default async function buildCache({
+export default async function buildCache<T>({
   cache,
   func,
   cacheKey,
@@ -14,10 +14,13 @@ export default async function buildCache({
   cacheKey: string;
   ttl: number;
 }) {
-  let initialState: object = [];
+  const initialState: T[] = [];
+
+  cache.set<T[]>(cacheKey, initialState);
 
   try {
-    initialState = await storage.get(`${cacheKey}.json`);
+    const previousGoodState = await storage.get(`${cacheKey}.json`) as T[];
+    cache.set<T[]>(cacheKey, previousGoodState);
   } catch (error) {
     log.error(error);
   }
@@ -29,15 +32,13 @@ export default async function buildCache({
     ttl,
   };
 
-  cache.set(cacheKey, initialState);
-
   cache.on("expired", async (key, value) => {
     if (key === cacheKey) {
       try {
         await getAndCacheData(cacheDataOptions);
       } catch (error) {
         log.error(error);
-        cache.set(cacheKey, value, ttl);
+        cache.set<T[]>(cacheKey, value, ttl);
       }
     }
   });
