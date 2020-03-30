@@ -23,7 +23,7 @@ class Log {
     if (this.sentry) {
       this.sentry.captureMessage(text);
     } else {
-      console.log(text)
+      console.log(text);
     }
   }
 
@@ -31,8 +31,18 @@ class Log {
     if (this.sentry) {
       this.sentry.captureException(error);
     } else {
-      console.error(error)
+      console.error(error);
     }
+  }
+
+  throwError(error: Error): void {
+    if (this.sentry) {
+      this.sentry.captureException(error);
+    } else {
+      console.error(error);
+    }
+
+    throw error;
   }
 }
 
