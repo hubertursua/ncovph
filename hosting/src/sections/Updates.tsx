@@ -20,6 +20,21 @@ function Update({
 
 const updates = [
   <Update
+    key="March 30"
+    date="March 30"
+    text={
+      <>
+        {`Yesterday when ArcGIS was updated, the "confirmed" field's data went missing. 😬 I'll be doing
+        manual inputs for this.`}
+        <br />
+        <br />
+        {`For now, I'm basing the date confirmed to the date when DOH reported the case to the public. This is
+        temporary for now and I may split date confirmed and date reported as two separate things if the former's
+        data is restored in ArcGIS.`}
+      </>
+    }
+  />,
+  <Update
     key="March 28"
     date="March 28"
     text={
