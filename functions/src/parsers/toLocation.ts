@@ -7,11 +7,16 @@ import getRegionOfProvince from "../helpers/getRegionOfProvince";
 import toProvince from "./toProvince";
 import sanitizeCity from "../helpers/sanitizeCity";
 import sanitizeProvince from "../helpers/sanitizeProvince";
+import log from "../utils/log";
 
 export default function toLocation(str: string): Location | null {
   const trimmed = str.trim();
 
   if (!trimmed) {
+    return null;
+  }
+
+  if (trimmed.toUpperCase() === "FOR VERIFICATION") {
     return null;
   }
 
@@ -39,8 +44,7 @@ export default function toLocation(str: string): Location | null {
         province = getProvinceOfCity(city);
         region = getRegionOfProvince(province);
       } catch (error) {
-        console.error(trimmed)
-        throw new Error('www');
+        log.throwError(new Error(`Cannot parse toLocation "${trimmed}"`))
       }
     }
   }
