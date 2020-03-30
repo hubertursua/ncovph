@@ -15,6 +15,7 @@ import getResidenceDataFieldStatus from "../helpers/getResidenceDataFieldStatus"
 import toResidence from "../parsers/toResidence";
 import toCruiseShip from '../parsers/toCruiseShip';
 import sanitizeName from '../helpers/sanitizeName';
+import corrections from '../corrections/PHMasterList';
 
 function toConfirmedCasePatientLocal(data: PHMasterlistArcGISFeature[]): ConfirmedCasePatientLocal[] {
   return data.map(
@@ -56,7 +57,9 @@ export default async function getLocalCases() {
     const { data } = response;
     assert.ok(data, 'Missing data in response');
     const transformedData = transformArcgisToJson<PHMasterlistArcGISFeature>(data);
-    const cleanedData = toConfirmedCasePatientLocal(transformedData);
+    const cleanedData = toConfirmedCasePatientLocal(
+      corrections(transformedData)
+    );
     return cleanedData;
   } catch (error) {
     throw error;
