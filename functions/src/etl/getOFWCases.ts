@@ -11,13 +11,6 @@ import toCountry from '../parsers/toCountry';
 import toRemarks from '../parsers/toRemarks';
 import toCruiseShip from '../parsers/toCruiseShip';
 
-function fixStatusEncoding(status: string): string {
-  return status
-    .replace("Singapore�s", "Singapore's")
-    .replace("Singapore�S", "Singapore'S")
-    .replace("Nat�L", "Nat'L");
-}
-
 function toConfirmedCasePatientOFW(data: OFMasterlistArcGISFeature[]): ConfirmedCasePatientOFW[] {
   return data.map(
     (feature): ConfirmedCasePatientOFW => ({
@@ -40,7 +33,8 @@ function toConfirmedCasePatientOFW(data: OFMasterlistArcGISFeature[]): Confirmed
           country: feature.country,
           date_reported: feature.date_repor,
           date_confirmed: feature.date_confi,
-          status: fixStatusEncoding(feature.status),
+          status: feature.status,
+          remarks: feature.remarks,
         },
       },
     }),

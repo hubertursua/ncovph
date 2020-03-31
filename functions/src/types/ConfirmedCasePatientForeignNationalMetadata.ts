@@ -1,0 +1,5 @@
+import ConfirmedCasePatientForeignNationalMetadataRawData from "./ConfirmedCasePatientForeignNationalMetadataRawData";
+
+export default interface ConfirmedCasePatientForeignNationalMetadata {
+  raw_data: ConfirmedCasePatientForeignNationalMetadataRawData;
+}

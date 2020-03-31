@@ -29,6 +29,16 @@ function toConfirmedCasePatientForeignNational(
         lng: feature.longitude
       },
       status: toPatientStatus(feature.status),
+      metadata: {
+        raw_data: {
+          nationality: feature.nationalit,
+          travel_date: feature.travel_dat,
+          travel_history: feature.travel_his,
+          date_confirmed: feature.travel_his,
+          where_now: feature.where_now,
+          status: feature.status,
+        }
+      }
     })
   ) as ConfirmedCasePatientForeignNational[];
 }

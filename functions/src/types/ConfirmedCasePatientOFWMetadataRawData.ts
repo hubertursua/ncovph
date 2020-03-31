@@ -3,4 +3,5 @@ export default interface ConfirmedCasePatientOFWMetadataRawData {
   date_reported: string | null;
   date_confirmed: string | null;
   status: string | null;
+  remarks: string | null;
 }

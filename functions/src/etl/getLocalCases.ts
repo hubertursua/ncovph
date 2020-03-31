@@ -39,15 +39,19 @@ function toConfirmedCasePatientLocal(data: PHMasterlistArcGISFeature[]): Confirm
         cruise_ship: toCruiseShip(feature.travel_hx),
         field_status: {
           residence: getResidenceDataFieldStatus(feature.residence),
-          travel_history: getTravelHistoryDataFieldStatus(feature.travel_hx),
+          travel_history: getTravelHistoryDataFieldStatus(feature.travel_hx)
         },
         raw_data: {
+          date_confirmed: feature.confirmed,
+          status: feature.status,
+          nationality: feature.nationalit,
           residence: feature.residence,
           travel_history: feature.travel_hx,
           symptoms: feature.symptoms,
-        },
-      },
-    }),
+          facility: feature.facility
+        }
+      }
+    })
   ) as ConfirmedCasePatientLocal[];
 }
 
