@@ -1,3 +1,4 @@
+import { config } from "firebase-functions";
 import { Router } from "express";
 import * as cities from "./cities";
 import * as confirmedCases from "./confirmedCases";
@@ -24,7 +25,10 @@ router.use(sentryRequest.handler);
 router.use(health.path, health.handler);
 
 router.get(root.path, root.handler);
-router.get(counts.path, counts.handler);
+
+if (!config().runtime || config().runtime.env !== 'production') {
+  router.get(counts.path, counts.handler);
+}
 
 router.get(nationalities.path, nationalities.handler);
 router.get(countries.path, countries.handler);
