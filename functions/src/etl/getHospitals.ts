@@ -53,7 +53,7 @@ function toHospitals(
   );
 }
 
-export default async function getHospitals() {
+export default async function getHospitals(): Promise<Hospital[]|never> {
   try {
     const cleanedData = [
       ...toHospitals(await getLevel1(), HospitalLevel.LEVEL1),
@@ -63,6 +63,6 @@ export default async function getHospitals() {
 
     return cleanedData;
   } catch (error) {
-    log.throwError(error);
+    return log.throwError(error);
   }
 }
