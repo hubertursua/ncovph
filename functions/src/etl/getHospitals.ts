@@ -11,6 +11,7 @@ import toHospitalOwnerType from "../parsers/toHospitalOwnerType";
 import sanitizeHospitalSub from "../helpers/sanitizeHospitalSub";
 import toHospitalClass from "../parsers/toHospitalClass";
 import toHospitalServiceType from "../parsers/toHospitalServiceType";
+import log from "../utils/log";
 
 async function getLevel1() {
   const response = await axios.get(DataUrls.NCOVIDTRACKER_HOSPITALS_LEVEL_1);
@@ -62,6 +63,6 @@ export default async function getHospitals() {
 
     return cleanedData;
   } catch (error) {
-    throw error;
+    log.throwError(error);
   }
 }

@@ -16,6 +16,7 @@ import toResidence from "../parsers/toResidence";
 import toCruiseShip from '../parsers/toCruiseShip';
 import sanitizeName from '../helpers/sanitizeName';
 import corrections from '../corrections/PHMasterList';
+import log from '../utils/log';
 
 function toConfirmedCasePatientLocal(data: PHMasterlistArcGISFeature[]): ConfirmedCasePatientLocal[] {
   return data.map(
@@ -55,7 +56,7 @@ function toConfirmedCasePatientLocal(data: PHMasterlistArcGISFeature[]): Confirm
   ) as ConfirmedCasePatientLocal[];
 }
 
-export default async function getLocalCases() {
+export default async function getLocalCases(): Promise<ConfirmedCasePatientLocal[] | never> {
   try {
     const response = await axios.get(DataUrls.NCOVIDTRACKER_LOCAL_CASES);
     const { data } = response;
@@ -66,6 +67,6 @@ export default async function getLocalCases() {
     );
     return cleanedData;
   } catch (error) {
-    throw error;
+    return log.throwError(error);
   }
 }

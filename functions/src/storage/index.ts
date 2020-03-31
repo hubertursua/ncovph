@@ -32,7 +32,7 @@ class Storage {
     await this.deleteTmpFile(sourceLocalPath);
   }
 
-  async get(storagePath: string): Promise<object> {
+  async get(storagePath: string): Promise<object | never> {
     try {
       return JSON.parse(
         (
@@ -40,8 +40,7 @@ class Storage {
         )[0].toString('utf8')
       );
     } catch (error) {
-      log.error(error);
-      throw error;
+      return log.throwError(error);
     }
   }
 

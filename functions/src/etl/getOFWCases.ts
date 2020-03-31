@@ -10,6 +10,7 @@ import OFMasterlistArcGISFeature from '../types/OFMasterlistArcGISFeature';
 import toCountry from '../parsers/toCountry';
 import toRemarks from '../parsers/toRemarks';
 import toCruiseShip from '../parsers/toCruiseShip';
+import log from '../utils/log';
 
 function toConfirmedCasePatientOFW(data: OFMasterlistArcGISFeature[]): ConfirmedCasePatientOFW[] {
   return data.map(
@@ -41,7 +42,7 @@ function toConfirmedCasePatientOFW(data: OFMasterlistArcGISFeature[]): Confirmed
   ) as ConfirmedCasePatientOFW[];
 }
 
-export default async function getOFWCases() {
+export default async function getOFWCases(): Promise<ConfirmedCasePatientOFW[] | never> {
   try {
     const response = await axios.get(DataUrls.NCOVIDTRACKER_OFW_CASES);
     const { data } = response;
@@ -50,6 +51,6 @@ export default async function getOFWCases() {
     const cleanedData = toConfirmedCasePatientOFW(transformedData);
     return cleanedData;
   } catch (error) {
-    throw error;
+    return log.throwError(error);
   }
 }

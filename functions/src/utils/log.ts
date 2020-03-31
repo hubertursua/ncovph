@@ -35,7 +35,7 @@ class Log {
     }
   }
 
-  throwError(error: Error): void {
+  throwError(error: Error): never {
     if (this.sentry) {
       this.sentry.captureException(error);
     } else {

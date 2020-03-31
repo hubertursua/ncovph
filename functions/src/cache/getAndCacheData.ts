@@ -1,5 +1,6 @@
-import storage from "../storage";
 import NodeCache from "node-cache";
+import storage from "../storage";
+import log from "../utils/log";
 
 interface GetAndCacheDataProps {
   func: Function;
@@ -20,6 +21,6 @@ export default function getAndCacheData({
       cache.set(cacheKey, data, ttl);
     })
     .catch((err: Error) => {
-      throw err;
+      log.throwError(err);
     });
 }

@@ -10,6 +10,7 @@ import ConfirmedCasePatientForeignNational from '../types/ConfirmedCasePatientFo
 import toNationality from '../parsers/toNationality';
 import toTravelDate from '../parsers/toTravelDate';
 import toTravelHistories from '../parsers/toTravelHistories';
+import log from '../utils/log';
 
 function toConfirmedCasePatientForeignNational(
   data: FNMasterlistArcGISFeature[]
@@ -43,7 +44,7 @@ function toConfirmedCasePatientForeignNational(
   ) as ConfirmedCasePatientForeignNational[];
 }
 
-export default async function getForeignNationalCases() {
+export default async function getForeignNationalCases(): Promise<ConfirmedCasePatientForeignNational[] | never> {
   try {
     const response = await axios.get(DataUrls.NCOVIDTRACKER_FOREIGN_NATIONAL_CASES);
     const { data } = response;
@@ -52,7 +53,7 @@ export default async function getForeignNationalCases() {
     const cleanedData = toConfirmedCasePatientForeignNational(transformedData);
     return cleanedData;
   } catch (error) {
-    throw error;
+    return log.throwError(error);
   }
 }
 
