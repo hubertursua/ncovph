@@ -20,6 +20,17 @@ function Update({
 
 const updates = [
   <Update
+    key="March 31"
+    date="March 31"
+    text={
+      <>
+        {`Rate limit was changed from "100 requests per 15 minutes" to "18 requests per 3 minutes".
+        This is to ensure that the service is available to more people. Avoid doing excessive calls
+        to the API. You shouldn't need to since the data changes only once a day.`}
+      </>
+    }
+  />,
+  <Update
     key="March 30"
     date="March 30"
     text={
