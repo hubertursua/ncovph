@@ -6,7 +6,7 @@ export default function RateLimit(): JSX.Element {
   return (
     <Box>
       <SectionTitle title="Rate Limit" />
-      <Paragraph>100 requests per 15 minutes</Paragraph>
+      <Paragraph>18 requests per 3 minutes</Paragraph>
     </Box>
   );
 }
