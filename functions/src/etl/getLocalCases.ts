@@ -59,11 +59,17 @@ function toConfirmedCasePatientLocal(data: PHMasterlistArcGISFeature[]): Confirm
 export default async function getLocalCases(): Promise<ConfirmedCasePatientLocal[] | never> {
   try {
     const response = await axios.get(DataUrls.NCOVIDTRACKER_LOCAL_CASES);
-    const { data } = response;
+    const data = response.data;
     assert.ok(data, 'Missing data in response');
     const transformedData = transformArcgisToJson<PHMasterlistArcGISFeature>(data);
+
+    const response2 = await axios.get(DataUrls.NCOVIDTRACKER_LOCAL_CASES2);
+    const data2 = response2.data;
+    assert.ok(data2, "Missing data in response");
+    const transformedData2 = transformArcgisToJson<PHMasterlistArcGISFeature>(data2);
+
     const cleanedData = toConfirmedCasePatientLocal(
-      corrections(transformedData)
+      corrections([...transformedData, ...transformedData2 ])
     );
     return cleanedData;
   } catch (error) {

@@ -13,6 +13,10 @@ export default function sanitizeCity(str: string): string | null {
     city = `${city.substring(8)} City`;
   }
 
+  if (str.includes("City of Manila")) {
+    city = "Manila City";
+  }
+
   if (city === "Manila") {
     city = "Manila City";
   }

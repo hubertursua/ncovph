@@ -18,6 +18,7 @@ export default function getAndCacheData({
   return func()
     .then(async (data) => {
       await storage.upload(data, `${cacheKey}.json`);
+      console.log(`Uploaded data for ${cacheKey} (${data.length})`);
       cache.set(cacheKey, data, ttl);
     })
     .catch((err: Error) => {
