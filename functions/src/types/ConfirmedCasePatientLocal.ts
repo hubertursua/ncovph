@@ -11,5 +11,4 @@ export default interface ConfirmedCasePatientLocal
   symptoms: string[];
   facility: string | null;
   metadata: ConfirmedCasePatientLocalMetadata;
-  // petsa?
 }

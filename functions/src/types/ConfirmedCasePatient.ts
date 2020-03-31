@@ -9,6 +9,8 @@ export default interface ConfirmedCasePatient {
   age: number;
   sex: Sex;
   date_confirmed?: Date | null;
+  date_deceased: Date | null;
+  date_recovered: Date | null;
   confirmation_notes?: string | null;
   coordinates: LatLng;
   // relationships: PartialPatientRelationship[];

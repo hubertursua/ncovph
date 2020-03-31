@@ -12,9 +12,13 @@ export default interface PHMasterlistArcGISFeature extends Object {
   symptoms: string;
   confirmed: string;
   facility: string;
-  latitude: number,
-  longitude: number,
+  latitude: number;
+  longitude: number;
   status: string;
   epi_link: string;
   petsa: string;
+
+  // Additional properties
+  date_deceased?: string;
+  date_recovered?: string;
 }
