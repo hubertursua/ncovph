@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Heading, Paragraph } from "grommet";
 import SectionTitle from "../components/SectionTitle";
+import ExternalLink from "../components/ExternalLink";
 
 export default function Contributing(): JSX.Element {
   return (
@@ -12,7 +13,7 @@ export default function Contributing(): JSX.Element {
       </Paragraph>
       <Heading level={3} margin={{ bottom: "xsmall" }}>Data Corrections</Heading>
       <Paragraph>
-        <a href="https://github.com/hyubs/ncovph/issues/new?labels=data%20correction" target="_blank" rel="noopener noreferrer">Create a new issue</a> and add the label as <strong>data correction</strong>. Explain why the data is incorrect and provide the correct value if available.
+        <ExternalLink href="https://github.com/hyubs/ncovph/issues/new?labels=data%20correction" label="Create a new issue" /> and add the label as <strong>data correction</strong>. Explain why the data is incorrect and provide the correct value if available.
       </Paragraph>
       <Heading level={3} margin={{ bottom: "xsmall" }}>Donate</Heading>
       <Paragraph>

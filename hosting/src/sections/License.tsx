@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Paragraph } from "grommet";
 import SectionTitle from "../components/SectionTitle";
+import ExternalLink from "../components/ExternalLink";
 
 export default function License(): JSX.Element {
   return (
@@ -8,13 +9,7 @@ export default function License(): JSX.Element {
       <SectionTitle title="License" />
       <Paragraph>
         {`The source code of this project is under `}
-        <a
-          href="https://opensource.org/licenses/ISC"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          ISC license
-        </a>
+        <ExternalLink href="https://opensource.org/licenses/ISC" label="ISC license" />
         {`.`}
       </Paragraph>
       <Paragraph>

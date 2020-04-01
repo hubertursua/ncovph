@@ -20,6 +20,19 @@ function Update({
 
 const updates = [
   <Update
+    key="April 1"
+    date="April 1"
+    text={
+      <>
+        {`The dates and status for recovered and deceased cases is now available. These will be updated
+        at the end of each day; along with the date confirmed corrections.`}
+        <br /><br />
+        {`The list of cases will still automatically update every 15 minutes, as long as the new data
+        doesn't break the service.`}
+      </>
+    }
+  />,
+  <Update
     key="March 31"
     date="March 31"
     text={

@@ -3,6 +3,7 @@ import { Box, Heading, Paragraph, Text } from "grommet";
 import TryButton from "../components/TryButton";
 import CodeBlockJson from "../components/CodeBlockJson";
 import SectionTitle from "../components/SectionTitle";
+import ExternalLink from "../components/ExternalLink";
 
 interface EndpointSectionProps {
   method: string;
@@ -62,13 +63,7 @@ export default function Endpoints(): JSX.Element {
 
       <Paragraph>
         <strong>Base URL:</strong>{" "}
-        <a
-          href="https://ncovph.com/api"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          https://ncovph.com/api
-        </a>
+        <ExternalLink href="https://ncovph.com/api" label="https://ncovph.com/api" />
         <br />
         <strong>Format:</strong>{" All responses are in JSON format."}
       </Paragraph>
