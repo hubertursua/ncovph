@@ -11,6 +11,7 @@ export const CacheKeys = {
   CONFIRMED_CASES: "confirmed_cases",
   OFW_CASES: "ofw_cases",
   FOREIGN_NATIONAL_CASES: "foreign_national_cases",
+  COUNTS: "counts",
 }
 
 const cache = new NodeCache({
@@ -18,25 +19,28 @@ const cache = new NodeCache({
 });
 
 (async () => {
-  await buildCache<ConfirmedCasePatientLocal>({
+  await buildCache<ConfirmedCasePatientLocal[]>({
     cache,
     func: getLocalCases,
     cacheKey: CacheKeys.CONFIRMED_CASES,
-    ttl: 60 * 15
+    ttl: 60 * 15,
+    initialState: [],
   });
 
-  await buildCache<ConfirmedCasePatientOFW>({
+  await buildCache<ConfirmedCasePatientOFW[]>({
     cache,
     func: getOFWCases,
     cacheKey: CacheKeys.OFW_CASES,
-    ttl: 60 * 15
+    ttl: 60 * 15,
+    initialState: [],
   });
 
-  await buildCache<ConfirmedCasePatientForeignNational>({
+  await buildCache<ConfirmedCasePatientForeignNational[]>({
     cache,
     func: getForeignNationalCases,
     cacheKey: CacheKeys.FOREIGN_NATIONAL_CASES,
-    ttl: 60 * 15
+    ttl: 60 * 15,
+    initialState: [],
   });
 })();
 

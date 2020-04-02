@@ -8,19 +8,19 @@ export default async function buildCache<T>({
   func,
   cacheKey,
   ttl,
+  initialState,
 }: {
   cache: NodeCache;
   func: Function;
   cacheKey: string;
   ttl: number;
+  initialState: T;
 }) {
-  const initialState: T[] = [];
-
-  cache.set<T[]>(cacheKey, initialState);
+  cache.set<T>(cacheKey, initialState);
 
   try {
-    const previousGoodState = await storage.get(`${cacheKey}.json`) as T[];
-    cache.set<T[]>(cacheKey, previousGoodState);
+    const previousGoodState = await storage.get(`${cacheKey}.json`) as unknown as T;
+    cache.set<T>(cacheKey, previousGoodState);
   } catch (error) {
     log.error(error);
   }
@@ -38,7 +38,7 @@ export default async function buildCache<T>({
         await getAndCacheData(cacheDataOptions);
       } catch (error) {
         log.error(error);
-        cache.set<T[]>(cacheKey, value, ttl);
+        cache.set<T>(cacheKey, value, ttl);
       }
     }
   });
