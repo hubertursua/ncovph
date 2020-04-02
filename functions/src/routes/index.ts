@@ -11,7 +11,7 @@ import * as foreignNationalCases from "./foreignNationalCases";
 import * as hospitals from "./hospitals";
 import * as provinces from "./provinces";
 import * as rateLimit from "./rateLimit";
-import * as counts from "./counts";
+import * as cacheCounts from "./cacheCounts";
 import * as regions from "./regions";
 import * as root from "./root";
 import * as sentryError from "./sentryError";
@@ -26,9 +26,7 @@ router.use(health.path, health.handler);
 
 router.get(root.path, root.handler);
 
-if (!config().runtime || config().runtime.env !== 'production') {
-  router.get(counts.path, counts.handler);
-}
+router.get(cacheCounts.path, cacheCounts.handler);
 
 router.get(nationalities.path, nationalities.handler);
 router.get(countries.path, countries.handler);
