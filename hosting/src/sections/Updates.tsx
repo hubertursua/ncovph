@@ -20,6 +20,15 @@ function Update({
 
 const updates = [
   <Update
+    key="April 2"
+    date="April 2"
+    text={
+      <>
+        {`A new endpoint for getting the totals for number of confirmed, recovered, deceased, PUIs, PUMs, and tests is now available. You can access it as GET /count`}
+      </>
+    }
+  />,
+  <Update
     key="April 1"
     date="April 1"
     text={
