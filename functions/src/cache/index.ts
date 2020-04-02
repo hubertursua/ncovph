@@ -1,9 +1,9 @@
 import NodeCache from "node-cache";
 import buildCache from "./buildCache";
+import buildCache2 from "./buildCache2";
 import getLocalCases from "../etl/getLocalCases";
 import getOFWCases from "../etl/getOFWCases";
 import getForeignNationalCases from "../etl/getForeignNationalCases";
-import getCounts from "../etl/getCounts";
 import ConfirmedCasePatientLocal from "../types/ConfirmedCasePatientLocal";
 import ConfirmedCasePatientOFW from "../types/ConfirmedCasePatientOFW";
 import ConfirmedCasePatientForeignNational from "../types/ConfirmedCasePatientForeignNational";
@@ -45,9 +45,8 @@ const cache = new NodeCache({
     initialState: [],
   });
 
-  await buildCache<Counts>({
+  await buildCache2<Counts>({
     cache,
-    func: getCounts,
     cacheKey: CacheKeys.COUNTS,
     ttl: 60 * 15,
     initialState: {
