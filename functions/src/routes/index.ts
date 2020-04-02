@@ -1,4 +1,3 @@
-import { config } from "firebase-functions";
 import { Router } from "express";
 import * as cities from "./cities";
 import * as confirmedCases from "./confirmedCases";
@@ -11,6 +10,7 @@ import * as foreignNationalCases from "./foreignNationalCases";
 import * as hospitals from "./hospitals";
 import * as provinces from "./provinces";
 import * as rateLimit from "./rateLimit";
+import * as counts from "./counts";
 import * as cacheCounts from "./cacheCounts";
 import * as regions from "./regions";
 import * as root from "./root";
@@ -33,6 +33,8 @@ router.get(countries.path, countries.handler);
 router.get(regions.path, regions.handler);
 router.get(provinces.path, provinces.handler);
 router.get(cities.path, cities.handler);
+
+router.get(counts.path, counts.handler);
 
 router.get(hospitals.path, hospitals.handler);
 

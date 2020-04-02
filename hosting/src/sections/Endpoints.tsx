@@ -63,9 +63,13 @@ export default function Endpoints(): JSX.Element {
 
       <Paragraph>
         <strong>Base URL:</strong>{" "}
-        <ExternalLink href="https://ncovph.com/api" label="https://ncovph.com/api" />
+        <ExternalLink
+          href="https://ncovph.com/api"
+          label="https://ncovph.com/api"
+        />
         <br />
-        <strong>Format:</strong>{" All responses are in JSON format."}
+        <strong>Format:</strong>
+        {" All responses are in JSON format."}
       </Paragraph>
 
       <Endpoint
@@ -83,6 +87,26 @@ export default function Endpoints(): JSX.Element {
             code={`
 {
   uptime: 8108.361
+}
+          `}
+          />
+        }
+      />
+
+      <Endpoint
+        method="GET"
+        path="/counts"
+        description="Returns general totals for cases and tests."
+        response={
+          <CodeBlockJson
+            code={`
+{
+  confirmed: 2311,
+  pui: 1101,
+  pum: 6321,
+  recovered: 50,
+  deceased: 96,
+  tests: 4344
 }
           `}
           />

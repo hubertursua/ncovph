@@ -3,9 +3,11 @@ import buildCache from "./buildCache";
 import getLocalCases from "../etl/getLocalCases";
 import getOFWCases from "../etl/getOFWCases";
 import getForeignNationalCases from "../etl/getForeignNationalCases";
+import getCounts from "../etl/getCounts";
 import ConfirmedCasePatientLocal from "../types/ConfirmedCasePatientLocal";
 import ConfirmedCasePatientOFW from "../types/ConfirmedCasePatientOFW";
 import ConfirmedCasePatientForeignNational from "../types/ConfirmedCasePatientForeignNational";
+import Counts from "../types/Counts";
 
 export const CacheKeys = {
   CONFIRMED_CASES: "confirmed_cases",
@@ -41,6 +43,21 @@ const cache = new NodeCache({
     cacheKey: CacheKeys.FOREIGN_NATIONAL_CASES,
     ttl: 60 * 15,
     initialState: [],
+  });
+
+  await buildCache<Counts>({
+    cache,
+    func: getCounts,
+    cacheKey: CacheKeys.COUNTS,
+    ttl: 60 * 15,
+    initialState: {
+      confirmed: 0,
+      pui: 0,
+      pum: 0,
+      recovered: 0,
+      deceased: 0,
+      tests: 0,
+    },
   });
 })();
 
