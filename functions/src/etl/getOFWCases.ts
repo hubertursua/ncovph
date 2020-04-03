@@ -1,10 +1,11 @@
+/* eslint-disable @typescript-eslint/camelcase */
 import assert from 'assert';
 import axios from 'axios';
 import moment from 'moment';
 import DataUrls from '../consts/DataUrls';
 import transformArcgisToJson from '../utils/transformArcgisToJson';
-import toPatientStatus from "../parsers/toPatientStatus";
-import toSex from "../parsers/toSex";
+import toPatientStatus from '../parsers/toPatientStatus';
+import toSex from '../parsers/toSex';
 import ConfirmedCasePatientOFW from '../types/ConfirmedCasePatientOFW';
 import OFMasterlistArcGISFeature from '../types/OFMasterlistArcGISFeature';
 import toCountry from '../parsers/toCountry';
@@ -12,7 +13,8 @@ import toRemarks from '../parsers/toRemarks';
 import toCruiseShip from '../parsers/toCruiseShip';
 import log from '../utils/log';
 
-function toConfirmedCasePatientOFW(data: OFMasterlistArcGISFeature[]): ConfirmedCasePatientOFW[] {
+function toConfirmedCasePatientOFW(data: OFMasterlistArcGISFeature[]):
+  ConfirmedCasePatientOFW[] {
   return data.map(
     (feature): ConfirmedCasePatientOFW => ({
       caseID: feature.Case_numbe.trim(),
@@ -21,10 +23,10 @@ function toConfirmedCasePatientOFW(data: OFMasterlistArcGISFeature[]): Confirmed
       country: toCountry(feature.country),
       coordinates: {
         lat: feature.latitude,
-        lng: feature.longitude
+        lng: feature.longitude,
       },
-      date_reported: moment(feature.date_repor, "M/D/YYYY").toDate(),
-      date_confirmed: moment(feature.date_confi, "MMM. D, YYYY").toDate(),
+      date_reported: moment(feature.date_repor, 'M/D/YYYY').toDate(),
+      date_confirmed: moment(feature.date_confi, 'MMM. D, YYYY').toDate(),
       status: toPatientStatus(feature.status),
       remarks: toRemarks(feature.remarks),
       metadata: {

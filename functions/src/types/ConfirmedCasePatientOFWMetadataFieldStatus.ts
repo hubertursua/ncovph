@@ -1,4 +1,8 @@
 // import DataFieldStatus from "./DataFieldStatus";
 
-export default interface ConfirmedCasePatientOFWMetadataFieldStatus {
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
+interface ConfirmedCasePatientOFWMetadataFieldStatus {
+
 }
+
+export default ConfirmedCasePatientOFWMetadataFieldStatus;

@@ -48,9 +48,9 @@ export const dates = {
   PH7: '3/21/2020',
   PH4: '3/19/2020',
   PH3: '3/15/2020',
-  PH1: '3/15/2020'
+  PH1: '3/15/2020',
 };
 
-export default function dateRecovered(PH_masterl: string): string | null {
-  return dates[PH_masterl] || null;
+export default function dateRecovered(phMasterl: string): string | null {
+  return dates[phMasterl] || null;
 }

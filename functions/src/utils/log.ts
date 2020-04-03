@@ -1,4 +1,4 @@
-import { config } from "firebase-functions";
+import { config } from 'firebase-functions';
 
 class Log {
   private sentry;
@@ -10,9 +10,10 @@ class Log {
   }
 
   initSentry(): void {
-    const Sentry = require("@sentry/node");
+    // eslint-disable-next-line @typescript-eslint/no-var-requires, global-require
+    const Sentry = require('@sentry/node');
     const options = {
-      dsn: config().sentry.dsn
+      dsn: config().sentry.dsn,
     };
 
     Sentry.init(options);
@@ -23,6 +24,7 @@ class Log {
     if (this.sentry) {
       this.sentry.captureMessage(text);
     } else {
+      // eslint-disable-next-line no-console
       console.log(text);
     }
   }
@@ -31,6 +33,7 @@ class Log {
     if (this.sentry) {
       this.sentry.captureException(error);
     } else {
+      // eslint-disable-next-line no-console
       console.error(error);
     }
   }
@@ -39,6 +42,7 @@ class Log {
     if (this.sentry) {
       this.sentry.captureException(error);
     } else {
+      // eslint-disable-next-line no-console
       console.error(error);
     }
 

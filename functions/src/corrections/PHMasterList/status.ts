@@ -1,10 +1,10 @@
-import dateRecovered from "./dateRecovered";
-import dateDeceased from "./dateDeceased";
-import PatientStatus from "../../types/PatientStatus";
+import dateRecovered from './dateRecovered';
+import dateDeceased from './dateDeceased';
+import PatientStatus from '../../types/PatientStatus';
 
-export default function status(original: string | null, PH_masterl: string): string | null {
-  const dateRec = dateRecovered(PH_masterl)
-  const dateDec = dateDeceased(PH_masterl)
+export default function status(original: string | null, phMasterl: string): string | null {
+  const dateRec = dateRecovered(phMasterl);
+  const dateDec = dateDeceased(phMasterl);
 
   if (dateDec) {
     return PatientStatus.DECEASED;

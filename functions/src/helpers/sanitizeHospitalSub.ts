@@ -5,7 +5,5 @@ export default function sanitizeHospitalSub(str: string): string | null {
 
   const sanitized = str.trim();
 
-  return (sanitized)
-    ? sanitized
-    : null;
+  return (sanitized) || null;
 }

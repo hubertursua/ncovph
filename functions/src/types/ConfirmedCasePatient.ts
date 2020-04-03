@@ -1,10 +1,10 @@
-import CaseID from "./CaseID";
-import LatLng from "./LatLng";
+import CaseID from './CaseID';
+import LatLng from './LatLng';
 // import PartialPatientRelationship from "./PartialPatientRelationship";
-import PatientStatus from "./PatientStatus";
-import Sex from "./Sex";
+import PatientStatus from './PatientStatus';
+import Sex from './Sex';
 
-export default interface ConfirmedCasePatient {
+interface ConfirmedCasePatient {
   caseID: CaseID;
   age: number;
   sex: Sex;
@@ -18,3 +18,5 @@ export default interface ConfirmedCasePatient {
   status_notes?: string | null;
   remarks?: string | null;
 }
+
+export default ConfirmedCasePatient;

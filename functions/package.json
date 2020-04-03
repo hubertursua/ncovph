@@ -5,6 +5,7 @@
   "author": "Hyubs Ursua <hyubs.u@gmail.com>",
   "main": "dist/index.js",
   "scripts": {
+    "lint": "eslint . --ext .js,.ts",
     "build": "tsc",
     "serve": "npm run build && firebase emulators:start --only functions",
     "serve:express": "ts-node src/bin/express.ts",
@@ -14,10 +15,12 @@
     "logs": "firebase functions:log"
   },
   "dependencies": {
+    "@google-cloud/storage": "^4.7.0",
     "@sentry/node": "^5.14.2",
     "@types/express-rate-limit": "^5.0.0",
     "axios": "^0.19.2",
     "cors": "^2.8.5",
+    "express": "^4.17.1",
     "express-healthcheck": "^0.1.0",
     "express-rate-limit": "^5.1.1",
     "firebase-admin": "^8.10.0",
@@ -29,6 +32,12 @@
     "uuid": "^7.0.2"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
     "firebase-functions-test": "^0.2.0",
     "ts-node": "^8.8.1",
     "typescript": "^3.8.3"

@@ -95,8 +95,8 @@ export const dates = {
   PH6: '3/11/2020',
   PH5: '3/12/2020',
   PH2: '2/1/2020',
-}
+};
 
-export default function dateDeceased(PH_masterl: string): string | null {
-  return dates[PH_masterl] || null;
+export default function dateDeceased(phMasterl: string): string | null {
+  return dates[phMasterl] || null;
 }

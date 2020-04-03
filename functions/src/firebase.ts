@@ -1,15 +1,16 @@
-import { config } from "firebase-functions";
-import * as admin from "firebase-admin";
+import { config } from 'firebase-functions';
+import * as admin from 'firebase-admin';
 
 if (config().runtime && config().runtime.env === 'production') {
   admin.initializeApp();
 } else {
-  const serviceAccount = require("../../serviceAccountKey.json");
-  const config = {
+  // eslint-disable-next-line @typescript-eslint/no-var-requires, global-require
+  const serviceAccount = require('../../serviceAccountKey.json');
+  const initConfig = {
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://ncovidtracker-api.firebaseio.com"
+    databaseURL: 'https://ncovidtracker-api.firebaseio.com',
   };
-  admin.initializeApp(config);
+  admin.initializeApp(initConfig);
 }
 
 export default admin;

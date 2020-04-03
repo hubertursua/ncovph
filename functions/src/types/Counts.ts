@@ -1,4 +1,4 @@
-export default interface Counts extends Object {
+interface Counts extends Object {
   confirmed: number;
   pui: number;
   pum: number;
@@ -6,3 +6,5 @@ export default interface Counts extends Object {
   deceased: number;
   tests: number;
 }
+
+export default Counts;

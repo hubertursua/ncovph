@@ -1,7 +1,7 @@
-import Sex from "./Sex"
-import Nationality from "./Nationality"
+import Sex from './Sex';
+import Nationality from './Nationality';
 
-export default interface FNMasterlistArcGISFeature extends Object {
+interface FNMasterlistArcGISFeature extends Object {
   FID: number;
   FN_masterl: string;
   edad: number;
@@ -16,3 +16,5 @@ export default interface FNMasterlistArcGISFeature extends Object {
   status: string;
   epid_link: string;
 }
+
+export default FNMasterlistArcGISFeature;

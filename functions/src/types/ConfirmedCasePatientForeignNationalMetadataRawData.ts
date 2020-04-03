@@ -1,4 +1,4 @@
-export default interface ConfirmedCasePatientForeignNationalMetadataRawData {
+interface ConfirmedCasePatientForeignNationalMetadataRawData {
   nationality: string | null;
   travel_date: string | null;
   travel_history: string | null;
@@ -6,3 +6,5 @@ export default interface ConfirmedCasePatientForeignNationalMetadataRawData {
   where_now: string | null;
   status: string | null;
 }
+
+export default ConfirmedCasePatientForeignNationalMetadataRawData;

@@ -6,6 +6,9 @@ node_modules
 .vscode
 *.log
 
+/package.json
+/package-lock.json
+
 ## Compiled JavaScript files
 **/*.js
 **/*.js.map

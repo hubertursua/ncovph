@@ -1,3 +1,5 @@
-export default interface ArcGISFeature extends Object {
-  attributes: Object;
+interface ArcGISFeature extends Object {
+  attributes: Record<string, unknown>;
 }
+
+export default ArcGISFeature;

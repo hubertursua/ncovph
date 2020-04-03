@@ -1,24 +1,24 @@
-import PatientStatus from "../types/PatientStatus";
+import PatientStatus from '../types/PatientStatus';
 
 export default function toPatientStatus(status: string | null): PatientStatus {
   if (status === null) {
     return PatientStatus.UNSPECIFIED;
   }
 
-  if (status.toUpperCase().includes("STABLE")) {
+  if (status.toUpperCase().includes('STABLE')) {
     return PatientStatus.STABLE;
   }
 
   switch (status.toUpperCase()) {
-    case "UNDER INVESTIGATION":
+    case 'UNDER INVESTIGATION':
       return PatientStatus.UNDER_INVESTIGATION;
-    case "UNDER HOME QUARANTINE":
+    case 'UNDER HOME QUARANTINE':
       return PatientStatus.UNDER_HOME_QUARANTINE;
-    case "STABLE":
+    case 'STABLE':
       return PatientStatus.STABLE;
-    case "RECOVERED":
+    case 'RECOVERED':
       return PatientStatus.RECOVERED;
-    case "DECEASED":
+    case 'DECEASED':
       return PatientStatus.DECEASED;
     default:
       return PatientStatus.UNSPECIFIED;

@@ -1,7 +1,7 @@
-import Sex from "./Sex"
-import Nationality from "./Nationality"
+import Sex from './Sex';
+import Nationality from './Nationality';
 
-export default interface PHMasterlistArcGISFeature extends Object {
+interface PHMasterlistArcGISFeature extends Object {
   FID: number;
   PH_masterl: string;
   edad: number;
@@ -22,3 +22,5 @@ export default interface PHMasterlistArcGISFeature extends Object {
   date_deceased?: string;
   date_recovered?: string;
 }
+
+export default PHMasterlistArcGISFeature;

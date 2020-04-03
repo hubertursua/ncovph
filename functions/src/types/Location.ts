@@ -1,9 +1,11 @@
-import Region from "./Region";
-import Province from "./Province";
-import City from "./City";
+import Region from './Region';
+import Province from './Province';
+import City from './City';
 
-export default interface Location {
+interface Location {
   region: Region;
   province: Province;
   city: City | null;
 }
+
+export default Location;

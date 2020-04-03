@@ -1,4 +1,4 @@
-export default interface ConfirmedCasePatientLocalMetadataRawData {
+interface ConfirmedCasePatientLocalMetadataRawData {
   date_confirmed: string | null;
   status: string | null;
   nationality: string | null;
@@ -7,3 +7,5 @@ export default interface ConfirmedCasePatientLocalMetadataRawData {
   symptoms: string | null;
   facility: string | null;
 }
+
+export default ConfirmedCasePatientLocalMetadataRawData;

@@ -1,6 +1,8 @@
-import PatientRelationshipType from "./PatientRelationshipType";
+import PatientRelationshipType from './PatientRelationshipType';
 
-export default interface PartialPatientRelationship {
+interface PartialPatientRelationship {
   patient: string;
   relationship: PatientRelationshipType;
 }
+
+export default PartialPatientRelationship;

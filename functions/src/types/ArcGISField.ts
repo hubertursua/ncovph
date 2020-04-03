@@ -1,4 +1,4 @@
-export default interface ArcGISField extends Object {
+interface ArcGISField extends Object {
   name: string;
   type: string;
   alias: string;
@@ -7,3 +7,5 @@ export default interface ArcGISField extends Object {
   length?: number;
   defaultValue: unknown;
 }
+
+export default ArcGISField;

@@ -1,7 +1,7 @@
-import Nationalities from "../consts/Nationalities";
+import Nationalities from '../consts/Nationalities';
 
-export const path = "/nationalities";
+export const path = '/nationalities';
 
-export const handler = async (req, res) => {
+export const handler = async (req, res): Promise<void> => {
   res.json(Nationalities);
 };

@@ -1,9 +1,9 @@
-import "./firebase"; // Pre-initialize firebase-admin
+import './firebase'; // Pre-initialize firebase-admin
 import {
   api,
   healthChecker,
   storeGetCounts,
-} from "./services";
+} from './services';
 
 module.exports = {
   api,

@@ -1,14 +1,14 @@
-import sanitizeTravelHistory from "../helpers/sanitizeTravelHistory";
+import sanitizeTravelHistory from '../helpers/sanitizeTravelHistory';
 import TravelHistory from '../types/TravelHistory';
 
-const DELIMETER1 = ";";
-const DELIMETER2 = ",";
+const DELIMETER1 = ';';
+const DELIMETER2 = ',';
 
 export const NULLABLE_VALUES = [
-  "FOR VALIDATION",
-  "NONE",
-  "None",
-  "No Travel History"
+  'FOR VALIDATION',
+  'NONE',
+  'None',
+  'No Travel History',
 ];
 
 export function toTravelHistory(travelHistory: string): TravelHistory {
@@ -20,7 +20,7 @@ export function toTravelHistory(travelHistory: string): TravelHistory {
 }
 
 export default function toTravelHistories(
-  travelHistories: string | null
+  travelHistories: string | null,
 ): TravelHistory[] {
   if (travelHistories === null) {
     return [] as TravelHistory[];
@@ -41,6 +41,6 @@ export default function toTravelHistories(
 
       return [...accumulator, travelHistory];
     },
-    []
+    [],
   );
 }

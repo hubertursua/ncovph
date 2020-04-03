@@ -1,8 +1,10 @@
-import ConfirmedCasePatientOFWMetadataFieldStatus from "./ConfirmedCasePatientOFWMetadataFieldStatus";
-import ConfirmedCasePatientOFWMetadataRawData from "./ConfirmedCasePatientOFWMetadataRawData";
+import ConfirmedCasePatientOFWMetadataFieldStatus from './ConfirmedCasePatientOFWMetadataFieldStatus';
+import ConfirmedCasePatientOFWMetadataRawData from './ConfirmedCasePatientOFWMetadataRawData';
 
-export default interface ConfirmedCasePatientOFWMetadata {
+interface ConfirmedCasePatientOFWMetadata {
   cruise_ship: string | null;
   field_status: ConfirmedCasePatientOFWMetadataFieldStatus;
   raw_data: ConfirmedCasePatientOFWMetadataRawData;
 }
+
+export default ConfirmedCasePatientOFWMetadata;

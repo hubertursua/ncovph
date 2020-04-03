@@ -1,11 +1,13 @@
-import ConfirmedCasePatient from "./ConfirmedCasePatient";
-import PatientRelationshipType from "./PatientRelationshipType";
-import PartialPatientRelationship from "./PartialPatientRelationship";
+import ConfirmedCasePatient from './ConfirmedCasePatient';
+import PatientRelationshipType from './PatientRelationshipType';
+import PartialPatientRelationship from './PartialPatientRelationship';
 
-export default interface PatientRelationship {
+interface PatientRelationship {
   patient: ConfirmedCasePatient;
   relationship: PatientRelationshipType;
-};
+}
+
+export default PatientRelationship;
 
 // const SAME_HOUSEHOLD_REGEX = /(?:HOUSEHOLD).+((?:PH|OF|FN)\d+)/;
 const SAME_HOUSEHOLD_REGEX = /(?:HOUSEHOLD).+((?:PH|OF|FN)\d+)/;
@@ -33,13 +35,12 @@ function getMatchingRelatedPatients(str: string, pattern: RegExp): string[] {
   return [matches[1]];
 }
 
-function matchToRelationship(relationship: PatientRelationshipType): (value: string) => PartialPatientRelationship {
-  return (patient: string): PartialPatientRelationship => {
-    return {
-      patient,
-      relationship,
-    } as PartialPatientRelationship;
-  };
+function matchToRelationship(relationship: PatientRelationshipType):
+  (value: string) => PartialPatientRelationship {
+  return (patient: string): PartialPatientRelationship => ({
+    patient,
+    relationship,
+  } as PartialPatientRelationship);
 }
 
 export const strToPatientRelationships = (str: string): PartialPatientRelationship[] => {
@@ -53,55 +54,55 @@ export const strToPatientRelationships = (str: string): PartialPatientRelationsh
     .map(matchToRelationship(PatientRelationshipType.SAME_HOUSEHOLD));
 
   const relHusband = getMatchingRelatedPatients(prepStr, HUSBAND_REGEX).map(
-    matchToRelationship(PatientRelationshipType.HUSBAND)
+    matchToRelationship(PatientRelationshipType.HUSBAND),
   );
 
   const relWife = getMatchingRelatedPatients(prepStr, WIFE_REGEX).map(
-    matchToRelationship(PatientRelationshipType.WIFE)
+    matchToRelationship(PatientRelationshipType.WIFE),
   );
 
   const relFather = getMatchingRelatedPatients(prepStr, FATHER_REGEX).map(
-    matchToRelationship(PatientRelationshipType.FATHER)
+    matchToRelationship(PatientRelationshipType.FATHER),
   );
 
   const relMother = getMatchingRelatedPatients(prepStr, MOTHER_REGEX).map(
-    matchToRelationship(PatientRelationshipType.MOTHER)
+    matchToRelationship(PatientRelationshipType.MOTHER),
   );
 
   const relSon = getMatchingRelatedPatients(prepStr, SON_REGEX).map(
-    matchToRelationship(PatientRelationshipType.SON)
+    matchToRelationship(PatientRelationshipType.SON),
   );
 
   const relDaughter = getMatchingRelatedPatients(prepStr, DAUGHTER_REGEX).map(
-    matchToRelationship(PatientRelationshipType.DAUGHTER)
+    matchToRelationship(PatientRelationshipType.DAUGHTER),
   );
 
   const relBrother = getMatchingRelatedPatients(prepStr, BROTHER_REGEX).map(
-    matchToRelationship(PatientRelationshipType.BROTHER)
+    matchToRelationship(PatientRelationshipType.BROTHER),
   );
 
   const relSister = getMatchingRelatedPatients(prepStr, SISTER_REGEX).map(
-    matchToRelationship(PatientRelationshipType.SISTER)
+    matchToRelationship(PatientRelationshipType.SISTER),
   );
 
   const relNephew = getMatchingRelatedPatients(prepStr, NEPHEW_REGEX).map(
-    matchToRelationship(PatientRelationshipType.NEPHEW)
+    matchToRelationship(PatientRelationshipType.NEPHEW),
   );
 
   const relNiece = getMatchingRelatedPatients(prepStr, NIECE_REGEX).map(
-    matchToRelationship(PatientRelationshipType.NIECE)
+    matchToRelationship(PatientRelationshipType.NIECE),
   );
 
   const relRelative = getMatchingRelatedPatients(prepStr, RELATIVE_REGEX).map(
-    matchToRelationship(PatientRelationshipType.RELATIVE)
+    matchToRelationship(PatientRelationshipType.RELATIVE),
   );
 
   const relContact = getMatchingRelatedPatients(prepStr, CONTACT_REGEX).map(
-    matchToRelationship(PatientRelationshipType.CONTACT)
+    matchToRelationship(PatientRelationshipType.CONTACT),
   );
 
   const relExposure = getMatchingRelatedPatients(prepStr, EXPOSURE_REGEX).map(
-    matchToRelationship(PatientRelationshipType.EXPOSURE)
+    matchToRelationship(PatientRelationshipType.EXPOSURE),
   );
 
   // TODO: Some relationship do not have a patient indicated

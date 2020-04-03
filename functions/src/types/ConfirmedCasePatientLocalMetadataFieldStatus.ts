@@ -1,6 +1,8 @@
-import DataFieldStatus from "./DataFieldStatus";
+import DataFieldStatus from './DataFieldStatus';
 
-export default interface ConfirmedCasePatientLocalMetadataFieldStatus {
+interface ConfirmedCasePatientLocalMetadataFieldStatus {
   residence: DataFieldStatus;
   travel_history: DataFieldStatus;
 }
+
+export default ConfirmedCasePatientLocalMetadataFieldStatus;

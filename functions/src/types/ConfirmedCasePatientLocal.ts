@@ -1,10 +1,10 @@
-import ConfirmedCasePatient from "./ConfirmedCasePatient";
-import Location from "./Location";
-import Nationality from "./Nationality";
-import ConfirmedCasePatientLocalMetadata from "./ConfirmedCasePatientLocalMetadata";
+import ConfirmedCasePatient from './ConfirmedCasePatient';
+import Location from './Location';
+import Nationality from './Nationality';
+import ConfirmedCasePatientLocalMetadata from './ConfirmedCasePatientLocalMetadata';
 
-export default interface ConfirmedCasePatientLocal
-  extends ConfirmedCasePatient {
+interface ConfirmedCasePatientLocal
+extends ConfirmedCasePatient {
   nationality: Nationality;
   residence: Location;
   travel_history: string[];
@@ -12,3 +12,5 @@ export default interface ConfirmedCasePatientLocal
   facility: string | null;
   metadata: ConfirmedCasePatientLocalMetadata;
 }
+
+export default ConfirmedCasePatientLocal;

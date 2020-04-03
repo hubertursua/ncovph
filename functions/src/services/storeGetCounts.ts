@@ -1,16 +1,16 @@
-import * as functions from "firebase-functions";
-import log from "../utils/log";
-import storage from "../storage";
-import getCounts from "../etl/getCounts";
-import { CacheKeys } from "../cache";
+import * as functions from 'firebase-functions';
+import log from '../utils/log';
+import storage from '../storage';
+import getCounts from '../etl/getCounts';
+import { CacheKeys } from '../cache';
 
 export default functions
-  .region("us-central1")
+  .region('us-central1')
   .runWith({
-    memory: "128MB",
-    timeoutSeconds: 60
+    memory: '128MB',
+    timeoutSeconds: 60,
   })
-  .pubsub.schedule("every 15 minutes")
+  .pubsub.schedule('every 15 minutes')
   .onRun(async () => {
     try {
       const counts = await getCounts();

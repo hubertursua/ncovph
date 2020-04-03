@@ -1,4 +1,4 @@
-export default interface HospitalArcGISFeature extends Object {
+interface HospitalArcGISFeature extends Object {
   reg: string;
   proc_: string | null; // Province
   municity: string;
@@ -16,3 +16,5 @@ export default interface HospitalArcGISFeature extends Object {
   longitude: number;
   ObjectId: number;
 }
+
+export default HospitalArcGISFeature;

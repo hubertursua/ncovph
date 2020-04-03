@@ -1,4 +1,6 @@
-export default interface LatLng {
+interface LatLng {
   lat: number;
   lng: number;
 }
+
+export default LatLng;

@@ -1,7 +1,7 @@
-import storage from "../storage";
-import log from "../utils/log";
-import getAndCacheData from "./getAndCacheData";
-import NodeCache from "node-cache";
+import NodeCache from 'node-cache';
+import storage from '../storage';
+import log from '../utils/log';
+import getAndCacheData from './getAndCacheData';
 
 export default async function buildCache<T>({
   cache,
@@ -15,7 +15,7 @@ export default async function buildCache<T>({
   cacheKey: string;
   ttl: number;
   initialState: T;
-}) {
+}): Promise<void> {
   cache.set<T>(cacheKey, initialState);
 
   try {
@@ -32,7 +32,7 @@ export default async function buildCache<T>({
     ttl,
   };
 
-  cache.on("expired", async (key, value) => {
+  cache.on('expired', async (key, value) => {
     if (key === cacheKey) {
       try {
         await getAndCacheData(cacheDataOptions);

@@ -1,4 +1,4 @@
-export default interface SlideFigArcGISFeature extends Object {
+ interface SlideFigArcGISFeature extends Object {
   days: number;
   confirmed: number;
   PUIs: number;
@@ -7,3 +7,5 @@ export default interface SlideFigArcGISFeature extends Object {
   deaths: number;
   tests: number;
 }
+
+export default SlideFigArcGISFeature;

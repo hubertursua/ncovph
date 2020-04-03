@@ -1,13 +1,13 @@
-import DataFieldStatus from "../types/DataFieldStatus";
+import DataFieldStatus from '../types/DataFieldStatus';
 
 export default function getResidenceDataFieldStatus(
-  residence: string
+  residence: string,
 ): DataFieldStatus {
-  if (residence.toUpperCase() === "NONE") {
+  if (residence.toUpperCase() === 'NONE') {
     return DataFieldStatus.UNSPECIFIED;
   }
 
-  if (residence.toUpperCase() === "FOR VALIDATION") {
+  if (residence.toUpperCase() === 'FOR VALIDATION') {
     return DataFieldStatus.FOR_VALIDATION;
   }
 

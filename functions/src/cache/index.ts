@@ -1,26 +1,26 @@
-import NodeCache from "node-cache";
-import buildCache from "./buildCache";
-import buildCache2 from "./buildCache2";
-import getLocalCases from "../etl/getLocalCases";
-import getOFWCases from "../etl/getOFWCases";
-import getForeignNationalCases from "../etl/getForeignNationalCases";
-import ConfirmedCasePatientLocal from "../types/ConfirmedCasePatientLocal";
-import ConfirmedCasePatientOFW from "../types/ConfirmedCasePatientOFW";
-import ConfirmedCasePatientForeignNational from "../types/ConfirmedCasePatientForeignNational";
-import Counts from "../types/Counts";
+import NodeCache from 'node-cache';
+import buildCache from './buildCache';
+import buildCache2 from './buildCache2';
+import getLocalCases from '../etl/getLocalCases';
+import getOFWCases from '../etl/getOFWCases';
+import getForeignNationalCases from '../etl/getForeignNationalCases';
+import ConfirmedCasePatientLocal from '../types/ConfirmedCasePatientLocal';
+import ConfirmedCasePatientOFW from '../types/ConfirmedCasePatientOFW';
+import ConfirmedCasePatientForeignNational from '../types/ConfirmedCasePatientForeignNational';
+import Counts from '../types/Counts';
 
 export const CacheKeys = {
-  CONFIRMED_CASES: "confirmed_cases",
-  OFW_CASES: "ofw_cases",
-  FOREIGN_NATIONAL_CASES: "foreign_national_cases",
-  COUNTS: "counts",
-}
+  CONFIRMED_CASES: 'confirmed_cases',
+  OFW_CASES: 'ofw_cases',
+  FOREIGN_NATIONAL_CASES: 'foreign_national_cases',
+  COUNTS: 'counts',
+};
 
 const cache = new NodeCache({
   deleteOnExpire: false,
 });
 
-(async () => {
+(async (): Promise<void> => {
   await buildCache<ConfirmedCasePatientLocal[]>({
     cache,
     func: getLocalCases,

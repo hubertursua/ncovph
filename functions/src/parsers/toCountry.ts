@@ -8,16 +8,16 @@ export default function toCountry(country: string): Country | null {
     return match;
   }
 
-  if (country === "Hongkong") {
-    return "Hong Kong";
+  if (country === 'Hongkong') {
+    return 'Hong Kong';
   }
 
   if (country.startsWith('USA ')) {
-    return "United States of America";
+    return 'United States of America';
   }
 
   if (country.startsWith('Japan ')) {
-    return "Japan";
+    return 'Japan';
   }
 
   return null;

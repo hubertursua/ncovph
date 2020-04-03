@@ -1,10 +1,10 @@
-import fs from "fs";
-import os from "os";
-import path from "path";
-import { v4 as uuidv4 } from "uuid";
-import { Bucket } from "@google-cloud/storage";
-import admin from "../firebase";
-import log from "../utils/log";
+import fs from 'fs';
+import os from 'os';
+import path from 'path';
+import { v4 as uuidv4 } from 'uuid';
+import { Bucket } from '@google-cloud/storage';
+import admin from '../firebase';
+import log from '../utils/log';
 
 export const TMP_DIR = os.tmpdir();
 
@@ -12,10 +12,10 @@ class Storage {
   private storageRef: Bucket;
 
   constructor() {
-    this.storageRef = admin.storage().bucket("ncovidtracker-api.appspot.com");
+    this.storageRef = admin.storage().bucket('ncovidtracker-api.appspot.com');
   }
 
-  createTmpDir() {
+  createTmpDir(): void {
     if (!fs.existsSync(TMP_DIR)) {
       fs.mkdirSync(TMP_DIR);
     }
@@ -37,7 +37,7 @@ class Storage {
       return JSON.parse(
         (
           await this.storageRef.file(storagePath).download()
-        )[0].toString('utf8')
+        )[0].toString('utf8'),
       );
     } catch (error) {
       return log.throwError(error);
@@ -51,15 +51,16 @@ class Storage {
       fs.writeFile(
         tmpFile,
         JSON.stringify(data, null, 2),
-        { encoding: "utf8" },
+        { encoding: 'utf8' },
         (error) => {
           if (error) {
             log.error(error);
             return reject(error);
           }
 
-          resolve();
-        });
+          return resolve();
+        },
+      );
     });
 
     return tmpFile;
@@ -67,7 +68,7 @@ class Storage {
 
   private async deleteTmpFile(filePath: string): Promise<void> {
     if (!filePath.startsWith(TMP_DIR)) {
-      const invalidDirError = new Error("This is not a tmp file.");
+      const invalidDirError = new Error('This is not a tmp file.');
       log.error(invalidDirError);
       throw invalidDirError;
     }
@@ -81,8 +82,9 @@ class Storage {
             return reject(error);
           }
 
-          resolve();
-        });
+          return resolve();
+        },
+      );
     });
   }
 }

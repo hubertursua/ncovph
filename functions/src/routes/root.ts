@@ -1,7 +1,7 @@
-export const path = "/";
+export const path = '/';
 
-export const handler = (req, res) => {
+export const handler = (req, res): void => {
   res.json({
-    name: "ncovph"
+    name: 'ncovph',
   });
 };

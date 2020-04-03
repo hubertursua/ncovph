@@ -1,4 +1,6 @@
-export default interface TravelDate {
+interface TravelDate {
   arrival: Date;
   departure: Date;
 }
+
+export default TravelDate;

@@ -1,15 +1,15 @@
-import LatLng from "./LatLng"
-import HospitalServiceType from "./HospitalServiceType";
-import HospitalLevel from "./HospitalLevel";
-import HospitalOwnerType from "./HospitalOwnerType";
-import HospitalClass from "./HospitalClass";
-import Location from "./Location";
+import LatLng from './LatLng';
+import HospitalServiceType from './HospitalServiceType';
+import HospitalLevel from './HospitalLevel';
+import HospitalOwnerType from './HospitalOwnerType';
+import HospitalClass from './HospitalClass';
+import Location from './Location';
 
-export default interface Hospital {
+interface Hospital {
   name: string;
   level: HospitalLevel;
   location: Location | null;
-  address: string,
+  address: string;
   coordinates: LatLng;
   onwer: HospitalOwnerType;
   sub: string | null; // subclassification
@@ -17,3 +17,4 @@ export default interface Hospital {
   service: HospitalServiceType;
 }
 
+export default Hospital;

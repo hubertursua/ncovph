@@ -1,7 +1,7 @@
-import Sex from "./Sex"
-import Nationality from "./Nationality"
+import Sex from './Sex';
+import Nationality from './Nationality';
 
-export default interface OFMasterlistArcGISFeature extends Object {
+interface OFMasterlistArcGISFeature extends Object {
   FID: number;
   num: number;
   Case_numbe: string;
@@ -15,3 +15,5 @@ export default interface OFMasterlistArcGISFeature extends Object {
   status: string;
   remarks: string;
 }
+
+export default OFMasterlistArcGISFeature;

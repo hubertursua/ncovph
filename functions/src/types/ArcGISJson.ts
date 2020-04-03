@@ -1,7 +1,9 @@
-import ArcGISField from "./ArcGISField";
-import ArcGISFeature from "./ArcGISFeature";
+import ArcGISField from './ArcGISField';
+import ArcGISFeature from './ArcGISFeature';
 
-export default interface ArcGISJson extends Object {
+interface ArcGISJson extends Object {
   fields: [ArcGISField];
   features: [ArcGISFeature];
 }
+
+export default ArcGISJson;

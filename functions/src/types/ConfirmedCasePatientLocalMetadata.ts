@@ -1,8 +1,10 @@
-import ConfirmedCasePatientLocalMetadataFieldStatus from "./ConfirmedCasePatientLocalMetadataFieldStatus";
-import ConfirmedCasePatientLocalMetadataRawData from "./ConfirmedCasePatientLocalMetadataRawData";
+import ConfirmedCasePatientLocalMetadataFieldStatus from './ConfirmedCasePatientLocalMetadataFieldStatus';
+import ConfirmedCasePatientLocalMetadataRawData from './ConfirmedCasePatientLocalMetadataRawData';
 
-export default interface ConfirmedCasePatientLocalMetadata {
+interface ConfirmedCasePatientLocalMetadata {
   cruise_ship: string | null;
   field_status: ConfirmedCasePatientLocalMetadataFieldStatus;
   raw_data: ConfirmedCasePatientLocalMetadataRawData;
 }
+
+export default ConfirmedCasePatientLocalMetadata;
