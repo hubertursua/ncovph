@@ -16,7 +16,7 @@ export default functions
       const counts = await getLocalCases();
       await storage.upload(counts, `${CacheKeys.CONFIRMED_CASES}.json`);
     } catch (error) {
-      log.error(error);
+      log.throwError(error);
     }
 
     return null;

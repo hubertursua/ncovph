@@ -16,7 +16,7 @@ export default functions
       const counts = await getCounts();
       await storage.upload(counts, `${CacheKeys.COUNTS}.json`);
     } catch (error) {
-      log.error(error);
+      log.throwError(error);
     }
 
     return null;

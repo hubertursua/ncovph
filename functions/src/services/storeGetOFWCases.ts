@@ -16,7 +16,7 @@ export default functions
       const counts = await getOFWCases();
       await storage.upload(counts, `${CacheKeys.OFW_CASES}.json`);
     } catch (error) {
-      log.error(error);
+      log.throwError(error);
     }
 
     return null;

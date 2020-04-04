@@ -16,7 +16,7 @@ export default functions
       const counts = await getHospitals();
       await storage.upload(counts, `${CacheKeys.HOSPITALS}.json`);
     } catch (error) {
-      log.error(error);
+      log.throwError(error);
     }
 
     return null;

@@ -16,7 +16,7 @@ export default functions
       const counts = await getForeignNationalCases();
       await storage.upload(counts, `${CacheKeys.FOREIGN_NATIONAL_CASES}.json`);
     } catch (error) {
-      log.error(error);
+      log.throwError(error);
     }
 
     return null;

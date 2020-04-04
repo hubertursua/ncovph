@@ -66,14 +66,13 @@ class Storage {
     return tmpFile;
   }
 
-  private async deleteTmpFile(filePath: string): Promise<void> {
+  private async deleteTmpFile(filePath: string): Promise<void | never> {
     if (!filePath.startsWith(TMP_DIR)) {
       const invalidDirError = new Error('This is not a tmp file.');
-      log.error(invalidDirError);
-      throw invalidDirError;
+      return log.throwError(invalidDirError);
     }
 
-    await new Promise((resolve, reject) => {
+    return new Promise((resolve, reject) => {
       fs.unlink(
         filePath,
         (error) => {
