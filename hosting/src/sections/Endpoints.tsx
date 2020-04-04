@@ -111,6 +111,10 @@ export default function Endpoints(): JSX.Element {
           `}
           />
         }
+        notes={[
+          "DOH stopped releasing details of recovered and deceased patients starting April 2. This is NOT affected since the totals are inputted as-is, not aggregated.",
+          "The field pum is currently null. The data was removed from the ArcGIS dashboard and API."
+        ]}
       />
 
       <Endpoint
@@ -121,7 +125,8 @@ export default function Endpoints(): JSX.Element {
           "For residence, up to province-level is guaranteed. City/municipality is often unspecified.",
           "For travel history, this is strictly a country. Cruise ships have been translated to their respective countries (e.g. Diamond Princess = Japan). A field metadata.cruise_ship will show the name of the ship.",
           "Symptoms is currently blank in ncovtracker. I might remove this later on.",
-          "Status is currently blank in ncovtracker."
+          "Status is currently blank in ncovtracker. Recovered and deceased status are manually updated.",
+          "DOH stopped releasing details of recovered and deceased patients starting April 2. This will affect the fields date_recovered, date_deceased, and status."
         ]}
         response={
           <CodeBlockJson
