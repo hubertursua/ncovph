@@ -1,7 +1,7 @@
 import * as functions from 'firebase-functions';
 import log from '../utils/log';
 import storage from '../storage';
-import getOFWCases from '../etl/getOFWCases';
+import getLocalCases from '../etl/getLocalCases';
 import CacheKeys from '../consts/CacheKeys';
 
 export default functions
@@ -13,7 +13,7 @@ export default functions
   .pubsub.schedule('every 15 minutes')
   .onRun(async () => {
     try {
-      const counts = await getOFWCases();
+      const counts = await getLocalCases();
       await storage.upload(counts, `${CacheKeys.CONFIRMED_CASES}.json`);
     } catch (error) {
       log.error(error);
