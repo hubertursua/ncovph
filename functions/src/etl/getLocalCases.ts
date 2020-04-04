@@ -62,22 +62,32 @@ function toConfirmedCasePatientLocal(data: PHMasterlistArcGISFeature[]):
   ) as ConfirmedCasePatientLocal[];
 }
 
+export async function getPHMasterlistCount(): Promise<number | never> {
+  try {
+    const response = await axios.get(DataUrls.NCOVIDTRACKER_LOCAL_CASES_COUNT);
+    const { data } = response;
+    return parseInt(data.count, 10);
+  } catch (error) {
+    return log.throwError(error);
+  }
+}
+
 export async function getPHMasterlist(): Promise<PHMasterlistArcGISFeature[] | never> {
   try {
-    const response = await axios.get(DataUrls.NCOVIDTRACKER_LOCAL_CASES);
-    const { data } = response;
-    assert.ok(data, 'Missing data in response');
-    const transformedData = transformArcgisToJson<PHMasterlistArcGISFeature>(data);
+    const totalRecords = await getPHMasterlistCount();
+    const transformedData = [];
 
-    const response2 = await axios.get(DataUrls.NCOVIDTRACKER_LOCAL_CASES2);
-    const data2 = response2.data;
-    assert.ok(data2, 'Missing data in response');
-    const transformedData2 = transformArcgisToJson<PHMasterlistArcGISFeature>(data2);
+    for (let offset = 0; offset < totalRecords; offset += 2000) {
+      const url = DataUrls.NCOVIDTRACKER_LOCAL_CASES.replace('resultOffset=0', `resultOffset=${offset}`);
+      const response = await axios.get(url); // eslint-disable-line no-await-in-loop
+      const { data } = response;
+      assert.ok(data, 'Missing data in response');
+      transformArcgisToJson<PHMasterlistArcGISFeature>(data).forEach((val) => {
+        transformedData.push(val);
+      });
+    }
 
-    return [
-      ...transformedData,
-      ...transformedData2,
-    ];
+    return transformedData;
   } catch (error) {
     return log.throwError(error);
   }
