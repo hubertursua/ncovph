@@ -16,7 +16,7 @@ export default functions
   .timeZone('Asia/Manila')
   .onRun(async () => {
     try {
-      const date = moment.utc().add(8, 'hours').format('YYYY-MM-DD');
+      const date = moment.utc().add(8, 'hours').subtract(1, 'day').format('YYYY-MM-DD');
       const data = await getHospitalLevel1();
       await storage.upload(data, `archive/${date}/hosplevel12018.json`);
     } catch (error) {
