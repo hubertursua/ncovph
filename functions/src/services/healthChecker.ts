@@ -5,7 +5,7 @@ import log from '../utils/log';
 
 const axios = Axios.create({
   baseURL: 'https://ncovph.com/api',
-  timeout: 30,
+  timeout: 30 * 1000,
   headers: {
     'Content-Type': 'application/json',
   },
@@ -50,17 +50,20 @@ export default functions
   .region('us-central1')
   .runWith({
     memory: '128MB',
-    timeoutSeconds: 60,
+    timeoutSeconds: 120,
   })
   .pubsub
-  .schedule('every 5 minutes')
+  .schedule('every 1 hours')
   .onRun(async () => {
     // eslint-disable-next-line no-console
     console.log(`Checking health status of API: ${new Date().toISOString()}`);
 
     try {
+      await checkEndpoint('/counts');
       await checkEndpoint('/confirmed-cases');
       await checkEndpoint('/ofw-cases');
+      await checkEndpoint('/foreign-national-cases');
+      await checkEndpoint('/hospitals');
     } catch (error) {
       log.error(error);
     }
