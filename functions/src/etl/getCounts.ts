@@ -30,7 +30,7 @@ export async function getSlideFig(): Promise<SlideFigArcGISFeature | never> {
   }
 }
 
-export default async function getOFWCases(): Promise<Counts | never> {
+export default async function getCount(): Promise<Counts | never> {
   try {
     const transformedData = await getSlideFig();
     return toCount(transformedData);
