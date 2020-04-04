@@ -7,7 +7,7 @@ import CacheKeys from '../consts/CacheKeys';
 export default functions
   .region('us-central1')
   .runWith({
-    memory: '128MB',
+    memory: '256MB',
     timeoutSeconds: 60,
   })
   .pubsub.schedule('every 15 minutes')
