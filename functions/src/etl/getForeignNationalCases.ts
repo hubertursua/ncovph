@@ -65,5 +65,3 @@ export default async function getForeignNationalCases():
     return log.throwError(error);
   }
 }
-
-getForeignNationalCases();
