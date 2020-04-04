@@ -45,15 +45,22 @@ function toConfirmedCasePatientForeignNational(
   ) as ConfirmedCasePatientForeignNational[];
 }
 
-export default async function getForeignNationalCases():
-  Promise<ConfirmedCasePatientForeignNational[] | never> {
+export async function getFNMasterlist(): Promise<FNMasterlistArcGISFeature[] | never> {
   try {
     const response = await axios.get(DataUrls.NCOVIDTRACKER_FOREIGN_NATIONAL_CASES);
     const { data } = response;
     assert.ok(data, 'Missing data in response');
-    const transformedData = transformArcgisToJson<FNMasterlistArcGISFeature>(data);
-    const cleanedData = toConfirmedCasePatientForeignNational(transformedData);
-    return cleanedData;
+    return transformArcgisToJson<FNMasterlistArcGISFeature>(data);
+  } catch (error) {
+    return log.throwError(error);
+  }
+}
+
+export default async function getForeignNationalCases():
+  Promise<ConfirmedCasePatientForeignNational[] | never> {
+  try {
+    const transformedData = await getFNMasterlist();
+    return toConfirmedCasePatientForeignNational(transformedData);
   } catch (error) {
     return log.throwError(error);
   }

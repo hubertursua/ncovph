@@ -19,14 +19,21 @@ function toCount(
   } as Counts;
 }
 
-export default async function getOFWCases(): Promise<Counts | never> {
+export async function getSlideFig(): Promise<SlideFigArcGISFeature | never> {
   try {
     const response = await axios.get(DataUrls.NCOVIDTRACKER_COUNTS);
     const { data } = response;
     assert.ok(data, 'Missing data in response');
-    const transformedData = transformArcgisToJson<SlideFigArcGISFeature>(data).shift();
-    const cleanedData = toCount(transformedData);
-    return cleanedData;
+    return transformArcgisToJson<SlideFigArcGISFeature>(data).shift();
+  } catch (error) {
+    return log.throwError(error);
+  }
+}
+
+export default async function getOFWCases(): Promise<Counts | never> {
+  try {
+    const transformedData = await getSlideFig();
+    return toCount(transformedData);
   } catch (error) {
     return log.throwError(error);
   }

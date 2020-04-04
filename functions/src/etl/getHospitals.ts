@@ -13,22 +13,34 @@ import toHospitalClass from '../parsers/toHospitalClass';
 import toHospitalServiceType from '../parsers/toHospitalServiceType';
 import log from '../utils/log';
 
-async function getLevel1(): Promise<HospitalArcGISFeature[]> {
-  const response = await axios.get(DataUrls.NCOVIDTRACKER_HOSPITALS_LEVEL_1);
-  const { data } = response;
-  return transformArcgisToJson<HospitalArcGISFeature>(data);
+export async function getHospitalLevel1(): Promise<HospitalArcGISFeature[]> {
+  try {
+    const response = await axios.get(DataUrls.NCOVIDTRACKER_HOSPITALS_LEVEL_1);
+    const { data } = response;
+    return transformArcgisToJson<HospitalArcGISFeature>(data);
+  } catch (error) {
+    return log.throwError(error);
+  }
 }
 
-async function getLevel2(): Promise<HospitalArcGISFeature[]> {
-  const response = await axios.get(DataUrls.NCOVIDTRACKER_HOSPITALS_LEVEL_2);
-  const { data } = response;
-  return transformArcgisToJson<HospitalArcGISFeature>(data);
+export async function getHospitalLevel2(): Promise<HospitalArcGISFeature[]> {
+  try {
+    const response = await axios.get(DataUrls.NCOVIDTRACKER_HOSPITALS_LEVEL_2);
+    const { data } = response;
+    return transformArcgisToJson<HospitalArcGISFeature>(data);
+  } catch (error) {
+    return log.throwError(error);
+  }
 }
 
-async function getLevel3(): Promise<HospitalArcGISFeature[]> {
-  const response = await axios.get(DataUrls.NCOVIDTRACKER_HOSPITALS_LEVEL_3);
-  const { data } = response;
-  return transformArcgisToJson<HospitalArcGISFeature>(data);
+export async function getHospitalLevel3(): Promise<HospitalArcGISFeature[]> {
+  try {
+    const response = await axios.get(DataUrls.NCOVIDTRACKER_HOSPITALS_LEVEL_3);
+    const { data } = response;
+    return transformArcgisToJson<HospitalArcGISFeature>(data);
+  } catch (error) {
+    return log.throwError(error);
+  }
 }
 
 function toHospitals(
@@ -55,13 +67,11 @@ function toHospitals(
 
 export default async function getHospitals(): Promise<Hospital[]|never> {
   try {
-    const cleanedData = [
-      ...toHospitals(await getLevel1(), HospitalLevel.LEVEL1),
-      ...toHospitals(await getLevel2(), HospitalLevel.LEVEL2),
-      ...toHospitals(await getLevel3(), HospitalLevel.LEVEL3),
+    return [
+      ...toHospitals(await getHospitalLevel1(), HospitalLevel.LEVEL1),
+      ...toHospitals(await getHospitalLevel2(), HospitalLevel.LEVEL2),
+      ...toHospitals(await getHospitalLevel3(), HospitalLevel.LEVEL3),
     ];
-
-    return cleanedData;
   } catch (error) {
     return log.throwError(error);
   }

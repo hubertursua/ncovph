@@ -7,6 +7,13 @@ import {
   storeGetHopsitals,
   storeGetLocalCases,
   storeGetOFWCases,
+  archiveFNMasterlist,
+  archiveHospLevel12018,
+  archiveHospLevel22018,
+  archiveHospLevel32018,
+  archiveOFMasterlist,
+  archivePHMasterlist,
+  archiveSlideFig,
 } from './services';
 
 module.exports = {
@@ -17,4 +24,11 @@ module.exports = {
   storeGetHopsitals,
   storeGetLocalCases,
   storeGetOFWCases,
+  archiveFNMasterlist,
+  archiveHospLevel12018,
+  archiveHospLevel22018,
+  archiveHospLevel32018,
+  archiveOFMasterlist,
+  archivePHMasterlist,
+  archiveSlideFig,
 };

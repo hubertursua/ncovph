@@ -44,14 +44,21 @@ function toConfirmedCasePatientOFW(data: OFMasterlistArcGISFeature[]):
   ) as ConfirmedCasePatientOFW[];
 }
 
-export default async function getOFWCases(): Promise<ConfirmedCasePatientOFW[] | never> {
+export async function getOFMasterlist(): Promise<OFMasterlistArcGISFeature[] | never> {
   try {
     const response = await axios.get(DataUrls.NCOVIDTRACKER_OFW_CASES);
     const { data } = response;
     assert.ok(data, 'Missing data in response');
-    const transformedData = transformArcgisToJson<OFMasterlistArcGISFeature>(data);
-    const cleanedData = toConfirmedCasePatientOFW(transformedData);
-    return cleanedData;
+    return transformArcgisToJson<OFMasterlistArcGISFeature>(data);
+  } catch (error) {
+    return log.throwError(error);
+  }
+}
+
+export default async function getOFWCases(): Promise<ConfirmedCasePatientOFW[] | never> {
+  try {
+    const transformedData = await getOFMasterlist();
+    return toConfirmedCasePatientOFW(transformedData);
   } catch (error) {
     return log.throwError(error);
   }

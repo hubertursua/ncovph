@@ -62,7 +62,7 @@ function toConfirmedCasePatientLocal(data: PHMasterlistArcGISFeature[]):
   ) as ConfirmedCasePatientLocal[];
 }
 
-export default async function getLocalCases(): Promise<ConfirmedCasePatientLocal[] | never> {
+export async function getPHMasterlist(): Promise<PHMasterlistArcGISFeature[] | never> {
   try {
     const response = await axios.get(DataUrls.NCOVIDTRACKER_LOCAL_CASES);
     const { data } = response;
@@ -74,10 +74,19 @@ export default async function getLocalCases(): Promise<ConfirmedCasePatientLocal
     assert.ok(data2, 'Missing data in response');
     const transformedData2 = transformArcgisToJson<PHMasterlistArcGISFeature>(data2);
 
-    const cleanedData = toConfirmedCasePatientLocal(
-      corrections([...transformedData, ...transformedData2]),
-    );
-    return cleanedData;
+    return [
+      ...transformedData,
+      ...transformedData2,
+    ];
+  } catch (error) {
+    return log.throwError(error);
+  }
+}
+
+export default async function getLocalCases(): Promise<ConfirmedCasePatientLocal[] | never> {
+  try {
+    const transformedData = await getPHMasterlist();
+    return toConfirmedCasePatientLocal(corrections(transformedData));
   } catch (error) {
     return log.throwError(error);
   }
