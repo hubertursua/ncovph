@@ -20,6 +20,27 @@ function Update({
 
 const updates = [
   <Update
+    key="April 4"
+    date="April 4"
+    text={
+      <>
+        {`DOH did not release the details of the recovered and deceased patients
+        for April 2 and 3. The total counts (/counts) are still updated though.`}
+        <br /><br />
+        {`Total number of PUMs also went missing. I double checked in the ArcGIS
+        dashboard and API and it is definitely missing (null).`}
+        <br /><br />
+        {`Most of the work done are backend changes. I'm improving the performance
+        of the API to make it more accessible and reliable for everyone. This is also
+        in preparation for the mass testing if ever there is an influx of data from DOH.`}
+        <br /><br />
+        {`As for the PUIs and PUMs per hospital, I will be releasing some time later
+        endpoints for this. It won't be as clean as the other endpoints due to hospitals
+        not matching the original list. I'll write more about this durig the release.`}
+      </>
+    }
+  />,
+  <Update
     key="April 2"
     date="April 2"
     text={
