@@ -256,6 +256,37 @@ export default function Endpoints(): JSX.Element {
 
       <Endpoint
         method="GET"
+        path="/trends/confirmed"
+        description="Returns the trend data for confirmed cases."
+        response={
+          <CodeBlockJson
+            code={`
+[
+  ...,
+  {
+    date: "2020-03-21T00:00:00.000Z",
+    admitted: 263,
+    recovered: 13,
+    deceased: 19
+  },
+  {
+    date: "2020-03-22T00:00:00.000Z",
+    admitted: 326,
+    recovered: 17,
+    deceased: 25
+  },
+  ...
+]
+          `}
+          />
+        }
+        notes={[
+          "The admitted field is zero since March 25. The ArcGIS dashboard doesn't seem to use this data."
+        ]}
+      />
+
+      <Endpoint
+        method="GET"
         path="/hospitals"
         description="Returns a list of hospitals."
         response={

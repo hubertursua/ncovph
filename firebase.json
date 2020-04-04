@@ -31,8 +31,8 @@
         "function": "api"
       },
       {
-        "source": "/hello",
-        "function": "hello"
+        "source": "/api/**/*",
+        "function": "api"
       }
     ]
   }

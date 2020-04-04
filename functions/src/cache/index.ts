@@ -5,6 +5,7 @@ import ConfirmedCasePatientOFW from '../types/ConfirmedCasePatientOFW';
 import ConfirmedCasePatientForeignNational from '../types/ConfirmedCasePatientForeignNational';
 import Counts from '../types/Counts';
 import CacheKeys from '../consts/CacheKeys';
+import ConfirmedTrend from '../types/ConfirmedTrend';
 
 const cache = new NodeCache({
   deleteOnExpire: false,
@@ -43,6 +44,13 @@ buildCache<Counts>({
     deceased: 0,
     tests: 0,
   },
+});
+
+buildCache<ConfirmedTrend[]>({
+  cache,
+  cacheKey: CacheKeys.CONFIRMED_TREND,
+  ttl: 60 * 15,
+  initialState: [],
 });
 
 export default cache;

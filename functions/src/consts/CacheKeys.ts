@@ -4,4 +4,5 @@ export default {
   FOREIGN_NATIONAL_CASES: 'foreign_national_cases',
   HOSPITALS: 'hospitals',
   COUNTS: 'counts',
+  CONFIRMED_TREND: 'confirmed_trend',
 };

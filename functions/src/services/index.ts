@@ -6,7 +6,9 @@ export { default as storeGetForeignNationalCases } from './storeGetForeignNation
 export { default as storeGetHopsitals } from './storeGetHopsitals';
 export { default as storeGetLocalCases } from './storeGetLocalCases';
 export { default as storeGetOFWCases } from './storeGetOFWCases';
+export { default as storeGetConfirmedTrend } from './storeGetConfirmedTrend';
 
+export { default as archiveConfirmed } from './archiveConfirmed';
 export { default as archiveFNMasterlist } from './archiveFNMasterlist';
 export { default as archiveHospLevel12018 } from './archiveHospLevel12018';
 export { default as archiveHospLevel22018 } from './archiveHospLevel22018';
