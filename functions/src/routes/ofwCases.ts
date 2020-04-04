@@ -1,5 +1,6 @@
-import cache, { CacheKeys } from '../cache';
+import cache from '../cache';
 import ConfirmedCasePatientOFW from '../types/ConfirmedCasePatientOFW';
+import CacheKeys from '../consts/CacheKeys';
 
 export const path = '/ofw-cases';
 

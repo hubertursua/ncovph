@@ -1,5 +1,6 @@
-import cache, { CacheKeys } from '../cache';
+import cache from '../cache';
 import ConfirmedCasePatientForeignNational from '../types/ConfirmedCasePatientForeignNational';
+import CacheKeys from '../consts/CacheKeys';
 
 export const path = '/foreign-national-cases';
 

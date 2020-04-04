@@ -1,5 +1,6 @@
-import cache, { CacheKeys } from '../cache';
+import cache from '../cache';
 import Counts from '../types/Counts';
+import CacheKeys from '../consts/CacheKeys';
 
 export const path = '/counts';
 
