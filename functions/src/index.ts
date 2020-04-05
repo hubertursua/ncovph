@@ -8,6 +8,7 @@ import {
   storeGetLocalCases,
   storeGetOFWCases,
   storeGetConfirmedTrend,
+  storeGetPUIPerFacility,
   archiveConfirmed,
   archiveFNMasterlist,
   archiveHospLevel12018,
@@ -16,6 +17,7 @@ import {
   archiveOFMasterlist,
   archivePHMasterlist,
   archiveSlideFig,
+  archivePUIFacTracing,
 } from './services';
 
 module.exports = {
@@ -27,6 +29,7 @@ module.exports = {
   storeGetLocalCases,
   storeGetOFWCases,
   storeGetConfirmedTrend,
+  storeGetPUIPerFacility,
   archiveConfirmed,
   archiveFNMasterlist,
   archiveHospLevel12018,
@@ -35,4 +38,5 @@ module.exports = {
   archiveOFMasterlist,
   archivePHMasterlist,
   archiveSlideFig,
+  archivePUIFacTracing,
 };
