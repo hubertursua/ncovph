@@ -13,8 +13,8 @@ export default functions
   .pubsub.schedule('every 1 hours')
   .onRun(async () => {
     try {
-      const counts = await getOFWCases();
-      await storage.upload(counts, `${CacheKeys.OFW_CASES}.json`);
+      const data = await getOFWCases();
+      await storage.upload(data, `${CacheKeys.OFW_CASES}.json`);
     } catch (error) {
       log.throwError(error);
     }

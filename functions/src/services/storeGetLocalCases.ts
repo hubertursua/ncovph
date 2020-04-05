@@ -13,8 +13,8 @@ export default functions
   .pubsub.schedule('every 15 minutes')
   .onRun(async () => {
     try {
-      const counts = await getLocalCases();
-      await storage.upload(counts, `${CacheKeys.CONFIRMED_CASES}.json`);
+      const data = await getLocalCases();
+      await storage.upload(data, `${CacheKeys.CONFIRMED_CASES}.json`);
     } catch (error) {
       log.throwError(error);
     }

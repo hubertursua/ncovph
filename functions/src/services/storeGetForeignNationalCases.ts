@@ -13,8 +13,8 @@ export default functions
   .pubsub.schedule('every 1 hours')
   .onRun(async () => {
     try {
-      const counts = await getForeignNationalCases();
-      await storage.upload(counts, `${CacheKeys.FOREIGN_NATIONAL_CASES}.json`);
+      const data = await getForeignNationalCases();
+      await storage.upload(data, `${CacheKeys.FOREIGN_NATIONAL_CASES}.json`);
     } catch (error) {
       log.throwError(error);
     }
