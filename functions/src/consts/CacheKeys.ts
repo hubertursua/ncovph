@@ -5,4 +5,5 @@ export default {
   HOSPITALS: 'hospitals',
   COUNTS: 'counts',
   CONFIRMED_TREND: 'confirmed_trend',
+  PUI_PER_FACILITY: 'pui_per_facility',
 };

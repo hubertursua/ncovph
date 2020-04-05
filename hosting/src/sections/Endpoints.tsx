@@ -287,6 +287,62 @@ export default function Endpoints(): JSX.Element {
 
       <Endpoint
         method="GET"
+        path="/pui/per-facility"
+        description="Returns the number of PUIs per facility."
+        response={
+          <CodeBlockJson
+            code={`
+[
+  ...,
+{
+    "facility": {
+      "name": "Benguet General Hospital",
+      "coordinates": {
+        "lat": 16.4508377,
+        "lng": 120.5895316
+      }
+    },
+    "total": 5,
+    "metadata": {
+      "raw_data": {
+        "facility": "BENGUET GENERAL HOSPITAL",
+        "lat": 16.4508377,
+        "lng": 120.5895316,
+        "region": "CAR"
+      }
+    }
+  },
+  {
+    "facility": {
+      "name": "Baguio General Hospital And Medical Center",
+      "coordinates": {
+        "lat": 16.401006,
+        "lng": 120.5956721
+      }
+    },
+    "total": 4,
+    "metadata": {
+      "raw_data": {
+        "facility": "BAGUIO GENERAL HOSPITAL AND MEDICAL CENTER",
+        "lat": 16.401006,
+        "lng": 120.5956721,
+        "region": "CAR"
+      }
+    }
+  },
+  ...
+]
+            `}
+          />
+        }
+        notes={[
+          'Facilities are not limited to hospitals.',
+          'If it matches a name in /hospitals, the coordinates of that hospital is used instead. Some coordinates do not exactly match but are still pointing at the same place.',
+        ]}
+      />
+
+      <Endpoint
+        method="GET"
         path="/hospitals"
         description="Returns a list of hospitals."
         response={

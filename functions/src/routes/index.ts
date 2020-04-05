@@ -11,6 +11,7 @@ import * as confirmedTrend from './confirmedTrend';
 import * as hospitals from './hospitals';
 import * as provinces from './provinces';
 import * as rateLimit from './rateLimit';
+import * as puiPerFacility from './puiPerFacility';
 import * as counts from './counts';
 import * as cacheCounts from './cacheCounts';
 import * as regions from './regions';
@@ -44,6 +45,7 @@ router.get(ofwCases.path, ofwCases.handler);
 router.get(foreignNationalCases.path, foreignNationalCases.handler);
 
 router.get(confirmedTrend.path, confirmedTrend.handler);
+router.get(puiPerFacility.path, puiPerFacility.handler);
 
 router.use(sentryError.handler);
 
