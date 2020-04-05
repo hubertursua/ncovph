@@ -20,6 +20,30 @@ function Update({
 
 const updates = [
   <Update
+    key="April 6"
+    date="April 6"
+    text={
+      <>
+        {`PUI per Facility is now available! See the docs below. This took so long
+        because I had to prioritize other tasks such as stability and data corrections.`}
+        <br /><br />
+        {`Trends was also rolled out yesterday. This is the first version of this endpoint.`}
+        <br /><br />
+        {`I've started archiving the ArcGIS data just so I have some kind of reference
+        if in case the ArcGIS data is updated in a drastic way or if some data went missing.
+        Unfortunately, I cannot give public access to this as it will cost a lot. You can
+        always download the ArcGIS data yourself using the ArcGIS API.`}
+        <br /><br />
+        {`There are a few more endpoints in ArcGIS that I haven't converted. However, all of
+        the data that you can see in ArcGIS can be computed using all the endpoints we have in
+        ncovph. In essence, I'm done! 🎉`}
+        <br /><br />
+        {`I'll probably rollout some more endpoints later. But for now, I'll be taking a couple
+        days break and think about what will be the Phase 2 of this API.`}
+      </>
+    }
+  />,
+  <Update
     key="April 4"
     date="April 4"
     text={
