@@ -16,6 +16,7 @@ buildCache<ConfirmedCasePatientLocal[]>({
   cacheKey: CacheKeys.CONFIRMED_CASES,
   ttl: 60 * 15,
   initialState: [],
+  delay: 0,
 });
 
 buildCache<ConfirmedCasePatientOFW[]>({
@@ -23,6 +24,7 @@ buildCache<ConfirmedCasePatientOFW[]>({
   cacheKey: CacheKeys.OFW_CASES,
   ttl: 60 * 15,
   initialState: [],
+  delay: 2,
 });
 
 buildCache<ConfirmedCasePatientForeignNational[]>({
@@ -30,6 +32,7 @@ buildCache<ConfirmedCasePatientForeignNational[]>({
   cacheKey: CacheKeys.FOREIGN_NATIONAL_CASES,
   ttl: 60 * 15,
   initialState: [],
+  delay: 4,
 });
 
 buildCache<Counts>({
@@ -44,6 +47,7 @@ buildCache<Counts>({
     deceased: 0,
     tests: 0,
   },
+  delay: 6,
 });
 
 buildCache<ConfirmedTrend[]>({
@@ -51,6 +55,7 @@ buildCache<ConfirmedTrend[]>({
   cacheKey: CacheKeys.CONFIRMED_TREND,
   ttl: 60 * 15,
   initialState: [],
+  delay: 8,
 });
 
 export default cache;
