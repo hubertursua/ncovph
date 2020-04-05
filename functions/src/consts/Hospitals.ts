@@ -28,7 +28,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: "God'S Will Medical Hospital",
+    name: "God's Will Medical Hospital",
     level: 'Level 1',
     location: {
       region: 'REGION_II',
@@ -275,7 +275,7 @@ export default [
     name: 'Medical Mission Group Hospital And Health Services Cooperative',
     level: 'Level 1',
     location: null,
-    address: 'Bintawan Rd., Corner Mabini St.,  Brgy. Quezon, Solano, N. Vizcaya',
+    address: 'Bintawan Rd., Corner Mabini St., Brgy. Quezon, Solano, N. Vizcaya',
     coordinates: {
       lat: 12.978436,
       lng: 123.986603,
@@ -460,7 +460,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: "San Lorenzo Ruiz Women'S Hospital",
+    name: "San Lorenzo Ruiz Women's Hospital",
     level: 'Level 1',
     location: {
       region: 'NCR',
@@ -1013,7 +1013,7 @@ export default [
     name: 'Norala District Hospital',
     level: 'Level 1',
     location: null,
-    address: 'M. Roxas St., Corner Boston St.,Poblacion,  Norala, South Cotabato',
+    address: 'M. Roxas St., Corner Boston St.,Poblacion, Norala, South Cotabato',
     coordinates: {
       lat: 6.52247,
       lng: 124.6612701,
@@ -1098,7 +1098,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Compostela Valley Provincial  Hospital - Pantukan',
+    name: 'Compostela Valley Provincial Hospital - Pantukan',
     level: 'Level 1',
     location: null,
     address: 'Townsite Pantukan, Comval',
@@ -1576,14 +1576,14 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Dr. Jose Rizal Memorial Hospital  (Doh Retained)',
+    name: 'Dr. Jose Rizal Memorial Hospital (Doh Retained)',
     level: 'Level 1',
     location: {
       region: 'REGION_IX',
       province: 'Zamboanga del Norte',
       city: 'Dapitan City',
     },
-    address: 'Lawaan, Dapitan City, ZAMBOANGA DEL  NORTE',
+    address: 'Lawaan, Dapitan City, ZAMBOANGA DEL NORTE',
     coordinates: {
       lat: 8.6395102,
       lng: 123.4156723,
@@ -1601,7 +1601,7 @@ export default [
       province: 'Zamboanga del Norte',
       city: 'Dipolog City',
     },
-    address: 'Dipolog City,, ZAMBOANGA DEL  NORTE',
+    address: 'Dipolog City, ZAMBOANGA DEL NORTE',
     coordinates: {
       lat: 8.592668,
       lng: 123.343905,
@@ -1658,7 +1658,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: "Edwin Andrew'S Airbase Hospital",
+    name: "Edwin Andrew's Airbase Hospital",
     level: 'Level 1',
     location: {
       region: 'REGION_IX',
@@ -1676,7 +1676,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Zamboanga  Sibugay Provincial Hospital',
+    name: 'Zamboanga Sibugay Provincial Hospital',
     level: 'Level 1',
     location: null,
     address: 'Sanito, Ipil, Zamboanga Sibugay',
@@ -1997,7 +1997,7 @@ export default [
     name: 'Manango Hospital',
     level: 'Level 1',
     location: null,
-    address: 'National  Hi-way, San Antonio, Alicia, Isabela',
+    address: 'National Hi-way, San Antonio, Alicia, Isabela',
     coordinates: {
       lat: 16.773165,
       lng: 121.698802,
@@ -2008,7 +2008,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Providers Multi-Purpose Cooperative Medical Center (New)',
+    name: 'Providers Multi-Purpose Cooperative Medical Center',
     level: 'Level 1',
     location: null,
     address: '1 AH26, San Manuel, Naguilian, Isabela',
@@ -2950,7 +2950,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Paete  General  Hospital',
+    name: 'Paete General Hospital',
     level: 'Level 1',
     location: null,
     address: 'J.P. Rizal St., Brgy. Quinale, Paete, Laguna',
@@ -2964,7 +2964,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Sta. Cruz  Laguna Polymedic, Inc.',
+    name: 'Sta. Cruz Laguna Polymedic, Inc.',
     level: 'Level 1',
     location: null,
     address: '#782 National Highway, Brgy. Patimbao, Sta. Cruz, Laguna',
@@ -3024,7 +3024,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'St. John  The Baptist Medical Center, Inc.',
+    name: 'St. John The Baptist Medical Center, Inc.',
     level: 'Level 1',
     location: {
       region: 'REGION_IV_A',
@@ -3060,7 +3060,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Gamez  Hospital',
+    name: 'Gamez Hospital',
     level: 'Level 1',
     location: {
       region: 'REGION_IV_A',
@@ -3308,7 +3308,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: "Morong Doctor'S Hospital",
+    name: "Morong Doctor's Hospital",
     level: 'Level 1',
     location: null,
     address: '491 Governor Martinez St., San Juan, Morong, Rizal',
@@ -3584,7 +3584,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: "Saint Theodore'S Hospital",
+    name: "Saint Theodore's Hospital",
     level: 'Level 1',
     location: null,
     address: 'Staunton Rd., Poblacion, Sagada',
@@ -3666,7 +3666,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Brigino General Hospital, Inc. (New)',
+    name: 'Brigino General Hospital, Inc.',
     level: 'Level 1',
     location: {
       region: 'REGION_III',
@@ -3716,7 +3716,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Maheseco Multipurpose   Cooperative',
+    name: 'Maheseco Multipurpose Cooperative',
     level: 'Level 1',
     location: null,
     address: 'Lakandula St., Pob. Mariveles',
@@ -3744,7 +3744,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: "Bataan Women'S Hospital,Inc.",
+    name: "Bataan Women's Hospital,Inc.",
     level: 'Level 1',
     location: null,
     address: 'Sampaguita Street, St. Joseph Subd., Balanga City',
@@ -3786,7 +3786,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'United Balagtas Doctors  Hospital Corporation',
+    name: 'United Balagtas Doctors Hospital Corporation',
     level: 'Level 1',
     location: null,
     address: '#516 Brgy. Wawa, Balagtas',
@@ -3828,7 +3828,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Rugay  General Hospital, Inc.',
+    name: 'Rugay General Hospital, Inc.',
     level: 'Level 1',
     location: null,
     address: 'M.Cruz St. Carpa Vil. Sabang,Baliuag',
@@ -3870,7 +3870,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: "Dr. Yanga'S Hospital, Inc.",
+    name: "Dr. Yanga's Hospital, Inc.",
     level: 'Level 1',
     location: null,
     address: 'P. Burgos St. Poblacion, Bocaue',
@@ -4196,7 +4196,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Zamboanga Puericulture Lying-In  Maternity Hospital',
+    name: 'Zamboanga Puericulture Lying-In Maternity Hospital',
     level: 'Level 1',
     location: {
       region: 'REGION_IX',
@@ -4288,7 +4288,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: "Ipil Doctor'S Hospital",
+    name: "Ipil Doctor's Hospital",
     level: 'Level 1',
     location: null,
     address: 'Ipil, Zamboanga Sibugay',
@@ -4451,7 +4451,7 @@ export default [
     name: 'St. John Hospital, Inc. (Goa-Naga City)',
     level: 'Level 1',
     location: null,
-    address: 'San  Jose Street, Goa, Camarines Sur',
+    address: 'San Jose Street, Goa, Camarines Sur',
     coordinates: {
       lat: 13.622651,
       lng: 123.190386,
@@ -4541,7 +4541,7 @@ export default [
       province: 'Masbate',
       city: 'Masbate City',
     },
-    address: 'Rosero St., Brgy.  Centro, Masbate City, Masbate',
+    address: 'Rosero St., Brgy. Centro, Masbate City, Masbate',
     coordinates: {
       lat: 12.368281,
       lng: 123.623458,
@@ -4552,7 +4552,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Sts. Peter And Paul Hospital Of  Sorsogon, Inc',
+    name: 'Sts. Peter And Paul Hospital Of Sorsogon, Inc',
     level: 'Level 1',
     location: null,
     address: '612 Alegre Street, Balogo, Sorsogon',
@@ -4700,7 +4700,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: "Saint Jude'S Hospital, Inc.",
+    name: "Saint Jude's Hospital, Inc.",
     level: 'Level 1',
     location: null,
     address: 'Kalibo',
@@ -4996,7 +4996,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Davao Del Norte Hospital  (Kapalong  Zone)',
+    name: 'Davao Del Norte Hospital (Kapalong Zone)',
     level: 'Level 1',
     location: null,
     address: 'Quezon St. Maniki Kapalong, Dvo. Norte',
@@ -5453,7 +5453,7 @@ export default [
     name: 'Viga District Hospital',
     level: 'Level 1',
     location: null,
-    address: 'San  Vicente, Viga, Catanduanes',
+    address: 'San Vicente, Viga, Catanduanes',
     coordinates: {
       lat: 13.871956,
       lng: 124.313711,
@@ -5794,7 +5794,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: "Tuguegarao City People'S General Hospital",
+    name: "Tuguegarao City People's General Hospital",
     level: 'Level 1',
     location: {
       region: 'REGION_II',
@@ -6256,7 +6256,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Laguna Provincial  Hospital-Nagcarlan District Hospital',
+    name: 'Laguna Provincial Hospital-Nagcarlan District Hospital',
     level: 'Level 1',
     location: null,
     address: 'Baltazar, Nagcarlan, Laguna',
@@ -6426,7 +6426,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Claro M. Recto Memorial District  Hospital',
+    name: 'Claro M. Recto Memorial District Hospital',
     level: 'Level 1',
     location: null,
     address: 'Brgy. Gumian, Infanta, Quezon',
@@ -6686,7 +6686,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Rizal Provincial Hospital System-Antipolo Annex Ii',
+    name: 'Rizal Provincial Hospital System-Antipolo Annex II',
     level: 'Level 1',
     location: {
       region: 'REGION_IV_A',
@@ -6718,14 +6718,14 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Dr. Montano G. Ramos General \nHospital Corporation',
+    name: 'Dr. Montano G. Ramos General Hospital Corporation',
     level: 'Level 1',
     location: {
       region: 'NCR',
       province: 'Metro Manila',
       city: 'Quezon City',
     },
-    address: '46 Bukidnon St., Bago\nBantay, Quezon City',
+    address: '46 Bukidnon St., Bago Bantay, Quezon City',
     coordinates: {
       lat: 14.6595843,
       lng: 121.0236418,
@@ -6750,7 +6750,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Baliuag  District Hospital',
+    name: 'Baliuag District Hospital',
     level: 'Level 1',
     location: null,
     address: 'Carpa Vilage,Sabang, Baliuag',
@@ -6764,7 +6764,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: "Mateo'S Diagnostic Clinic &    General Hosp. Inc.",
+    name: "Mateo's Diagnostic Clinic & General Hosp. Inc.",
     level: 'Level 1',
     location: null,
     address: '#60 Gov. F. Halili Ave., Bagbaguin, Sta Maria',
@@ -6824,7 +6824,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: "St. Mary'S Medical Services Inc.",
+    name: "St. Mary's Medical Services Inc.",
     level: 'Level 1',
     location: null,
     address: 'J.P. Rizal St., Sta. Maria',
@@ -6873,7 +6873,7 @@ export default [
     name: 'Norzagaray Municipal Hospital',
     level: 'Level 1',
     location: null,
-    address: 'Mun. Compound Pob. ,Norzagaray',
+    address: 'Mun. Compound Pob., Norzagaray',
     coordinates: {
       lat: 14.9044926,
       lng: 121.0424111,
@@ -7035,7 +7035,7 @@ export default [
       province: 'Nueva Ecija',
       city: 'San Jose City',
     },
-    address: 'Maharlika Hi-way,  Brgy.Malasin, San Jose City',
+    address: 'Maharlika Hi-way, Brgy.Malasin, San Jose City',
     coordinates: {
       lat: 15.807237,
       lng: 121.000053,
@@ -7092,7 +7092,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Diosdado P. Macapagal  Memorial Hospital',
+    name: 'Diosdado P. Macapagal Memorial Hospital',
     level: 'Level 1',
     location: null,
     address: 'Sta. Rita,Guagua',
@@ -7120,7 +7120,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Dr. Andres Luciano Jr.  Memorial Hospital',
+    name: 'Dr. Andres Luciano Jr. Memorial Hospital',
     level: 'Level 1',
     location: null,
     address: 'San Pablo,Magalang',
@@ -8387,7 +8387,7 @@ export default [
       province: 'Metro Manila',
       city: 'Quezon City',
     },
-    address: '531 Commonwealth Ave.,\nQuezon City',
+    address: '531 Commonwealth Ave., Quezon City',
     coordinates: {
       lat: 14.6676472,
       lng: 121.0729946,
@@ -8495,7 +8495,7 @@ export default [
       province: 'Metro Manila',
       city: 'Quezon City',
     },
-    address: '130 Baesa, Quirino\nHighway, Quezon City',
+    address: '130 Baesa, Quirino Highway, Quezon City',
     coordinates: {
       lat: 14.666983,
       lng: 121.009104,
@@ -8542,7 +8542,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Ofelia Mendoza Maternity  & General Hospital',
+    name: 'Ofelia Mendoza Maternity & General Hospital',
     level: 'Level 1',
     location: {
       region: 'REGION_III',
@@ -8819,7 +8819,7 @@ export default [
       province: 'Metro Manila',
       city: 'Muntinlupa City',
     },
-    address: '1 National Road, Putatan,\nMuntinlupa City',
+    address: '1 National Road, Putatan, Muntinlupa City',
     coordinates: {
       lat: 14.4192229,
       lng: 121.0498758,
@@ -8866,14 +8866,14 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Foundation Of Our Lady Of Peace \nMission, Inc. - Our Lady Of Peace Hospital',
+    name: 'Foundation Of Our Lady Of Peace Mission, Inc. - Our Lady Of Peace Hospital',
     level: 'Level 1',
     location: {
       region: 'NCR',
       province: 'Metro Manila',
       city: 'Parañaque City',
     },
-    address: 'Coastal Road, Brgy. San\nDionisio, Parañaque City',
+    address: 'Coastal Road, Brgy. San Dionisio, Parañaque City',
     coordinates: {
       lat: 14.4884703,
       lng: 120.9835931,
@@ -8891,7 +8891,7 @@ export default [
       province: 'Metro Manila',
       city: 'Parañaque City',
     },
-    address: 'Dr. A. Santos Ave., Sucat\nRd., Parañaque City',
+    address: 'Dr. A. Santos Ave., Sucat Rd., Parañaque City',
     coordinates: {
       lat: 14.4790836,
       lng: 120.9972136,
@@ -8909,7 +8909,7 @@ export default [
       province: 'Metro Manila',
       city: 'Parañaque City',
     },
-    address: '0972 G. G. Cruz St.,\nBaclaran, Parañaque City',
+    address: '0972 G. G. Cruz St., Baclaran, Parañaque City',
     coordinates: {
       lat: 14.5300749,
       lng: 120.9959159,
@@ -8956,14 +8956,14 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Mcpc St. Therese Of Lisieux Doctors\nHospital',
+    name: 'Mcpc St. Therese Of Lisieux Doctors Hospital',
     level: 'Level 1',
     location: {
       region: 'NCR',
       province: 'Metro Manila',
       city: 'Pasig City',
     },
-    address: 'Armal Bldg., C.\nRaaymundo Ave., Maybunga, Pasig City',
+    address: 'Armal Bldg., C. Raaymundo Ave., Maybunga, Pasig City',
     coordinates: {
       lat: 14.576735,
       lng: 121.085222,
@@ -8999,7 +8999,7 @@ export default [
       province: 'Metro Manila',
       city: 'Pasig City',
     },
-    address: 'Caruncho Avenue, San\nNicolas, Pasig City',
+    address: 'Caruncho Avenue, San Nicolas, Pasig City',
     coordinates: {
       lat: 14.5598912,
       lng: 121.0828429,
@@ -9064,14 +9064,14 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Malaybalay Medical Hospital Care (New)',
+    name: 'Malaybalay Medical Hospital Care',
     level: 'Level 1',
     location: {
       region: 'REGION_X',
       province: 'Bukidnon',
       city: 'Malaybalay City',
     },
-    address: 'Fortich St., Brgy. 7,  Malaybalay City, Bukidnon',
+    address: 'Fortich St., Brgy. 7, Malaybalay City, Bukidnon',
     coordinates: {
       lat: 8.15223,
       lng: 125.12931,
@@ -9142,7 +9142,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'St. Jude Thaddeus General Hospital (Sjtgh) [Former  St. Jude Thaddeus General Hospital 2017]',
+    name: 'St. Jude Thaddeus General Hospital (SJTGH) [Former St. Jude Thaddeus General Hospital 2017]',
     level: 'Level 1',
     location: {
       region: 'REGION_X',
@@ -9284,7 +9284,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: "St. Mary'S Maternity And Children'S Hospital, Inc.",
+    name: "St. Mary's Maternity And Children's Hospital, Inc.",
     level: 'Level 1',
     location: {
       region: 'REGION_XII',
@@ -9319,7 +9319,7 @@ export default [
     name: 'Clinica Ozaraga Doctors Hospital',
     level: 'Level 1',
     location: null,
-    address: 'Purok 4, Digson, Bonifacio,  Misamis Occidental',
+    address: 'Purok 4, Digson, Bonifacio, Misamis Occidental',
     coordinates: {
       lat: 8.0511999,
       lng: 123.6165619,
@@ -9484,7 +9484,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: "Cagayan De Oro Maternity - Children'S Hospital And Puericulture Center",
+    name: "Cagayan De Oro Maternity - Children's Hospital And Puericulture Center",
     level: 'Level 1',
     location: {
       region: 'REGION_X',
@@ -9575,7 +9575,7 @@ export default [
     name: 'Kabacan Medical Specialist Hosp. Inc.',
     level: 'Level 1',
     location: null,
-    address: 'National Highway, Osias, Kabacan, North  Cot.',
+    address: 'National Highway, Osias, Kabacan, North Cot.',
     coordinates: {
       lat: 7.11759,
       lng: 124.816597,
@@ -9670,7 +9670,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Dr. Ramon Pesante Clinic And Hospital Inc.(New)',
+    name: 'Dr. Ramon Pesante Clinic And Hospital Inc.',
     level: 'Level 1',
     location: null,
     address: 'Poblacion, Libungan, North Cotabato',
@@ -9684,7 +9684,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Roldan Medical Clinic And Hosp. (New)',
+    name: 'Roldan Medical Clinic And Hosp.',
     level: 'Level 1',
     location: null,
     address: 'M.H. Del Pilar St., Pob. A, Mlang North Cot.',
@@ -9762,7 +9762,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Tiburcio B. Aquino Memorial  Hosp.',
+    name: 'Tiburcio B. Aquino Memorial Hosp.',
     level: 'Level 1',
     location: null,
     address: 'Bilaong National Highway, Kiamba, Sarangani',
@@ -9790,7 +9790,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Heramil  Hospital',
+    name: 'Heramil Hospital',
     level: 'Level 1',
     location: null,
     address: "Citizen's Village, Pob. Polomolok, South Cotabato",
@@ -9832,7 +9832,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Surallah Community  Hospital',
+    name: 'Surallah Community Hospital',
     level: 'Level 1',
     location: null,
     address: '674 Rosal St., Libertad, Surallah, South Cotabato',
@@ -10172,7 +10172,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: "United Doctor'S Hospital Of  Tagum, Inc.",
+    name: "United Doctor's Hospital Of Tagum, Inc.",
     level: 'Level 1',
     location: {
       region: 'REGION_XI',
@@ -10208,7 +10208,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Jose J. Golingay General Hospital, Inc. (New)',
+    name: 'Jose J. Golingay General Hospital, Inc.',
     level: 'Level 1',
     location: null,
     address: 'Brgy. Poblacio, Malalang, Davao Del Sur',
@@ -10222,7 +10222,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Marpe Medical Clinic And Hospital, Inc. (New)',
+    name: 'Marpe Medical Clinic And Hospital, Inc.',
     level: 'Level 1',
     location: null,
     address: 'Apo Beach, Zone III, Sta. Cruz, Davao del Sur',
@@ -10320,7 +10320,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: "The Lord'S Hospital",
+    name: "The Lord's Hospital",
     level: 'Level 1',
     location: {
       region: 'REGION_III',
@@ -10370,7 +10370,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: "Apalit Doctor'S Hospital Inc.",
+    name: "Apalit Doctor's Hospital Inc.",
     level: 'Level 1',
     location: null,
     address: 'Gonzales Ave.,San Juan, Apalit',
@@ -10584,7 +10584,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Immaculate Concepcion Polyclinic  & Hospital Inc.',
+    name: 'Immaculate Concepcion Polyclinic & Hospital Inc.',
     level: 'Level 1',
     location: null,
     address: 'Green Village, Concepcion',
@@ -10629,7 +10629,7 @@ export default [
     name: 'Rayos-Valentin Hospital, Inc.',
     level: 'Level 1',
     location: null,
-    address: '# 5Baltazar Subdv.,Pob. Norte , Paniqui',
+    address: '# 5Baltazar Subdv.,Pob. Norte, Paniqui',
     coordinates: {
       lat: 15.672073,
       lng: 120.582154,
@@ -10686,7 +10686,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: "Dr. Lim'S Clinic And Hospital",
+    name: "Dr. Lim's Clinic And Hospital",
     level: 'Level 1',
     location: null,
     address: 'Poblacion Occidental, Valencia, Bohol',
@@ -10842,7 +10842,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Christ The Healer Hospital (New)',
+    name: 'Christ The Healer Hospital',
     level: 'Level 1',
     location: null,
     address: 'Veloso Street, Brgy. Rizal, Sogod, Southern Leyte',
@@ -10940,7 +10940,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'St. Jude Hospital (New)',
+    name: 'St. Jude Hospital',
     level: 'Level 1',
     location: null,
     address: 'Corner Loyola and Guimbaolibot Avenue, Brgy. Salve, Guiuan, Eastern Samar',
@@ -11000,7 +11000,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: "St. Scholastica'S Hospital",
+    name: "St. Scholastica's Hospital",
     level: 'Level 1',
     location: null,
     address: 'Cababto-an, Pambujan, Northern Samar',
@@ -11696,7 +11696,7 @@ export default [
     service: 'Level 1',
   },
   {
-    name: 'Bernardino General Hospital Ii',
+    name: 'Bernardino General Hospital II',
     level: 'Level 1',
     location: {
       region: 'NCR',
@@ -12346,7 +12346,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Pasig City Children’S Hospital – Child’S Hope',
+    name: "Pasig City Children's Hospital – Child's Hope",
     level: 'Level 2',
     location: {
       region: 'NCR',
@@ -12364,7 +12364,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Pnp General Hospital',
+    name: 'PNP General Hospital',
     level: 'Level 2',
     location: {
       region: 'NCR',
@@ -12632,7 +12632,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Nicc Doctors’ Hospital',
+    name: "Nicc Doctors' Hospital",
     level: 'Level 2',
     location: {
       region: 'REGION_V',
@@ -12668,7 +12668,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Albay Doctors’ Hospital, Inc.',
+    name: "Albay Doctors' Hospital, Inc.",
     level: 'Level 2',
     location: {
       region: 'REGION_V',
@@ -12836,7 +12836,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Santiago Medical City (New)',
+    name: 'Santiago Medical City',
     level: 'Level 2',
     location: {
       region: 'REGION_II',
@@ -12990,7 +12990,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Southeast Asian Medical Center, Inc. (New)',
+    name: 'Southeast Asian Medical Center, Inc.',
     level: 'Level 2',
     location: {
       region: 'REGION_IV_A',
@@ -13076,7 +13076,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Calamba Doctors’ Hospital',
+    name: "Calamba Doctors' Hospital",
     level: 'Level 2',
     location: {
       region: 'REGION_IV_A',
@@ -13431,7 +13431,7 @@ export default [
     name: 'City Of General Trias Doctors Medical Center Inc. (Formerly: Gentri Doctors Medical Center, Inc.)',
     level: 'Level 2',
     location: null,
-    address: 'Governor’s Drive, Manggahan, General Trias,, Cavite',
+    address: "Governor's Drive, Manggahan, General Trias, Cavite",
     coordinates: {
       lat: 14.2908899,
       lng: 120.9039693,
@@ -13720,7 +13720,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Biñan Doctors’ Hospital Incorporated',
+    name: "Biñan Doctors' Hospital Incorporated",
     level: 'Level 2',
     location: {
       region: 'REGION_IV_A',
@@ -13878,7 +13878,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Fatima University Medical Center Antipolo Corp. (New)',
+    name: 'Fatima University Medical Center Antipolo Corp.',
     level: 'Level 2',
     location: {
       region: 'REGION_IV_A',
@@ -13910,7 +13910,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Pines City Doctors’ Hospital',
+    name: "Pines City Doctors' Hospital",
     level: 'Level 2',
     location: {
       region: 'CAR',
@@ -13982,7 +13982,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Butuan Doctors’ Hospital And College, Incorporated',
+    name: "Butuan Doctors' Hospital And College, Incorporated",
     level: 'Level 2',
     location: {
       region: 'REGION_XIII',
@@ -14039,7 +14039,7 @@ export default [
       province: 'Surigao del Sur',
       city: 'Bislig City',
     },
-    address: 'Purok 1, Brgy. Cumawas,  Bislig City, Surigao del Sur',
+    address: 'Purok 1, Brgy. Cumawas, Bislig City, Surigao del Sur',
     coordinates: {
       lat: 8.183185,
       lng: 126.340867,
@@ -14282,7 +14282,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Marcelo-Padilla Children’S And Medical Hospital Corporation',
+    name: "Marcelo-Padilla Children's And Medical Hospital Corporation",
     level: 'Level 2',
     location: null,
     address: '#393 Banga I, Plaridel, Bulacan',
@@ -14382,7 +14382,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Qualimed Health Network Sjdm',
+    name: 'Qualimed Health Network SJDM',
     level: 'Level 2',
     location: {
       region: 'REGION_III',
@@ -14521,7 +14521,7 @@ export default [
     name: 'The Medical City Clark, Inc.',
     level: 'Level 2',
     location: null,
-    address: "100 Gatwick Gateway  Sabah Al-Ahmad Global Gateway Logistics City, Ind'l Estate 5, Clark Freeport Zone, Pampanga",
+    address: "100 Gatwick Gateway Sabah Al-Ahmad Global Gateway Logistics City, Ind'l Estate 5, Clark Freeport Zone, Pampanga",
     coordinates: {
       lat: 15.17839,
       lng: 120.5719,
@@ -14532,7 +14532,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Floridablanca Doctors’ Hospital, Inc.',
+    name: "Floridablanca Doctors' Hospital, Inc.",
     level: 'Level 2',
     location: null,
     address: 'Valdez, Floridablanca, Pampanga',
@@ -14599,7 +14599,7 @@ export default [
     name: 'Capas Medical Center',
     level: 'Level 2',
     location: null,
-    address: 'MacArthur Highway, Brgy. Sto. Domingo 2nd , Capas, Tarlac',
+    address: 'MacArthur Highway, Brgy. Sto. Domingo 2nd, Capas, Tarlac',
     coordinates: {
       lat: 15.350844,
       lng: 120.592958,
@@ -14858,7 +14858,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Allegiant Regional Care Hospitals, Inc.(New)',
+    name: 'Allegiant Regional Care Hospitals, Inc.',
     level: 'Level 2',
     location: {
       region: 'REGION_VII',
@@ -14876,7 +14876,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Mactan Doctors’ Hospital, Inc.',
+    name: "Mactan Doctors' Hospital, Inc.",
     level: 'Level 2',
     location: {
       region: 'REGION_VII',
@@ -14912,7 +14912,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Amosup Seamen’S Hospital Cebu',
+    name: "Amosup Seamen's Hospital Cebu",
     level: 'Level 2',
     location: {
       region: 'REGION_VII',
@@ -15020,7 +15020,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Tacloban Doctors’ Medical Center',
+    name: "Tacloban Doctors' Medical Center",
     level: 'Level 2',
     location: {
       region: 'REGION_VIII',
@@ -15056,7 +15056,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'The Ospa-Farmers’ Medical Center',
+    name: "The Ospa-Farmers' Medical Center",
     level: 'Level 2',
     location: {
       region: 'REGION_VIII',
@@ -15074,7 +15074,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Ormoc Doctors’ Hospital, Inc.',
+    name: "Ormoc Doctors' Hospital, Inc.",
     level: 'Level 2',
     location: {
       region: 'REGION_VIII',
@@ -15446,7 +15446,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Diliman Doctors Hospital, Inc. (New)',
+    name: 'Diliman Doctors Hospital, Inc.',
     level: 'Level 2',
     location: {
       region: 'NCR',
@@ -15626,7 +15626,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'St. Clare’S Medical Center, Inc.',
+    name: "St. Clare's Medical Center, Inc.",
     level: 'Level 2',
     location: {
       region: 'NCR',
@@ -15813,7 +15813,7 @@ export default [
       province: 'Metro Manila',
       city: 'Parañaque City',
     },
-    address: 'Km. 17,  West Service Road, Brgy. Marcelo, Parañaque City',
+    address: 'Km. 17, West Service Road, Brgy. Marcelo, Parañaque City',
     coordinates: {
       lat: 14.474862,
       lng: 121.045,
@@ -15950,14 +15950,14 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'St. Luke’S Medical Center - Global City',
+    name: "St. Luke's Medical Center - Global City",
     level: 'Level 2',
     location: {
       region: 'NCR',
       province: 'Metro Manila',
       city: 'Taguig City',
     },
-    address: 'Rizal Drive corner 32nd Street and 5th Avenue, Bonifacio  Global City, Taguig',
+    address: 'Rizal Drive corner 32nd Street and 5th Avenue, Bonifacio Global City, Taguig',
     coordinates: {
       lat: 14.555719,
       lng: 121.048688,
@@ -16412,7 +16412,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Kidapawan Doctors’ Hospital, Inc.',
+    name: "Kidapawan Doctors' Hospital, Inc.",
     level: 'Level 2',
     location: {
       region: 'REGION_XII',
@@ -16433,7 +16433,7 @@ export default [
     name: 'Mlang Specialists Medical Center (Msmc), Inc.',
     level: 'Level 2',
     location: null,
-    address: 'Purok 2, Barangay Sangat, M’lang, North Cotabato',
+    address: "Purok 2, Barangay Sangat, M'lang, North Cotabato",
     coordinates: {
       lat: 6.939264,
       lng: 124.885807,
@@ -16494,7 +16494,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'General Santos Doctors’ Hospital, Inc.',
+    name: "General Santos Doctors' Hospital, Inc.",
     level: 'Level 2',
     location: {
       region: 'REGION_XI',
@@ -16652,7 +16652,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Tagum Doctors’ Hospital',
+    name: "Tagum Doctors' Hospital",
     level: 'Level 2',
     location: {
       region: 'REGION_XI',
@@ -16688,7 +16688,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'St. Benedict Hospital Of Davao Del Sur, Inc (New)',
+    name: 'St. Benedict Hospital Of Davao Del Sur, Inc',
     level: 'Level 2',
     location: null,
     address: 'National Highway, Sinaragan, Matanao, davao Del Sur',
@@ -16774,7 +16774,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Gig Oca Robles Seamen’S Hospital Davao',
+    name: "Gig Oca Robles Seamen's Hospital Davao",
     level: 'Level 2',
     location: {
       region: 'REGION_XI',
@@ -16792,7 +16792,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Digos Doctors’ Hospital, Inc.',
+    name: "Digos Doctors' Hospital, Inc.",
     level: 'Level 2',
     location: {
       region: 'REGION_XI',
@@ -16864,7 +16864,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Medical Center Of Digos Cooperative Hospital (Mcdc)',
+    name: 'Medical Center Of Digos Cooperative Hospital (MCDC)',
     level: 'Level 2',
     location: {
       region: 'REGION_XI',
@@ -17006,7 +17006,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Seamen’S Hospital-Iloilo',
+    name: "Seamen's Hospital-Iloilo",
     level: 'Level 2',
     location: {
       region: 'REGION_VI',
@@ -17168,7 +17168,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Zamboanga Doctors’ Hospital, Inc.',
+    name: "Zamboanga Doctors' Hospital, Inc.",
     level: 'Level 2',
     location: {
       region: 'REGION_IX',
@@ -17258,7 +17258,7 @@ export default [
     service: 'Level 2',
   },
   {
-    name: 'Eastern Visayas Regional Medical Center (New)',
+    name: 'Eastern Visayas Regional Medical Center',
     level: 'Level 3',
     location: {
       region: 'REGION_VIII',
@@ -17330,7 +17330,7 @@ export default [
     service: 'Level 3',
   },
   {
-    name: 'Region Ii Trauma And Medical Center      (Veterans Regional Hospital)',
+    name: 'Region II Trauma And Medical Center (Veterans Regional Hospital)',
     level: 'Level 3',
     location: null,
     address: 'Magsaysay, Bayombong, Nueva Vizcaya',
@@ -17736,7 +17736,7 @@ export default [
     service: 'Level 3',
   },
   {
-    name: 'Victoriano Luna Medical Center (Formerly Afp Medical Center)',
+    name: 'Victoriano Luna Medical Center (Formerly AFP Medical Center)',
     level: 'Level 3',
     location: {
       region: 'NCR',
@@ -18002,7 +18002,7 @@ export default [
     service: 'Level 3-Specialty',
   },
   {
-    name: 'Philippine Children’S Medical Center',
+    name: "Philippine Children's Medical Center",
     level: 'Level 3',
     location: {
       region: 'NCR',
@@ -18128,7 +18128,7 @@ export default [
     service: 'Level 3-Specialty',
   },
   {
-    name: 'National Children’S Hospital',
+    name: "National Children's Hospital",
     level: 'Level 3',
     location: {
       region: 'NCR',
@@ -18225,7 +18225,7 @@ export default [
       province: 'Cavite',
       city: 'Dasmariñas City',
     },
-    address: 'Gov. Dominador I. Mangubat Avenue,  Zone 4, City of Dasmariñas, Cavite',
+    address: 'Gov. Dominador I. Mangubat Avenue, Zone 4, City of Dasmariñas, Cavite',
     coordinates: {
       lat: 14.326984,
       lng: 120.943409,
@@ -18308,7 +18308,7 @@ export default [
     service: 'Level 3',
   },
   {
-    name: 'Nueva Ecija Doctors’ Hospital, Inc.',
+    name: "Nueva Ecija Doctors' Hospital, Inc.",
     level: 'Level 3',
     location: {
       region: 'REGION_III',
@@ -18344,7 +18344,7 @@ export default [
     service: 'Level 3',
   },
   {
-    name: 'Central Luzon Doctors’ Hospital, Inc.',
+    name: "Central Luzon Doctors' Hospital, Inc.",
     level: 'Level 3',
     location: {
       region: 'REGION_III',
@@ -18362,14 +18362,14 @@ export default [
     service: 'Level 3',
   },
   {
-    name: 'Cebu Doctors’ University Hospital Inc. (Formerly Cebu Doctors’ Hospital, Inc.)',
+    name: "Cebu Doctors' University Hospital Inc. (Formerly Cebu Doctors' Hospital, Inc.)",
     level: 'Level 3',
     location: {
       region: 'REGION_VII',
       province: 'Cebu',
       city: 'Cebu City',
     },
-    address: 'Cebu Doctors’ University Bldg., Osmeña Blvd., Capitol Site (Pob.), Cebu City',
+    address: "Cebu Doctors' University Bldg., Osmeña Blvd., Capitol Site (Pob.), Cebu City",
     coordinates: {
       lat: 10.3151522,
       lng: 123.8920621,
@@ -18542,7 +18542,7 @@ export default [
     service: 'Level 3',
   },
   {
-    name: 'Seamen’S Hospital',
+    name: "Seamen's Hospital",
     level: 'Level 3',
     location: {
       region: 'NCR',
@@ -18560,7 +18560,7 @@ export default [
     service: 'Level 3',
   },
   {
-    name: 'Hospital Of The Infant Jesus Medical Center  (Formerly: Chiled Care, Inc. )',
+    name: 'Hospital Of The Infant Jesus Medical Center (Formerly: Chiled Care, Inc. )',
     level: 'Level 3',
     location: {
       region: 'NCR',
@@ -18776,7 +18776,7 @@ export default [
     service: 'Level 3',
   },
   {
-    name: 'St. Luke’S Medical Center',
+    name: "St. Luke's Medical Center - Quezon City",
     level: 'Level 3',
     location: {
       region: 'NCR',
@@ -19262,7 +19262,7 @@ export default [
     service: 'Level 3',
   },
   {
-    name: 'Iloilo Doctors’ Hospital, Incorporated',
+    name: "Iloilo Doctors' Hospital, Incorporated",
     level: 'Level 3',
     location: {
       region: 'REGION_VI',
@@ -19298,7 +19298,7 @@ export default [
     service: 'Level 3',
   },
   {
-    name: 'St. Paul’S Hospital Of Iloilo, Inc.',
+    name: "St. Paul's Hospital Of Iloilo, Inc.",
     level: 'Level 3',
     location: {
       region: 'REGION_VI',
@@ -19316,7 +19316,7 @@ export default [
     service: 'Level 3',
   },
   {
-    name: 'The Doctors’ Hospital, Inc.',
+    name: "The Doctors' Hospital, Inc.",
     level: 'Level 3',
     location: {
       region: 'REGION_VI',
@@ -19334,7 +19334,7 @@ export default [
     service: 'Level 3',
   },
   {
-    name: "Tagbilaran Maternity And Children'S Hospital, Inc.",
+    name: "Tagbilaran Maternity And Children's Hospital, Inc.",
     level: 'Level 3',
     location: {
       region: 'REGION_VII',
@@ -19370,7 +19370,7 @@ export default [
     service: 'Specialty-Mother & Child',
   },
   {
-    name: "Women'S Children'S Community Hospital",
+    name: "Women's Children's Community Hospital",
     level: 'Level 3',
     location: {
       region: 'REGION_VII',
