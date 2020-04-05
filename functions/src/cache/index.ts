@@ -6,6 +6,7 @@ import ConfirmedCasePatientForeignNational from '../types/ConfirmedCasePatientFo
 import Counts from '../types/Counts';
 import CacheKeys from '../consts/CacheKeys';
 import ConfirmedTrend from '../types/ConfirmedTrend';
+import PUIPerFacility from '../types/PUIPerFacility';
 
 const cache = new NodeCache({
   deleteOnExpire: false,
@@ -56,6 +57,15 @@ buildCache<ConfirmedTrend[]>({
   ttl: 60 * 15,
   initialState: [],
   delay: 8,
+});
+
+
+buildCache<PUIPerFacility[]>({
+  cache,
+  cacheKey: CacheKeys.PUI_PER_FACILITY,
+  ttl: 60 * 15,
+  initialState: [],
+  delay: 10,
 });
 
 export default cache;
