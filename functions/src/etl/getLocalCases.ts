@@ -20,6 +20,7 @@ import corrections from '../corrections/PHMasterList';
 import log from '../utils/log';
 import toDateDeceased from '../parsers/toDateDeceased';
 import toDateRecovered from '../parsers/toDateRecovered';
+import storage from '../storage';
 
 function toConfirmedCasePatientLocal(data: PHMasterlistArcGISFeature[]):
   ConfirmedCasePatientLocal[] {
@@ -93,9 +94,19 @@ export async function getPHMasterlist(): Promise<PHMasterlistArcGISFeature[] | n
   }
 }
 
+export async function getPHMasterlistFromArchive(): Promise<PHMasterlistArcGISFeature[] | never> {
+  try {
+    const data = await storage.get('archive/2020-04-06/PH_masterlist.json');
+    return data as PHMasterlistArcGISFeature[];
+  } catch (error) {
+    return log.throwError(error);
+  }
+}
+
 export default async function getLocalCases(): Promise<ConfirmedCasePatientLocal[] | never> {
   try {
-    const transformedData = await getPHMasterlist();
+    // TODO: Temporarily getting data from an archived copy of PH_masterlist
+    const transformedData = await getPHMasterlistFromArchive();
     return toConfirmedCasePatientLocal(corrections(transformedData));
   } catch (error) {
     return log.throwError(error);
