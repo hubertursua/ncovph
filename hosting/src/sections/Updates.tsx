@@ -24,6 +24,10 @@ const updates = [
     date="April 8"
     text={
       <>
+        {`EDIT (7:30 AM): Temporary patch for confirmed cases is now up. It's currently
+        referencing the April 6 version of PH_masterlist.`}
+        <br />
+        <br />
         {`As of April 8 06:39 AM, the details of ALL confirmed cases are missing.
         I think this started yesterday but I'll have to verify that. The list of cases
         are still up to PH3246 only.`}
