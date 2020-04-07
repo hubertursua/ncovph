@@ -20,6 +20,28 @@ function Update({
 
 const updates = [
   <Update
+    key="April 8"
+    date="April 8"
+    text={
+      <>
+        {`As of April 8 06:39 AM, the details of ALL confirmed cases are missing.
+        I think this started yesterday but I'll have to verify that. The list of cases
+        are still up to PH3246 only.`}
+        <br />
+        <br />
+        {`Number of PUIs and tests are also missing. Number of PUMs is still missing as well.`}
+        <br />
+        <br />
+        {`I'm making a patch so that the cases looks at an older good copy of confirmed
+        cases (PH_masterlist). I'll use that as a static data source for now while DOH
+        is "Currently updating" ArcGIS.`}
+        <br />
+        <br />
+        {`Hopefully, it doesn't stay that way. We've been getting lesser data everyday.`}
+      </>
+    }
+  />,
+  <Update
     key="April 7"
     date="April 7"
     text={
