@@ -20,6 +20,18 @@ function Update({
 
 const updates = [
   <Update
+    key="April 7"
+    date="April 7"
+    text={
+      <>
+        {`As of April 7 9:52 AM, the details of confirmed cases ends with PH3246.
+        In contrast, the total count is already updated to 3,660. ncovtracker.doh.gov.ph
+        is displaying "Currently updating." We'll have to be patient while they update
+        the data.`}
+      </>
+    }
+  />,
+  <Update
     key="April 6"
     date="April 6"
     text={
