@@ -2,7 +2,7 @@ import NodeCache from 'node-cache';
 import storage from '../storage';
 import log from '../utils/log';
 
-export default async function buildCache2<T>({
+export default async function buildCache<T>({
   cache,
   cacheKey,
   ttl,
