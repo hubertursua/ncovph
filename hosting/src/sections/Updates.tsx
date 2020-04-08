@@ -20,6 +20,18 @@ function Update({
 
 const updates = [
   <Update
+    key="April 8 - 1:32 PM"
+    date="April 8 - 1:32 PM"
+    text={
+      <>
+        {`The whole ncovtracker.doh.gov.ph is now under maintenance.
+        The ArcGIS dashboard, including the API endpoints have been set to private.
+        This means that this service can no longer gather data. I'll keep everyone
+        posted if the situation changes.`}
+      </>
+    }
+  />,
+  <Update
     key="April 8"
     date="April 8"
     text={
