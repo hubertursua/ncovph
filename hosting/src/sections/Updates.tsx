@@ -20,6 +20,29 @@ function Update({
 
 const updates = [
   <Update
+    key="April 10"
+    date="April 10"
+    text={
+      <>
+        {`The parsing code was separated to a new GitHub repo hyubs/ncovph-parser.
+        This will make updates easier to manage and for those who'd want to use the
+        ArcGIS data but don't need the whole ncovph service, you can get that package
+        instead.`}
+        <br /><br />
+        {`These changes are also in preparation for a major release that will soon be
+        announced.`}
+        <br /><br />
+        {`No feature releases today and until ncovtracker.doh.gov.ph ArcGIS goes
+        back online. We're not yet sure how major the changes will be. We might end
+        up scrapping features if some of the data disappear or becomes difficult to
+        calculate.`}
+        <br /><br />
+        {`And as a reminder, kindly check everyday for announcements here. I am constantly
+        updating this project depending on the situation with the data source.`}
+      </>
+    }
+  />,
+  <Update
     key="April 8 - 1:32 PM"
     date="April 8 - 1:32 PM"
     text={
