@@ -12,26 +12,20 @@
     "source": "functions"
   },
   "hosting": {
+    "trailingSlash": false,
     "predeploy": [
       "npm --prefix hosting run build"
     ],
     "public": "hosting/build",
     "ignore": [
-      "firebase.json",
+      "**/*.log",
       "**/.*",
-      "**/node_modules/**"
+      "**/node_modules/**",
+      "firebase.json"
     ],
     "rewrites": [
       {
-        "source": "/api",
-        "function": "api"
-      },
-      {
-        "source": "/api/*",
-        "function": "api"
-      },
-      {
-        "source": "/api/**/*",
+        "source": "/api{,/**/*}",
         "function": "api"
       }
     ]
