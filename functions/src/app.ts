@@ -8,6 +8,7 @@ const basePath = (config().runtime && config().runtime.env === 'production')
   ? '/api'
   : '/';
 
+app.disable('x-powered-by');
 app.use(basePath, routes);
 
 export default app;
