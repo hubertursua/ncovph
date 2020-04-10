@@ -1,4 +1,4 @@
-import Hospitals from 'ncovph-parser/src/consts/Hospitals';
+import Hospitals from 'ncovph-parser/dist/consts/Hospitals';
 import cache from '../cache';
 import CacheKeys from '../consts/CacheKeys';
 

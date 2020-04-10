@@ -1,4 +1,4 @@
-import Counts from 'ncovph-parser/src/types/Counts';
+import Counts from 'ncovph-parser/dist/types/Counts';
 import cache from '../cache';
 import CacheKeys from '../consts/CacheKeys';
 

@@ -1,4 +1,4 @@
-import PUIPerFacility from 'ncovph-parser/src/types/PUIPerFacility';
+import PUIPerFacility from 'ncovph-parser/dist/types/PUIPerFacility';
 import cache from '../cache';
 import CacheKeys from '../consts/CacheKeys';
 

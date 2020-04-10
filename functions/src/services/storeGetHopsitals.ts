@@ -1,5 +1,5 @@
 import * as functions from 'firebase-functions';
-import getHospitals from 'ncovph-parser/src/etl/getHospitals';
+import getHospitals from 'ncovph-parser/dist/etl/getHospitals';
 import log from '../utils/log';
 import storage from '../storage';
 import CacheKeys from '../consts/CacheKeys';

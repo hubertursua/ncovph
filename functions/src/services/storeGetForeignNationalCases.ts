@@ -1,5 +1,5 @@
 import * as functions from 'firebase-functions';
-import getForeignNationalCases from 'ncovph-parser/src/etl/getForeignNationalCases';
+import getForeignNationalCases from 'ncovph-parser/dist/etl/getForeignNationalCases';
 import log from '../utils/log';
 import storage from '../storage';
 import CacheKeys from '../consts/CacheKeys';

@@ -1,4 +1,4 @@
-import Provinces from 'ncovph-parser/src/consts/Provinces';
+import Provinces from 'ncovph-parser/dist/consts/Provinces';
 
 export const path = '/provinces';
 

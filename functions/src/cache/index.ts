@@ -1,10 +1,10 @@
 import NodeCache from 'node-cache';
-import ConfirmedCasePatientForeignNational from 'ncovph-parser/src/types/ConfirmedCasePatientForeignNational';
-import ConfirmedCasePatientLocal from 'ncovph-parser/src/types/ConfirmedCasePatientLocal';
-import ConfirmedCasePatientOFW from 'ncovph-parser/src/types/ConfirmedCasePatientOFW';
-import ConfirmedTrend from 'ncovph-parser/src/types/ConfirmedTrend';
-import Counts from 'ncovph-parser/src/types/Counts';
-import PUIPerFacility from 'ncovph-parser/src/types/PUIPerFacility';
+import ConfirmedCasePatientForeignNational from 'ncovph-parser/dist/types/ConfirmedCasePatientForeignNational';
+import ConfirmedCasePatientLocal from 'ncovph-parser/dist/types/ConfirmedCasePatientLocal';
+import ConfirmedCasePatientOFW from 'ncovph-parser/dist/types/ConfirmedCasePatientOFW';
+import ConfirmedTrend from 'ncovph-parser/dist/types/ConfirmedTrend';
+import Counts from 'ncovph-parser/dist/types/Counts';
+import PUIPerFacility from 'ncovph-parser/dist/types/PUIPerFacility';
 import buildCache from './buildCache';
 import CacheKeys from '../consts/CacheKeys';
 

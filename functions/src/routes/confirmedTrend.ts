@@ -1,4 +1,4 @@
-import ConfirmedTrend from 'ncovph-parser/src/types/ConfirmedTrend';
+import ConfirmedTrend from 'ncovph-parser/dist/types/ConfirmedTrend';
 import cache from '../cache';
 import CacheKeys from '../consts/CacheKeys';
 

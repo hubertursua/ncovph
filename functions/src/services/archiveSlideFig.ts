@@ -1,7 +1,7 @@
 
 import * as functions from 'firebase-functions';
 import moment from 'moment';
-import { getSlideFig } from 'ncovph-parser/src/etl/getCounts';
+import { getSlideFig } from 'ncovph-parser/dist/etl/getCounts';
 import log from '../utils/log';
 import storage from '../storage';
 

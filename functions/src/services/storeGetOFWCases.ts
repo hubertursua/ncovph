@@ -1,5 +1,5 @@
 import * as functions from 'firebase-functions';
-import getOFWCases from 'ncovph-parser/src/etl/getOFWCases';
+import getOFWCases from 'ncovph-parser/dist/etl/getOFWCases';
 import log from '../utils/log';
 import storage from '../storage';
 import CacheKeys from '../consts/CacheKeys';

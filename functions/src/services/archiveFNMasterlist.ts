@@ -1,7 +1,7 @@
 
 import * as functions from 'firebase-functions';
 import moment from 'moment';
-import { getFNMasterlist } from 'ncovph-parser/src/etl/getForeignNationalCases';
+import { getFNMasterlist } from 'ncovph-parser/dist/etl/getForeignNationalCases';
 import log from '../utils/log';
 import storage from '../storage';
 

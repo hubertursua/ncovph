@@ -1,4 +1,4 @@
-import ConfirmedCasePatientForeignNational from 'ncovph-parser/src/types/ConfirmedCasePatientForeignNational';
+import ConfirmedCasePatientForeignNational from 'ncovph-parser/dist/types/ConfirmedCasePatientForeignNational';
 import cache from '../cache';
 import CacheKeys from '../consts/CacheKeys';
 

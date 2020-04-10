@@ -1,7 +1,7 @@
 
 import * as functions from 'firebase-functions';
 import moment from 'moment';
-import { getHospitalLevel1 } from 'ncovph-parser/src/etl/getHospitals';
+import { getHospitalLevel1 } from 'ncovph-parser/dist/etl/getHospitals';
 import log from '../utils/log';
 import storage from '../storage';
 

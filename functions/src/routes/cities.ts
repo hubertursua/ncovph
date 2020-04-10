@@ -1,4 +1,4 @@
-import Cities from 'ncovph-parser/src/consts/Cities';
+import Cities from 'ncovph-parser/dist/consts/Cities';
 
 export const path = '/cities';
 

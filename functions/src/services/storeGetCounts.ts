@@ -1,5 +1,5 @@
 import * as functions from 'firebase-functions';
-import getCounts from 'ncovph-parser/src/etl/getCounts';
+import getCounts from 'ncovph-parser/dist/etl/getCounts';
 import log from '../utils/log';
 import storage from '../storage';
 import CacheKeys from '../consts/CacheKeys';
