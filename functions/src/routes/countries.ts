@@ -1,4 +1,4 @@
-import Countries from '../consts/Countries';
+import Countries from 'ncovph-parser/src/consts/Countries';
 
 export const path = '/countries';
 

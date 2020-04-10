@@ -1,8 +1,8 @@
 
 import * as functions from 'firebase-functions';
 import moment from 'moment';
+import { getConfirmed } from 'ncovph-parser/src/etl/getConfirmedTrend';
 import log from '../utils/log';
-import { getConfirmed } from '../etl/getConfirmedTrend';
 import storage from '../storage';
 
 export default functions

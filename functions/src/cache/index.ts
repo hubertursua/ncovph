@@ -1,12 +1,12 @@
 import NodeCache from 'node-cache';
+import ConfirmedCasePatientForeignNational from 'ncovph-parser/src/types/ConfirmedCasePatientForeignNational';
+import ConfirmedCasePatientLocal from 'ncovph-parser/src/types/ConfirmedCasePatientLocal';
+import ConfirmedCasePatientOFW from 'ncovph-parser/src/types/ConfirmedCasePatientOFW';
+import ConfirmedTrend from 'ncovph-parser/src/types/ConfirmedTrend';
+import Counts from 'ncovph-parser/src/types/Counts';
+import PUIPerFacility from 'ncovph-parser/src/types/PUIPerFacility';
 import buildCache from './buildCache';
-import ConfirmedCasePatientLocal from '../types/ConfirmedCasePatientLocal';
-import ConfirmedCasePatientOFW from '../types/ConfirmedCasePatientOFW';
-import ConfirmedCasePatientForeignNational from '../types/ConfirmedCasePatientForeignNational';
-import Counts from '../types/Counts';
 import CacheKeys from '../consts/CacheKeys';
-import ConfirmedTrend from '../types/ConfirmedTrend';
-import PUIPerFacility from '../types/PUIPerFacility';
 
 const cache = new NodeCache({
   deleteOnExpire: false,

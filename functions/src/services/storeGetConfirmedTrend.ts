@@ -1,7 +1,7 @@
 import * as functions from 'firebase-functions';
+import getConfirmedTrend from 'ncovph-parser/src/etl/getConfirmedTrend';
 import log from '../utils/log';
 import storage from '../storage';
-import getConfirmedTrend from '../etl/getConfirmedTrend';
 import CacheKeys from '../consts/CacheKeys';
 
 export default functions

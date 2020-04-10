@@ -1,7 +1,7 @@
 import * as functions from 'firebase-functions';
+import getPUIPerFacility from 'ncovph-parser/src/etl/getPUIPerFacility';
 import log from '../utils/log';
 import storage from '../storage';
-import getPUIPerFacility from '../etl/getPUIPerFacility';
 import CacheKeys from '../consts/CacheKeys';
 
 export default functions

@@ -1,6 +1,6 @@
+import ConfirmedTrend from 'ncovph-parser/src/types/ConfirmedTrend';
 import cache from '../cache';
 import CacheKeys from '../consts/CacheKeys';
-import ConfirmedTrend from '../types/ConfirmedTrend';
 
 export const path = '/trends/confirmed';
 

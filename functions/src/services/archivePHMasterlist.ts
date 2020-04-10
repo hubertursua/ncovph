@@ -1,8 +1,8 @@
 
 import * as functions from 'firebase-functions';
 import moment from 'moment';
+import { getPHMasterlist } from 'ncovph-parser/src/etl/getLocalCases';
 import log from '../utils/log';
-import { getPHMasterlist } from '../etl/getLocalCases';
 import storage from '../storage';
 
 export default functions

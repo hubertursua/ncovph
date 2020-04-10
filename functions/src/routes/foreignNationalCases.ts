@@ -1,5 +1,5 @@
+import ConfirmedCasePatientForeignNational from 'ncovph-parser/src/types/ConfirmedCasePatientForeignNational';
 import cache from '../cache';
-import ConfirmedCasePatientForeignNational from '../types/ConfirmedCasePatientForeignNational';
 import CacheKeys from '../consts/CacheKeys';
 
 export const path = '/foreign-national-cases';

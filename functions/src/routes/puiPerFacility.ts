@@ -1,6 +1,6 @@
+import PUIPerFacility from 'ncovph-parser/src/types/PUIPerFacility';
 import cache from '../cache';
 import CacheKeys from '../consts/CacheKeys';
-import PUIPerFacility from '../types/PUIPerFacility';
 
 export const path = '/pui/per-facility';
 

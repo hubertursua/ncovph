@@ -1,5 +1,5 @@
+import Counts from 'ncovph-parser/src/types/Counts';
 import cache from '../cache';
-import Counts from '../types/Counts';
 import CacheKeys from '../consts/CacheKeys';
 
 export const path = '/counts';

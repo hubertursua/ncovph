@@ -1,5 +1,5 @@
+import ConfirmedCasePatientOFW from 'ncovph-parser/src/types/ConfirmedCasePatientOFW';
 import cache from '../cache';
-import ConfirmedCasePatientOFW from '../types/ConfirmedCasePatientOFW';
 import CacheKeys from '../consts/CacheKeys';
 
 export const path = '/ofw-cases';

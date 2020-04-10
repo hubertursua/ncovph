@@ -1,4 +1,4 @@
-import Hospitals from '../consts/Hospitals';
+import Hospitals from 'ncovph-parser/src/consts/Hospitals';
 
 export const path = '/hospitals';
 

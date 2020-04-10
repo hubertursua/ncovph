@@ -1,7 +1,7 @@
 import * as functions from 'firebase-functions';
+import getLocalCases from 'ncovph-parser/src/etl/getLocalCases';
 import log from '../utils/log';
 import storage from '../storage';
-import getLocalCases from '../etl/getLocalCases';
 import CacheKeys from '../consts/CacheKeys';
 
 export default functions

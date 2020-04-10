@@ -1,5 +1,5 @@
+import Hospitals from 'ncovph-parser/src/consts/Hospitals';
 import cache from '../cache';
-import Hospitals from '../consts/Hospitals';
 import CacheKeys from '../consts/CacheKeys';
 
 export const path = '/cache-counts';

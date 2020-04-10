@@ -26,6 +26,7 @@
     "firebase-functions": "^3.5.0",
     "i18n-iso-countries": "^5.1.0",
     "moment": "^2.24.0",
+    "ncovph-parser": "github:hyubs/ncovph-parser",
     "node-cache": "^5.1.0",
     "snake-case": "^3.0.3",
     "uuid": "^7.0.2"

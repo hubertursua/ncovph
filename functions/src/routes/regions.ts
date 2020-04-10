@@ -1,4 +1,4 @@
-import Regions from '../consts/Regions';
+import Regions from 'ncovph-parser/src/consts/Regions';
 
 export const path = '/regions';
 

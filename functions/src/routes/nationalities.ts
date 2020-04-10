@@ -1,4 +1,4 @@
-import Nationalities from '../consts/Nationalities';
+import Nationalities from 'ncovph-parser/src/consts/Nationalities';
 
 export const path = '/nationalities';
 

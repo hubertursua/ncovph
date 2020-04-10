@@ -1,8 +1,8 @@
 
 import * as functions from 'firebase-functions';
 import moment from 'moment';
+import { getPUIFacTracing } from 'ncovph-parser/src/etl/getPUIPerFacility';
 import log from '../utils/log';
-import { getPUIFacTracing } from '../etl/getPUIPerFacility';
 import storage from '../storage';
 
 export default functions
