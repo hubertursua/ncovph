@@ -20,6 +20,39 @@ function Update({
 
 const updates = [
   <Update
+    key="April 12"
+    date="April 12"
+    text={
+      <>
+        {`I will be deprecating ncovph. DOH's new dashboard uses a Tableau
+        with closed data access.`}
+        <br /><br />
+        {`While it is possible to scrape the data from Tableau, that method of collecting data
+        may have legal implications. I won't be supporting manual entry either. There's just too
+        much data to input and that will be prone to human error. So unless DOH opens its Tableau
+        permissions, there's no way for me to access the data and provide it in the API.`}
+        <br /><br />
+        {`If the situation does not change after a week, I will discontinue the project. The API
+        service will be shutdown a few days after discontinuation. I advice users to copy any data
+        that you need before the shutdown.`}
+        <br /><br />
+        {`Again, I'd like to thank everyone who supported and used this service.`}
+        <br /><br />
+      </>
+    }
+  />,
+  <Update
+    key="April 11"
+    date="April 11"
+    text={
+      <>
+        {`We're expecting the new ncovtracker.doh.gov.ph dashboard tomorrow. The changes
+        are expected to be big. Be ready for a lot of break changes. I might have to restructure
+        some of the endpoints depending on what data will be available.`}
+      </>
+    }
+  />,
+  <Update
     key="April 10"
     date="April 10"
     text={
