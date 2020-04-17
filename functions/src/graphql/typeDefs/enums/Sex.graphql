@@ -1,0 +1,11 @@
+# Sex (FEMALE, MALE, UNKNOWN)
+enum Sex {
+  # Female
+  FEMALE
+
+  # Male
+  MALE
+
+  # Unknown
+  UNKNOWN
+}

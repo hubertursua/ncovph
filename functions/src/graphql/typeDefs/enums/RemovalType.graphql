@@ -1,0 +1,8 @@
+# Removal type (RECOVERED, DIED)
+enum RemovalType {
+  # Recovered
+  RECOVERED
+
+  # Died
+  DIED
+}

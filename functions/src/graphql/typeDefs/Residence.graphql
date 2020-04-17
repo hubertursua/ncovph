@@ -1,0 +1,11 @@
+# Residence
+type Residence {
+  # Region
+  region: String
+
+  # Province
+  province: String
+
+  # City or municipality
+  city: String
+}

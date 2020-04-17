@@ -1,0 +1,32 @@
+# Case information
+type CaseInformation {
+  # Random code assigned for labelling cases; does not equate to the unique case number assigned by DOH
+  caseNumber: String
+
+  # Age
+  age: Int
+
+  # Sex
+  sex: Sex
+
+  # Date publicly announced as confirmed case
+  dateReportConfirmed: Date
+
+  # Date of recovery
+  dateRecovery: Date
+
+  # Date of death
+  dateDeath: Date
+
+  # Removal type (RECOVERED or DIED)
+  removalType: RemovalType
+
+  # Date publicly announced as removed
+  dateReportRemoved: Date
+
+  # Patient has been admitted to hospital?
+  admitted: Boolean
+
+  # Residence
+  residence: Residence
+}
