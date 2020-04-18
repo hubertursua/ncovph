@@ -8,24 +8,15 @@ export default function DataSource(): JSX.Element {
     <Box>
       <SectionTitle title="Data Source" />
       <Paragraph>
-        Data comes from the following official sources:
+        The data is uploaded manually from official sources daily around 8am and 5pm. Data comes from the following official sources:
         <ul>
           <li>
             <ExternalLink
-              href="https://ncovtracker.doh.gov.ph"
-              label="ncovtracker.doh.gov.ph (ArcGIS)"
-            />.
-          </li>
-          <li>
-            <ExternalLink
-              href="https://www.facebook.com/OfficialDOHgov"
-              label="Department of Health (Philippines) (Facebook Page)"
-            />.
+              href="https://drive.google.com/drive/folders/10VkiUA8x7TS2jkibhSZK1gmWxFM-EoZP"
+              label="DOH COVID-19 Data Drop"
+            />
           </li>
         </ul>
-      </Paragraph>
-      <Paragraph>
-        I'm expecting the data to become more incomplete and inaccurate as confirmed cases increase. This is due to the fact that the number of cases will overwhelm the investigators of DOH.
       </Paragraph>
     </Box>
   );

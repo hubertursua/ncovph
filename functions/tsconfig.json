@@ -4,9 +4,9 @@
     "esModuleInterop": true,
     "lib": [
       "esnext",
-      "esnext.asynciterable",
-      "dom"
+      "esnext.asynciterable"
     ],
+    "declaration": false,
     "experimentalDecorators": true,
     "module": "commonjs",
     "moduleResolution": "node",

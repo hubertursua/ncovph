@@ -8,13 +8,19 @@ export default function License(): JSX.Element {
     <Box>
       <SectionTitle title="License" />
       <Paragraph>
-        {`The source code of this project is under `}
-        <ExternalLink href="https://opensource.org/licenses/ISC" label="ISC license" />
+        {`All code except for the data under `}
+        <code>functions/src/data</code>
+        {` are under `}
+        <ExternalLink href="https://github.com/hyubs/ncovph/blob/master/LICENSE" label="ISC license" />
         {`.`}
+        All code except for the data under `functions/src/data` are under ISC license.
       </Paragraph>
       <Paragraph>
-        Data coming from the sources listed above are not owned by this project
-        or its contributors.
+        {`Data in `}
+        <code>functions/src/data</code>
+        {` and everything that is outputted by the API is governed by the `}
+        <ExternalLink href="https://drive.google.com/drive/folders/10VkiUA8x7TS2jkibhSZK1gmWxFM-EoZP" label="Privacy and Confidentiality Statement" />
+        {` of the Republic of the Philippines Department of Health.`}
       </Paragraph>
     </Box>
   );

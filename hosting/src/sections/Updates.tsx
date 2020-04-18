@@ -20,6 +20,26 @@ function Update({
 
 const updates = [
   <Update
+    key="April 18"
+    date="April 18"
+    text={
+      <>
+        {`The new version of the API is now available. The API underwent a complete rewrite and is now
+        using GraphQL.`}
+        <br /><br />
+        {`This first iteration comes with a collection of queries for the confirmed cases. The other data sets
+        will be added a few days later.`}
+        <br /><br />
+        {`The current data source has a lot of new data and I'm now able to create different aggregated results
+        from those. Some of the original data fields are no longer included like travel history and health
+        facilities. Because of these changes, I could not do an exact replica of the original endpoints. A complete
+        overhaul was required.`}
+        <br /><br />
+        {`Feel free to play around with the data and let me know if you have any comments.`}
+      </>
+    }
+  />,
+  <Update
     key="April 12"
     date="April 12"
     text={

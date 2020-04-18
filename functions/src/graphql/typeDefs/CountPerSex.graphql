@@ -1,0 +1,11 @@
+# Total count per sex
+type CountPerSex {
+  # Total for females
+  female: Int
+
+  # Total for males
+  male: Int
+
+  # Total for unknowns
+  unknown: Int
+}

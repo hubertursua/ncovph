@@ -1,5 +1,5 @@
-import { config } from 'firebase-functions';
 import * as admin from 'firebase-admin';
+import { config } from 'firebase-functions';
 
 if (config().runtime && config().runtime.env === 'production') {
   admin.initializeApp();

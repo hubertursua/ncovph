@@ -2,16 +2,20 @@
 
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://raw.githubusercontent.com/hyubs/ncovph/master/LICENSE)
 
-**DEPRECATED** This project is now marked as deprecated. DOH migrated to a new dashboard using a closed Tableau workbook. Unless the situation changes within the week, this project will be discontinued.
-
 API for COVID-19 data (Philippines)
 
 **IMPORTANT:** Always check the updates section of the [website](https://ncovph.com) for changes. I post an update every 1-2 days. You can also follow this repo to get notified for commits but summaries are posted in the website.
 
-## Docs
+## Data Source
 
-[https://ncovph.com](https://ncovph.com)
+* [DOH COVID-19 Data Drop](https://drive.google.com/drive/folders/10VkiUA8x7TS2jkibhSZK1gmWxFM-EoZP)
 
 ## Dependencies
 
 * [ncovph-parser](https://github.com/hyubs/ncovph-parser)
+
+# License
+
+All code except for the data under `functions/src/data` are under [ISC license](https://github.com/hyubs/ncovph/blob/master/LICENSE).
+
+Data in `functions/src/data` and everything that is outputted by the API is governed by the [Privacy and Confidentiality Statement](https://drive.google.com/drive/folders/10VkiUA8x7TS2jkibhSZK1gmWxFM-EoZP) of the Republic of the Philippines Department of Health.

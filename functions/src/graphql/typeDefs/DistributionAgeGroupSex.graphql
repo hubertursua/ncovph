@@ -1,0 +1,14 @@
+# Distribution of sex per age group
+type DistributionAgeGroupSex {
+  # Age group
+  ageGroup: String
+
+  # Total for females
+  female: Int
+
+  # Total for males
+  male: Int
+
+  # Total for unknowns
+  unknown: Int
+}
