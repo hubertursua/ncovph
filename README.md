@@ -18,4 +18,4 @@ API for COVID-19 data (Philippines)
 
 All code except for the data under `functions/src/data` are under [ISC license](https://github.com/hyubs/ncovph/blob/master/LICENSE).
 
-Data in `functions/src/data` and everything that is outputted by the API is governed by the [Privacy and Confidentiality Statement](https://drive.google.com/drive/folders/10VkiUA8x7TS2jkibhSZK1gmWxFM-EoZP) of the Republic of the Philippines Department of Health.
+Data in `functions/src/data` and everything that is outputted by the API is governed by the [Privacy and Confidentiality Statement](https://drive.google.com/open?id=1jlzCrN0l0uBj096XvkLCimBgJ30Qrp8l) of the Republic of the Philippines Department of Health.
