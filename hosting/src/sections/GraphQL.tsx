@@ -9,7 +9,7 @@ export default function GraphQL(): JSX.Element {
     <Box>
       <SectionTitle title="GraphQL" />
       <Paragraph>
-        The new versio of the API now uses GraphQL.
+        The new version of the API now uses GraphQL.
       </Paragraph>
       <Heading level={3} margin={{ bottom: "xsmall" }}>Endpoint and Playground</Heading>
       <Paragraph>
