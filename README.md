@@ -4,6 +4,12 @@
 
 GraphQL API for COVID-19 data (Philippines)
 
+## GraphQL Playground and Endpoint
+
+[https://ncovph.com/graphql](https://ncovph.com/graphql)
+
+## Updates
+
 **IMPORTANT:** Always check the updates section of the [website](https://ncovph.com) for changes. I post an update every 1-2 days. You can also follow this repo to get notified for commits but summaries are posted in the website.
 
 ## Data Source
@@ -14,7 +20,7 @@ GraphQL API for COVID-19 data (Philippines)
 
 * [ncovph-parser](https://github.com/hyubs/ncovph-parser)
 
-# License
+## License
 
 All code except for the data under `functions/src/data` are under [ISC license](https://github.com/hyubs/ncovph/blob/master/LICENSE).
 
