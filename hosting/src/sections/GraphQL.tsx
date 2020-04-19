@@ -11,12 +11,16 @@ export default function GraphQL(): JSX.Element {
       <Paragraph>
         The new version of the API now uses GraphQL.
       </Paragraph>
+
       <Heading level={3} margin={{ bottom: "xsmall" }}>Endpoint and Playground</Heading>
       <Paragraph>
         <ExternalLink href="https://ncovph.com/graphql" label="https://ncovph.com/graphql" />
       </Paragraph>
+
       <Heading level={3} margin={{ bottom: "xsmall" }}>Documentation</Heading>
       <Paragraph>Open the GraphQL Playground and click the Docs or Schema found at the right side of the screen.</Paragraph>
+      <Paragraph>Tip: While in the query editor, use the auto-complete feature by pressing <code className="inline-code">ctrl</code> + <code className="inline-code">space</code>.</Paragraph>
+
       <Heading level={3} margin={{ bottom: "xsmall" }}>Queries</Heading>
       <Paragraph>
         {`Send a POST request to `}

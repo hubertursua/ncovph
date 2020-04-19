@@ -9,7 +9,7 @@ export default function License(): JSX.Element {
       <SectionTitle title="License" />
       <Paragraph>
         {`All code except for the data under `}
-        <code>functions/src/data</code>
+        <code className="inline-code">functions/src/data</code>
         {` are under `}
         <ExternalLink href="https://github.com/hyubs/ncovph/blob/master/LICENSE" label="ISC license" />
         {`.`}
@@ -17,7 +17,7 @@ export default function License(): JSX.Element {
       </Paragraph>
       <Paragraph>
         {`Data in `}
-        <code>functions/src/data</code>
+        <code className="inline-code">functions/src/data</code>
         {` and everything that is outputted by the API is governed by the `}
         <ExternalLink href="https://drive.google.com/open?id=1jlzCrN0l0uBj096XvkLCimBgJ30Qrp8l" label="Privacy and Confidentiality Statement" />
         {` of the Republic of the Philippines Department of Health.`}

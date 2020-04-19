@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grommet, Box } from "grommet";
 import Main from "./Main"
+import './main.css';
 
 const theme = {
   global: {
