@@ -18,9 +18,10 @@ C102368,44,40 to 44,Female,4/14/2020,,,,,,NCR,City of Parañaque
 C102418,28,25 to 29,Female,3/23/2020,,,,,,NCR,City of Mandaluyong
 C102433,61,60 to 64,Male,4/3/2020,,3/27/2020,Died,4/11/2020,,Pampanga,Candaba
 C102654,32,30 to 34,Female,4/11/2020,,,,,Yes,NCR,City of Las Piñas
-C102795,63,60 to 64,Male,4/15/2020,,,Died,4/19/2020,Yes,NCR,City of Pasig
+C102795,63,60 to 64,Male,4/15/2020,,4/14/2020,Died,4/19/2020,Yes,NCR,City of Pasig
 C102803,54,50 to 54,Male,4/1/2020,,,,,Yes,NCR,Quezon City
 C102885,63,60 to 64,Female,4/6/2020,,,,,Yes,NCR,Quezon City
+C102962,37,35 to 39,Female,4/20/2020,,,,,Yes,NCR,City of Parañaque
 C103118,56,55 to 59,Female,4/5/2020,,,,,,Bataan,Limay
 C103281,42,40 to 44,Male,4/3/2020,,,,,Yes,NCR,City of Manila
 C103520,31,30 to 34,Male,4/16/2020,,,,,Yes,NCR,Quezon City
@@ -28,6 +29,7 @@ C103595,40,40 to 44,Male,4/11/2020,,,,,,NCR,City of Pasig
 C103631,47,45 to 49,Male,4/6/2020,,,,,No,NCR,Quezon City
 C103691,30,30 to 34,Male,4/17/2020,,,,,Yes,NCR,Caloocan City
 C103706,74,70 to 74,Female,4/9/2020,,4/11/2020,Died,4/12/2020,Yes,Quezon,Tiaong
+C104206,32,30 to 34,Male,4/20/2020,,,,,,,
 C104241,60,60 to 64,Female,3/29/2020,3/31/2020,,Recovered,4/19/2020,Yes,NCR,City of Muntinlupa
 C104303,48,45 to 49,Female,3/20/2020,4/9/2020,,Recovered,4/19/2020,Yes,NCR,City of Mandaluyong
 C104325,33,30 to 34,Male,4/14/2020,,,,,,,
@@ -43,7 +45,8 @@ C104939,67,65 to 69,Female,4/1/2020,,,,,No,NCR,City of Makati
 C105000,44,40 to 44,Female,4/15/2020,,,,,,,
 C105064,81,80+,Female,3/31/2020,4/1/2020,,Recovered,4/17/2020,Yes,NCR,City of Makati
 C105104,59,55 to 59,Male,4/8/2020,,,,,Yes,NCR,Pasay City
-C105379,63,60 to 64,Male,4/6/2020,,,,,,NCR,City of Makati
+C105372,64,60 to 64,Male,4/20/2020,,,,,,NCR,Quezon City
+C105379,63,60 to 64,Male,4/6/2020,,,,,No,NCR,City of Makati
 C105714,80,80+,Male,3/28/2020,,,,,Yes,NCR,City of San Juan
 C105961,53,50 to 54,Male,3/24/2020,,,,,Yes,NCR,City of Las Piñas
 C105982,68,65 to 69,Male,4/14/2020,,,,,,,
@@ -60,10 +63,13 @@ C107814,61,60 to 64,Male,4/6/2020,,,,,Yes,Laguna,City of Santa Rosa
 C107955,80,80+,Female,4/6/2020,,,,,Yes,NCR,City of Mandaluyong
 C108109,18,15 to 19,Female,4/16/2020,,,,,,Cebu,Cebu City (Capital)
 C108116,33,30 to 34,Female,4/14/2020,,,,,Yes,NCR,City of Pasig
+C108229,28,25 to 29,Female,4/20/2020,,,,,Yes,NCR,City of Manila
 C108474,18,15 to 19,Female,4/11/2020,,,,,,NCR,Quezon City
+C108595,55,55 to 59,Male,4/20/2020,,,,,,Rizal,City of Antipolo (Capital)
 C108997,30,30 to 34,Female,3/28/2020,,,,,Yes,NCR,City of Mandaluyong
 C109421,41,40 to 44,Female,4/3/2020,,,,,,,
 C109492,62,60 to 64,Female,4/3/2020,,,Died,4/14/2020,,,
+C109549,31,30 to 34,Male,4/20/2020,,,,,,Laguna,Los Baños
 C110039,57,55 to 59,Male,3/31/2020,,,,,Yes,NCR,Quezon City
 C110083,73,70 to 74,Male,4/3/2020,,,,,Yes,Rizal,Angono
 C110094,35,35 to 39,Male,4/13/2020,,,,,Yes,NCR,City of Makati
@@ -83,12 +89,13 @@ C111820,40,40 to 44,Male,4/17/2020,,,,,Yes,NCR,Quezon City
 C112128,28,25 to 29,Male,4/19/2020,,,,,,,
 C112220,62,60 to 64,Male,4/19/2020,,,,,Yes,NCR,City of Manila
 C112297,79,75 to 79,Male,4/4/2020,,4/1/2020,Died,4/7/2020,Yes,,
+C112337,72,70 to 74,Male,4/20/2020,,,,,Yes,NCR,Taguig City
 C112357,60,60 to 64,Male,4/2/2020,,,,,Yes,NCR,City of Manila
 C112473,27,25 to 29,Female,4/16/2020,,,,,,Cavite,Imus City
 C112486,39,35 to 39,Female,4/13/2020,,,,,Yes,NCR,City of Makati
 C112510,58,55 to 59,Female,3/28/2020,,4/4/2020,Died,4/7/2020,Yes,Rizal,Cainta
 C112709,26,25 to 29,Female,4/6/2020,,,,,Yes,NCR,City of Manila
-C112779,57,55 to 59,Male,3/31/2020,,,,,Yes,NCR,City of Parañaque
+C112779,57,55 to 59,Male,3/31/2020,,,Died,4/20/2020,Yes,NCR,City of Parañaque
 C112981,65,65 to 69,Male,4/9/2020,,,,,Yes,Laguna,San Pablo City
 C113002,8,5 to 9,Female,4/15/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
 C113066,55,55 to 59,Male,4/3/2020,,,,,Yes,NCR,Pasay City
@@ -98,7 +105,7 @@ C114247,63,60 to 64,Female,3/29/2020,4/6/2020,,Recovered,4/14/2020,Yes,NCR,City 
 C114436,66,65 to 69,Male,4/2/2020,,,,,,NCR,City of Manila
 C114575,32,30 to 34,Male,4/3/2020,4/13/2020,,Recovered,4/17/2020,Yes,NCR,City of Manila
 C114716,32,30 to 34,Male,3/28/2020,,,,,Yes,,
-C114745,55,55 to 59,Male,3/29/2020,,,,,Yes,NCR,City of Makati
+C114745,55,55 to 59,Male,3/29/2020,,,Died,4/20/2020,Yes,NCR,City of Makati
 C114904,26,25 to 29,Female,4/19/2020,,,,,,NCR,City of Muntinlupa
 C115035,59,55 to 59,Male,3/28/2020,4/7/2020,,Recovered,4/16/2020,Yes,NCR,City of San Juan
 C115159,23,20 to 24,Male,4/17/2020,,,,,Yes,NCR,Caloocan City
@@ -108,6 +115,7 @@ C115419,73,70 to 74,Male,4/17/2020,,,,,,,
 C115464,26,25 to 29,Female,4/16/2020,,,,,Yes,NCR,City of Makati
 C115556,64,60 to 64,Male,3/30/2020,,,,,,Rizal,Taytay
 C115622,44,40 to 44,Male,4/16/2020,,,,,Yes,Laguna,City of Biñan
+C116220,25,25 to 29,Female,4/20/2020,,,,,Yes,NCR,City of Manila
 C116314,47,45 to 49,Male,4/11/2020,,,,,,NCR,Quezon City
 C116396,69,65 to 69,Female,4/15/2020,,,,,Yes,Rizal,Taytay
 C116584,41,40 to 44,Male,4/7/2020,,,,,,NCR,City of Manila
@@ -119,9 +127,11 @@ C116983,34,30 to 34,Female,4/9/2020,,,,,Yes,NCR,Quezon City
 C117058,28,25 to 29,Male,3/17/2020,,,,,Yes,NCR,City of Manila
 C117075,39,35 to 39,Female,4/11/2020,,,,,Yes,,
 C117346,63,60 to 64,Male,3/28/2020,,3/24/2020,Died,4/18/2020,Yes,NCR,Quezon City
+C117591,11,10 to 14,Male,4/20/2020,,,,,,Bulacan,San Miguel
 C117623,61,60 to 64,Male,3/31/2020,,,,,Yes,NCR,City of Mandaluyong
 C117650,49,45 to 49,Male,3/24/2020,,,,,Yes,NCR,Quezon City
 C117684,62,60 to 64,Male,3/31/2020,,,,,,NCR,Quezon City
+C117773,42,40 to 44,Female,4/20/2020,,,,,,,
 C118263,56,55 to 59,Female,4/13/2020,,,,,Yes,Rizal,Teresa
 C118363,65,65 to 69,Male,4/6/2020,,,,,,Cavite,Cavite City
 C118489,57,55 to 59,Male,3/29/2020,,,,,Yes,NCR,Quezon City
@@ -142,6 +152,8 @@ C120530,69,65 to 69,Female,4/15/2020,,,,,,NCR,City of Parañaque
 C120674,51,50 to 54,Male,3/29/2020,,,,,Yes,NCR,City of Parañaque
 C120717,37,35 to 39,Male,4/11/2020,,,,,,NCR,City of Malabon
 C120768,75,75 to 79,Male,3/31/2020,,,,,Yes,NCR,City of Pasig
+C120800,48,45 to 49,Male,4/20/2020,,,,,,NCR,Pateros
+C120874,62,60 to 64,Female,4/20/2020,,,,,,NCR,Taguig City
 C120987,40,40 to 44,Male,4/8/2020,,,,,,NCR,Quezon City
 C121199,22,20 to 24,Female,4/8/2020,,,,,,Laguna,City of Santa Rosa
 C121204,56,55 to 59,Female,4/14/2020,,,,,,Rizal,Binangonan
@@ -156,7 +168,7 @@ C122076,49,45 to 49,Female,4/5/2020,,,,,Yes,NCR,City of Manila
 C122101,41,40 to 44,Female,4/11/2020,,,,,Yes,NCR,City of Valenzuela
 C122148,20,20 to 24,Female,4/16/2020,,,,,,La Union,City of San Fernando (Capital)
 C122271,67,65 to 69,Male,4/11/2020,,,,,Yes,NCR,City of Makati
-C122498,42,40 to 44,Male,3/22/2020,,,,,Yes,NCR,City of Manila
+C122498,42,40 to 44,Male,3/22/2020,,,Recovered,4/20/2020,Yes,NCR,City of Manila
 C122610,27,25 to 29,Female,4/11/2020,,,,,,NCR,Pasay City
 C123010,41,40 to 44,Male,3/28/2020,,,,,Yes,NCR,City of Valenzuela
 C123178,65,65 to 69,Male,3/15/2020,,3/17/2020,Died,3/20/2020,Yes,NCR,Quezon City
@@ -183,6 +195,7 @@ C125306,29,25 to 29,Male,3/29/2020,,,,,Yes,NCR,City of Mandaluyong
 C125327,69,65 to 69,Male,4/14/2020,,,,,,,
 C125779,54,50 to 54,Male,3/28/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
 C125827,59,55 to 59,Female,4/3/2020,,,,,,,
+C125856,29,25 to 29,Male,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C125906,62,60 to 64,Male,3/29/2020,,,,,Yes,NCR,City of Makati
 C125978,62,60 to 64,Female,4/3/2020,,,,,Yes,NCR,City of Muntinlupa
 C126088,69,65 to 69,Female,4/6/2020,,,,,Yes,NCR,City of Makati
@@ -218,10 +231,10 @@ C129008,60,60 to 64,Male,4/13/2020,,,,,Yes,Batangas,Lipa City
 C129108,33,30 to 34,Male,4/19/2020,,,,,,,
 C129279,49,45 to 49,Female,4/8/2020,,,,,,,
 C129371,67,65 to 69,Male,4/1/2020,,,,,Yes,NCR,City of Manila
-C129601,89,80+,Male,4/8/2020,,,,,Yes,NCR,Caloocan City
+C129601,89,80+,Male,4/8/2020,,4/3/2020,Died,4/20/2020,Yes,NCR,Caloocan City
 C130165,33,30 to 34,Female,4/16/2020,,,,,Yes,NCR,Caloocan City
 C130389,29,25 to 29,Male,3/11/2020,,,,,Yes,Rizal,Cainta
-C130493,82,80+,Male,4/17/2020,,,,,,NCR,Quezon City
+C130493,82,80+,Male,4/17/2020,,,,,Yes,NCR,Quezon City
 C130591,57,55 to 59,Female,3/7/2020,,3/12/2020,Died,3/12/2020,Yes,Rizal,Cainta
 C130632,21,20 to 24,Male,4/9/2020,,,,,Yes,NCR,City of Manila
 C130666,59,55 to 59,Female,3/13/2020,,,,,Yes,NCR,Quezon City
@@ -245,11 +258,12 @@ C133008,58,55 to 59,Male,4/2/2020,,3/24/2020,Died,4/11/2020,Yes,Pangasinan,Linga
 C133287,40,40 to 44,Male,3/27/2020,,,,,Yes,Negros Occidental,Bacolod City (Capital)
 C133595,68,65 to 69,Female,4/6/2020,,,,,,NCR,City of Manila
 C133945,55,55 to 59,Female,3/24/2020,3/31/2020,,Recovered,4/8/2020,Yes,NCR,City of Makati
-C134147,66,65 to 69,Male,4/12/2020,,,Died,4/17/2020,Yes,NCR,Quezon City
+C134147,66,65 to 69,Male,4/12/2020,,4/9/2020,Died,4/17/2020,Yes,NCR,Quezon City
 C134343,1,0 to 4,Male,4/15/2020,,,,,,NCR,Quezon City
 C134474,51,50 to 54,Female,4/14/2020,,,,,,NCR,City of Las Piñas
 C134809,51,50 to 54,Female,4/13/2020,,,,,Yes,NCR,Quezon City
 C134913,49,45 to 49,Male,4/9/2020,,,,,,NCR,City of San Juan
+C134955,31,30 to 34,Female,4/20/2020,,,,,Yes,NCR,City of Muntinlupa
 C134980,24,20 to 24,Male,4/9/2020,,,,,Yes,NCR,City of Manila
 C135115,70,70 to 74,Male,3/31/2020,4/6/2020,,Recovered,4/9/2020,Yes,Cebu,Lapu-Lapu City (Opon)
 C135531,31,30 to 34,Female,4/13/2020,,,,,Yes,NCR,Quezon City
@@ -293,11 +307,11 @@ C140585,54,50 to 54,Female,4/14/2020,,,,,,Rizal,Binangonan
 C140768,49,45 to 49,Female,4/16/2020,,,,,Yes,NCR,City of Manila
 C140850,26,25 to 29,Female,4/2/2020,,,,,No,NCR,City of Mandaluyong
 C141077,50,50 to 54,Male,4/11/2020,,,,,,Cavite,Bacoor City
-C141588,35,35 to 39,Female,4/11/2020,,,,,,NCR,City of Pasig
+C141588,35,35 to 39,Female,4/11/2020,,,,,Yes,NCR,City of Pasig
 C141665,29,25 to 29,Female,4/3/2020,,,,,,Tarlac,City of Tarlac (Capital)
 C141734,59,55 to 59,Male,3/28/2020,,3/29/2020,Died,4/8/2020,Yes,Bulacan,City of Malolos (Capital)
 C141821,45,45 to 49,Female,4/6/2020,,,,,,NCR,Quezon City
-C141882,26,25 to 29,Female,4/18/2020,,,,,Yes,NCR,Quezon City
+C141882,26,25 to 29,Female,4/18/2020,,4/11/2020,Died,4/20/2020,Yes,NCR,Quezon City
 C141896,65,65 to 69,Female,4/3/2020,,,,,,Cavite,City of Dasmariñas
 C141971,30,30 to 34,Male,4/3/2020,,,,,,,
 C142128,42,40 to 44,Female,4/17/2020,,,,,Yes,NCR,Quezon City
@@ -327,7 +341,7 @@ C145122,56,55 to 59,Female,4/1/2020,4/2/2020,,Recovered,4/15/2020,Yes,NCR,City o
 C145126,31,30 to 34,Male,4/6/2020,,,,,Yes,NCR,Quezon City
 C145164,75,75 to 79,Male,3/31/2020,,,,,Yes,NCR,City of Las Piñas
 C145355,67,65 to 69,Male,4/11/2020,,,,,,NCR,Pasay City
-C145502,62,60 to 64,Female,3/29/2020,,,,,Yes,NCR,Quezon City
+C145502,62,60 to 64,Female,3/29/2020,4/10/2020,,Recovered,4/20/2020,Yes,NCR,Quezon City
 C145676,30,30 to 34,Female,4/14/2020,,,,,,NCR,City of Makati
 C145931,27,25 to 29,Female,4/12/2020,,,,,Yes,NCR,Taguig City
 C145966,20,20 to 24,Male,4/14/2020,,,,,,NCR,City of Parañaque
@@ -365,6 +379,7 @@ C149940,45,45 to 49,Female,3/31/2020,4/8/2020,,Recovered,4/14/2020,Yes,Cebu,Cebu
 C150107,64,60 to 64,Male,3/31/2020,4/12/2020,,Recovered,4/9/2020,Yes,Cebu,Cebu City (Capital)
 C150329,22,20 to 24,Female,4/15/2020,,,,,Yes,NCR,City of Pasig
 C150401,58,55 to 59,Female,4/6/2020,,,,,Yes,Cavite,Bacoor City
+C150411,58,55 to 59,Female,4/20/2020,,,,,Yes,NCR,Pasay City
 C150444,60,60 to 64,Female,3/21/2020,,,Recovered,4/19/2020,Yes,NCR,Quezon City
 C150554,47,45 to 49,Male,4/4/2020,,4/7/2020,Died,4/13/2020,No,NCR,City of Pasig
 C150682,46,45 to 49,Male,3/30/2020,4/14/2020,,Recovered,4/19/2020,No,Benguet,Baguio City
@@ -379,7 +394,8 @@ C151440,1,0 to 4,Male,4/16/2020,,,,,,Cebu,Cebu City (Capital)
 C151704,73,70 to 74,Male,4/15/2020,,,,,Yes,NCR,City of Parañaque
 C151854,53,50 to 54,Male,3/28/2020,,,,,Yes,Bataan,Abucay
 C152018,51,50 to 54,Female,3/31/2020,,,,,Yes,Nueva Ecija,Santa Rosa
-C152192,33,30 to 34,Male,4/1/2020,,,,,Yes,Davao del Norte,City of Tagum (Capital)
+C152146,5,5 to 9,Male,4/20/2020,,,,,,Rizal,City of Antipolo (Capital)
+C152192,33,30 to 34,Male,4/1/2020,4/13/2020,,Recovered,4/20/2020,Yes,Davao del Norte,City of Tagum (Capital)
 C152310,73,70 to 74,Female,4/5/2020,,,,,Yes,NCR,Taguig City
 C152379,47,45 to 49,Male,4/6/2020,,,,,Yes,NCR,Quezon City
 C152629,65,65 to 69,Male,3/31/2020,,,,,Yes,NCR,Quezon City
@@ -412,6 +428,7 @@ C155911,1,0 to 4,Female,4/19/2020,,,,,,NCR,Caloocan City
 C155971,70,70 to 74,Male,4/18/2020,,,,,,Laguna,Los Baños
 C156063,37,35 to 39,Female,3/28/2020,4/4/2020,,Recovered,4/9/2020,Yes,NCR,City of Makati
 C156064,62,60 to 64,Female,4/5/2020,,3/31/2020,Died,4/13/2020,,Rizal,City of Antipolo (Capital)
+C156554,63,60 to 64,Male,4/20/2020,,,,,,,
 C156581,31,30 to 34,Male,4/13/2020,,,,,Yes,NCR,Quezon City
 C156763,56,55 to 59,Male,3/30/2020,,,,,Yes,Rizal,Taytay
 C156838,72,70 to 74,Female,4/17/2020,,,,,Yes,NCR,Quezon City
@@ -455,7 +472,7 @@ C161437,55,55 to 59,Male,4/5/2020,,,,,,,
 C162309,67,65 to 69,Male,4/8/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
 C162611,52,50 to 54,Female,3/28/2020,4/2/2020,,Recovered,4/9/2020,Yes,Isabela,Alicia
 C162715,59,55 to 59,Female,4/6/2020,,,,,Yes,Camarines Sur,Naga City
-C162865,24,20 to 24,Male,3/21/2020,,,,,,Bataan,Limay
+C162865,24,20 to 24,Male,3/21/2020,,,Recovered,4/20/2020,Yes,Bataan,Limay
 C163157,63,60 to 64,Male,4/17/2020,,,,,,Cebu,Cebu City (Capital)
 C163236,24,20 to 24,Female,4/18/2020,,,,,,Laguna,Los Baños
 C163453,63,60 to 64,Male,4/12/2020,,,,,,NCR,City of Parañaque
@@ -472,10 +489,12 @@ C164727,29,25 to 29,Female,4/5/2020,,,,,Yes,NCR,City of San Juan
 C164790,38,35 to 39,Male,3/28/2020,4/7/2020,,Recovered,4/18/2020,Yes,NCR,Quezon City
 C164882,32,30 to 34,Male,4/7/2020,,,,,Yes,NCR,Quezon City
 C164941,45,45 to 49,Female,3/31/2020,4/11/2020,,Recovered,4/17/2020,Yes,NCR,City of Manila
+C165006,24,20 to 24,Male,4/20/2020,,,,,,,
 C165009,25,25 to 29,Male,3/31/2020,,,,,Yes,Rizal,Cainta
 C165049,37,35 to 39,Female,4/6/2020,,,,,,Cavite,Bacoor City
 C165122,71,70 to 74,Male,4/9/2020,,,,,Yes,Quezon,Candelaria
 C165171,22,20 to 24,Male,4/16/2020,,,,,,NCR,City of Muntinlupa
+C165276,19,15 to 19,Male,4/20/2020,,,,,,NCR,City of Manila
 C165460,73,70 to 74,Male,4/14/2020,,,,,,,
 C165486,32,30 to 34,Female,4/2/2020,,,,,Yes,NCR,Quezon City
 C165828,77,75 to 79,Female,3/31/2020,,,,,Yes,NCR,City of Manila
@@ -494,10 +513,13 @@ C168666,31,30 to 34,Male,4/16/2020,,,,,Yes,Rizal,Cainta
 C168691,61,60 to 64,Male,3/31/2020,,,,,Yes,Rizal,Cainta
 C168701,40,40 to 44,Female,3/29/2020,,,,,Yes,Davao del Sur,Davao City
 C168715,49,45 to 49,Male,4/6/2020,,,,,,NCR,Taguig City
+C168841,48,45 to 49,Female,4/20/2020,,,,,Yes,Laguna,City of Biñan
 C168933,78,75 to 79,Male,4/17/2020,,,,,,Cebu,Cebu City (Capital)
 C169123,49,45 to 49,Male,3/29/2020,,,,,Yes,NCR,Quezon City
 C169234,54,50 to 54,Female,3/28/2020,,,,,Yes,NCR,City of Pasig
-C169251,57,55 to 59,Male,4/2/2020,,,,,No,,
+C169251,57,55 to 59,Male,4/2/2020,,,,,No,NCR,Quezon City
+C169264,47,45 to 49,Female,4/20/2020,,,,,,,
+C169293,46,45 to 49,Female,4/20/2020,,,,,,NCR,City of Manila
 C169364,67,65 to 69,Male,3/26/2020,,,,,Yes,NCR,Quezon City
 C169565,75,75 to 79,Female,4/3/2020,,,,,,,
 C170357,63,60 to 64,Male,3/29/2020,,,,,Yes,Cavite,Imus City
@@ -530,7 +552,7 @@ C174439,43,40 to 44,Female,4/19/2020,,,,,Yes,NCR,City of Manila
 C174546,27,25 to 29,Male,4/14/2020,,,,,Yes,NCR,City of San Juan
 C174579,59,55 to 59,Female,4/10/2020,,,,,Yes,NCR,Quezon City
 C174646,60,60 to 64,Male,4/9/2020,,,,,Yes,NCR,Pasay City
-C174687,28,25 to 29,Male,4/15/2020,,,,,,Quezon,Calauag
+C174687,28,25 to 29,Male,4/15/2020,,,,,Yes,Quezon,Calauag
 C174692,64,60 to 64,Male,3/26/2020,,3/24/2020,Died,3/28/2020,Yes,NCR,City of San Juan
 C174792,54,50 to 54,Male,3/22/2020,4/1/2020,,Recovered,4/11/2020,Yes,NCR,Taguig City
 C174982,39,35 to 39,Female,4/17/2020,,,,,,NCR,City of Las Piñas
@@ -561,6 +583,7 @@ C179409,42,40 to 44,Male,3/28/2020,,,,,Yes,NCR,Taguig City
 C179588,24,20 to 24,Male,4/16/2020,,,,,Yes,NCR,City of Manila
 C179697,60,60 to 64,Female,3/30/2020,,,,,,,
 C179790,39,35 to 39,Male,3/14/2020,3/31/2020,,Recovered,3/31/2020,Yes,Abra,Manabo
+C179812,68,65 to 69,Male,4/20/2020,,,,,Yes,Lanao del Sur,Marawi City (Capital)
 C179884,63,60 to 64,Female,3/24/2020,,3/23/2020,Died,4/3/2020,Yes,NCR,City of Makati
 C180082,51,50 to 54,Male,4/9/2020,,4/10/2020,Died,4/15/2020,Yes,NCR,City of San Juan
 C180338,37,35 to 39,Female,4/7/2020,,,,,Yes,NCR,Taguig City
@@ -569,6 +592,7 @@ C180395,71,70 to 74,Female,4/14/2020,,,,,,,
 C180419,51,50 to 54,Female,3/27/2020,,3/14/2020,Died,4/3/2020,Yes,NCR,Quezon City
 C180430,52,50 to 54,Female,3/29/2020,4/4/2020,,Recovered,4/7/2020,Yes,NCR,Caloocan City
 C180511,50,50 to 54,Female,3/31/2020,,,,,No,NCR,City of Pasig
+C180676,32,30 to 34,Female,4/20/2020,,,,,,NCR,City of Mandaluyong
 C181020,24,20 to 24,Female,4/5/2020,,,,,Yes,,
 C181083,32,30 to 34,Male,4/3/2020,,,,,No,NCR,Quezon City
 C181102,42,40 to 44,Male,4/8/2020,,,,,Yes,NCR,City of Parañaque
@@ -615,7 +639,8 @@ C186776,28,25 to 29,Male,4/18/2020,,,,,Yes,NCR,City of Pasig
 C186896,34,30 to 34,Male,4/15/2020,,,,,Yes,NCR,City of Valenzuela
 C186905,77,75 to 79,Male,3/21/2020,3/23/2020,,Recovered,4/10/2020,Yes,NCR,City of San Juan
 C186975,48,45 to 49,Male,3/17/2020,3/28/2020,,Recovered,3/31/2020,Yes,NCR,City of Pasig
-C186991,39,35 to 39,Male,4/14/2020,,,,,,,
+C186991,39,35 to 39,Male,4/14/2020,,,,,Yes,NCR,Quezon City
+C187181,73,70 to 74,Female,4/20/2020,,,,,,,
 C187205,65,65 to 69,Female,4/1/2020,,,,,,,
 C187243,33,30 to 34,Female,4/15/2020,,,,,Yes,NCR,Quezon City
 C187445,58,55 to 59,Male,4/18/2020,,,,,Yes,Nueva Ecija,
@@ -633,6 +658,7 @@ C188798,30,30 to 34,Male,4/6/2020,,,,,Yes,NCR,City of Makati
 C188811,74,70 to 74,Male,3/17/2020,,4/4/2020,Died,4/7/2020,Yes,NCR,City of Parañaque
 C188837,30,30 to 34,Female,4/11/2020,,,,,Yes,Pampanga,City of San Fernando (Capital)
 C188849,28,25 to 29,Male,4/14/2020,,,,,Yes,NCR,City of San Juan
+C188895,63,60 to 64,Female,4/20/2020,,,,,,NCR,City of Manila
 C189001,72,70 to 74,Male,3/27/2020,,,,,Yes,NCR,City of Marikina
 C189098,52,50 to 54,Male,4/6/2020,,,,,,NCR,Quezon City
 C189191,55,55 to 59,Male,3/31/2020,,4/4/2020,Died,4/11/2020,Yes,Quezon,Candelaria
@@ -686,6 +712,7 @@ C196323,31,30 to 34,Female,4/9/2020,,,,,Yes,NCR,Quezon City
 C196476,25,25 to 29,Female,3/31/2020,,,,,Yes,NCR,City of Manila
 C196518,64,60 to 64,Male,3/27/2020,,,,,Yes,Bulacan,City of Meycauayan
 C196546,4,0 to 4,Male,4/12/2020,,,,,Yes,Oriental Mindoro,Bongabong
+C196791,57,55 to 59,Male,4/20/2020,,,,,,NCR,City of Pasig
 C197034,50,50 to 54,Male,4/3/2020,,3/22/2020,Died,4/9/2020,,Lanao del Norte,Iligan City
 C197083,70,70 to 74,Male,4/3/2020,,,,,Yes,,
 C197238,23,20 to 24,Male,4/14/2020,,,,,Yes,Rizal,Binangonan
@@ -722,6 +749,7 @@ C200224,31,30 to 34,Female,4/13/2020,,,,,,NCR,City of Parañaque
 C200237,53,50 to 54,Female,3/22/2020,,,,,No,NCR,City of Pasig
 C200296,41,40 to 44,Male,4/6/2020,,,,,,Nueva Ecija,Cabanatuan City
 C200300,25,25 to 29,Female,4/7/2020,,,,,,Laguna,City of Calamba
+C200440,47,45 to 49,Male,4/20/2020,,,,,,,
 C200680,57,55 to 59,Male,4/2/2020,,,,,Yes,Cebu,Cebu City (Capital)
 C200742,30,30 to 34,Female,4/17/2020,,,,,,NCR,City of Muntinlupa
 C200810,55,55 to 59,Female,4/3/2020,,,,,No,NCR,Quezon City
@@ -772,14 +800,16 @@ C206902,67,65 to 69,Male,4/3/2020,,,,,,NCR,Quezon City
 C206953,3,0 to 4,Male,3/31/2020,4/11/2020,,Recovered,4/14/2020,Yes,Marinduque,Mogpog
 C206954,53,50 to 54,Male,4/6/2020,,,,,,NCR,Taguig City
 C207002,59,55 to 59,Female,4/13/2020,,,,,Yes,NCR,Quezon City
+C207058,60,60 to 64,Female,4/20/2020,,,,,,,
 C207410,27,25 to 29,Female,4/3/2020,,,,,Yes,NCR,Pasay City
 C207515,65,65 to 69,Male,3/27/2020,,3/19/2020,Died,4/5/2020,Yes,Nueva Vizcaya,Solano
 C207523,51,50 to 54,Male,3/29/2020,4/9/2020,,Recovered,4/14/2020,Yes,NCR,Pasay City
 C207579,64,60 to 64,Female,4/15/2020,,,,,Yes,NCR,City of Parañaque
+C207633,71,70 to 74,Female,4/20/2020,,,,,Yes,Davao del Sur,Davao City
 C207683,44,40 to 44,Male,3/14/2020,,,,,Yes,NCR,City of Pasig
 C207813,68,65 to 69,Female,3/24/2020,,,,,Yes,NCR,Quezon City
-C207856,75,75 to 79,Male,4/17/2020,,,,,,NCR,Quezon City
-C207872,41,40 to 44,Male,4/9/2020,,,,,No,NCR,Quezon City
+C207856,75,75 to 79,Male,4/17/2020,,4/10/2020,Died,4/20/2020,,NCR,Quezon City
+C207872,41,40 to 44,Male,4/9/2020,,,,,Yes,NCR,Quezon City
 C207919,28,25 to 29,Female,4/19/2020,,,,,,Laguna,City of Calamba
 C207988,22,20 to 24,Female,4/11/2020,,,,,Yes,NCR,City of Parañaque
 C208354,75,75 to 79,Male,4/3/2020,,,,,Yes,Bataan,Samal
@@ -853,7 +883,7 @@ C216534,42,40 to 44,Male,4/19/2020,,,,,,,
 C216993,32,30 to 34,Male,4/4/2020,,,,,Yes,,
 C217033,72,70 to 74,Female,4/6/2020,,4/6/2020,Died,4/12/2020,Yes,NCR,Caloocan City
 C217155,57,55 to 59,Female,3/29/2020,,,,,Yes,Nueva Ecija,City of Gapan
-C217164,50,50 to 54,Female,4/11/2020,,,,,Yes,Laguna,City of San Pedro
+C217164,50,50 to 54,Female,4/11/2020,,,,,,Laguna,City of San Pedro
 C217189,80,80+,Female,4/3/2020,,,,,,,
 C217585,34,30 to 34,Male,4/15/2020,,,,,Yes,NCR,Caloocan City
 C217690,39,35 to 39,Male,3/27/2020,,3/18/2020,Died,4/12/2020,Yes,NCR,Caloocan City
@@ -861,17 +891,18 @@ C217783,50,50 to 54,Female,4/15/2020,,,,,Yes,NCR,City of Makati
 C217915,58,55 to 59,Male,3/31/2020,,4/8/2020,Died,4/12/2020,Yes,NCR,City of Las Piñas
 C217948,45,45 to 49,Female,3/30/2020,,,,,No,Davao del Sur,Davao City
 C218300,64,60 to 64,Male,4/3/2020,,,,,Yes,NCR,City of Makati
-C218496,48,45 to 49,Male,4/14/2020,,,,,,,
+C218496,48,45 to 49,Male,4/14/2020,,,,,Yes,NCR,Quezon City
 C218501,27,25 to 29,Female,4/12/2020,,,,,Yes,NCR,Pasay City
 C218551,26,25 to 29,Male,4/15/2020,,,,,,NCR,City of Mandaluyong
 C218752,66,65 to 69,Male,4/3/2020,,,,,Yes,NCR,Quezon City
 C218862,30,30 to 34,Female,4/16/2020,,,,,,NCR,Pasay City
 C218953,51,50 to 54,Male,4/2/2020,,,,,Yes,NCR,City of Makati
+C219129,22,20 to 24,Female,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C219159,31,30 to 34,Female,3/15/2020,,,,,Yes,NCR,Pasay City
 C219197,18,15 to 19,Male,4/14/2020,,,,,,NCR,City of Parañaque
 C219288,47,45 to 49,Female,3/25/2020,,,,,Yes,NCR,City of Makati
 C219506,59,55 to 59,Male,3/14/2020,,,Recovered,4/18/2020,Yes,NCR,City of San Juan
-C219930,51,50 to 54,Male,3/28/2020,,,,,Yes,Rizal,San Mateo
+C219930,51,50 to 54,Male,3/28/2020,4/16/2020,,Recovered,4/20/2020,Yes,Rizal,San Mateo
 C219989,38,35 to 39,Male,4/14/2020,,,,,Yes,NCR,Quezon City
 C220033,61,60 to 64,Male,3/31/2020,,,,,,NCR,City of Pasig
 C220552,61,60 to 64,Female,3/24/2020,4/7/2020,,Recovered,4/13/2020,Yes,Rizal,Cainta
@@ -910,6 +941,7 @@ C223510,58,55 to 59,Male,4/4/2020,,,,,,,
 C223754,40,40 to 44,Male,3/24/2020,3/28/2020,,Recovered,4/16/2020,Yes,NCR,City of Manila
 C223768,74,70 to 74,Male,3/27/2020,,3/29/2020,Died,3/31/2020,Yes,NCR,Quezon City
 C223923,39,35 to 39,Female,4/11/2020,,,,,No,NCR,City of Las Piñas
+C224131,35,35 to 39,Male,4/20/2020,,,,,Yes,NCR,City of Manila
 C224155,66,65 to 69,Female,4/6/2020,,,,,Yes,NCR,Quezon City
 C224665,49,45 to 49,Male,4/2/2020,,,,,,NCR,Quezon City
 C224832,7,5 to 9,Female,4/3/2020,,,,,,NCR,Taguig City
@@ -925,13 +957,14 @@ C226366,55,55 to 59,Male,3/28/2020,,,,,Yes,NCR,Quezon City
 C226465,72,70 to 74,Male,3/31/2020,,,,,Yes,Cebu,Cebu City (Capital)
 C226538,46,45 to 49,Female,4/13/2020,,,,,,Laguna,City of Calamba
 C226720,67,65 to 69,Female,4/6/2020,,,,,No,NCR,City of Manila
-C226849,21,20 to 24,Male,4/17/2020,,,,,,,
+C226849,21,20 to 24,Male,4/17/2020,,,,,,NCR,City of Mandaluyong
 C226876,60,60 to 64,Male,4/9/2020,,,,,Yes,Davao del Norte,City of Panabo
 C227090,60,60 to 64,Female,4/13/2020,,,,,,NCR,City of Mandaluyong
 C227320,52,50 to 54,Male,4/15/2020,,,,,Yes,NCR,Quezon City
 C227463,36,35 to 39,Female,4/15/2020,,,,,Yes,NCR,City of Makati
 C227510,29,25 to 29,Female,4/13/2020,,,,,Yes,NCR,Quezon City
 C227563,39,35 to 39,Male,4/18/2020,,,,,Yes,Laguna,Cabuyao City
+C227765,7,5 to 9,Female,4/20/2020,,,,,,Laguna,Los Baños
 C227875,49,45 to 49,Female,4/18/2020,,,,,,NCR,City of Parañaque
 C227962,29,25 to 29,Male,4/6/2020,,,,,No,,
 C228093,22,20 to 24,Female,4/19/2020,,,,,,,
@@ -948,9 +981,11 @@ C229116,30,30 to 34,Male,3/17/2020,4/6/2020,,Recovered,4/12/2020,Yes,Cotabato Ci
 C229256,58,55 to 59,Male,3/31/2020,,,,,Yes,NCR,Quezon City
 C229320,47,45 to 49,Male,4/13/2020,,,,,Yes,NCR,Pasay City
 C229374,45,45 to 49,Male,4/14/2020,,,,,,,
+C229457,55,55 to 59,Male,4/20/2020,,,,,,,
 C229479,78,75 to 79,Male,4/19/2020,,,,,Yes,NCR,Pasay City
 C229526,59,55 to 59,Male,3/31/2020,,3/29/2020,Died,4/9/2020,Yes,NCR,City of Las Piñas
 C229859,60,60 to 64,Male,4/3/2020,,,,,,Cavite,Bacoor City
+C229948,44,40 to 44,Female,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C230031,71,70 to 74,Female,4/19/2020,,,,,,Cebu,Cebu City (Capital)
 C230197,58,55 to 59,Female,4/18/2020,,,,,Yes,NCR,City of Manila
 C230293,81,80+,Female,4/6/2020,,,,,No,NCR,Quezon City
@@ -974,6 +1009,7 @@ C231997,41,40 to 44,Male,4/6/2020,,,,,Yes,NCR,City of San Juan
 C232120,58,55 to 59,Male,4/1/2020,,,,,Yes,NCR,Quezon City
 C232288,55,55 to 59,Male,4/19/2020,,,,,,,
 C232492,52,50 to 54,Male,3/29/2020,,,,,Yes,NCR,City of Manila
+C232561,36,35 to 39,Female,4/20/2020,,,,,Yes,NCR,City of Makati
 C232566,66,65 to 69,Male,3/27/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
 C232605,49,45 to 49,Male,4/16/2020,,,,,,Cebu,Cebu City (Capital)
 C232616,81,80+,Female,4/9/2020,,,,,Yes,Pampanga,Mabalacat City
@@ -1017,6 +1053,7 @@ C238967,24,20 to 24,Female,4/16/2020,,,,,,NCR,City of Muntinlupa
 C238995,51,50 to 54,Male,4/5/2020,,,,,,Laguna,San Pablo City
 C239003,28,25 to 29,Male,4/6/2020,,,,,Yes,NCR,Quezon City
 C239074,44,40 to 44,Female,4/3/2020,,,,,,Bataan,City of Balanga (Capital)
+C239175,66,65 to 69,Female,4/20/2020,,,,,Yes,NCR,City of Pasig
 C239185,49,45 to 49,Male,4/12/2020,,,,,,NCR,Quezon City
 C239609,82,80+,Male,4/15/2020,,,,,,,
 C239690,37,35 to 39,Female,4/19/2020,,,,,Yes,Bulacan,City of Meycauayan
@@ -1065,7 +1102,7 @@ C246337,36,35 to 39,Female,4/18/2020,,,,,,,
 C246488,40,40 to 44,Female,4/12/2020,,,,,Yes,NCR,Quezon City
 C246772,47,45 to 49,Male,4/3/2020,,,,,Yes,NCR,City of Makati
 C246909,21,20 to 24,Female,4/14/2020,,,,,Yes,NCR,City of Muntinlupa
-C247319,44,40 to 44,Female,4/17/2020,,,,,,NCR,Caloocan City
+C247319,44,40 to 44,Female,4/17/2020,,,,,Yes,NCR,Caloocan City
 C247567,63,60 to 64,Male,4/3/2020,,,Recovered,4/15/2020,Yes,Samar (Western Samar),Calbayog City
 C247686,30,30 to 34,Male,3/27/2020,,,,,Yes,NCR,City of Las Piñas
 C247986,59,55 to 59,Male,3/15/2020,,,,,Yes,NCR,City of Las Piñas
@@ -1089,17 +1126,20 @@ C251045,37,35 to 39,Female,4/1/2020,,,,,Yes,NCR,Taguig City
 C251197,48,45 to 49,Female,4/17/2020,,,,,Yes,Bulacan,City of Malolos (Capital)
 C251204,30,30 to 34,Male,4/5/2020,,,,,,NCR,City of Parañaque
 C251494,69,65 to 69,Female,4/5/2020,,,,,Yes,NCR,City of Mandaluyong
+C251496,58,55 to 59,Male,4/20/2020,,,,,,,
 C251512,57,55 to 59,Male,3/23/2020,,,,,Yes,Cavite,Imus City
 C251816,29,25 to 29,Male,4/3/2020,,,,,Yes,Bulacan,Baliuag
 C251896,54,50 to 54,Female,4/17/2020,,,,,,NCR,Quezon City
 C252216,39,35 to 39,Female,4/16/2020,,,,,Yes,Quezon,Lopez
 C252307,57,55 to 59,Female,3/28/2020,,3/24/2020,Died,4/3/2020,,NCR,City of Pasig
 C252364,24,20 to 24,Female,4/6/2020,,,,,Yes,NCR,Quezon City
+C252475,50,50 to 54,Female,4/20/2020,,,,,Yes,Albay,Legazpi City (Capital)
 C252627,39,35 to 39,Male,4/11/2020,,,,,Yes,Nueva Ecija,Cabanatuan City
 C252767,54,50 to 54,Male,4/11/2020,,,,,No,NCR,Quezon City
 C252972,36,35 to 39,Female,4/6/2020,,,,,,NCR,City of Manila
 C252973,58,55 to 59,Male,4/1/2020,4/5/2020,,Recovered,4/16/2020,Yes,NCR,Quezon City
 C252990,37,35 to 39,Male,4/17/2020,,,,,Yes,,
+C253131,70,70 to 74,Female,4/20/2020,,,,,Yes,NCR,City of Mandaluyong
 C253136,47,45 to 49,Female,4/5/2020,,,,,Yes,,
 C253217,69,65 to 69,Male,3/28/2020,,,,,Yes,NCR,City of Parañaque
 C253310,51,50 to 54,Female,4/15/2020,,,,,,NCR,City of Navotas
@@ -1121,6 +1161,7 @@ C254738,80,80+,Female,4/13/2020,,,,,Yes,NCR,City of Muntinlupa
 C254742,42,40 to 44,Male,3/31/2020,,,,,Yes,NCR,City of Pasig
 C255262,29,25 to 29,Male,4/2/2020,,,,,Yes,NCR,City of Las Piñas
 C255319,62,60 to 64,Female,4/2/2020,,,,,Yes,NCR,Pasay City
+C255595,49,45 to 49,Male,4/20/2020,,,,,,,
 C255630,83,80+,Female,4/13/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
 C255631,55,55 to 59,Female,3/31/2020,,,,,,NCR,City of Muntinlupa
 C255718,73,70 to 74,Male,4/10/2020,,,,,,,
@@ -1136,7 +1177,7 @@ C256690,26,25 to 29,Female,4/12/2020,,,,,,NCR,City of Manila
 C256739,18,15 to 19,Male,3/29/2020,,,,,Yes,NCR,City of Valenzuela
 C256805,35,35 to 39,Male,4/1/2020,,,,,Yes,Cavite,Bacoor City
 C257189,43,40 to 44,Male,4/7/2020,,,,,No,NCR,City of Valenzuela
-C257402,47,45 to 49,Male,4/11/2020,,,,,Yes,NCR,Quezon City
+C257402,47,45 to 49,Male,4/11/2020,,,,,,NCR,Quezon City
 C257526,48,45 to 49,Female,3/31/2020,,,,,Yes,NCR,City of Mandaluyong
 C257641,25,25 to 29,Male,4/11/2020,,,,,No,NCR,City of Mandaluyong
 C257781,79,75 to 79,Male,4/11/2020,,,Died,4/13/2020,,NCR,City of Navotas
@@ -1150,6 +1191,7 @@ C258799,63,60 to 64,Female,3/31/2020,,,,,Yes,NCR,Taguig City
 C258951,35,35 to 39,Female,4/6/2020,,,,,Yes,,
 C259031,59,55 to 59,Male,3/29/2020,,,,,No,Cavite,Noveleta
 C259060,72,70 to 74,Male,3/28/2020,,4/6/2020,Died,4/7/2020,Yes,NCR,City of Marikina
+C259115,58,55 to 59,Male,4/20/2020,,,,,,,
 C259236,63,60 to 64,Male,3/22/2020,,3/23/2020,Died,4/11/2020,Yes,Rizal,Binangonan
 C259256,58,55 to 59,Male,3/28/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
 C259263,28,25 to 29,Female,3/31/2020,,,,,Yes,NCR,Caloocan City
@@ -1180,7 +1222,8 @@ C261719,56,55 to 59,Male,3/9/2020,,3/15/2020,Died,3/15/2020,Yes,NCR,City of Mani
 C261772,39,35 to 39,Male,4/2/2020,,,,,Yes,NCR,City of San Juan
 C262048,25,25 to 29,Female,3/27/2020,,,Recovered,4/17/2020,No,NCR,City of San Juan
 C262294,59,55 to 59,Female,3/29/2020,,,,,Yes,Bulacan,San Rafael
-C262515,55,55 to 59,Male,3/30/2020,,,,,Yes,Davao del Sur,Davao City
+C262363,39,35 to 39,Female,4/20/2020,,,,,Yes,NCR,Taguig City
+C262515,55,55 to 59,Male,3/30/2020,,,,,Yes,NCR,Quezon City
 C262520,35,35 to 39,Female,4/1/2020,,,,,Yes,Batangas,Batangas City (Capital)
 C262606,67,65 to 69,Male,4/2/2020,,,,,Yes,NCR,City of Manila
 C262645,84,80+,Male,4/3/2020,,,,,,NCR,Pasay City
@@ -1221,6 +1264,7 @@ C266790,60,60 to 64,Female,4/6/2020,,,,,Yes,NCR,Quezon City
 C266830,21,20 to 24,Female,3/25/2020,4/13/2020,,Recovered,4/14/2020,Yes,NCR,City of Muntinlupa
 C267109,60,60 to 64,Male,4/19/2020,,,,,,,
 C267330,82,80+,Male,4/15/2020,,,,,Yes,NCR,Quezon City
+C267406,59,55 to 59,Male,4/20/2020,,,,,,,
 C267576,49,45 to 49,Male,3/31/2020,,,,,Yes,NCR,Pasay City
 C267962,25,25 to 29,Female,3/29/2020,,,,,Yes,NCR,City of Las Piñas
 C268097,56,55 to 59,Male,4/12/2020,,,,,,Pampanga,Candaba
@@ -1229,6 +1273,7 @@ C268245,61,60 to 64,Male,4/6/2020,,,,,,NCR,City of Makati
 C268382,42,40 to 44,Male,4/10/2020,,,,,Yes,NCR,Quezon City
 C268598,69,65 to 69,Male,4/8/2020,,,,,Yes,NCR,City of San Juan
 C268648,33,30 to 34,Female,4/13/2020,,,,,Yes,NCR,City of Parañaque
+C269086,67,65 to 69,Male,4/20/2020,,,,,Yes,NCR,Quezon City
 C269362,63,60 to 64,Female,3/21/2020,,,Recovered,4/10/2020,Yes,NCR,City of San Juan
 C269633,26,25 to 29,Female,4/16/2020,,,,,,NCR,Quezon City
 C269670,28,25 to 29,Female,4/3/2020,,,,,,,
@@ -1245,13 +1290,14 @@ C270810,72,70 to 74,Male,3/29/2020,,,,,,NCR,City of Parañaque
 C271023,13,10 to 14,Female,4/17/2020,,,,,Yes,NCR,Caloocan City
 C271083,52,50 to 54,Male,3/25/2020,4/7/2020,,Recovered,4/10/2020,Yes,NCR,Quezon City
 C271085,37,35 to 39,Male,3/30/2020,,,,,Yes,Quezon,Lucena City (Capital)
-C271201,49,45 to 49,Female,4/12/2020,,,,,,Batangas,Lemery
+C271201,49,45 to 49,Female,4/12/2020,,,,,,Rizal,City of Antipolo (Capital)
 C271328,36,35 to 39,Male,4/6/2020,,,,,Yes,NCR,City of Makati
 C271360,45,45 to 49,Male,3/28/2020,4/9/2020,,Recovered,4/13/2020,Yes,NCR,City of Las Piñas
 C271425,46,45 to 49,Male,4/6/2020,,,,,,Rizal,Cainta
 C271566,24,20 to 24,Female,4/10/2020,,,,,,NCR,City of Manila
 C271648,68,65 to 69,Male,4/4/2020,,,Died,4/14/2020,Yes,NCR,City of Manila
 C271820,65,65 to 69,Female,4/5/2020,,,,,Yes,NCR,Quezon City
+C271928,71,70 to 74,Male,4/20/2020,,,,,,,
 C271948,41,40 to 44,Female,3/31/2020,,,,,Yes,NCR,Pasay City
 C272109,39,35 to 39,Male,4/13/2020,,,,,Yes,NCR,Caloocan City
 C272562,55,55 to 59,Male,3/24/2020,4/1/2020,,Recovered,4/13/2020,Yes,Laguna,City of Santa Rosa
@@ -1265,7 +1311,7 @@ C273734,45,45 to 49,Female,4/3/2020,,,,,,,
 C274136,45,45 to 49,Female,4/6/2020,,,Recovered,4/15/2020,Yes,NCR,City of Pasig
 C274348,62,60 to 64,Female,3/31/2020,,,,,Yes,NCR,City of Las Piñas
 C274525,28,25 to 29,Female,4/13/2020,,,,,Yes,NCR,Quezon City
-C274746,78,75 to 79,Female,4/19/2020,,,,,Yes,NCR,City of Mandaluyong
+C274746,78,75 to 79,Female,4/19/2020,,4/12/2020,Died,4/20/2020,Yes,NCR,City of Mandaluyong
 C274959,43,40 to 44,Female,3/21/2020,,,,,No,NCR,Quezon City
 C274969,39,35 to 39,Male,4/5/2020,,,,,Yes,NCR,City of Manila
 C275476,72,70 to 74,Male,4/2/2020,,,Recovered,4/17/2020,Yes,Abra,Sallapadan
@@ -1302,7 +1348,7 @@ C280584,92,80+,Female,4/13/2020,,,,,Yes,Zamboanga del Sur,Zamboanga City
 C280775,48,45 to 49,Female,4/1/2020,,,,,Yes,NCR,City of Mandaluyong
 C280889,44,40 to 44,Male,3/30/2020,,,,,Yes,NCR,City of San Juan
 C280998,60,60 to 64,Female,4/1/2020,,,,,Yes,NCR,Quezon City
-C281078,0,0 to 4,Male,4/9/2020,,4/3/2020,Died,4/12/2020,Yes,Batangas,Talisay
+C281078,0,0 to 4,Male,4/9/2020,,4/3/2020,Died,4/12/2020,Yes,Batangas,Lipa City
 C281194,24,20 to 24,Female,4/3/2020,,,,,Yes,Bulacan,Bulacan
 C281328,54,50 to 54,Female,4/16/2020,,,,,,NCR,Quezon City
 C281354,31,30 to 34,Female,3/27/2020,,,,,Yes,Pangasinan,Bayambang
@@ -1327,7 +1373,7 @@ C284184,49,45 to 49,Male,4/17/2020,,,,,Yes,Rizal,Rodriguez (Montalban)
 C284224,52,50 to 54,Female,3/27/2020,4/3/2020,,Recovered,4/14/2020,Yes,NCR,Quezon City
 C284324,32,30 to 34,Female,4/6/2020,,,,,Yes,NCR,Quezon City
 C284376,44,40 to 44,Male,4/3/2020,,,,,No,NCR,Taguig City
-C284378,60,60 to 64,Female,3/30/2020,,,,,Yes,Davao Oriental,City of Mati (Capital)
+C284378,60,60 to 64,Female,3/30/2020,4/3/2020,,Recovered,4/20/2020,Yes,Davao Oriental,City of Mati (Capital)
 C284476,22,20 to 24,Female,4/16/2020,,,,,Yes,Laguna,Santa Cruz (Capital)
 C284539,62,60 to 64,Male,3/31/2020,,3/17/2020,Died,4/2/2020,Yes,NCR,City of Valenzuela
 C284619,47,45 to 49,Male,4/14/2020,,,,,Yes,Bulacan,City of Malolos (Capital)
@@ -1335,12 +1381,13 @@ C284722,60,60 to 64,Female,3/29/2020,,,,,Yes,NCR,City of Manila
 C285109,47,45 to 49,Female,4/14/2020,,,,,,,
 C285277,30,30 to 34,Female,4/1/2020,,,,,Yes,Camarines Sur,Naga City
 C285541,65,65 to 69,Male,3/16/2020,4/13/2020,,Recovered,4/17/2020,Yes,NCR,City of Parañaque
+C285567,33,30 to 34,Female,4/20/2020,,,,,,,
 C285782,39,35 to 39,Female,3/24/2020,,,Recovered,4/15/2020,Yes,NCR,Taguig City
 C286369,64,60 to 64,Female,4/18/2020,,,,,,NCR,City of Las Piñas
 C286442,73,70 to 74,Female,4/9/2020,,,,,Yes,Cavite,Tanza
 C286501,29,25 to 29,Male,4/3/2020,,,,,Yes,NCR,City of Makati
 C286651,27,25 to 29,Female,4/12/2020,,,,,No,NCR,City of Parañaque
-C286663,70,70 to 74,Male,3/31/2020,,,,,,NCR,Pasay City
+C286663,70,70 to 74,Male,3/31/2020,,,,,,NCR,City of Mandaluyong
 C286715,34,30 to 34,Female,4/13/2020,,,,,,NCR,City of Parañaque
 C286757,2,0 to 4,Male,4/6/2020,,,,,Yes,Zambales,Olongapo City
 C286788,44,40 to 44,Female,4/14/2020,,,,,,,
@@ -1360,6 +1407,7 @@ C288592,30,30 to 34,Male,4/13/2020,,,,,No,Rizal,Cainta
 C288795,33,30 to 34,Male,4/17/2020,,,,,Yes,NCR,Caloocan City
 C289425,64,60 to 64,Female,3/30/2020,,3/20/2020,Died,4/3/2020,,Lanao del Sur,Marantao
 C289449,79,75 to 79,Female,4/3/2020,,,,,,,
+C289578,61,60 to 64,Male,4/20/2020,,,,,,NCR,City of Las Piñas
 C289677,75,75 to 79,Male,3/31/2020,,,,,No,NCR,City of Makati
 C289939,31,30 to 34,Male,3/31/2020,,,Recovered,4/14/2020,Yes,Benguet,Baguio City
 C290035,67,65 to 69,Female,4/4/2020,,,,,Yes,NCR,City of Makati
@@ -1367,14 +1415,15 @@ C290236,52,50 to 54,Female,3/28/2020,,,,,Yes,NCR,City of Mandaluyong
 C290348,30,30 to 34,Male,4/16/2020,,,,,Yes,NCR,City of Pasig
 C290449,47,45 to 49,Male,3/31/2020,,,,,Yes,Cavite,Bacoor City
 C290548,67,65 to 69,Female,4/6/2020,,,,,Yes,NCR,City of Mandaluyong
+C290556,72,70 to 74,Male,4/20/2020,,,,,,,
 C290693,42,40 to 44,Male,3/28/2020,4/9/2020,,Recovered,4/18/2020,Yes,NCR,City of Manila
 C290761,21,20 to 24,Male,4/13/2020,,,,,,NCR,City of Las Piñas
 C290798,68,65 to 69,Male,4/17/2020,,,,,Yes,Cavite,Bacoor City
 C290865,27,25 to 29,Female,3/25/2020,,,,,No,NCR,Taguig City
 C290882,8,5 to 9,Male,4/19/2020,,,,,,Laguna,Lumban
-C291011,67,65 to 69,Female,4/3/2020,,,Died,4/12/2020,Yes,NCR,City of Mandaluyong
+C291011,67,65 to 69,Female,4/3/2020,,3/29/2020,Died,4/12/2020,Yes,NCR,City of Mandaluyong
 C291262,60,60 to 64,Male,3/31/2020,,,,,Yes,Rizal,San Mateo
-C291472,70,70 to 74,Male,4/11/2020,,,,,Yes,,
+C291472,70,70 to 74,Male,4/11/2020,,,,,,NCR,City of Las Piñas
 C291545,48,45 to 49,Female,4/16/2020,,,,,Yes,Davao del Sur,Davao City
 C291602,0,0 to 4,Male,4/17/2020,,,,,Yes,Bataan,Orani
 C291774,65,65 to 69,Male,4/6/2020,,4/5/2020,Died,4/9/2020,Yes,Rizal,San Mateo
@@ -1390,8 +1439,8 @@ C293765,36,35 to 39,Male,4/16/2020,,,,,Yes,Laguna,City of Calamba
 C293770,73,70 to 74,Female,3/23/2020,,,,,Yes,NCR,City of San Juan
 C293849,28,25 to 29,Female,3/31/2020,4/7/2020,,Recovered,4/12/2020,Yes,NCR,Pasay City
 C294034,50,50 to 54,Male,3/29/2020,,,,,Yes,NCR,City of Marikina
-C294052,84,80+,Male,3/31/2020,,,Died,4/11/2020,Yes,NCR,City of Manila
-C294142,38,35 to 39,Female,4/6/2020,,,,,,Misamis Occidental,Tudela
+C294052,84,80+,Male,3/31/2020,,3/23/2020,Died,4/11/2020,Yes,NCR,City of Manila
+C294142,38,35 to 39,Female,4/6/2020,,,,,,NCR,City of Parañaque
 C294335,61,60 to 64,Male,4/13/2020,,,,,,NCR,City of Las Piñas
 C294382,43,40 to 44,Male,3/28/2020,,,Recovered,4/19/2020,Yes,NCR,Quezon City
 C294420,62,60 to 64,Female,4/4/2020,,,,,,,
@@ -1459,7 +1508,7 @@ C303507,31,30 to 34,Female,4/6/2020,,,,,Yes,Cavite,City of Dasmariñas
 C303720,53,50 to 54,Female,3/30/2020,,,,,Yes,NCR,Caloocan City
 C303806,51,50 to 54,Female,4/8/2020,,,Recovered,4/18/2020,,,
 C304126,69,65 to 69,Male,3/10/2020,3/22/2020,,Recovered,3/26/2020,Yes,NCR,City of Marikina
-C304255,87,80+,Male,4/6/2020,,,Died,4/19/2020,Yes,NCR,City of Pasig
+C304255,87,80+,Male,4/6/2020,,4/7/2020,Died,4/19/2020,Yes,NCR,City of Pasig
 C304256,40,40 to 44,Female,3/28/2020,,,,,Yes,NCR,City of San Juan
 C304273,57,55 to 59,Female,3/17/2020,,,,,Yes,NCR,City of Muntinlupa
 C304322,21,20 to 24,Female,4/1/2020,4/12/2020,,Recovered,4/14/2020,No,Sultan Kudarat,Lutayan
@@ -1470,6 +1519,7 @@ C304950,70,70 to 74,Male,4/2/2020,,,,,Yes,NCR,Quezon City
 C305195,54,50 to 54,Male,4/1/2020,,3/27/2020,Died,4/11/2020,Yes,Rizal,City of Antipolo (Capital)
 C305216,53,50 to 54,Male,4/13/2020,,,,,Yes,Laguna,City of San Pedro
 C305310,57,55 to 59,Male,4/18/2020,,,,,Yes,Bulacan,City of San Jose Del Monte
+C305333,54,50 to 54,Male,4/20/2020,,,,,Yes,NCR,City of Marikina
 C305444,51,50 to 54,Female,4/9/2020,,,,,No,Bulacan,Marilao
 C305446,29,25 to 29,Female,4/7/2020,,,,,No,Cotabato (North Cotabato),City of Kidapawan (Capital)
 C305452,27,25 to 29,Male,4/9/2020,,,,,Yes,Rizal,Rodriguez (Montalban)
@@ -1487,6 +1537,7 @@ C306496,71,70 to 74,Male,4/4/2020,,,,,Yes,Rizal,Taytay
 C306716,24,20 to 24,Female,4/5/2020,,,,,Yes,NCR,City of Marikina
 C306927,57,55 to 59,Male,3/28/2020,,3/23/2020,Died,4/12/2020,Yes,Cavite,Bacoor City
 C307112,71,70 to 74,Male,3/17/2020,4/5/2020,,Recovered,4/11/2020,Yes,NCR,Quezon City
+C307189,23,20 to 24,Female,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C307272,71,70 to 74,Male,3/31/2020,,,Recovered,4/16/2020,Yes,Rizal,Taytay
 C307357,53,50 to 54,Female,3/29/2020,,,,,Yes,NCR,Quezon City
 C307524,55,55 to 59,Female,3/28/2020,,,,,Yes,NCR,City of San Juan
@@ -1494,8 +1545,9 @@ C307753,69,65 to 69,Male,4/10/2020,,4/15/2020,Died,4/17/2020,Yes,Misamis Occiden
 C307792,41,40 to 44,Male,4/17/2020,,,,,,Laguna,City of San Pedro
 C307803,58,55 to 59,Female,4/7/2020,,,,,Yes,NCR,Taguig City
 C307831,43,40 to 44,Female,4/3/2020,,3/27/2020,Died,4/12/2020,,NCR,City of Manila
-C307845,36,35 to 39,Male,4/1/2020,,,,,Yes,NCR,City of Valenzuela
+C307845,36,35 to 39,Male,4/1/2020,4/6/2020,,Recovered,4/20/2020,Yes,NCR,City of Valenzuela
 C307973,26,25 to 29,Female,4/10/2020,,,,,Yes,NCR,City of Valenzuela
+C308072,27,25 to 29,Female,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C308118,40,40 to 44,Female,3/27/2020,4/8/2020,,Recovered,4/16/2020,Yes,NCR,City of Manila
 C308159,38,35 to 39,Female,3/27/2020,4/4/2020,,Recovered,4/16/2020,Yes,Zamboanga del Sur,Zamboanga City
 C308168,37,35 to 39,Male,4/14/2020,,,,,,,
@@ -1522,8 +1574,9 @@ C310550,75,75 to 79,Female,3/31/2020,,,,,Yes,NCR,City of Makati
 C310577,40,40 to 44,Female,4/18/2020,,,,,,NCR,City of Mandaluyong
 C310777,34,30 to 34,Male,4/18/2020,,,,,Yes,Cavite,City of General Trias
 C310822,61,60 to 64,Male,4/12/2020,,,,,,,
+C310823,41,40 to 44,Female,4/20/2020,,,,,Yes,Davao del Sur,Davao City
 C310867,69,65 to 69,Male,4/12/2020,,,,,,,
-C311092,43,40 to 44,Male,4/6/2020,,,,,,NCR,City of Parañaque
+C311092,43,40 to 44,Male,4/6/2020,,,,,No,NCR,City of Parañaque
 C311381,33,30 to 34,Male,4/11/2020,,,,,Yes,Rizal,Rodriguez (Montalban)
 C311386,52,50 to 54,Male,3/23/2020,4/5/2020,,Recovered,4/8/2020,Yes,NCR,City of Makati
 C311532,26,25 to 29,Female,4/16/2020,,,,,Yes,NCR,City of Parañaque
@@ -1544,7 +1597,7 @@ C313249,28,25 to 29,Male,4/15/2020,,,,,Yes,La Union,San Gabriel
 C313284,62,60 to 64,Female,3/29/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
 C313461,32,30 to 34,Male,3/26/2020,,,,,Yes,NCR,Taguig City
 C314048,28,25 to 29,Female,4/17/2020,,,,,Yes,Bataan,City of Balanga (Capital)
-C314256,19,15 to 19,Female,3/28/2020,,,Died,4/17/2020,Yes,,
+C314256,19,15 to 19,Female,3/28/2020,,3/24/2020,Died,4/17/2020,Yes,,
 C314333,51,50 to 54,Male,4/9/2020,,,,,Yes,NCR,City of Valenzuela
 C314334,63,60 to 64,Male,4/6/2020,,,,,Yes,NCR,City of Las Piñas
 C314358,75,75 to 79,Male,3/29/2020,,,,,,NCR,City of Muntinlupa
@@ -1591,6 +1644,7 @@ C319574,46,45 to 49,Male,4/12/2020,,,,,,NCR,Pasay City
 C320052,68,65 to 69,Male,4/2/2020,,,,,,NCR,Quezon City
 C320058,49,45 to 49,Female,3/31/2020,,,,,Yes,NCR,Taguig City
 C320064,45,45 to 49,Female,3/31/2020,,,,,Yes,NCR,City of Manila
+C320157,33,30 to 34,Female,4/20/2020,,,,,No,Antique,Pandan
 C320219,44,40 to 44,Male,4/2/2020,,,,,Yes,NCR,Caloocan City
 C320241,33,30 to 34,Male,4/6/2020,,,,,Yes,NCR,City of Pasig
 C320511,34,30 to 34,Male,3/29/2020,,,,,Yes,NCR,Pateros
@@ -1601,10 +1655,12 @@ C320989,70,70 to 74,Female,3/29/2020,,3/25/2020,Died,4/19/2020,Yes,NCR,City of M
 C321293,27,25 to 29,Female,3/22/2020,,,,,No,NCR,Quezon City
 C321333,70,70 to 74,Male,3/30/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
 C321503,51,50 to 54,Male,3/31/2020,,,,,Yes,NCR,City of Parañaque
+C321882,70,70 to 74,Female,4/20/2020,,,,,,NCR,City of Manila
 C321930,26,25 to 29,Male,4/1/2020,,,Recovered,4/19/2020,Yes,NCR,Caloocan City
-C321980,32,30 to 34,Male,3/27/2020,,,Died,4/19/2020,Yes,NCR,City of Pasig
+C321980,32,30 to 34,Male,3/27/2020,,3/25/2020,Died,4/19/2020,Yes,NCR,City of Pasig
 C322076,34,30 to 34,Male,4/2/2020,,,,,Yes,NCR,City of Manila
 C322145,29,25 to 29,Female,4/4/2020,,,,,Yes,Cavite,Bacoor City
+C322409,39,35 to 39,Male,4/20/2020,,,,,Yes,NCR,Quezon City
 C322410,22,20 to 24,Female,4/14/2020,,,,,,,
 C322500,32,30 to 34,Female,4/2/2020,,,,,Yes,NCR,Quezon City
 C322632,60,60 to 64,Male,4/2/2020,,,,,,Rizal,Angono
@@ -1618,7 +1674,7 @@ C323975,67,65 to 69,Male,4/5/2020,,,,,Yes,NCR,City of Parañaque
 C324248,53,50 to 54,Male,3/23/2020,,,,,Yes,NCR,City of Pasig
 C324744,39,35 to 39,Male,3/30/2020,4/3/2020,,Recovered,4/12/2020,Yes,Batangas,Santo Tomas
 C324820,57,55 to 59,Female,4/16/2020,,,,,,,
-C324822,27,25 to 29,Female,4/6/2020,,,,,No,NCR,City of Manila
+C324822,27,25 to 29,Female,4/6/2020,,,,,Yes,NCR,City of Manila
 C325067,44,40 to 44,Male,3/28/2020,,,,,Yes,Bataan,Mariveles
 C325426,56,55 to 59,Female,3/23/2020,4/15/2020,,Recovered,4/12/2020,Yes,NCR,City of Parañaque
 C325449,62,60 to 64,Male,3/31/2020,,,,,Yes,NCR,Quezon City
@@ -1638,7 +1694,7 @@ C327622,42,40 to 44,Female,4/14/2020,,,,,Yes,NCR,City of Las Piñas
 C327689,35,35 to 39,Male,4/9/2020,,,,,,NCR,City of Valenzuela
 C327718,53,50 to 54,Male,3/31/2020,,,,,Yes,NCR,Taguig City
 C327899,33,30 to 34,Male,4/19/2020,,,,,,,
-C327965,72,70 to 74,Female,4/6/2020,,,Died,4/15/2020,Yes,NCR,Pateros
+C327965,72,70 to 74,Female,4/6/2020,,4/6/2020,Died,4/15/2020,Yes,NCR,Pateros
 C328256,28,25 to 29,Male,4/3/2020,,,,,Yes,NCR,City of Manila
 C328454,36,35 to 39,Male,3/29/2020,,,,,Yes,Laguna,City of Biñan
 C328823,72,70 to 74,Female,4/4/2020,,,,,,,
@@ -1695,7 +1751,7 @@ C338955,23,20 to 24,Male,4/6/2020,,,,,,NCR,Quezon City
 C339353,34,30 to 34,Female,4/17/2020,,,,,No,NCR,City of Manila
 C339720,58,55 to 59,Male,3/29/2020,,,,,,Rizal,City of Antipolo (Capital)
 C339765,27,25 to 29,Female,3/25/2020,,,,,Yes,Lanao del Sur,Marawi City (Capital)
-C339775,27,25 to 29,Male,3/30/2020,,,,,Yes,NCR,Taguig City
+C339775,27,25 to 29,Male,3/30/2020,4/16/2020,,Recovered,4/20/2020,Yes,NCR,Taguig City
 C339938,32,30 to 34,Female,4/14/2020,,,,,,Pampanga,City of San Fernando (Capital)
 C340189,37,35 to 39,Female,4/3/2020,,,,,,NCR,Taguig City
 C340209,52,50 to 54,Female,3/28/2020,,,,,Yes,NCR,City of Muntinlupa
@@ -1715,7 +1771,7 @@ C342744,48,45 to 49,Female,4/5/2020,,,,,,NCR,Caloocan City
 C342796,27,25 to 29,Female,3/25/2020,,,,,,NCR,City of Parañaque
 C343169,57,55 to 59,Male,4/14/2020,,,,,,Nueva Ecija,
 C343254,44,40 to 44,Male,4/17/2020,,,,,Yes,NCR,City of Mandaluyong
-C343258,32,30 to 34,Male,4/18/2020,,,,,,,
+C343258,32,30 to 34,Male,4/18/2020,,,,,Yes,NCR,City of Manila
 C343398,57,55 to 59,Female,3/17/2020,4/2/2020,,Recovered,4/13/2020,Yes,NCR,Taguig City
 C343642,65,65 to 69,Female,3/28/2020,,,,,Yes,NCR,City of Parañaque
 C343718,60,60 to 64,Female,4/5/2020,,,,,Yes,NCR,City of Pasig
@@ -1723,10 +1779,11 @@ C344009,79,75 to 79,Male,3/29/2020,4/17/2020,,Recovered,4/18/2020,Yes,NCR,City o
 C344177,51,50 to 54,Male,4/3/2020,,,,,Yes,NCR,Quezon City
 C344436,33,30 to 34,Male,4/11/2020,,,,,No,Laguna,Nagcarlan
 C344460,26,25 to 29,Female,4/11/2020,,,,,Yes,NCR,Quezon City
-C344556,85,80+,Male,3/31/2020,,,Died,4/17/2020,Yes,NCR,City of Malabon
+C344556,85,80+,Male,3/31/2020,,3/22/2020,Died,4/17/2020,Yes,NCR,City of Malabon
 C344598,31,30 to 34,Male,4/2/2020,,,,,No,Cebu,Mandaue City
 C344610,34,30 to 34,Female,3/17/2020,,,Recovered,4/17/2020,Yes,NCR,Taguig City
 C344715,29,25 to 29,Female,4/9/2020,,,,,Yes,NCR,City of Las Piñas
+C344991,32,30 to 34,Female,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C345016,62,60 to 64,Male,3/26/2020,,,Recovered,4/19/2020,No,NCR,City of Manila
 C345167,23,20 to 24,Male,3/22/2020,,,,,No,Bulacan,Bulacan
 C345257,42,40 to 44,Female,4/9/2020,4/9/2020,,Recovered,4/15/2020,Yes,NCR,City of Parañaque
@@ -1737,7 +1794,7 @@ C345588,35,35 to 39,Male,3/30/2020,,,,,Yes,NCR,City of Pasig
 C345605,23,20 to 24,Female,4/2/2020,,,,,Yes,NCR,City of Makati
 C346035,33,30 to 34,Male,4/16/2020,,,,,,NCR,Taguig City
 C346224,60,60 to 64,Male,3/10/2020,,,Recovered,4/17/2020,Yes,NCR,City of Makati
-C346229,40,40 to 44,Male,4/17/2020,,,,,,,
+C346229,40,40 to 44,Male,4/17/2020,,4/10/2020,Died,4/20/2020,,,
 C346328,75,75 to 79,Female,4/11/2020,,,,,Yes,NCR,City of Mandaluyong
 C346361,43,40 to 44,Female,3/29/2020,,,,,Yes,NCR,Quezon City
 C346715,29,25 to 29,Female,4/17/2020,,,,,Yes,Bataan,City of Balanga (Capital)
@@ -1758,7 +1815,7 @@ C347947,54,50 to 54,Male,4/14/2020,,,,,,Quezon,Sariaya
 C348310,45,45 to 49,Male,4/15/2020,,,,,,,
 C348794,70,70 to 74,Male,3/9/2020,3/19/2020,,Recovered,3/21/2020,Yes,NCR,City of San Juan
 C348827,19,15 to 19,Male,4/13/2020,,,,,Yes,Pampanga,Mexico
-C349350,47,45 to 49,Female,4/2/2020,,,,,,NCR,Quezon City
+C349350,47,45 to 49,Female,4/2/2020,,,,,Yes,NCR,Quezon City
 C349589,66,65 to 69,Female,3/14/2020,3/10/2020,,Recovered,4/13/2020,Yes,NCR,City of San Juan
 C349808,28,25 to 29,Female,4/6/2020,,,,,,NCR,Quezon City
 C349876,41,40 to 44,Male,4/1/2020,,,,,Yes,Cavite,Tanza
@@ -1773,6 +1830,8 @@ C350965,58,55 to 59,Male,3/25/2020,,,,,,NCR,City of Marikina
 C351038,15,15 to 19,Male,4/18/2020,,,,,Yes,Rizal,Cainta
 C351105,54,50 to 54,Male,3/28/2020,,,,,Yes,NCR,City of San Juan
 C351153,47,45 to 49,Female,4/12/2020,,,,,,NCR,City of Parañaque
+C351448,70,70 to 74,Female,4/20/2020,,,,,,,
+C351571,32,30 to 34,Female,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C351714,55,55 to 59,Male,4/3/2020,,,,,Yes,NCR,Quezon City
 C351826,40,40 to 44,Female,4/2/2020,,,,,Yes,NCR,City of Mandaluyong
 C351890,28,25 to 29,Male,3/29/2020,,,,,Yes,NCR,Quezon City
@@ -1805,6 +1864,7 @@ C354886,42,40 to 44,Female,4/6/2020,,,,,No,NCR,City of Manila
 C355108,33,30 to 34,Female,4/16/2020,,,,,Yes,Bataan,Orion
 C355206,27,25 to 29,Female,4/11/2020,,,,,Yes,NCR,City of Parañaque
 C355505,58,55 to 59,Female,3/21/2020,4/2/2020,,Recovered,4/12/2020,Yes,NCR,City of Manila
+C355792,17,15 to 19,Male,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C355868,56,55 to 59,Male,4/7/2020,,,,,Yes,NCR,City of Navotas
 C355924,61,60 to 64,Male,4/6/2020,,,,,,NCR,Taguig City
 C356180,64,60 to 64,Female,4/2/2020,,,,,Yes,NCR,City of Pasig
@@ -1822,7 +1882,7 @@ C358141,42,40 to 44,Female,4/6/2020,,,,,,NCR,Taguig City
 C358428,51,50 to 54,Male,3/30/2020,,,,,Yes,NCR,Quezon City
 C358496,57,55 to 59,Male,3/26/2020,,,,,Yes,NCR,City of Manila
 C358581,9,5 to 9,Female,4/15/2020,,,,,,Laguna,City of San Pedro
-C358976,61,60 to 64,Female,4/3/2020,,,Died,4/17/2020,Yes,,
+C358976,61,60 to 64,Female,4/3/2020,,4/6/2020,Died,4/17/2020,Yes,,
 C359117,13,10 to 14,Female,4/3/2020,,,,,,NCR,Quezon City
 C359190,56,55 to 59,Female,3/23/2020,,,,,Yes,NCR,Quezon City
 C359191,25,25 to 29,Male,3/23/2020,4/4/2020,,Recovered,4/9/2020,Yes,Rizal,Cainta
@@ -1840,6 +1900,7 @@ C360925,48,45 to 49,Female,4/13/2020,,,,,Yes,Cavite,Imus City
 C361085,29,25 to 29,Female,4/11/2020,,,,,Yes,Cavite,Kawit
 C361199,59,55 to 59,Male,4/12/2020,,,,,,,
 C361205,33,30 to 34,Female,4/12/2020,,,,,,NCR,City of Mandaluyong
+C361240,72,70 to 74,Male,4/20/2020,,,,,Yes,NCR,City of Pasig
 C361258,38,35 to 39,Female,4/16/2020,,,,,,NCR,City of Parañaque
 C361395,48,45 to 49,Male,3/22/2020,,,Recovered,4/4/2020,Yes,Rizal,Rodriguez (Montalban)
 C361423,55,55 to 59,Male,4/6/2020,,,,,,NCR,City of Manila
@@ -1883,6 +1944,7 @@ C366442,23,20 to 24,Male,4/12/2020,,,,,Yes,Bulacan,Angat
 C366547,86,80+,Female,4/3/2020,,3/30/2020,Died,4/6/2020,Yes,NCR,Quezon City
 C366638,67,65 to 69,Female,3/22/2020,,,,,No,NCR,Quezon City
 C366914,80,80+,Female,3/23/2020,,3/19/2020,Died,3/28/2020,Yes,NCR,City of Manila
+C367034,39,35 to 39,Female,4/20/2020,,,,,,NCR,City of Pasig
 C367429,29,25 to 29,Male,4/12/2020,,,,,Yes,Laguna,City of Calamba
 C367508,44,40 to 44,Male,4/12/2020,,,,,Yes,NCR,City of San Juan
 C367599,29,25 to 29,Female,4/6/2020,,,,,,NCR,Taguig City
@@ -1903,6 +1965,7 @@ C369687,27,25 to 29,Male,4/14/2020,,,,,Yes,Pampanga,Guagua
 C369773,24,20 to 24,Female,4/6/2020,,,,,No,Rizal,Binangonan
 C369797,39,35 to 39,Female,4/12/2020,,,,,Yes,NCR,City of Muntinlupa
 C369845,33,30 to 34,Male,4/13/2020,,,,,Yes,Bulacan,City of Meycauayan
+C369884,22,20 to 24,Male,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C369982,59,55 to 59,Female,4/6/2020,,,,,Yes,NCR,Quezon City
 C370147,30,30 to 34,Female,4/6/2020,,,,,No,NCR,Quezon City
 C370243,29,25 to 29,Male,4/6/2020,,,,,Yes,NCR,City of Mandaluyong
@@ -1935,6 +1998,7 @@ C373254,37,35 to 39,Female,4/9/2020,,,,,Yes,NCR,City of Manila
 C373372,37,35 to 39,Female,4/14/2020,,,,,Yes,NCR,City of San Juan
 C373403,22,20 to 24,Male,4/10/2020,,,,,Yes,NCR,City of Makati
 C373591,63,60 to 64,Female,4/19/2020,,,,,,Cebu,Cebu City (Capital)
+C373690,47,45 to 49,Male,4/20/2020,,,,,,,
 C373724,44,40 to 44,Female,4/11/2020,,,,,Yes,NCR,Taguig City
 C374024,30,30 to 34,Female,4/16/2020,,,,,Yes,NCR,City of Makati
 C374034,58,55 to 59,Female,4/17/2020,,,,,,Cebu,Lapu-Lapu City (Opon)
@@ -1952,9 +2016,11 @@ C375143,78,75 to 79,Female,3/29/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
 C375397,66,65 to 69,Male,4/10/2020,,,,,No,NCR,City of Malabon
 C375499,31,30 to 34,Female,4/9/2020,,,,,Yes,NCR,City of Pasig
 C376431,61,60 to 64,Female,4/6/2020,,,,,Yes,NCR,City of Muntinlupa
+C376450,28,25 to 29,Female,4/20/2020,,,,,No,Antique,Pandan
 C376505,70,70 to 74,Female,4/9/2020,,,,,Yes,Laguna,Calauan
 C376698,62,60 to 64,Male,4/9/2020,,,,,Yes,NCR,City of Pasig
 C376701,38,35 to 39,Female,4/13/2020,,,,,,NCR,City of Valenzuela
+C376759,13,10 to 14,Male,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C376781,32,30 to 34,Male,4/11/2020,,,,,Yes,NCR,Quezon City
 C376853,87,80+,Female,4/9/2020,,,,,Yes,NCR,City of Pasig
 C377042,49,45 to 49,Male,3/22/2020,,,,,Yes,NCR,City of Makati
@@ -1979,15 +2045,16 @@ C378928,30,30 to 34,Female,4/6/2020,,,,,Yes,NCR,Taguig City
 C379462,65,65 to 69,Male,4/17/2020,,,,,,Cebu,Cebu City (Capital)
 C379686,55,55 to 59,Male,4/14/2020,,,,,Yes,NCR,City of Mandaluyong
 C379705,75,75 to 79,Male,3/28/2020,,,,,Yes,Negros Occidental,Bacolod City (Capital)
-C379836,54,50 to 54,Male,4/3/2020,,,Died,4/17/2020,No,NCR,City of Parañaque
+C379836,54,50 to 54,Male,4/3/2020,,3/31/2020,Died,4/17/2020,No,NCR,City of Parañaque
 C379940,24,20 to 24,Female,4/1/2020,,,,,,NCR,City of Muntinlupa
 C380080,66,65 to 69,Female,4/11/2020,,,,,Yes,NCR,City of Manila
 C380118,50,50 to 54,Male,4/14/2020,,,,,Yes,NCR,City of Parañaque
-C380351,73,70 to 74,Male,4/7/2020,,,,,No,NCR,Quezon City
+C380351,73,70 to 74,Male,4/7/2020,,,,,Yes,NCR,Quezon City
 C380548,36,35 to 39,Male,4/6/2020,,,,,No,NCR,Quezon City
 C380584,62,60 to 64,Male,3/23/2020,,,,,Yes,NCR,City of Marikina
 C380689,77,75 to 79,Male,3/28/2020,,,,,Yes,NCR,Quezon City
 C380737,61,60 to 64,Male,3/26/2020,4/6/2020,,Recovered,4/13/2020,Yes,NCR,City of Parañaque
+C380964,37,35 to 39,Male,4/20/2020,,,,,,Laguna,Lumban
 C381036,33,30 to 34,Male,3/26/2020,4/11/2020,,Recovered,4/12/2020,Yes,NCR,Pasay City
 C381069,62,60 to 64,Male,4/2/2020,,,,,Yes,NCR,City of Manila
 C381370,23,20 to 24,Female,4/2/2020,,,,,Yes,,
@@ -2018,6 +2085,7 @@ C385627,73,70 to 74,Female,4/3/2020,,,,,Yes,Rizal,Taytay
 C385630,34,30 to 34,Female,3/28/2020,,,Recovered,4/18/2020,Yes,NCR,City of Parañaque
 C385839,73,70 to 74,Male,4/18/2020,,,,,,Cebu,Mandaue City
 C385957,70,70 to 74,Female,3/31/2020,,3/26/2020,Died,4/19/2020,Yes,NCR,City of Mandaluyong
+C386203,28,25 to 29,Female,4/20/2020,,,,,Yes,NCR,City of Manila
 C386314,31,30 to 34,Female,3/29/2020,,,Recovered,4/19/2020,Yes,NCR,City of Manila
 C386349,40,40 to 44,Male,4/15/2020,,,,,Yes,NCR,City of Manila
 C386384,49,45 to 49,Female,4/17/2020,,,,,,Cebu,Lapu-Lapu City (Opon)
@@ -2032,11 +2100,14 @@ C387823,36,35 to 39,Female,4/5/2020,,,,,Yes,,
 C387855,26,25 to 29,Male,4/7/2020,,,,,,NCR,City of Manila
 C388006,78,75 to 79,Male,4/11/2020,,,,,,NCR,City of Makati
 C388281,69,65 to 69,Male,4/2/2020,,,,,Yes,NCR,Quezon City
+C388302,35,35 to 39,Male,4/20/2020,,,,,Yes,Davao del Sur,Davao City
 C388431,39,35 to 39,Male,4/12/2020,,,,,Yes,NCR,Quezon City
-C388722,38,35 to 39,Male,3/24/2020,,,,,Yes,NCR,City of Parañaque
+C388722,38,35 to 39,Male,3/24/2020,,,Died,4/20/2020,Yes,NCR,City of Parañaque
+C388735,24,20 to 24,Female,4/20/2020,,,,,,NCR,City of Mandaluyong
 C388788,33,30 to 34,Male,4/11/2020,,,,,Yes,Laguna,City of Santa Rosa
 C388986,52,50 to 54,Female,4/15/2020,,,,,,,
-C389280,41,40 to 44,Male,4/11/2020,,,,,Yes,NCR,City of Las Piñas
+C389152,50,50 to 54,Male,4/20/2020,,,,,,,
+C389280,41,40 to 44,Male,4/11/2020,,,,,,NCR,City of Las Piñas
 C389383,25,25 to 29,Male,4/13/2020,,,,,Yes,NCR,City of Muntinlupa
 C389924,10,10 to 14,Male,4/5/2020,,,,,Yes,Cavite,Bacoor City
 C389939,45,45 to 49,Male,4/3/2020,4/11/2020,,Recovered,4/16/2020,Yes,Misamis Occidental,Jimenez
@@ -2063,6 +2134,7 @@ C391733,4,0 to 4,Female,4/17/2020,,,,,Yes,Bataan,Pilar
 C391782,72,70 to 74,Female,4/2/2020,,,Died,4/11/2020,Yes,La Union,San Juan
 C391785,54,50 to 54,Female,4/15/2020,,,,,Yes,NCR,City of Manila
 C391794,63,60 to 64,Female,3/23/2020,,3/18/2020,Died,3/28/2020,Yes,NCR,Quezon City
+C391858,28,25 to 29,Female,4/20/2020,,,,,Yes,NCR,City of Pasig
 C391892,54,50 to 54,Female,3/29/2020,,,,,Yes,NCR,Quezon City
 C391895,63,60 to 64,Male,4/18/2020,,,,,,NCR,Quezon City
 C392017,62,60 to 64,Female,4/12/2020,,,,,Yes,,
@@ -2122,7 +2194,7 @@ C399074,63,60 to 64,Female,4/18/2020,,,,,Yes,Rizal,Binangonan
 C399540,53,50 to 54,Male,4/1/2020,4/4/2020,,Recovered,4/16/2020,Yes,NCR,Quezon City
 C399974,33,30 to 34,Female,4/11/2020,,,,,Yes,NCR,City of Manila
 C400098,45,45 to 49,Male,4/2/2020,,,,,Yes,NCR,City of Makati
-C400101,23,20 to 24,Female,4/14/2020,,,,,,,
+C400101,23,20 to 24,Female,4/14/2020,,,,,,NCR,Quezon City
 C400176,42,40 to 44,Female,3/31/2020,,3/25/2020,Died,4/19/2020,Yes,NCR,Quezon City
 C400200,52,50 to 54,Male,3/27/2020,4/1/2020,,Recovered,4/16/2020,Yes,Laguna,City of Calamba
 C400431,31,30 to 34,Male,4/12/2020,,,,,Yes,NCR,Quezon City
@@ -2143,7 +2215,7 @@ C403343,45,45 to 49,Male,4/6/2020,,,,,,NCR,City of Manila
 C403387,48,45 to 49,Female,4/5/2020,,,,,Yes,Bulacan,Bocaue
 C403406,23,20 to 24,Female,4/19/2020,,,,,,,
 C403429,60,60 to 64,Male,4/9/2020,,,,,Yes,NCR,Pasay City
-C403510,22,20 to 24,Female,4/6/2020,,,,,,NCR,City of Manila
+C403510,22,20 to 24,Female,4/6/2020,,,,,Yes,NCR,City of Manila
 C403563,13,10 to 14,Male,4/18/2020,,,,,,Quezon,
 C403780,39,35 to 39,Female,3/31/2020,,,,,Yes,NCR,Quezon City
 C403936,76,75 to 79,Male,3/29/2020,,,,,Yes,NCR,Quezon City
@@ -2180,7 +2252,7 @@ C408357,71,70 to 74,Male,3/25/2020,,,Recovered,4/13/2020,Yes,NCR,Quezon City
 C408425,44,40 to 44,Female,4/10/2020,,,,,,,
 C408473,28,25 to 29,Female,4/12/2020,,,,,Yes,Negros Occidental,Bacolod City (Capital)
 C408543,20,20 to 24,Female,4/9/2020,,,,,Yes,NCR,City of San Juan
-C408616,30,30 to 34,Male,4/11/2020,,,,,Yes,NCR,Quezon City
+C408616,30,30 to 34,Male,4/11/2020,,,Recovered,4/20/2020,Yes,NCR,Quezon City
 C408637,25,25 to 29,Male,3/31/2020,,,,,Yes,Nueva Ecija,Cabanatuan City
 C408657,24,20 to 24,Female,4/9/2020,,,,,Yes,NCR,City of Muntinlupa
 C408670,38,35 to 39,Male,3/24/2020,,,,,Yes,NCR,Taguig City
@@ -2196,10 +2268,12 @@ C409945,78,75 to 79,Male,3/27/2020,,3/26/2020,Died,3/29/2020,Yes,NCR,City of Man
 C410026,82,80+,Female,3/21/2020,,,Recovered,4/19/2020,Yes,NCR,City of Pasig
 C410186,41,40 to 44,Male,4/2/2020,,,,,Yes,NCR,City of Parañaque
 C410233,50,50 to 54,Female,4/9/2020,,,,,,NCR,Quezon City
+C410310,82,80+,Male,4/20/2020,,,,,Yes,Davao del Sur,Davao City
 C410404,39,35 to 39,Male,4/17/2020,,,,,,,
 C410556,27,25 to 29,Male,3/31/2020,,,,,,NCR,Quezon City
 C410569,55,55 to 59,Male,3/17/2020,,,Recovered,4/15/2020,Yes,Rizal,Cainta
 C410719,58,55 to 59,Male,3/25/2020,,,,,Yes,,
+C410783,34,30 to 34,Male,4/20/2020,,,,,,,
 C410802,55,55 to 59,Female,4/6/2020,,,,,,NCR,Quezon City
 C410831,46,45 to 49,Female,4/3/2020,,,,,,NCR,City of Manila
 C410871,50,50 to 54,Female,3/31/2020,,,,,Yes,Cavite,City of Dasmariñas
@@ -2213,10 +2287,11 @@ C411445,62,60 to 64,Female,3/31/2020,,,,,Yes,Bataan,Samal
 C411644,40,40 to 44,Male,4/10/2020,,,,,Yes,Aklan,Kalibo (Capital)
 C411741,24,20 to 24,Male,4/7/2020,,,,,,Laguna,City of Calamba
 C411801,56,55 to 59,Female,3/29/2020,4/8/2020,,Recovered,4/14/2020,Yes,NCR,Quezon City
+C411872,82,80+,Female,4/20/2020,,,,,Yes,NCR,City of Makati
 C412061,37,35 to 39,Female,3/28/2020,4/1/2020,,Recovered,4/18/2020,Yes,NCR,City of Mandaluyong
 C412228,39,35 to 39,Male,4/2/2020,,,,,Yes,NCR,Quezon City
 C412243,38,35 to 39,Male,3/14/2020,,,Recovered,4/19/2020,Yes,NCR,City of Mandaluyong
-C412494,28,25 to 29,Male,3/29/2020,,,,,Yes,Batangas,Batangas City (Capital)
+C412494,28,25 to 29,Male,3/29/2020,,,,,Yes,Batangas,Lian
 C412707,60,60 to 64,Male,4/2/2020,,,,,,NCR,City of Mandaluyong
 C412925,37,35 to 39,Male,4/18/2020,,,,,Yes,NCR,City of Parañaque
 C413072,30,30 to 34,Male,3/31/2020,,,,,Yes,NCR,City of Makati
@@ -2232,9 +2307,10 @@ C414115,52,50 to 54,Female,4/2/2020,,,,,Yes,NCR,City of Manila
 C414184,65,65 to 69,Male,4/6/2020,,4/2/2020,Died,4/12/2020,,NCR,City of Navotas
 C414567,0,0 to 4,Male,4/6/2020,,,,,Yes,NCR,City of Manila
 C414765,15,15 to 19,Female,4/14/2020,,,,,Yes,Davao del Sur,Davao City
-C414775,66,65 to 69,Female,4/13/2020,,,,,Yes,NCR,Quezon City
+C414775,66,65 to 69,Female,4/13/2020,,4/8/2020,Died,4/20/2020,,NCR,Quezon City
 C414848,80,80+,Male,4/2/2020,,,,,Yes,NCR,Pasay City
 C414956,86,80+,Female,3/17/2020,,3/17/2020,Died,3/18/2020,No,NCR,City of San Juan
+C415045,51,50 to 54,Male,4/20/2020,,,,,Yes,NCR,City of Manila
 C415155,54,50 to 54,Female,4/15/2020,,,,,,Cebu,Cebu City (Capital)
 C415360,52,50 to 54,Male,3/28/2020,,,,,Yes,NCR,Quezon City
 C415376,46,45 to 49,Female,4/11/2020,,,,,Yes,Benguet,Baguio City
@@ -2260,6 +2336,7 @@ C418116,56,55 to 59,Female,4/6/2020,,,,,,NCR,Quezon City
 C418427,32,30 to 34,Male,3/29/2020,3/25/2020,,Recovered,4/11/2020,Yes,NCR,Taguig City
 C418474,38,35 to 39,Female,4/15/2020,,,,,Yes,Rizal,Cainta
 C418769,36,35 to 39,Male,4/10/2020,,,,,Yes,NCR,Quezon City
+C418807,34,30 to 34,Female,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C418871,66,65 to 69,Male,4/7/2020,,,,,Yes,NCR,Pasay City
 C418967,17,15 to 19,Female,4/5/2020,,,,,Yes,NCR,Taguig City
 C419130,33,30 to 34,Female,4/2/2020,,,,,Yes,Nueva Ecija,Santa Rosa
@@ -2271,7 +2348,7 @@ C419765,16,15 to 19,Female,4/14/2020,,,,,,NCR,Quezon City
 C420054,8,5 to 9,Male,4/17/2020,,,,,Yes,NCR,Caloocan City
 C420105,45,45 to 49,Female,4/8/2020,,,,,,Batangas,Batangas City (Capital)
 C420646,46,45 to 49,Female,4/14/2020,,,,,,NCR,City of Parañaque
-C420791,29,25 to 29,Female,4/4/2020,,,,,Yes,NCR,Quezon City
+C420791,29,25 to 29,Female,4/4/2020,4/19/2020,,Recovered,4/20/2020,Yes,NCR,Quezon City
 C420854,33,30 to 34,Male,4/11/2020,,,,,Yes,NCR,City of Manila
 C420901,54,50 to 54,Male,4/1/2020,,,,,Yes,NCR,Quezon City
 C420918,55,55 to 59,Female,3/30/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
@@ -2288,7 +2365,7 @@ C422396,69,65 to 69,Male,3/30/2020,,3/30/2020,Died,3/31/2020,Yes,NCR,Quezon City
 C422599,35,35 to 39,Female,4/13/2020,,,,,,NCR,City of Parañaque
 C422718,63,60 to 64,Male,4/8/2020,,,,,Yes,NCR,City of Makati
 C422880,60,60 to 64,Female,4/6/2020,,,,,,NCR,City of Marikina
-C423333,51,50 to 54,Male,4/16/2020,,,,,Yes,,
+C423333,64,60 to 64,Female,4/16/2020,,,,,,,
 C423388,34,30 to 34,Female,4/6/2020,,,,,Yes,NCR,City of Manila
 C423516,74,70 to 74,Female,4/3/2020,,,,,,,
 C423521,22,20 to 24,Female,3/29/2020,,,,,Yes,NCR,City of Manila
@@ -2301,7 +2378,7 @@ C424211,4,0 to 4,Male,4/5/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
 C424256,65,65 to 69,Female,4/15/2020,,,,,,,
 C424281,72,70 to 74,Male,4/3/2020,,,,,Yes,NCR,Quezon City
 C424403,24,20 to 24,Male,3/24/2020,,,Recovered,4/13/2020,Yes,NCR,City of Las Piñas
-C424972,59,55 to 59,Female,3/21/2020,,,,,Yes,NCR,Quezon City
+C424972,59,55 to 59,Female,3/21/2020,,,Recovered,4/20/2020,Yes,NCR,Quezon City
 C425024,60,60 to 64,Female,3/29/2020,4/15/2020,,Recovered,4/19/2020,Yes,Rizal,City of Antipolo (Capital)
 C425117,61,60 to 64,Male,3/31/2020,,,,,Yes,NCR,City of Manila
 C425124,35,35 to 39,Female,4/1/2020,,,,,Yes,NCR,Quezon City
@@ -2319,7 +2396,7 @@ C426022,71,70 to 74,Male,4/3/2020,,,,,No,,
 C426034,57,55 to 59,Male,4/12/2020,,,,,Yes,Rizal,Cainta
 C426040,3,0 to 4,Male,4/14/2020,,,,,,,
 C426076,75,75 to 79,Female,3/22/2020,,,,,Yes,NCR,City of Makati
-C426119,62,60 to 64,Male,3/30/2020,,,,,Yes,Davao Oriental,City of Mati (Capital)
+C426119,62,60 to 64,Male,3/30/2020,4/3/2020,,Recovered,4/20/2020,Yes,Davao Oriental,City of Mati (Capital)
 C426120,59,55 to 59,Male,3/14/2020,4/1/2020,,Recovered,4/3/2020,Yes,NCR,City of San Juan
 C426122,39,35 to 39,Female,3/24/2020,,,,,Yes,NCR,Quezon City
 C426199,46,45 to 49,Female,4/14/2020,,,,,,NCR,City of Manila
@@ -2365,16 +2442,18 @@ C429761,25,25 to 29,Male,4/6/2020,,,,,,NCR,City of Mandaluyong
 C429841,31,30 to 34,Male,4/14/2020,,,,,,,
 C429928,67,65 to 69,Male,3/22/2020,,,,,Yes,NCR,City of Marikina
 C430061,67,65 to 69,Male,3/31/2020,,3/18/2020,Died,4/12/2020,Yes,NCR,Caloocan City
+C430099,58,55 to 59,Female,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C430124,39,35 to 39,Female,3/31/2020,,,,,Yes,NCR,City of Marikina
 C430167,48,45 to 49,Female,4/12/2020,,,,,Yes,NCR,Quezon City
 C430195,72,70 to 74,Male,3/31/2020,,,,,Yes,NCR,Quezon City
 C430393,61,60 to 64,Male,4/11/2020,,,Died,4/15/2020,Yes,Rizal,San Mateo
 C430453,78,75 to 79,Male,4/8/2020,,,,,,,
 C430465,52,50 to 54,Female,4/14/2020,,,,,Yes,NCR,City of Manila
-C430587,64,60 to 64,Male,4/11/2020,,,Died,4/16/2020,Yes,NCR,Quezon City
-C430726,52,50 to 54,Male,3/28/2020,,,,,Yes,Davao del Sur,Davao City
+C430587,64,60 to 64,Male,4/11/2020,,4/9/2020,Died,4/16/2020,Yes,NCR,Quezon City
+C430726,52,50 to 54,Male,3/28/2020,4/2/2020,,Recovered,4/20/2020,Yes,Davao del Sur,Davao City
 C430742,4,0 to 4,Female,4/12/2020,,,,,Yes,NCR,Taguig City
 C430843,30,30 to 34,Female,4/12/2020,,,,,Yes,NCR,Pasay City
+C431002,50,50 to 54,Male,4/20/2020,,,,,,Cebu,Lapu-Lapu City (Opon)
 C431123,40,40 to 44,Male,3/27/2020,4/8/2020,,Recovered,4/16/2020,Yes,NCR,City of Manila
 C431333,30,30 to 34,Male,3/28/2020,,,,,Yes,NCR,Pasay City
 C431571,62,60 to 64,Male,4/2/2020,,,,,,,
@@ -2395,8 +2474,8 @@ C433061,24,20 to 24,Male,4/17/2020,,,,,,Bataan,Abucay
 C433120,51,50 to 54,Male,4/13/2020,,,,,Yes,Benguet,Baguio City
 C433308,36,35 to 39,Female,4/3/2020,,,,,Yes,NCR,City of Parañaque
 C433481,65,65 to 69,Female,3/27/2020,,3/22/2020,Died,4/12/2020,Yes,Cavite,Alfonso
-C433488,68,65 to 69,Female,4/5/2020,,,Died,4/17/2020,Yes,NCR,City of Las Piñas
-C433619,41,40 to 44,Male,3/30/2020,,,,,Yes,Cavite,Mendez (Mendez-Nuñez)
+C433488,68,65 to 69,Female,4/5/2020,,4/1/2020,Died,4/17/2020,Yes,NCR,City of Las Piñas
+C433619,41,40 to 44,Male,3/30/2020,4/12/2020,,Recovered,4/20/2020,Yes,Cavite,Mendez (Mendez-Nuñez)
 C433635,28,25 to 29,Female,4/5/2020,,,,,Yes,Davao del Sur,Davao City
 C433653,48,45 to 49,Female,3/31/2020,,,,,Yes,Laguna,Cabuyao City
 C433659,53,50 to 54,Male,3/28/2020,,,,,,NCR,City of Parañaque
@@ -2409,7 +2488,7 @@ C434971,43,40 to 44,Female,4/14/2020,,,,,,,
 C435197,67,65 to 69,Male,4/17/2020,,,,,,NCR,City of Manila
 C435201,17,15 to 19,Male,4/19/2020,,,,,,Cebu,Cebu City (Capital)
 C435229,38,35 to 39,Male,4/5/2020,,,,,Yes,Davao del Norte,City of Tagum (Capital)
-C435274,63,60 to 64,Female,3/21/2020,,,,,Yes,NCR,City of Manila
+C435274,63,60 to 64,Female,3/21/2020,4/7/2020,,Recovered,4/20/2020,Yes,NCR,City of Manila
 C435312,60,60 to 64,Female,4/11/2020,,,,,Yes,NCR,Quezon City
 C435356,63,60 to 64,Female,4/18/2020,,,,,Yes,NCR,Taguig City
 C435362,62,60 to 64,Female,3/31/2020,,,,,Yes,NCR,Quezon City
@@ -2475,6 +2554,7 @@ C443223,29,25 to 29,Female,4/12/2020,,,,,,,
 C443361,60,60 to 64,Male,4/4/2020,,4/2/2020,Died,4/6/2020,Yes,NCR,Quezon City
 C443507,42,40 to 44,Male,4/19/2020,,,,,Yes,NCR,City of Mandaluyong
 C443587,63,60 to 64,Female,3/29/2020,,,,,Yes,NCR,Quezon City
+C444297,87,80+,Female,4/20/2020,,,,,Yes,NCR,City of Manila
 C444435,44,40 to 44,Male,4/18/2020,,,,,,NCR,Quezon City
 C444449,76,75 to 79,Male,4/4/2020,,,,,,Cavite,Bacoor City
 C444485,28,25 to 29,Female,4/11/2020,,,,,,NCR,City of Mandaluyong
@@ -2538,8 +2618,10 @@ C451087,38,35 to 39,Male,4/6/2020,,,,,,Camarines Sur,Naga City
 C451205,32,30 to 34,Female,4/7/2020,,,,,Yes,Laguna,Alaminos
 C451285,52,50 to 54,Male,4/4/2020,,,,,Yes,NCR,City of Mandaluyong
 C451359,59,55 to 59,Female,4/17/2020,,,,,,Laguna,City of Calamba
-C451764,25,25 to 29,Male,4/18/2020,,,,,,,
+C451764,25,25 to 29,Male,4/18/2020,,,,,Yes,NCR,City of Manila
 C451813,67,65 to 69,Female,4/3/2020,,,,,Yes,Tarlac,Paniqui
+C452307,14,10 to 14,Male,4/20/2020,,,,,,Cebu,Cebu City (Capital)
+C452572,63,60 to 64,Male,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C452779,73,70 to 74,Female,4/2/2020,,,,,Yes,NCR,City of Parañaque
 C453009,63,60 to 64,Female,3/31/2020,,,,,Yes,NCR,City of Makati
 C453310,30,30 to 34,Female,4/8/2020,,,,,No,NCR,City of Pasig
@@ -2557,21 +2639,25 @@ C454825,35,35 to 39,Male,3/30/2020,,,,,Yes,NCR,City of Marikina
 C454841,55,55 to 59,Female,4/6/2020,,3/19/2020,Died,4/6/2020,Yes,Benguet,Baguio City
 C454923,88,80+,Male,4/5/2020,,4/1/2020,Died,4/7/2020,Yes,NCR,Quezon City
 C454961,46,45 to 49,Female,4/14/2020,,,,,,,
-C455296,69,65 to 69,Female,3/29/2020,,,Died,4/13/2020,Yes,NCR,Quezon City
+C455190,46,45 to 49,Male,4/20/2020,,,,,,,
+C455296,69,65 to 69,Female,3/29/2020,,4/5/2020,Died,4/13/2020,Yes,NCR,Quezon City
 C455451,82,80+,Male,3/29/2020,,,,,Yes,NCR,City of Marikina
 C455478,54,50 to 54,Male,3/31/2020,,,,,Yes,NCR,City of Manila
 C455626,40,40 to 44,Female,4/18/2020,,,,,Yes,NCR,Quezon City
 C455875,25,25 to 29,Female,4/8/2020,,,,,Yes,NCR,Quezon City
 C456006,33,30 to 34,Female,4/7/2020,,,Recovered,4/19/2020,Yes,Camiguin,Mahinog
+C456316,40,40 to 44,Female,4/20/2020,,,,,,,
 C456435,89,80+,Male,3/27/2020,,,,,Yes,NCR,City of Manila
 C456533,38,35 to 39,Male,3/25/2020,,,,,No,NCR,City of Makati
 C456609,36,35 to 39,Male,3/28/2020,,,,,No,NCR,Quezon City
 C456628,76,75 to 79,Male,3/31/2020,,,,,Yes,NCR,Quezon City
+C457025,31,30 to 34,Female,4/20/2020,,,,,,NCR,City of Makati
 C457506,49,45 to 49,Female,4/6/2020,,,,,Yes,Batangas,Lipa City
 C457685,46,45 to 49,Male,3/22/2020,,3/23/2020,Died,3/26/2020,Yes,Rizal,City of Antipolo (Capital)
 C457803,25,25 to 29,Female,4/4/2020,,,,,,,
 C457976,34,30 to 34,Male,3/31/2020,,,,,Yes,NCR,City of Makati
 C458127,39,35 to 39,Male,4/11/2020,,,,,Yes,NCR,Quezon City
+C458216,26,25 to 29,Female,4/20/2020,,,,,Yes,NCR,City of Manila
 C458227,39,35 to 39,Male,4/14/2020,,,,,,Bataan,Dinalupihan
 C458464,28,25 to 29,Female,4/15/2020,,,,,Yes,NCR,City of Manila
 C458500,49,45 to 49,Male,4/6/2020,,,,,Yes,NCR,City of Manila
@@ -2617,7 +2703,7 @@ C463382,72,70 to 74,Male,4/6/2020,,,,,,NCR,Quezon City
 C463408,30,30 to 34,Male,4/12/2020,,,,,,Iloilo,San Enrique
 C463495,50,50 to 54,Male,3/23/2020,,,,,Yes,NCR,City of Manila
 C463622,42,40 to 44,Male,4/17/2020,,,,,Yes,NCR,Pateros
-C463635,70,70 to 74,Male,3/31/2020,,,Died,4/11/2020,,NCR,City of Pasig
+C463635,70,70 to 74,Male,3/31/2020,,3/20/2020,Died,4/11/2020,,NCR,City of Pasig
 C463683,41,40 to 44,Female,4/11/2020,,,,,Yes,Laguna,Bay
 C463745,46,45 to 49,Male,4/4/2020,,,,,Yes,NCR,City of Makati
 C464028,21,20 to 24,Male,4/4/2020,,4/4/2020,Died,4/14/2020,Yes,,
@@ -2644,7 +2730,7 @@ C466937,26,25 to 29,Male,3/23/2020,,,,,Yes,Laguna,Calauan
 C467021,23,20 to 24,Female,4/16/2020,,,,,,NCR,City of Marikina
 C467182,28,25 to 29,Female,4/6/2020,,,,,Yes,NCR,Taguig City
 C467224,69,65 to 69,Female,3/31/2020,,,,,Yes,NCR,City of San Juan
-C467263,31,30 to 34,Male,4/2/2020,,,,,Yes,NCR,Quezon City
+C467263,31,30 to 34,Male,4/2/2020,,,Recovered,4/20/2020,Yes,NCR,Quezon City
 C467503,37,35 to 39,Male,3/27/2020,,,,,,NCR,Quezon City
 C467580,42,40 to 44,Female,4/18/2020,,,,,Yes,NCR,City of Manila
 C467667,5,5 to 9,Female,3/28/2020,4/7/2020,,Recovered,4/12/2020,Yes,NCR,Pasay City
@@ -2678,7 +2764,7 @@ C471902,23,20 to 24,Male,4/15/2020,,,,,,NCR,City of Parañaque
 C471983,60,60 to 64,Male,4/13/2020,,,,,Yes,NCR,Taguig City
 C472325,56,55 to 59,Male,4/5/2020,,,,,Yes,NCR,City of Marikina
 C472473,31,30 to 34,Male,3/14/2020,3/28/2020,,Recovered,4/14/2020,Yes,NCR,Caloocan City
-C472765,52,50 to 54,Male,3/30/2020,,,,,Yes,Davao del Norte,City of Panabo
+C472765,52,50 to 54,Male,3/30/2020,4/8/2020,,Recovered,4/20/2020,Yes,Davao del Norte,City of Panabo
 C472777,55,55 to 59,Male,4/8/2020,,,,,Yes,NCR,City of San Juan
 C472792,69,65 to 69,Male,3/31/2020,,,,,Yes,Cebu,Cebu City (Capital)
 C472941,4,0 to 4,Female,4/13/2020,,,,,,NCR,City of Parañaque
@@ -2721,7 +2807,8 @@ C477389,54,50 to 54,Male,4/15/2020,,,,,Yes,NCR,Pasay City
 C477710,45,45 to 49,Male,4/14/2020,,,,,No,NCR,City of Las Piñas
 C477723,56,55 to 59,Female,3/28/2020,,,Recovered,4/13/2020,Yes,NCR,Quezon City
 C477841,36,35 to 39,Female,4/18/2020,,,,,,,
-C478073,67,65 to 69,Female,4/14/2020,,,,,Yes,NCR,City of Makati
+C477862,25,25 to 29,Female,4/20/2020,,,,,,Cebu,Cebu City (Capital)
+C478073,67,65 to 69,Female,4/14/2020,,,Died,4/20/2020,Yes,NCR,City of Makati
 C478098,86,80+,Female,3/27/2020,,,,,Yes,NCR,City of Makati
 C478116,29,25 to 29,Male,4/12/2020,,,,,Yes,NCR,Quezon City
 C478275,20,20 to 24,Male,3/30/2020,,,,,Yes,NCR,Quezon City
@@ -2803,10 +2890,12 @@ C487637,34,30 to 34,Female,4/1/2020,4/7/2020,,Recovered,4/17/2020,Yes,Davao del 
 C488007,59,55 to 59,Male,4/12/2020,,,,,,Cebu,Cebu City (Capital)
 C488238,47,45 to 49,Female,3/21/2020,,,,,,Rizal,Cainta
 C488321,54,50 to 54,Female,3/30/2020,4/5/2020,,Recovered,4/12/2020,Yes,Cavite,Silang
+C488385,28,25 to 29,Male,4/20/2020,,,,,,,
 C488404,56,55 to 59,Male,4/1/2020,,,,,Yes,Bulacan,Bocaue
 C488416,31,30 to 34,Female,4/6/2020,,,,,Yes,NCR,City of Las Piñas
 C488431,25,25 to 29,Female,4/11/2020,,,,,Yes,Rizal,San Mateo
 C488443,31,30 to 34,Female,3/22/2020,4/12/2020,,Recovered,4/16/2020,No,NCR,Quezon City
+C488554,29,25 to 29,Male,4/20/2020,,,,,Yes,NCR,City of Mandaluyong
 C488715,60,60 to 64,Male,3/29/2020,,3/30/2020,Died,4/12/2020,Yes,Cavite,Imus City
 C488725,43,40 to 44,Male,4/14/2020,,,,,,,
 C488870,60,60 to 64,Male,3/29/2020,3/31/2020,,Recovered,4/8/2020,Yes,NCR,Quezon City
@@ -2814,6 +2903,7 @@ C489061,58,55 to 59,Female,3/30/2020,,,,,Yes,NCR,City of Pasig
 C489067,31,30 to 34,Male,4/10/2020,,,,,Yes,NCR,City of Pasig
 C489134,31,30 to 34,Male,3/28/2020,,,,,Yes,NCR,Caloocan City
 C489307,63,60 to 64,Female,3/31/2020,,,,,Yes,Rizal,Cainta
+C489600,39,35 to 39,Female,4/20/2020,,,,,,Rizal,Baras
 C489817,52,50 to 54,Male,3/30/2020,,,,,Yes,NCR,Quezon City
 C489930,55,55 to 59,Male,3/24/2020,,,,,Yes,Bataan,Orion
 C490079,64,60 to 64,Female,4/11/2020,,,,,Yes,NCR,City of Makati
@@ -2845,7 +2935,7 @@ C492620,33,30 to 34,Female,4/8/2020,,,,,Yes,NCR,Quezon City
 C493252,33,30 to 34,Male,4/2/2020,,,,,Yes,NCR,Caloocan City
 C493652,48,45 to 49,Male,3/30/2020,4/11/2020,,Recovered,4/16/2020,Yes,Davao del Sur,Davao City
 C493730,27,25 to 29,Female,4/10/2020,,,,,Yes,NCR,Taguig City
-C493926,25,25 to 29,Female,3/25/2020,,,,,,NCR,Quezon City
+C493926,25,25 to 29,Female,3/25/2020,,,,,Yes,NCR,Quezon City
 C493948,59,55 to 59,Female,4/19/2020,,,,,Yes,NCR,City of Mandaluyong
 C494116,73,70 to 74,Female,4/8/2020,,,,,Yes,Pampanga,Angeles City
 C494156,80,80+,Male,3/28/2020,,,,,Yes,,
@@ -2929,7 +3019,7 @@ C505654,34,30 to 34,Female,4/8/2020,,,,,No,NCR,Quezon City
 C505698,44,40 to 44,Female,4/19/2020,,,,,,,
 C505970,60,60 to 64,Female,4/6/2020,,,,,,,
 C506085,65,65 to 69,Male,3/29/2020,,,,,Yes,NCR,City of Makati
-C506438,45,45 to 49,Female,4/11/2020,,,,,No,NCR,City of Makati
+C506438,45,45 to 49,Female,4/11/2020,4/16/2020,,Recovered,4/20/2020,Yes,NCR,City of Makati
 C507003,70,70 to 74,Female,4/2/2020,,,,,Yes,NCR,City of Pasig
 C507191,54,50 to 54,Male,4/1/2020,,,,,,NCR,City of Manila
 C507255,28,25 to 29,Female,4/15/2020,,,,,Yes,NCR,Quezon City
@@ -2959,6 +3049,7 @@ C510657,30,30 to 34,Male,3/20/2020,4/15/2020,,Recovered,4/17/2020,No,NCR,City of
 C510661,26,25 to 29,Male,4/16/2020,,,,,Yes,NCR,City of San Juan
 C510717,42,40 to 44,Female,3/23/2020,,,,,Yes,NCR,City of Pasig
 C510749,40,40 to 44,Female,3/24/2020,,,,,Yes,NCR,City of Makati
+C510802,63,60 to 64,Female,4/20/2020,,,,,Yes,Catanduanes,Virac (Capital)
 C511240,46,45 to 49,Female,4/1/2020,,,,,Yes,NCR,City of Muntinlupa
 C511449,71,70 to 74,Male,4/3/2020,,,,,Yes,NCR,City of Makati
 C511531,28,25 to 29,Female,4/6/2020,,,,,Yes,NCR,City of Las Piñas
@@ -2970,6 +3061,7 @@ C512181,41,40 to 44,Female,4/17/2020,,,,,,NCR,Quezon City
 C512196,77,75 to 79,Male,4/18/2020,,,,,,NCR,City of Makati
 C512220,46,45 to 49,Female,3/31/2020,,,,,Yes,NCR,City of Manila
 C512485,65,65 to 69,Male,4/6/2020,,,,,No,Rizal,Cardona
+C512584,46,45 to 49,Male,4/20/2020,,,,,,,
 C512661,70,70 to 74,Male,3/28/2020,,,Died,4/12/2020,Yes,Laguna,City of San Pedro
 C512779,51,50 to 54,Male,4/18/2020,,,,,,,
 C513348,39,35 to 39,Male,3/26/2020,4/8/2020,,Recovered,4/13/2020,Yes,Cavite,Imus City
@@ -2995,8 +3087,9 @@ C515939,62,60 to 64,Female,4/5/2020,,,,,,,
 C516462,60,60 to 64,Female,3/31/2020,3/21/2020,,Recovered,4/14/2020,Yes,NCR,City of Makati
 C516559,87,80+,Male,4/12/2020,,4/7/2020,Died,4/13/2020,Yes,Oriental Mindoro,City of Calapan (Capital)
 C516803,52,50 to 54,Female,4/12/2020,,,,,,NCR,City of Mandaluyong
+C516821,50,50 to 54,Female,4/20/2020,,,,,,,
 C516842,47,45 to 49,Male,3/27/2020,,,,,Yes,NCR,City of Makati
-C516844,54,50 to 54,Male,3/28/2020,,,,,Yes,NCR,Taguig City
+C516844,54,50 to 54,Male,3/28/2020,4/19/2020,,Recovered,4/20/2020,Yes,NCR,Taguig City
 C516937,44,40 to 44,Female,4/17/2020,,,,,Yes,NCR,Quezon City
 C517144,50,50 to 54,Female,3/28/2020,,,,,Yes,NCR,City of San Juan
 C517191,19,15 to 19,Male,3/23/2020,,,,,,NCR,City of Marikina
@@ -3025,16 +3118,18 @@ C519887,35,35 to 39,Female,4/12/2020,,,,,Yes,NCR,City of San Juan
 C520239,38,35 to 39,Male,4/15/2020,,,,,,NCR,City of Manila
 C520431,60,60 to 64,Male,4/11/2020,,,,,,Batangas,Lipa City
 C520767,28,25 to 29,Female,4/15/2020,,,,,Yes,NCR,City of Manila
+C520919,33,30 to 34,Female,4/20/2020,,,,,Yes,Laguna,City of Calamba
 C520938,27,25 to 29,Female,4/13/2020,,,,,Yes,Rizal,Binangonan
 C521495,64,60 to 64,Male,4/6/2020,,,,,Yes,NCR,Quezon City
 C521512,64,60 to 64,Female,3/31/2020,,,,,Yes,Nueva Ecija,Laur
 C521763,63,60 to 64,Male,4/2/2020,,,,,Yes,NCR,Quezon City
 C521779,95,80+,Male,3/27/2020,,,,,Yes,NCR,City of Mandaluyong
 C521815,29,25 to 29,Male,4/5/2020,,,,,Yes,NCR,City of Las Piñas
-C521818,42,40 to 44,Female,4/1/2020,,,,,No,Davao Oriental,City of Mati (Capital)
+C521818,42,40 to 44,Female,4/1/2020,4/3/2020,,Recovered,4/20/2020,No,Davao Oriental,City of Mati (Capital)
 C522031,32,30 to 34,Male,3/26/2020,3/29/2020,,Recovered,4/10/2020,Yes,Laguna,City of Santa Rosa
+C522094,42,40 to 44,Female,4/20/2020,,,,,,,
 C522177,30,30 to 34,Male,4/2/2020,,,,,,NCR,City of Pasig
-C522566,30,30 to 34,Male,4/2/2020,,,,,No,Nueva Vizcaya,Solano
+C522566,30,30 to 34,Male,4/2/2020,4/19/2020,,Recovered,4/20/2020,No,Nueva Vizcaya,Solano
 C522609,25,25 to 29,Male,4/14/2020,,,,,,NCR,City of Parañaque
 C522998,40,40 to 44,Female,3/29/2020,,,,,Yes,Laguna,City of Biñan
 C523630,28,25 to 29,Female,4/17/2020,,,,,Yes,NCR,Caloocan City
@@ -3064,6 +3159,7 @@ C526879,34,30 to 34,Female,4/16/2020,,,,,Yes,Rizal,Binangonan
 C527108,43,40 to 44,Female,4/13/2020,,,,,Yes,Laguna,San Pablo City
 C527437,27,25 to 29,Male,4/16/2020,,,,,Yes,Batangas,Lipa City
 C527837,42,40 to 44,Male,4/6/2020,,,,,Yes,Batangas,Nasugbu
+C527864,84,80+,Female,4/20/2020,,,,,,,
 C527987,65,65 to 69,Male,4/8/2020,,4/3/2020,Died,4/12/2020,Yes,Quezon,Infanta
 C528336,50,50 to 54,Female,4/2/2020,,,Recovered,4/17/2020,Yes,NCR,Quezon City
 C528343,22,20 to 24,Male,4/4/2020,,3/27/2020,Died,4/10/2020,Yes,NCR,City of Marikina
@@ -3123,21 +3219,23 @@ C537784,21,20 to 24,Female,4/6/2020,,,,,,NCR,City of Marikina
 C537909,24,20 to 24,Female,4/7/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
 C538306,17,15 to 19,Female,4/7/2020,,,,,Yes,NCR,Quezon City
 C538439,67,65 to 69,Female,4/9/2020,,,,,Yes,Bulacan,Baliuag
-C538576,25,25 to 29,Female,4/8/2020,,,,,,NCR,Quezon City
+C538576,25,25 to 29,Female,4/8/2020,,,,,Yes,NCR,Quezon City
 C538583,51,50 to 54,Male,4/6/2020,,,,,,NCR,Quezon City
 C538664,44,40 to 44,Male,4/6/2020,,,,,Yes,NCR,Quezon City
 C538711,24,20 to 24,Female,4/12/2020,,,,,Yes,NCR,City of Valenzuela
 C538757,8,5 to 9,Female,4/13/2020,,,,,Yes,Quezon,Pitogo
 C539009,45,45 to 49,Male,3/29/2020,4/8/2020,,Recovered,4/17/2020,Yes,Davao del Sur,Davao City
 C539162,51,50 to 54,Male,4/3/2020,,,,,Yes,NCR,City of Las Piñas
+C539440,10,10 to 14,Male,4/20/2020,,,,,,Laguna,Los Baños
 C539457,42,40 to 44,Male,4/3/2020,,,,,,,
 C539514,43,40 to 44,Male,4/18/2020,,,,,,Cebu,Cebu City (Capital)
 C539736,50,50 to 54,Female,4/17/2020,,,,,Yes,NCR,City of San Juan
-C539845,37,35 to 39,Male,4/18/2020,,,,,,,
+C539845,37,35 to 39,Male,4/18/2020,,,,,Yes,NCR,City of Manila
 C540041,33,30 to 34,Male,4/13/2020,,,,,Yes,NCR,City of Manila
 C540457,30,30 to 34,Male,4/16/2020,,,,,,Cebu,Cebu City (Capital)
 C540600,34,30 to 34,Male,4/14/2020,,,,,No,NCR,City of Parañaque
 C540661,78,75 to 79,Female,3/17/2020,,,,,Yes,NCR,City of Muntinlupa
+C540842,56,55 to 59,Male,4/20/2020,,,,,Yes,NCR,City of Manila
 C540936,59,55 to 59,Female,4/3/2020,,,,,,NCR,Quezon City
 C540954,30,30 to 34,Male,4/6/2020,,,,,Yes,Rizal,Taytay
 C541397,25,25 to 29,Female,4/1/2020,,,,,Yes,NCR,City of San Juan
@@ -3152,7 +3250,7 @@ C542840,26,25 to 29,Male,4/17/2020,,,,,,NCR,Caloocan City
 C542867,46,45 to 49,Male,4/1/2020,,,,,No,NCR,City of Pasig
 C542909,28,25 to 29,Male,4/12/2020,,,,,,Rizal,Teresa
 C543273,50,50 to 54,Female,4/17/2020,,,,,,NCR,City of Parañaque
-C543419,48,45 to 49,Female,4/5/2020,,,Died,4/19/2020,Yes,NCR,City of Pasig
+C543419,48,45 to 49,Female,4/5/2020,,4/6/2020,Died,4/19/2020,Yes,NCR,City of Pasig
 C543531,26,25 to 29,Male,4/14/2020,,,,,,,
 C543624,38,35 to 39,Female,4/14/2020,,,,,,NCR,City of Parañaque
 C543843,36,35 to 39,Male,4/11/2020,,,,,Yes,NCR,Pasay City
@@ -3175,7 +3273,7 @@ C545777,28,25 to 29,Female,4/11/2020,,,,,Yes,Rizal,Binangonan
 C545963,34,30 to 34,Female,4/11/2020,,,,,,Rizal,Cainta
 C546482,75,75 to 79,Female,4/3/2020,,,,,Yes,,
 C546494,13,10 to 14,Female,4/1/2020,,,,,,NCR,Pasay City
-C546575,55,55 to 59,Female,3/31/2020,,,Died,4/16/2020,Yes,NCR,City of Manila
+C546575,55,55 to 59,Female,3/31/2020,,3/24/2020,Died,4/16/2020,Yes,NCR,City of Manila
 C546683,30,30 to 34,Male,4/13/2020,,,,,Yes,Laguna,San Pablo City
 C546760,46,45 to 49,Male,4/18/2020,,,,,,Bataan,Mariveles
 C546868,52,50 to 54,Female,4/6/2020,,,,,,NCR,City of Mandaluyong
@@ -3185,15 +3283,17 @@ C547048,49,45 to 49,Male,4/15/2020,,,,,,,
 C547092,30,30 to 34,Female,4/11/2020,,,,,Yes,NCR,Quezon City
 C547141,38,35 to 39,Male,4/14/2020,,,,,Yes,NCR,City of Makati
 C547159,28,25 to 29,Male,3/25/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
+C547356,59,55 to 59,Male,4/20/2020,,,,,Yes,NCR,Quezon City
 C547371,38,35 to 39,Male,4/9/2020,,,,,Yes,NCR,Taguig City
 C547429,65,65 to 69,Male,4/9/2020,,,Died,4/15/2020,Yes,NCR,Quezon City
 C547558,75,75 to 79,Male,3/29/2020,,,,,Yes,Pangasinan,Infanta
+C547728,36,35 to 39,Male,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C548120,71,70 to 74,Female,4/3/2020,,,,,Yes,,
 C548154,23,20 to 24,Female,4/13/2020,,,,,Yes,Bulacan,City of San Jose Del Monte
 C548252,60,60 to 64,Male,4/9/2020,,,,,,NCR,Taguig City
 C548408,31,30 to 34,Female,4/13/2020,,,,,Yes,NCR,Quezon City
-C548494,27,25 to 29,Female,3/30/2020,,,,,Yes,NCR,City of San Juan
-C548613,54,50 to 54,Male,3/22/2020,,,,,Yes,NCR,Quezon City
+C548494,27,25 to 29,Female,3/30/2020,4/13/2020,,Recovered,4/20/2020,Yes,NCR,City of San Juan
+C548613,54,50 to 54,Male,3/22/2020,4/13/2020,,Recovered,4/20/2020,Yes,NCR,Quezon City
 C549033,24,20 to 24,Female,4/11/2020,,,,,No,NCR,City of Mandaluyong
 C549243,29,25 to 29,Female,4/19/2020,,,,,,Cavite,Bacoor City
 C549319,43,40 to 44,Female,4/8/2020,,,,,Yes,NCR,City of Mandaluyong
@@ -3208,7 +3308,7 @@ C550190,45,45 to 49,Female,3/23/2020,,,,,Yes,NCR,Quezon City
 C550336,60,60 to 64,Female,3/26/2020,,,,,Yes,Nueva Ecija,City of Gapan
 C550384,52,50 to 54,Female,4/9/2020,,4/3/2020,Died,4/15/2020,Yes,NCR,Quezon City
 C550455,16,15 to 19,Female,4/11/2020,,,,,Yes,Bulacan,Bocaue
-C550572,26,25 to 29,Female,4/18/2020,,,,,,,
+C550572,26,25 to 29,Female,4/18/2020,,,,,Yes,NCR,City of Manila
 C550635,40,40 to 44,Female,4/2/2020,,,,,,Rizal,Baras
 C550650,73,70 to 74,Female,4/14/2020,,,,,Yes,NCR,Pasay City
 C550735,26,25 to 29,Male,4/8/2020,,,,,Yes,Cagayan,Tuguegarao City (Capital)
@@ -3222,6 +3322,7 @@ C551661,89,80+,Male,3/30/2020,,,,,Yes,NCR,Quezon City
 C551830,40,40 to 44,Male,3/31/2020,,,Recovered,4/15/2020,Yes,Benguet,La Trinidad (Capital)
 C552142,47,45 to 49,Female,4/2/2020,,,,,Yes,NCR,Quezon City
 C552492,35,35 to 39,Male,4/7/2020,,,,,Yes,NCR,City of Muntinlupa
+C552611,39,35 to 39,Female,4/20/2020,,,,,,NCR,City of Parañaque
 C552791,31,30 to 34,Female,4/2/2020,,,,,,,
 C552919,62,60 to 64,Male,4/1/2020,,,,,Yes,NCR,City of Makati
 C553124,50,50 to 54,Male,4/6/2020,,,,,,NCR,Quezon City
@@ -3242,6 +3343,7 @@ C555317,85,80+,Female,4/7/2020,,,,,Yes,Cavite,Bacoor City
 C555461,57,55 to 59,Male,3/26/2020,3/30/2020,,Recovered,4/16/2020,Yes,NCR,City of San Juan
 C555476,75,75 to 79,Male,4/14/2020,,,,,Yes,NCR,City of Marikina
 C555642,42,40 to 44,Female,4/6/2020,4/11/2020,,Recovered,4/14/2020,Yes,Cebu,Cebu City (Capital)
+C555849,53,50 to 54,Male,4/20/2020,,,,,,Quezon,City of Tayabas
 C555911,78,75 to 79,Female,3/29/2020,,,,,Yes,NCR,City of Pasig
 C556303,72,70 to 74,Female,4/6/2020,,,,,Yes,NCR,City of Parañaque
 C556551,39,35 to 39,Female,4/19/2020,,,,,Yes,NCR,City of Parañaque
@@ -3264,12 +3366,14 @@ C559058,56,55 to 59,Female,4/14/2020,,,,,,,
 C559116,57,55 to 59,Female,3/22/2020,4/2/2020,,Recovered,4/11/2020,Yes,NCR,Taguig City
 C559232,20,20 to 24,Male,4/2/2020,,,,,Yes,NCR,Quezon City
 C559303,2,0 to 4,Female,4/18/2020,,,,,,NCR,City of Las Piñas
+C559391,49,45 to 49,Male,4/20/2020,,,,,,Laguna,City of San Pedro
 C559530,70,70 to 74,Female,3/31/2020,4/14/2020,,Recovered,4/15/2020,Yes,Bataan,City of Balanga (Capital)
 C559875,61,60 to 64,Male,3/25/2020,,,,,Yes,NCR,Taguig City
 C559881,70,70 to 74,Male,3/23/2020,,,,,Yes,NCR,City of Makati
 C559930,40,40 to 44,Male,4/19/2020,,,,,,,
 C559942,34,30 to 34,Female,3/31/2020,,,,,No,NCR,Pasay City
 C560202,31,30 to 34,Male,4/13/2020,,,,,Yes,Cavite,Imus City
+C560387,43,40 to 44,Female,4/20/2020,,,,,Yes,NCR,Pasay City
 C560399,50,50 to 54,Male,4/12/2020,,,,,Yes,Bulacan,Guiguinto
 C560533,77,75 to 79,Female,3/31/2020,,,,,Yes,NCR,City of San Juan
 C560838,25,25 to 29,Male,3/20/2020,4/6/2020,,Recovered,4/9/2020,Yes,NCR,Quezon City
@@ -3281,6 +3385,7 @@ C561442,33,30 to 34,Male,4/11/2020,,,,,Yes,NCR,Pateros
 C561986,49,45 to 49,Female,4/6/2020,,,,,,Batangas,Lipa City
 C562276,34,30 to 34,Female,4/10/2020,,,,,Yes,NCR,City of Mandaluyong
 C562663,69,65 to 69,Male,4/1/2020,,4/8/2020,Died,4/12/2020,Yes,NCR,Caloocan City
+C562912,58,55 to 59,Female,4/20/2020,,,,,,,
 C563069,45,45 to 49,Male,4/18/2020,,,,,,NCR,City of Manila
 C563278,65,65 to 69,Male,3/18/2020,4/2/2020,,Recovered,4/14/2020,Yes,Cebu,Cebu City (Capital)
 C563380,42,40 to 44,Female,3/30/2020,,,,,Yes,Laguna,City of Santa Rosa
@@ -3290,11 +3395,13 @@ C564582,47,45 to 49,Male,4/10/2020,,,,,Yes,Laguna,Los Baños
 C564596,40,40 to 44,Female,4/7/2020,,,,,,NCR,City of Parañaque
 C564926,32,30 to 34,Male,3/24/2020,,,,,Yes,NCR,City of Muntinlupa
 C564942,41,40 to 44,Male,4/1/2020,,,,,No,NCR,City of Makati
+C565080,28,25 to 29,Female,4/20/2020,,,,,Yes,Albay,Daraga (Locsin)
 C565109,67,65 to 69,Male,4/6/2020,,,,,Yes,NCR,City of Makati
 C565336,23,20 to 24,Female,4/19/2020,,,,,,,
 C565467,79,75 to 79,Male,4/6/2020,,,,,,Laguna,City of Biñan
 C565959,74,70 to 74,Male,3/31/2020,3/6/2020,,Recovered,4/9/2020,Yes,NCR,City of San Juan
 C566274,66,65 to 69,Female,3/31/2020,,,,,Yes,NCR,City of Malabon
+C566378,30,30 to 34,Female,4/20/2020,,,,,,,
 C566450,73,70 to 74,Male,4/8/2020,,4/8/2020,Died,4/16/2020,Yes,NCR,City of Mandaluyong
 C566572,77,75 to 79,Female,4/18/2020,,,,,No,Iloilo,Pavia
 C566604,54,50 to 54,Male,4/7/2020,,,,,Yes,Davao del Sur,Davao City
@@ -3310,6 +3417,7 @@ C567939,31,30 to 34,Female,3/24/2020,,,,,No,NCR,City of San Juan
 C567965,37,35 to 39,Male,4/3/2020,,,,,,NCR,City of Mandaluyong
 C568066,49,45 to 49,Male,4/15/2020,,,,,,NCR,City of Makati
 C568184,63,60 to 64,Male,4/16/2020,,4/1/2020,Died,4/13/2020,,Rizal,Cainta
+C568461,22,20 to 24,Male,4/20/2020,,,,,,NCR,City of Muntinlupa
 C568634,56,55 to 59,Male,4/9/2020,,,,,Yes,NCR,City of Mandaluyong
 C568803,57,55 to 59,Female,4/12/2020,,,,,,NCR,City of San Juan
 C568994,81,80+,Male,4/2/2020,,,,,,NCR,City of Pasig
@@ -3338,12 +3446,14 @@ C572103,43,40 to 44,Male,3/26/2020,,3/27/2020,Died,3/30/2020,Yes,NCR,City of Par
 C572349,28,25 to 29,Female,4/6/2020,,,,,Yes,NCR,Caloocan City
 C572602,72,70 to 74,Male,3/31/2020,,,,,Yes,Laguna,Majayjay
 C572871,87,80+,Female,4/2/2020,,,,,Yes,NCR,City of Manila
+C573122,49,45 to 49,Female,4/20/2020,,,,,,,
 C573160,53,50 to 54,Male,3/28/2020,,,,,Yes,,
 C573256,20,20 to 24,Female,3/24/2020,,,,,Yes,NCR,Quezon City
 C573456,23,20 to 24,Male,4/15/2020,,,,,Yes,NCR,Taguig City
 C573464,52,50 to 54,Male,4/2/2020,,,,,Yes,NCR,City of Mandaluyong
+C573589,41,40 to 44,Male,4/20/2020,,,,,,,
 C573678,71,70 to 74,Male,4/18/2020,,,,,Yes,NCR,City of Makati
-C573860,49,45 to 49,Male,4/11/2020,,,,,Yes,NCR,City of Valenzuela
+C573860,49,45 to 49,Male,4/11/2020,,,Recovered,4/20/2020,Yes,NCR,City of Valenzuela
 C574183,55,55 to 59,Female,4/12/2020,,,,,,NCR,City of Pasig
 C574373,22,20 to 24,Male,4/18/2020,,,,,Yes,NCR,City of Manila
 C574401,28,25 to 29,Male,3/28/2020,,,,,Yes,Tarlac,Capas
@@ -3376,6 +3486,7 @@ C577028,46,45 to 49,Male,4/8/2020,,,,,Yes,NCR,Taguig City
 C577187,92,80+,Male,3/29/2020,,,,,Yes,NCR,Quezon City
 C577239,30,30 to 34,Male,4/7/2020,,,,,,NCR,City of Pasig
 C577245,70,70 to 74,Female,3/28/2020,,,,,Yes,Zambales,Cabangan
+C577266,54,50 to 54,Female,4/20/2020,,,,,Yes,Laguna,Victoria
 C577343,55,55 to 59,Female,4/11/2020,,,,,Yes,NCR,City of Pasig
 C577406,66,65 to 69,Female,3/31/2020,,,,,Yes,Laguna,City of San Pedro
 C577550,29,25 to 29,Male,4/13/2020,,,,,No,NCR,Caloocan City
@@ -3474,11 +3585,12 @@ C591772,60,60 to 64,Female,4/2/2020,,,,,No,NCR,City of Mandaluyong
 C591973,55,55 to 59,Male,4/6/2020,,,,,,NCR,Quezon City
 C592112,68,65 to 69,Female,4/19/2020,,,,,Yes,Tarlac,City of Tarlac (Capital)
 C592182,41,40 to 44,Female,4/13/2020,,,,,Yes,NCR,Quezon City
-C592292,63,60 to 64,Male,3/30/2020,,,,,Yes,Davao del Sur,Davao City
+C592292,63,60 to 64,Male,3/30/2020,4/4/2020,,Recovered,4/20/2020,Yes,Davao del Sur,Davao City
 C592380,66,65 to 69,Female,4/1/2020,,,,,Yes,Pangasinan,Malasiqui
 C592588,60,60 to 64,Male,3/31/2020,,,,,Yes,NCR,City of Makati
 C593111,29,25 to 29,Male,4/18/2020,,,,,,Laguna,Los Baños
 C593552,32,30 to 34,Female,3/31/2020,,3/25/2020,Died,4/9/2020,Yes,Bulacan,City of San Jose Del Monte
+C593709,30,30 to 34,Male,4/20/2020,,,,,,,
 C594149,32,30 to 34,Female,4/2/2020,,,,,Yes,NCR,City of Mandaluyong
 C594288,81,80+,Female,4/3/2020,,,,,Yes,NCR,City of Manila
 C594646,63,60 to 64,Male,4/14/2020,,,,,Yes,NCR,City of San Juan
@@ -3489,7 +3601,7 @@ C595192,55,55 to 59,Male,4/18/2020,,,,,Yes,NCR,City of Makati
 C595395,84,80+,Male,3/31/2020,,4/5/2020,Died,4/11/2020,Yes,Cebu,City of Talisay
 C596106,51,50 to 54,Female,4/2/2020,,3/27/2020,Died,4/19/2020,Yes,NCR,City of Pasig
 C596206,70,70 to 74,Male,3/13/2020,,,,,Yes,NCR,City of San Juan
-C596320,71,70 to 74,Female,4/18/2020,,,,,,NCR,City of Manila
+C596320,71,70 to 74,Female,4/18/2020,,4/12/2020,Died,4/20/2020,Yes,NCR,City of Manila
 C596392,42,40 to 44,Male,4/15/2020,,,,,,NCR,City of Mandaluyong
 C596421,78,75 to 79,Male,4/5/2020,,,,,Yes,,
 C596563,31,30 to 34,Female,4/13/2020,,,,,,Bataan,City of Balanga (Capital)
@@ -3544,6 +3656,7 @@ C602817,47,45 to 49,Male,3/31/2020,,,,,Yes,NCR,Caloocan City
 C602826,34,30 to 34,Male,4/6/2020,,,,,,NCR,City of Malabon
 C602946,67,65 to 69,Male,3/31/2020,,,,,Yes,NCR,City of Manila
 C603044,50,50 to 54,Male,3/27/2020,4/4/2020,,Recovered,4/16/2020,Yes,NCR,Quezon City
+C603158,56,55 to 59,Male,4/20/2020,,,,,,,
 C603215,25,25 to 29,Female,4/14/2020,,,,,,Laguna,Liliw
 C603379,62,60 to 64,Male,4/3/2020,,,,,Yes,NCR,City of Manila
 C603455,40,40 to 44,Female,4/13/2020,,,,,,NCR,City of Parañaque
@@ -3608,10 +3721,11 @@ C609609,28,25 to 29,Male,4/17/2020,,,,,,Bataan,Hermosa
 C609683,27,25 to 29,Female,4/16/2020,,,,,Yes,Pampanga,Lubao
 C609748,58,55 to 59,Female,4/12/2020,,4/12/2020,Died,4/16/2020,Yes,NCR,City of Pasig
 C609954,75,75 to 79,Female,4/9/2020,,,,,Yes,NCR,Quezon City
-C610020,21,20 to 24,Female,4/6/2020,,,Recovered,4/18/2020,Yes,NCR,City of Makati
+C610020,21,20 to 24,Female,4/6/2020,4/18/2020,,Recovered,4/18/2020,Yes,NCR,City of Makati
 C610142,73,70 to 74,Male,4/17/2020,,,,,Yes,NCR,Quezon City
 C610174,73,70 to 74,Male,4/6/2020,,,,,,NCR,City of Manila
 C610242,28,25 to 29,Male,4/15/2020,,,,,,NCR,Quezon City
+C610270,34,30 to 34,Male,4/20/2020,,,,,,,
 C610342,70,70 to 74,Female,3/28/2020,,,,,Yes,NCR,Quezon City
 C610398,88,80+,Female,3/28/2020,,,,,Yes,NCR,City of Parañaque
 C610476,25,25 to 29,Male,4/7/2020,,,,,,Laguna,City of Calamba
@@ -3654,7 +3768,7 @@ C615726,65,65 to 69,Male,3/21/2020,,,,,Yes,Iloilo,Guimbal
 C616319,28,25 to 29,Female,4/13/2020,,,,,Yes,NCR,City of Marikina
 C616400,25,25 to 29,Female,4/9/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
 C616568,40,40 to 44,Male,4/3/2020,,,,,,Laguna,Calauan
-C616990,90,80+,Female,4/17/2020,,,,,,NCR,City of Manila
+C616990,90,80+,Female,4/17/2020,,,,,Yes,NCR,City of Manila
 C617023,66,65 to 69,Male,3/31/2020,,,,,Yes,NCR,Taguig City
 C617057,61,60 to 64,Male,4/14/2020,,,,,Yes,NCR,Caloocan City
 C617074,43,40 to 44,Female,4/3/2020,,,,,Yes,NCR,City of Parañaque
@@ -3669,8 +3783,9 @@ C618287,42,40 to 44,Female,3/30/2020,,3/23/2020,Died,4/2/2020,Yes,NCR,Caloocan C
 C618345,65,65 to 69,Male,3/31/2020,,3/20/2020,Died,4/12/2020,Yes,NCR,City of Manila
 C618543,67,65 to 69,Female,4/6/2020,,,,,Yes,NCR,Quezon City
 C618723,88,80+,Female,4/9/2020,,,,,Yes,NCR,City of Pasig
-C618799,54,50 to 54,Male,4/13/2020,,,,,Yes,NCR,Taguig City
+C618799,54,50 to 54,Male,4/13/2020,,,,,,NCR,Taguig City
 C619075,35,35 to 39,Female,4/6/2020,,,,,Yes,NCR,City of Mandaluyong
+C619270,53,50 to 54,Male,4/20/2020,,,,,Yes,Bataan,Orani
 C619332,59,55 to 59,Male,4/6/2020,,,,,Yes,NCR,Taguig City
 C619508,22,20 to 24,Male,4/14/2020,,,,,Yes,Laguna,City of Calamba
 C619521,41,40 to 44,Female,4/16/2020,,,,,Yes,Bataan,Orani
@@ -3732,6 +3847,7 @@ C628776,79,75 to 79,Male,4/1/2020,,,,,,NCR,Caloocan City
 C628899,42,40 to 44,Female,4/18/2020,,,,,,Cavite,Cavite City
 C628937,67,65 to 69,Male,3/29/2020,,,,,Yes,NCR,City of Pasig
 C629033,57,55 to 59,Male,4/9/2020,,4/14/2020,Died,4/16/2020,Yes,Davao del Sur,Davao City
+C629041,44,40 to 44,Male,4/20/2020,,,,,Yes,,
 C629613,29,25 to 29,Female,3/15/2020,,,Recovered,4/15/2020,Yes,NCR,City of Mandaluyong
 C629698,55,55 to 59,Female,4/2/2020,,,,,Yes,NCR,Quezon City
 C629821,72,70 to 74,Female,4/7/2020,,,,,Yes,Davao del Sur,Davao City
@@ -3752,7 +3868,7 @@ C631258,41,40 to 44,Female,4/13/2020,,,,,Yes,NCR,Caloocan City
 C631362,22,20 to 24,Male,4/1/2020,,,,,Yes,NCR,Quezon City
 C631363,57,55 to 59,Male,3/26/2020,4/7/2020,,Recovered,4/16/2020,Yes,NCR,Quezon City
 C631704,25,25 to 29,Male,4/7/2020,,,,,,Laguna,City of Calamba
-C631938,71,70 to 74,Male,3/31/2020,,4/6/2020,Died,4/17/2020,,NCR,City of Malabon
+C631938,71,70 to 74,Male,3/31/2020,,4/6/2020,Died,4/17/2020,Yes,NCR,City of Malabon
 C631962,8,5 to 9,Male,4/14/2020,,,,,,NCR,City of Parañaque
 C631976,64,60 to 64,Male,3/28/2020,,,,,Yes,NCR,Quezon City
 C632039,43,40 to 44,Male,4/18/2020,,,,,Yes,NCR,City of Manila
@@ -3773,9 +3889,10 @@ C633883,44,40 to 44,Female,4/19/2020,,,,,Yes,NCR,Quezon City
 C633924,52,50 to 54,Female,4/19/2020,,,,,No,NCR,City of Manila
 C634127,28,25 to 29,Female,4/3/2020,,,,,,NCR,Pasay City
 C634425,39,35 to 39,Female,3/17/2020,,,,,Yes,NCR,City of Pasig
+C634527,54,50 to 54,Male,4/20/2020,,,,,Yes,Albay,Legazpi City (Capital)
 C634851,59,55 to 59,Female,3/27/2020,,,Died,4/11/2020,Yes,Iloilo,Barotac Nuevo
 C634886,30,30 to 34,Male,3/29/2020,4/5/2020,,Recovered,4/19/2020,Yes,NCR,Quezon City
-C635017,57,55 to 59,Female,4/14/2020,,,,,,,
+C635017,57,55 to 59,Female,4/14/2020,,,,,,NCR,City of Parañaque
 C635067,60,60 to 64,Male,3/31/2020,,3/26/2020,Died,3/31/2020,Yes,Pangasinan,Urbiztondo
 C635306,45,45 to 49,Female,4/16/2020,,,,,Yes,NCR,City of Manila
 C635634,41,40 to 44,Male,4/13/2020,,,,,,NCR,City of Las Piñas
@@ -3817,6 +3934,8 @@ C640299,46,45 to 49,Male,4/5/2020,,,,,Yes,NCR,Caloocan City
 C640357,37,35 to 39,Male,4/5/2020,,,,,Yes,,
 C640410,69,65 to 69,Male,3/31/2020,,,,,Yes,NCR,City of Makati
 C640668,93,80+,Male,3/29/2020,,,,,Yes,Tarlac,Bamban
+C640889,42,40 to 44,Female,4/20/2020,,,,,,NCR,City of Mandaluyong
+C640904,61,60 to 64,Female,4/20/2020,,,,,,,
 C641065,52,50 to 54,Female,4/3/2020,4/6/2020,,Recovered,4/16/2020,Yes,NCR,City of Parañaque
 C641240,22,20 to 24,Male,4/9/2020,,,,,Yes,NCR,City of Marikina
 C641326,25,25 to 29,Male,4/10/2020,,,,,Yes,NCR,Quezon City
@@ -3834,7 +3953,7 @@ C643081,27,25 to 29,Female,4/6/2020,,,,,,NCR,Quezon City
 C643313,65,65 to 69,Female,3/26/2020,,,,,Yes,Nueva Ecija,City of Gapan
 C643354,34,30 to 34,Male,4/8/2020,,,,,,NCR,City of Marikina
 C643661,62,60 to 64,Female,4/2/2020,,,,,Yes,NCR,Quezon City
-C643694,45,45 to 49,Female,4/4/2020,,,,,,,
+C643694,45,45 to 49,Female,4/4/2020,,,,,Yes,,
 C643897,60,60 to 64,Male,4/8/2020,,,,,Yes,NCR,City of San Juan
 C644005,59,55 to 59,Male,4/14/2020,,,,,,,
 C644126,67,65 to 69,Female,4/6/2020,,,,,Yes,Cebu,Lapu-Lapu City (Opon)
@@ -3878,6 +3997,7 @@ C650294,46,45 to 49,Female,3/26/2020,,,,,,NCR,City of Pasig
 C650483,48,45 to 49,Female,3/31/2020,,,,,,NCR,City of San Juan
 C650776,38,35 to 39,Male,4/10/2020,,,,,Yes,NCR,Quezon City
 C650909,69,65 to 69,Male,4/16/2020,,,,,Yes,NCR,Quezon City
+C651153,49,45 to 49,Male,4/20/2020,,,,,Yes,NCR,Caloocan City
 C651208,86,80+,Female,4/12/2020,,,,,Yes,Bataan,Orion
 C651828,43,40 to 44,Male,3/31/2020,,,Recovered,4/14/2020,Yes,NCR,Pasay City
 C651983,67,65 to 69,Female,3/26/2020,,3/18/2020,Died,4/11/2020,Yes,Pangasinan,Rosales
@@ -3887,6 +4007,7 @@ C652663,27,25 to 29,Female,4/15/2020,,,,,,NCR,City of Mandaluyong
 C652740,55,55 to 59,Male,3/28/2020,,,Recovered,4/19/2020,Yes,NCR,City of Marikina
 C652784,35,35 to 39,Female,4/6/2020,4/18/2020,,Recovered,4/19/2020,Yes,NCR,City of Pasig
 C652887,49,45 to 49,Male,4/18/2020,,,,,Yes,NCR,Pasay City
+C653207,41,40 to 44,Male,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C653264,37,35 to 39,Male,3/31/2020,,,Recovered,4/14/2020,Yes,Laguna,City of Santa Rosa
 C653359,58,55 to 59,Male,3/31/2020,,3/25/2020,Died,4/17/2020,Yes,NCR,Quezon City
 C653368,71,70 to 74,Male,3/31/2020,,,,,Yes,NCR,City of Mandaluyong
@@ -3903,6 +4024,7 @@ C654796,83,80+,Male,3/31/2020,,,,,Yes,NCR,City of Parañaque
 C655028,23,20 to 24,Female,3/31/2020,3/26/2020,,Recovered,4/12/2020,Yes,Batangas,Nasugbu
 C655493,57,55 to 59,Male,4/2/2020,,,,,Yes,NCR,Caloocan City
 C655674,65,65 to 69,Male,4/18/2020,,,,,Yes,Batangas,Malvar
+C655895,51,50 to 54,Male,4/20/2020,,,,,,NCR,Quezon City
 C655934,42,40 to 44,Female,4/11/2020,,,,,Yes,Quezon,City of Tayabas
 C656133,85,80+,Male,3/29/2020,,,,,Yes,NCR,Taguig City
 C656208,35,35 to 39,Male,3/14/2020,4/8/2020,,Recovered,4/12/2020,Yes,Quezon,Lucena City (Capital)
@@ -3912,7 +4034,7 @@ C656355,28,25 to 29,Female,4/11/2020,,,,,Yes,NCR,Pasay City
 C656421,67,65 to 69,Female,3/21/2020,,3/26/2020,Died,3/27/2020,,NCR,Quezon City
 C656468,87,80+,Male,3/31/2020,,,,,Yes,NCR,Quezon City
 C656642,32,30 to 34,Male,4/18/2020,,,,,,Cavite,Bacoor City
-C656655,67,65 to 69,Male,4/11/2020,,,,,Yes,NCR,Pasay City
+C656655,67,65 to 69,Male,4/11/2020,,,Died,4/20/2020,Yes,NCR,Pasay City
 C656733,21,20 to 24,Male,4/5/2020,,,,,,,
 C656951,53,50 to 54,Male,4/13/2020,,,,,Yes,NCR,City of Muntinlupa
 C657032,38,35 to 39,Female,4/3/2020,,,,,Yes,Laguna,Los Baños
@@ -3942,7 +4064,7 @@ C660659,31,30 to 34,Female,4/10/2020,,,,,,Laguna,Santa Cruz (Capital)
 C661244,45,45 to 49,Male,4/6/2020,,,,,Yes,NCR,Taguig City
 C661726,35,35 to 39,Male,4/14/2020,,,,,Yes,Cavite,City of General Trias
 C661809,46,45 to 49,Male,4/9/2020,,,,,,NCR,City of Makati
-C662213,34,30 to 34,Male,4/3/2020,,,,,,NCR,City of Makati
+C662213,34,30 to 34,Male,4/3/2020,,,,,Yes,NCR,City of Makati
 C662279,72,70 to 74,Female,4/3/2020,,,,,,NCR,Pasay City
 C662384,41,40 to 44,Female,4/10/2020,,,,,Yes,NCR,City of Las Piñas
 C662426,52,50 to 54,Male,4/10/2020,,,,,,NCR,Quezon City
@@ -4043,6 +4165,8 @@ C673939,64,60 to 64,Male,3/28/2020,,,,,Yes,NCR,Quezon City
 C673941,34,30 to 34,Female,4/15/2020,,,,,Yes,Laguna,City of San Pedro
 C673988,46,45 to 49,Male,4/13/2020,,,,,Yes,NCR,City of Las Piñas
 C674021,42,40 to 44,Male,4/9/2020,,,,,Yes,Oriental Mindoro,Puerto Galera
+C674046,56,55 to 59,Female,4/20/2020,,,,,,,
+C674226,29,25 to 29,Male,4/20/2020,,,,,,Laguna,Santa Cruz (Capital)
 C674437,51,50 to 54,Female,4/18/2020,,,,,Yes,NCR,Caloocan City
 C674974,90,80+,Female,3/31/2020,,3/29/2020,Died,4/18/2020,Yes,NCR,Quezon City
 C674996,50,50 to 54,Female,3/24/2020,4/1/2020,,Recovered,4/13/2020,Yes,Rizal,City of Antipolo (Capital)
@@ -4077,6 +4201,7 @@ C679573,27,25 to 29,Female,3/31/2020,4/3/2020,,Recovered,4/12/2020,Yes,Cebu,Cord
 C679621,34,30 to 34,Male,3/30/2020,,,,,Yes,NCR,City of Pasig
 C679639,63,60 to 64,Female,3/29/2020,,,,,Yes,NCR,City of Mandaluyong
 C679661,51,50 to 54,Male,4/13/2020,,,,,Yes,NCR,City of Parañaque
+C679770,47,45 to 49,Female,4/20/2020,,,,,,NCR,City of Manila
 C680168,31,30 to 34,Female,4/7/2020,,,,,Yes,NCR,City of Manila
 C680254,39,35 to 39,Male,4/3/2020,,,,,Yes,Nueva Ecija,Cabiao
 C680300,71,70 to 74,Male,3/31/2020,,,,,Yes,Cavite,Naic
@@ -4094,7 +4219,8 @@ C681810,38,35 to 39,Male,4/14/2020,,,,,Yes,NCR,Quezon City
 C681865,69,65 to 69,Male,4/18/2020,,,,,Yes,NCR,City of Manila
 C682054,23,20 to 24,Female,4/15/2020,,,,,Yes,NCR,City of Manila
 C682309,29,25 to 29,Male,3/29/2020,,,,,No,NCR,City of Mandaluyong
-C682524,60,60 to 64,Male,4/3/2020,,,,,,NCR,City of Mandaluyong
+C682464,24,20 to 24,Male,4/20/2020,,,,,Yes,NCR,City of Parañaque
+C682524,60,60 to 64,Male,4/3/2020,,,,,Yes,NCR,City of Mandaluyong
 C682853,55,55 to 59,Male,4/18/2020,,,,,,NCR,City of Manila
 C683065,71,70 to 74,Male,3/27/2020,,,,,Yes,Pangasinan,Bayambang
 C683155,57,55 to 59,Female,4/18/2020,,,,,Yes,NCR,Caloocan City
@@ -4102,14 +4228,15 @@ C683529,57,55 to 59,Male,3/27/2020,,3/31/2020,Died,4/2/2020,Yes,NCR,Quezon City
 C683825,67,65 to 69,Female,4/6/2020,,,,,Yes,NCR,Quezon City
 C683887,30,30 to 34,Male,4/11/2020,,,,,,NCR,City of Manila
 C683907,47,45 to 49,Male,4/2/2020,,,,,Yes,Cavite,Gen. Mariano Alvarez
-C684018,35,35 to 39,Female,3/30/2020,,,,,Yes,NCR,Caloocan City
+C684018,35,35 to 39,Female,3/30/2020,4/5/2020,,Recovered,4/20/2020,Yes,NCR,Caloocan City
 C684405,66,65 to 69,Male,4/7/2020,,4/3/2020,Died,4/14/2020,Yes,Camarines Sur,Naga City
-C684566,51,50 to 54,Male,4/1/2020,,,,,Yes,Davao del Norte,City of Tagum (Capital)
+C684566,51,50 to 54,Male,4/1/2020,4/9/2020,,Recovered,4/20/2020,Yes,Davao del Norte,City of Tagum (Capital)
 C684589,64,60 to 64,Male,4/2/2020,,,,,Yes,NCR,Quezon City
 C684627,29,25 to 29,Female,3/27/2020,,,,,Yes,NCR,Quezon City
 C684749,73,70 to 74,Female,3/17/2020,3/19/2020,,Recovered,3/22/2020,No,NCR,Quezon City
 C684953,46,45 to 49,Male,4/7/2020,,,,,Yes,NCR,City of Manila
 C684963,23,20 to 24,Female,4/16/2020,,,,,Yes,NCR,City of Mandaluyong
+C685122,41,40 to 44,Female,4/20/2020,,,,,Yes,NCR,City of Manila
 C685224,31,30 to 34,Male,4/16/2020,,,,,,NCR,Taguig City
 C685384,64,60 to 64,Male,4/3/2020,,,,,Yes,Pampanga,Angeles City
 C685424,29,25 to 29,Female,4/16/2020,,,,,,Cavite,Bacoor City
@@ -4132,7 +4259,7 @@ C688114,22,20 to 24,Female,4/17/2020,,,,,,NCR,City of Makati
 C688171,17,15 to 19,Female,4/12/2020,,,,,Yes,NCR,Taguig City
 C688479,67,65 to 69,Male,3/31/2020,,,,,Yes,NCR,Quezon City
 C688560,70,70 to 74,Male,3/23/2020,,,,,Yes,NCR,Pasay City
-C688593,29,25 to 29,Male,3/29/2020,,,,,Yes,Pampanga,City of San Fernando (Capital)
+C688593,29,25 to 29,Male,3/29/2020,,,Recovered,4/20/2020,Yes,Pampanga,City of San Fernando (Capital)
 C688695,32,30 to 34,Female,3/21/2020,4/11/2020,,Recovered,4/7/2020,Yes,NCR,City of Pasig
 C688821,79,75 to 79,Male,4/6/2020,,4/3/2020,Died,4/9/2020,Yes,NCR,Taguig City
 C688936,59,55 to 59,Male,3/17/2020,3/29/2020,,Recovered,4/1/2020,Yes,NCR,Taguig City
@@ -4141,14 +4268,16 @@ C689129,42,40 to 44,Male,4/17/2020,,,,,,Bataan,City of Balanga (Capital)
 C689130,28,25 to 29,Male,4/6/2020,,,,,,Bataan,Mariveles
 C689552,45,45 to 49,Male,3/31/2020,,,,,Yes,Batangas,Lipa City
 C689828,68,65 to 69,Male,4/14/2020,,,,,Yes,Laguna,City of Santa Rosa
-C689882,63,60 to 64,Male,4/6/2020,,,Died,4/17/2020,,NCR,City of Mandaluyong
+C689882,63,60 to 64,Male,4/6/2020,,4/8/2020,Died,4/17/2020,,NCR,City of Mandaluyong
 C690015,71,70 to 74,Female,4/3/2020,,,,,,,
 C690400,68,65 to 69,Male,4/2/2020,,,,,Yes,NCR,Quezon City
 C690455,74,70 to 74,Female,4/6/2020,,,,,Yes,NCR,City of Muntinlupa
 C690675,57,55 to 59,Female,4/13/2020,,,,,Yes,NCR,City of Manila
 C690810,55,55 to 59,Female,4/9/2020,,,,,Yes,NCR,Quezon City
+C691117,31,30 to 34,Female,4/20/2020,,,,,Yes,Cavite,Silang
 C691133,64,60 to 64,Male,3/25/2020,4/6/2020,,Recovered,3/31/2020,Yes,Rizal,Cainta
 C691437,23,20 to 24,Female,4/14/2020,,,,,No,NCR,City of Mandaluyong
+C691516,53,50 to 54,Female,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C691801,25,25 to 29,Female,4/19/2020,,,,,Yes,NCR,Quezon City
 C691839,27,25 to 29,Male,3/28/2020,,,,,Yes,NCR,Quezon City
 C691870,71,70 to 74,Female,3/31/2020,,3/26/2020,Died,4/9/2020,Yes,Pampanga,Apalit
@@ -4159,21 +4288,25 @@ C692729,65,65 to 69,Male,4/8/2020,,,,,Yes,NCR,Quezon City
 C693006,72,70 to 74,Female,4/10/2020,,,,,,,
 C693040,32,30 to 34,Male,4/15/2020,,,,,Yes,NCR,City of Manila
 C693116,35,35 to 39,Female,4/7/2020,,,,,Yes,NCR,City of Mandaluyong
-C693352,22,20 to 24,Male,4/17/2020,,,,,,Quezon,Lucena City (Capital)
+C693352,22,20 to 24,Male,4/17/2020,,,,,Yes,Quezon,Lucena City (Capital)
 C693453,54,50 to 54,Female,3/28/2020,,,,,Yes,NCR,Quezon City
 C693569,64,60 to 64,Female,3/27/2020,,,,,Yes,NCR,City of Marikina
 C693681,40,40 to 44,Female,3/24/2020,,,,,Yes,Laguna,City of Santa Rosa
+C693809,54,50 to 54,Male,4/20/2020,,,,,,NCR,City of Las Piñas
 C693829,68,65 to 69,Female,4/2/2020,,,,,No,NCR,City of Mandaluyong
 C694106,69,65 to 69,Male,4/9/2020,,,,,Yes,NCR,City of Las Piñas
 C694346,41,40 to 44,Male,4/13/2020,,,,,Yes,NCR,Quezon City
 C694430,69,65 to 69,Male,3/31/2020,,,Recovered,4/15/2020,Yes,NCR,Quezon City
 C694528,83,80+,Male,4/11/2020,,,,,Yes,Cavite,City of Dasmariñas
+C694532,58,55 to 59,Female,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C694644,29,25 to 29,Male,4/12/2020,,,,,,Laguna,Santa Cruz (Capital)
 C694645,36,35 to 39,Male,4/16/2020,,,,,,NCR,Pasay City
 C694819,88,80+,Male,4/12/2020,,,,,Yes,NCR,Taguig City
 C695048,32,30 to 34,Male,3/28/2020,,,,,Yes,NCR,Taguig City
+C695147,26,25 to 29,Female,4/20/2020,,,,,Yes,NCR,Caloocan City
 C695216,39,35 to 39,Female,4/13/2020,,,,,Yes,Laguna,City of San Pedro
 C695354,76,75 to 79,Female,4/6/2020,,,,,,Laguna,City of Biñan
+C695653,29,25 to 29,Male,4/20/2020,,,,,,,
 C695704,64,60 to 64,Male,3/29/2020,,3/25/2020,Died,4/18/2020,No,NCR,Quezon City
 C695970,43,40 to 44,Male,4/15/2020,,,,,,NCR,City of Mandaluyong
 C696136,62,60 to 64,Female,3/31/2020,,,,,Yes,NCR,City of Mandaluyong
@@ -4184,10 +4317,13 @@ C696612,55,55 to 59,Female,3/31/2020,4/13/2020,,Recovered,4/15/2020,Yes,NCR,City
 C696796,38,35 to 39,Male,3/27/2020,,,,,Yes,Davao del Sur,Davao City
 C696942,50,50 to 54,Male,4/15/2020,,,,,Yes,NCR,City of Muntinlupa
 C697348,30,30 to 34,Female,4/15/2020,,,,,,NCR,City of Makati
+C697440,58,55 to 59,Female,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C697549,50,50 to 54,Female,4/2/2020,,,,,,NCR,City of Parañaque
 C697575,5,5 to 9,Female,4/6/2020,,,,,Yes,Batangas,Nasugbu
+C697640,41,40 to 44,Male,4/20/2020,,,,,,,
 C697668,74,70 to 74,Female,4/11/2020,,,,,,NCR,City of Makati
 C697677,30,30 to 34,Male,4/5/2020,,,,,Yes,NCR,City of Manila
+C697685,57,55 to 59,Female,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C697722,25,25 to 29,Female,4/16/2020,,,,,Yes,NCR,Caloocan City
 C697756,28,25 to 29,Female,4/14/2020,,,,,,NCR,City of Mandaluyong
 C697977,34,30 to 34,Female,4/19/2020,,,,,,NCR,City of Muntinlupa
@@ -4197,6 +4333,7 @@ C698159,57,55 to 59,Male,4/12/2020,,,,,,NCR,Quezon City
 C698494,24,20 to 24,Female,4/14/2020,,,,,Yes,NCR,City of Makati
 C698510,66,65 to 69,Male,3/31/2020,,,,,Yes,NCR,City of Mandaluyong
 C698583,22,20 to 24,Female,4/11/2020,,,,,,NCR,City of Mandaluyong
+C698959,55,55 to 59,Female,4/20/2020,,,,,,Laguna,City of San Pedro
 C699437,63,60 to 64,Female,3/25/2020,,,,,,Cavite,Bacoor City
 C699710,43,40 to 44,Female,4/12/2020,,,,,Yes,NCR,City of Manila
 C699715,62,60 to 64,Female,4/17/2020,,,,,,Cebu,Cebu City (Capital)
@@ -4263,6 +4400,7 @@ C707508,71,70 to 74,Female,3/28/2020,,,,,Yes,NCR,City of Makati
 C707630,33,30 to 34,Female,3/29/2020,,,,,Yes,NCR,Quezon City
 C707765,22,20 to 24,Male,4/7/2020,,,,,Yes,NCR,City of Manila
 C707796,46,45 to 49,Female,4/13/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
+C707798,51,50 to 54,Male,4/20/2020,,,,,,NCR,Quezon City
 C707799,82,80+,Male,4/17/2020,,,,,,,
 C707899,45,45 to 49,Female,4/10/2020,,,,,,,
 C707979,13,10 to 14,Male,4/2/2020,,,,,Yes,Bataan,City of Balanga (Capital)
@@ -4275,8 +4413,9 @@ C708994,33,30 to 34,Male,4/13/2020,,,,,Yes,NCR,Quezon City
 C709272,77,75 to 79,Male,4/15/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
 C709746,66,65 to 69,Female,3/17/2020,,,,,Yes,NCR,City of Las Piñas
 C709874,35,35 to 39,Female,4/8/2020,,,,,Yes,NCR,City of Muntinlupa
+C709991,42,40 to 44,Male,4/20/2020,,,,,,,
 C710016,57,55 to 59,Male,4/12/2020,,,,,,Cavite,Silang
-C710036,30,30 to 34,Female,4/17/2020,,,,,,,
+C710036,30,30 to 34,Female,4/17/2020,,,,,,NCR,City of Mandaluyong
 C710303,29,25 to 29,Female,3/22/2020,,,,,Yes,NCR,City of Manila
 C710319,51,50 to 54,Female,3/31/2020,,,,,Yes,NCR,City of Makati
 C710517,27,25 to 29,Female,4/13/2020,,,,,Yes,Rizal,Cainta
@@ -4311,6 +4450,7 @@ C713758,48,45 to 49,Female,3/29/2020,,,,,Yes,Rizal,Cainta
 C713782,48,45 to 49,Female,4/1/2020,,,,,Yes,NCR,Quezon City
 C713962,16,15 to 19,Male,4/6/2020,,,,,,NCR,City of Mandaluyong
 C714031,46,45 to 49,Female,4/2/2020,,,,,Yes,NCR,Taguig City
+C714071,26,25 to 29,Female,4/20/2020,,,,,,NCR,City of Mandaluyong
 C714158,37,35 to 39,Male,3/31/2020,,3/23/2020,Died,4/13/2020,Yes,NCR,City of Pasig
 C714245,32,30 to 34,Female,4/15/2020,,,,,Yes,NCR,City of Manila
 C714322,59,55 to 59,Female,4/14/2020,,,,,,NCR,City of Parañaque
@@ -4331,16 +4471,18 @@ C716847,65,65 to 69,Male,4/18/2020,,,,,No,Antique,Caluya
 C717534,76,75 to 79,Male,4/10/2020,,,,,Yes,Cavite,Cavite City
 C717787,31,30 to 34,Female,3/28/2020,4/14/2020,,Recovered,4/19/2020,Yes,Cagayan,Tuguegarao City (Capital)
 C717992,36,35 to 39,Male,4/11/2020,,,,,Yes,Laguna,City of Biñan
+C718185,74,70 to 74,Male,4/20/2020,,,,,,NCR,City of Manila
 C718186,58,55 to 59,Female,4/2/2020,,,,,Yes,NCR,Quezon City
 C719049,57,55 to 59,Female,4/12/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
 C719189,90,80+,Female,3/21/2020,,,,,Yes,NCR,City of San Juan
 C719358,28,25 to 29,Male,4/16/2020,,,,,Yes,Cavite,City of Dasmariñas
-C719361,2,0 to 4,Female,4/9/2020,,,,,Yes,NCR,Quezon City
+C719361,2,0 to 4,Female,4/9/2020,,,Recovered,4/20/2020,Yes,NCR,Quezon City
 C719399,79,75 to 79,Female,3/31/2020,,,,,Yes,Batangas,Lipa City
 C719412,68,65 to 69,Male,4/12/2020,,,,,Yes,NCR,City of San Juan
 C719562,76,75 to 79,Male,4/2/2020,,,,,,,
 C719865,22,20 to 24,Female,4/15/2020,,,,,Yes,Laguna,City of Santa Rosa
 C719921,51,50 to 54,Male,3/30/2020,4/8/2020,,Recovered,4/16/2020,Yes,Davao del Sur,Davao City
+C720023,40,40 to 44,Male,4/20/2020,,,,,Yes,Davao del Sur,Davao City
 C720124,62,60 to 64,Female,4/4/2020,,4/6/2020,Died,4/10/2020,Yes,Davao del Sur,Davao City
 C720202,28,25 to 29,Female,3/31/2020,,,,,Yes,NCR,City of Manila
 C720285,56,55 to 59,Female,4/11/2020,,,,,Yes,NCR,Pasay City
@@ -4368,7 +4510,9 @@ C723389,25,25 to 29,Female,4/10/2020,,,,,Yes,Bulacan,Marilao
 C723439,60,60 to 64,Male,4/11/2020,,,,,Yes,NCR,City of Pasig
 C723742,53,50 to 54,Male,3/31/2020,,,,,,NCR,City of Mandaluyong
 C723784,40,40 to 44,Female,4/3/2020,,,,,No,NCR,City of Pasig
+C723827,60,60 to 64,Female,4/20/2020,,,,,,NCR,City of Makati
 C723973,19,15 to 19,Female,4/6/2020,,,,,Yes,Laguna,City of San Pedro
+C723974,26,25 to 29,Male,4/20/2020,,,,,,NCR,City of Makati
 C724500,47,45 to 49,Female,4/6/2020,,,,,,NCR,Quezon City
 C724870,31,30 to 34,Male,4/2/2020,,,,,Yes,NCR,City of Manila
 C724921,60,60 to 64,Male,3/28/2020,,,Recovered,4/18/2020,Yes,Rizal,Cainta
@@ -4411,6 +4555,7 @@ C729459,54,50 to 54,Female,3/25/2020,,,,,,NCR,City of Las Piñas
 C729898,70,70 to 74,Male,4/14/2020,,,,,Yes,NCR,City of Manila
 C729996,31,30 to 34,Female,4/16/2020,,,,,Yes,NCR,Quezon City
 C730064,34,30 to 34,Male,4/13/2020,,,,,Yes,Laguna,Santa Cruz (Capital)
+C730496,39,35 to 39,Male,4/20/2020,,,,,,,
 C730524,52,50 to 54,Male,3/22/2020,,,,,Yes,NCR,Quezon City
 C730703,44,40 to 44,Female,4/10/2020,,,,,No,Rizal,Rodriguez (Montalban)
 C730773,62,60 to 64,Male,4/3/2020,,,,,No,NCR,Quezon City
@@ -4428,6 +4573,7 @@ C733465,29,25 to 29,Female,4/11/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
 C733707,62,60 to 64,Female,4/17/2020,,,,,,,
 C734080,87,80+,Female,4/3/2020,,,,,Yes,NCR,City of Manila
 C734243,32,30 to 34,Male,4/5/2020,,,,,Yes,NCR,City of Marikina
+C734491,0,0 to 4,Male,4/20/2020,,,,,,NCR,City of Parañaque
 C734657,65,65 to 69,Female,3/18/2020,,4/6/2020,Died,4/13/2020,Yes,NCR,City of Pasig
 C735090,74,70 to 74,Female,3/24/2020,,,,,Yes,NCR,City of San Juan
 C735169,38,35 to 39,Male,3/29/2020,,,,,Yes,NCR,Quezon City
@@ -4456,12 +4602,14 @@ C739809,33,30 to 34,Female,4/10/2020,,,,,,,
 C739905,83,80+,Male,3/28/2020,,3/29/2020,Died,3/31/2020,Yes,NCR,City of Parañaque
 C739918,28,25 to 29,Female,4/14/2020,,,,,,,
 C739921,72,70 to 74,Female,3/31/2020,,4/5/2020,Died,4/11/2020,Yes,Cebu,Cebu City (Capital)
+C739926,69,65 to 69,Female,4/20/2020,,,,,Yes,NCR,Quezon City
+C739976,50,50 to 54,Female,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C740026,31,30 to 34,Female,4/14/2020,,,,,Yes,Pampanga,Guagua
 C740037,62,60 to 64,Male,4/17/2020,,,,,,Cebu,Cebu City (Capital)
 C740178,45,45 to 49,Female,3/31/2020,,,,,Yes,NCR,City of Makati
 C740475,28,25 to 29,Female,4/15/2020,,,,,,NCR,City of Makati
 C740667,80,80+,Male,4/7/2020,,,,,Yes,NCR,Quezon City
-C741088,83,80+,Male,4/1/2020,,,Died,4/11/2020,Yes,NCR,City of Pasig
+C741088,83,80+,Male,4/1/2020,,3/31/2020,Died,4/11/2020,Yes,NCR,City of Pasig
 C741433,25,25 to 29,Female,4/10/2020,,,,,Yes,NCR,City of Makati
 C741460,56,55 to 59,Male,4/3/2020,,,,,,,
 C741550,27,25 to 29,Female,4/6/2020,,,,,Yes,NCR,City of Valenzuela
@@ -4524,6 +4672,7 @@ C751754,30,30 to 34,Male,3/29/2020,4/15/2020,,Recovered,4/19/2020,Yes,Cagayan,Tu
 C751761,45,45 to 49,Female,4/12/2020,,,,,Yes,Cavite,Maragondon
 C751770,62,60 to 64,Female,3/29/2020,,,,,Yes,NCR,City of Makati
 C751793,80,80+,Male,4/2/2020,,4/1/2020,Died,4/5/2020,,,
+C751802,34,30 to 34,Female,4/20/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
 C751815,67,65 to 69,Female,4/17/2020,,,,,Yes,NCR,City of San Juan
 C751898,50,50 to 54,Male,4/2/2020,,,,,Yes,Laguna,City of Biñan
 C752112,44,40 to 44,Female,4/14/2020,,,,,,,
@@ -4531,7 +4680,7 @@ C752193,43,40 to 44,Female,4/4/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
 C752225,26,25 to 29,Male,4/6/2020,,,,,Yes,NCR,Quezon City
 C752234,30,30 to 34,Male,4/14/2020,,,,,,,
 C752241,86,80+,Female,3/29/2020,,,,,Yes,Bulacan,San Miguel
-C752244,31,30 to 34,Male,3/30/2020,,,,,Yes,NCR,Taguig City
+C752244,31,30 to 34,Male,3/30/2020,,,Recovered,4/20/2020,Yes,NCR,Taguig City
 C752650,27,25 to 29,Female,4/9/2020,,,,,,NCR,City of Pasig
 C752868,38,35 to 39,Female,4/6/2020,,,,,Yes,NCR,Caloocan City
 C752917,25,25 to 29,Female,4/18/2020,,,,,,NCR,City of Las Piñas
@@ -4553,8 +4702,10 @@ C755713,34,30 to 34,Female,4/14/2020,,,,,,,
 C755719,57,55 to 59,Female,4/18/2020,,,,,,NCR,City of Parañaque
 C755963,72,70 to 74,Female,4/14/2020,,,,,,,
 C756223,36,35 to 39,Male,3/15/2020,4/7/2020,,Recovered,4/19/2020,Yes,NCR,City of Manila
+C756491,30,30 to 34,Male,4/20/2020,,,,,,,
 C756585,25,25 to 29,Male,4/10/2020,,,,,No,Capiz,Roxas City (Capital)
 C756631,37,35 to 39,Female,4/6/2020,,,,,,Rizal,City of Antipolo (Capital)
+C756651,27,25 to 29,Male,4/20/2020,,,,,,,
 C756879,48,45 to 49,Male,4/1/2020,,,,,Yes,NCR,Quezon City
 C757207,31,30 to 34,Female,4/8/2020,,,,,Yes,Laguna,City of San Pedro
 C757279,46,45 to 49,Female,4/16/2020,,,,,Yes,NCR,City of Malabon
@@ -4589,12 +4740,14 @@ C760235,43,40 to 44,Male,3/29/2020,4/8/2020,,Recovered,4/17/2020,Yes,Davao del S
 C760371,33,30 to 34,Male,3/29/2020,,,,,Yes,NCR,Quezon City
 C760441,68,65 to 69,Female,3/28/2020,4/7/2020,,Recovered,4/17/2020,Yes,NCR,City of Mandaluyong
 C760464,75,75 to 79,Male,3/26/2020,,,,,Yes,NCR,City of Muntinlupa
+C760590,30,30 to 34,Female,4/20/2020,,,,,,NCR,Quezon City
 C760925,67,65 to 69,Female,3/28/2020,,,Recovered,4/18/2020,Yes,NCR,Quezon City
 C760927,56,55 to 59,Female,3/25/2020,,,,,Yes,NCR,Quezon City
 C761073,60,60 to 64,Female,3/29/2020,,,Recovered,4/17/2020,Yes,NCR,Quezon City
 C761870,72,70 to 74,Female,3/30/2020,,3/26/2020,Died,3/31/2020,Yes,Rizal,Taytay
 C762106,57,55 to 59,Female,3/31/2020,,,,,Yes,NCR,City of Parañaque
 C762211,55,55 to 59,Male,4/2/2020,,,,,Yes,NCR,Quezon City
+C762289,31,30 to 34,Female,4/20/2020,,,,,Yes,NCR,City of Manila
 C762314,54,50 to 54,Male,3/19/2020,4/2/2020,,Recovered,4/9/2020,No,NCR,City of Pasig
 C762368,46,45 to 49,Male,4/17/2020,,,,,,Cebu,Cebu City (Capital)
 C762672,59,55 to 59,Male,4/10/2020,,,,,Yes,Iloilo,Iloilo City (Capital)
@@ -4612,11 +4765,13 @@ C764050,33,30 to 34,Female,4/7/2020,,,,,Yes,NCR,City of Manila
 C764083,78,75 to 79,Male,3/29/2020,,,,,Yes,Tarlac,Camiling
 C764140,26,25 to 29,Female,4/3/2020,,,,,Yes,NCR,City of Manila
 C764191,23,20 to 24,Female,4/16/2020,,,,,,Bataan,City of Balanga (Capital)
+C764206,33,30 to 34,Male,4/20/2020,,,,,,,
 C764217,64,60 to 64,Male,4/2/2020,,,,,,NCR,City of Makati
 C764307,35,35 to 39,Male,4/15/2020,,,,,Yes,NCR,City of Makati
 C764347,62,60 to 64,Female,4/13/2020,,,,,,Cavite,Imus City
 C764358,35,35 to 39,Female,4/11/2020,,,,,No,NCR,Pateros
 C764518,36,35 to 39,Female,4/13/2020,,,,,Yes,NCR,City of Marikina
+C764541,43,40 to 44,Female,4/20/2020,,,,,,,
 C764593,38,35 to 39,Female,3/31/2020,,,,,Yes,NCR,City of Muntinlupa
 C764602,65,65 to 69,Female,3/31/2020,,,,,No,NCR,Quezon City
 C764748,46,45 to 49,Male,3/28/2020,,,,,Yes,NCR,City of Muntinlupa
@@ -4651,7 +4806,7 @@ C767946,32,30 to 34,Male,4/10/2020,,,,,Yes,NCR,City of Manila
 C767993,79,75 to 79,Male,3/28/2020,,3/25/2020,Died,3/31/2020,Yes,NCR,Quezon City
 C768136,28,25 to 29,Female,4/6/2020,,,,,,,
 C768409,68,65 to 69,Male,3/21/2020,3/29/2020,,Recovered,3/31/2020,Yes,NCR,City of Mandaluyong
-C768625,37,35 to 39,Female,4/16/2020,,,,,,NCR,Quezon City
+C768625,37,35 to 39,Female,4/16/2020,,,,,No,NCR,Quezon City
 C768831,59,55 to 59,Male,3/31/2020,,,,,,NCR,City of Manila
 C768938,49,45 to 49,Female,3/25/2020,,,Recovered,4/15/2020,No,NCR,City of Parañaque
 C769191,31,30 to 34,Female,4/15/2020,,,,,,,
@@ -4660,7 +4815,7 @@ C769450,33,30 to 34,Female,4/12/2020,,,,,No,NCR,Quezon City
 C769577,52,50 to 54,Male,4/4/2020,,,,,Yes,NCR,Quezon City
 C770019,26,25 to 29,Female,4/11/2020,,,,,Yes,NCR,City of Navotas
 C770175,48,45 to 49,Female,4/10/2020,,,,,Yes,NCR,City of Manila
-C770180,51,50 to 54,Female,4/2/2020,,,,,Yes,NCR,City of Makati
+C770180,51,50 to 54,Female,4/2/2020,,,Died,4/20/2020,Yes,NCR,City of Makati
 C770278,40,40 to 44,Female,4/3/2020,,,,,,,
 C770308,37,35 to 39,Male,3/28/2020,,,,,No,Aklan,Malay
 C770317,64,60 to 64,Male,3/26/2020,,,Died,4/10/2020,Yes,NCR,City of Muntinlupa
@@ -4689,7 +4844,7 @@ C772615,48,45 to 49,Female,4/19/2020,,,,,Yes,NCR,Quezon City
 C772758,67,65 to 69,Female,4/2/2020,4/12/2020,,Recovered,4/16/2020,Yes,Bulacan,City of San Jose Del Monte
 C772857,26,25 to 29,Female,4/13/2020,,,,,Yes,Laguna,Los Baños
 C772987,71,70 to 74,Female,4/18/2020,,,,,,NCR,City of Las Piñas
-C773045,53,50 to 54,Female,3/21/2020,,,,,Yes,Bulacan,Santa Maria
+C773045,53,50 to 54,Female,3/21/2020,,,Recovered,4/20/2020,Yes,Bulacan,Santa Maria
 C773209,27,25 to 29,Male,4/9/2020,,,,,,NCR,City of Manila
 C773253,66,65 to 69,Female,4/18/2020,,,,,Yes,NCR,City of Makati
 C773273,70,70 to 74,Male,4/12/2020,,,,,Yes,NCR,City of San Juan
@@ -4704,6 +4859,7 @@ C774068,48,45 to 49,Female,4/13/2020,,,,,Yes,NCR,City of Manila
 C774218,62,60 to 64,Male,3/29/2020,,,,,Yes,NCR,Quezon City
 C774344,60,60 to 64,Male,3/24/2020,,,Recovered,4/15/2020,Yes,NCR,City of Makati
 C774398,30,30 to 34,Female,4/11/2020,,,,,,Cavite,Bacoor City
+C774599,36,35 to 39,Male,4/20/2020,,,,,Yes,NCR,City of Makati
 C774602,67,65 to 69,Male,3/29/2020,,,,,Yes,NCR,Quezon City
 C774658,32,30 to 34,Male,4/11/2020,,,,,No,Bulacan,Marilao
 C775166,28,25 to 29,Male,4/15/2020,,,,,,Quezon,Candelaria
@@ -4717,6 +4873,7 @@ C776501,32,30 to 34,Female,4/2/2020,,,,,Yes,NCR,Taguig City
 C776723,67,65 to 69,Female,4/13/2020,,,,,Yes,Quezon,Candelaria
 C776789,75,75 to 79,Male,4/5/2020,,,,,,Bulacan,Pulilan
 C777014,58,55 to 59,Male,4/14/2020,,,,,Yes,NCR,City of Manila
+C777336,49,45 to 49,Male,4/20/2020,,,,,,,
 C777356,37,35 to 39,Female,3/29/2020,,,,,Yes,NCR,Quezon City
 C777547,87,80+,Male,3/28/2020,,,,,Yes,NCR,Quezon City
 C777589,30,30 to 34,Female,3/9/2020,3/24/2020,,Recovered,3/25/2020,Yes,NCR,City of San Juan
@@ -4783,7 +4940,7 @@ C784551,54,50 to 54,Male,3/23/2020,,,,,Yes,NCR,Quezon City
 C784709,22,20 to 24,Male,4/6/2020,,,,,Yes,NCR,Caloocan City
 C784932,79,75 to 79,Female,4/19/2020,,,,,Yes,NCR,Taguig City
 C785040,50,50 to 54,Male,4/18/2020,,,,,Yes,NCR,City of Manila
-C785129,79,75 to 79,Male,4/13/2020,,,,,Yes,NCR,City of Makati
+C785129,79,75 to 79,Male,4/13/2020,,,Died,4/20/2020,Yes,NCR,City of Makati
 C785191,7,5 to 9,Female,4/13/2020,,,,,,NCR,City of Las Piñas
 C785218,26,25 to 29,Female,4/10/2020,,,,,,NCR,City of Mandaluyong
 C785222,52,50 to 54,Male,4/9/2020,,,,,Yes,Quezon,Lucena City (Capital)
@@ -4792,6 +4949,7 @@ C785672,70,70 to 74,Male,4/3/2020,,,,,No,NCR,City of Parañaque
 C785894,36,35 to 39,Male,3/29/2020,,,,,Yes,NCR,City of Manila
 C785897,57,55 to 59,Female,3/23/2020,,,,,Yes,NCR,Quezon City
 C786219,43,40 to 44,Male,3/30/2020,,,,,Yes,NCR,City of Parañaque
+C786311,56,55 to 59,Male,4/20/2020,,,,,,,
 C786825,42,40 to 44,Male,3/25/2020,,,,,Yes,NCR,City of Las Piñas
 C787420,42,40 to 44,Male,4/13/2020,,,,,Yes,NCR,Quezon City
 C787549,6,5 to 9,Male,4/13/2020,,,,,,NCR,City of Parañaque
@@ -4874,12 +5032,13 @@ C799860,67,65 to 69,Female,4/3/2020,,,,,Yes,NCR,City of Mandaluyong
 C799921,8,5 to 9,Female,4/18/2020,,,,,,Bulacan,Santa Maria
 C800413,27,25 to 29,Female,4/15/2020,,,,,Yes,Pangasinan,Mangaldan
 C801021,32,30 to 34,Female,4/6/2020,,,,,Yes,NCR,City of Parañaque
-C801264,54,50 to 54,Male,3/29/2020,,,,,Yes,NCR,City of Pasig
+C801264,54,50 to 54,Male,3/29/2020,4/7/2020,,Recovered,4/20/2020,Yes,NCR,City of Pasig
 C801389,69,65 to 69,Female,4/3/2020,,,,,,,
 C801439,53,50 to 54,Male,3/28/2020,4/15/2020,,Recovered,4/16/2020,Yes,NCR,City of Las Piñas
 C801464,29,25 to 29,Male,3/29/2020,,,,,Yes,NCR,Quezon City
 C801550,56,55 to 59,Male,4/14/2020,,,,,,NCR,City of Mandaluyong
 C801645,45,45 to 49,Male,4/19/2020,,,,,,,
+C801870,60,60 to 64,Female,4/20/2020,,,,,,NCR,City of Parañaque
 C801919,42,40 to 44,Female,4/6/2020,,,,,Yes,,
 C802023,66,65 to 69,Male,4/2/2020,,,,,Yes,NCR,City of Marikina
 C802221,48,45 to 49,Male,3/29/2020,,,,,Yes,NCR,Taguig City
@@ -4892,7 +5051,7 @@ C803238,70,70 to 74,Male,3/31/2020,,,,,Yes,Cavite,Bacoor City
 C803249,61,60 to 64,Female,4/14/2020,,,,,,NCR,City of Parañaque
 C803401,27,25 to 29,Female,4/11/2020,,,,,Yes,Laguna,Famy
 C803644,49,45 to 49,Female,4/7/2020,,,,,Yes,Cotabato City (not a province),Cotabato City
-C803797,28,25 to 29,Female,4/11/2020,,,,,Yes,,
+C803797,28,25 to 29,Female,4/11/2020,,,,,,,
 C803906,36,35 to 39,Male,4/14/2020,,,,,,,
 C803999,55,55 to 59,Female,4/6/2020,,,,,Yes,Bulacan,Santa Maria
 C804011,48,45 to 49,Female,4/16/2020,,,,,Yes,Zambales,Olongapo City
@@ -4916,6 +5075,7 @@ C806212,35,35 to 39,Female,3/24/2020,,,,,Yes,NCR,Quezon City
 C806471,74,70 to 74,Male,3/29/2020,,,,,Yes,NCR,Quezon City
 C806621,30,30 to 34,Female,3/21/2020,,,,,Yes,NCR,City of Makati
 C806901,34,30 to 34,Female,4/3/2020,,,,,No,NCR,Quezon City
+C807081,32,30 to 34,Female,4/20/2020,,,,,,NCR,City of Parañaque
 C807159,75,75 to 79,Female,3/11/2020,3/17/2020,,Recovered,3/21/2020,Yes,NCR,City of Makati
 C807189,56,55 to 59,Male,3/31/2020,,,,,Yes,NCR,City of Manila
 C807781,68,65 to 69,Female,3/31/2020,,3/30/2020,Died,4/19/2020,,NCR,City of Valenzuela
@@ -4933,6 +5093,8 @@ C809207,45,45 to 49,Female,4/9/2020,,,,,Yes,NCR,City of Makati
 C809219,32,30 to 34,Male,3/21/2020,,,,,Yes,NCR,City of Makati
 C809434,33,30 to 34,Male,4/2/2020,,,,,Yes,NCR,City of Mandaluyong
 C809512,51,50 to 54,Male,4/6/2020,,,,,Yes,NCR,City of Manila
+C809610,57,55 to 59,Female,4/20/2020,,,,,Yes,Albay,Daraga (Locsin)
+C809759,32,30 to 34,Male,4/20/2020,,,,,No,Antique,Pandan
 C809801,32,30 to 34,Male,4/1/2020,,,,,No,NCR,City of Mandaluyong
 C809862,31,30 to 34,Female,4/13/2020,,,,,,,
 C810145,29,25 to 29,Male,4/17/2020,,,,,Yes,NCR,Caloocan City
@@ -4948,7 +5110,7 @@ C811624,21,20 to 24,Female,4/13/2020,,,,,Yes,Cavite,Bacoor City
 C811639,37,35 to 39,Female,4/16/2020,,,,,Yes,NCR,Caloocan City
 C811660,82,80+,Male,3/30/2020,,,,,,NCR,City of Mandaluyong
 C811846,51,50 to 54,Male,3/29/2020,4/15/2020,,Recovered,4/19/2020,Yes,Laguna,Pila
-C811981,82,80+,Female,4/3/2020,,,Died,4/12/2020,Yes,NCR,City of Manila
+C811981,82,80+,Female,4/3/2020,,3/28/2020,Died,4/12/2020,Yes,NCR,City of Manila
 C812536,71,70 to 74,Female,3/31/2020,,,,,Yes,NCR,City of Mandaluyong
 C812626,31,30 to 34,Female,4/8/2020,,,,,,Cavite,Bacoor City
 C812781,59,55 to 59,Male,3/29/2020,,3/27/2020,Died,4/14/2020,Yes,NCR,City of Makati
@@ -4982,6 +5144,7 @@ C816032,43,40 to 44,Female,3/22/2020,4/7/2020,,Recovered,4/12/2020,Yes,NCR,Pasay
 C816157,30,30 to 34,Male,4/3/2020,,,,,Yes,NCR,Quezon City
 C816572,33,30 to 34,Male,4/14/2020,,,,,,,
 C816812,28,25 to 29,Female,4/17/2020,,,,,Yes,Rizal,Teresa
+C817062,27,25 to 29,Male,4/20/2020,,,,,Yes,NCR,City of Mandaluyong
 C817111,46,45 to 49,Female,3/9/2020,3/26/2020,,Recovered,3/28/2020,Yes,NCR,City of Pasig
 C817265,47,45 to 49,Female,4/10/2020,,,,,,Laguna,Liliw
 C817352,74,70 to 74,Male,4/12/2020,,,,,Yes,Cavite,Gen. Mariano Alvarez
@@ -5012,10 +5175,11 @@ C819984,84,80+,Female,4/12/2020,,,,,Yes,NCR,Taguig City
 C820246,56,55 to 59,Male,4/1/2020,,,,,Yes,NCR,City of Valenzuela
 C820359,47,45 to 49,Female,4/10/2020,,,,,Yes,Bulacan,Marilao
 C820421,53,50 to 54,Male,4/2/2020,,,,,Yes,NCR,Quezon City
+C820639,43,40 to 44,Male,4/20/2020,,,,,Yes,Davao del Sur,Davao City
 C820905,25,25 to 29,Female,4/16/2020,,,,,Yes,Cavite,Bacoor City
 C821098,48,45 to 49,Female,4/12/2020,,,,,Yes,Rizal,Cainta
 C821103,22,20 to 24,Female,4/12/2020,,,,,Yes,Laguna,Lumban
-C821182,31,30 to 34,Female,4/13/2020,,,,,,NCR,City of Makati
+C821182,31,30 to 34,Female,4/13/2020,,,Recovered,4/20/2020,,NCR,City of Makati
 C821283,42,40 to 44,Male,4/11/2020,,,,,,NCR,Quezon City
 C821286,81,80+,Male,4/9/2020,,,,,Yes,NCR,City of Manila
 C821338,47,45 to 49,Male,4/15/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
@@ -5026,6 +5190,7 @@ C821779,61,60 to 64,Female,3/30/2020,,,,,Yes,NCR,City of Pasig
 C822643,29,25 to 29,Male,4/9/2020,,,,,Yes,NCR,Caloocan City
 C822693,58,55 to 59,Female,4/3/2020,,,,,Yes,Rizal,Binangonan
 C823016,73,70 to 74,Female,3/31/2020,,,,,Yes,NCR,City of Pasig
+C823085,56,55 to 59,Male,4/20/2020,,,,,Yes,NCR,Caloocan City
 C823182,68,65 to 69,Male,3/27/2020,,,,,Yes,NCR,City of Muntinlupa
 C823239,23,20 to 24,Female,4/2/2020,,,,,No,NCR,Quezon City
 C823549,28,25 to 29,Male,4/16/2020,,,,,Yes,NCR,Quezon City
@@ -5066,6 +5231,7 @@ C829285,58,55 to 59,Male,3/28/2020,,,,,Yes,NCR,City of Mandaluyong
 C829375,54,50 to 54,Female,4/12/2020,,,,,Yes,NCR,Quezon City
 C829416,82,80+,Female,4/12/2020,,,,,Yes,NCR,City of Manila
 C829589,63,60 to 64,Male,4/6/2020,,,,,,Laguna,City of Biñan
+C829828,3,0 to 4,Female,4/20/2020,,,,,,,
 C829852,57,55 to 59,Female,3/30/2020,,,,,Yes,Davao del Sur,Davao City
 C829922,64,60 to 64,Male,3/28/2020,,,,,Yes,NCR,Quezon City
 C830188,38,35 to 39,Female,4/13/2020,,,,,,NCR,Quezon City
@@ -5081,7 +5247,7 @@ C831122,32,30 to 34,Male,4/19/2020,,,,,,,
 C831151,29,25 to 29,Female,4/13/2020,,,,,Yes,NCR,City of Parañaque
 C831242,31,30 to 34,Male,4/14/2020,,,,,Yes,NCR,Pasay City
 C831271,26,25 to 29,Male,4/19/2020,,,,,,,
-C831293,35,35 to 39,Female,4/16/2020,,,,,Yes,NCR,City of Las Piñas
+C831293,35,35 to 39,Female,4/16/2020,,,Recovered,4/20/2020,Yes,NCR,City of Las Piñas
 C831448,21,20 to 24,Female,4/13/2020,,,,,Yes,NCR,Pasay City
 C831511,28,25 to 29,Female,3/29/2020,,,,,Yes,NCR,City of Parañaque
 C831586,49,45 to 49,Male,4/12/2020,,,,,,,
@@ -5101,7 +5267,7 @@ C833416,68,65 to 69,Male,4/3/2020,,,,,Yes,NCR,City of Manila
 C833601,28,25 to 29,Male,4/9/2020,,,,,Yes,NCR,City of Makati
 C833703,70,70 to 74,Male,4/19/2020,,,,,,NCR,Pasay City
 C833825,82,80+,Male,3/26/2020,,,Recovered,4/13/2020,No,NCR,City of Marikina
-C833833,53,50 to 54,Male,3/23/2020,,,,,No,NCR,City of Manila
+C833833,53,50 to 54,Male,3/23/2020,4/19/2020,,Recovered,4/20/2020,No,NCR,City of Manila
 C833846,41,40 to 44,Male,4/15/2020,,,,,Yes,NCR,Pasay City
 C833973,27,25 to 29,Male,3/11/2020,4/8/2020,,Recovered,4/12/2020,Yes,NCR,Quezon City
 C834878,68,65 to 69,Male,3/28/2020,,,,,Yes,NCR,City of Manila
@@ -5118,7 +5284,9 @@ C836962,30,30 to 34,Female,4/14/2020,,,,,,NCR,City of Mandaluyong
 C836997,23,20 to 24,Female,4/19/2020,,,,,,,
 C837027,74,70 to 74,Male,3/17/2020,,3/19/2020,Died,3/19/2020,Yes,NCR,City of Manila
 C837108,65,65 to 69,Male,3/29/2020,,,,,Yes,NCR,City of Mandaluyong
+C837446,81,80+,Male,4/20/2020,,,,,,,
 C837498,43,40 to 44,Female,4/3/2020,,,,,,,
+C837561,33,30 to 34,Female,4/20/2020,,,,,,,
 C837612,47,45 to 49,Male,4/1/2020,4/5/2020,,Recovered,4/15/2020,Yes,NCR,City of Parañaque
 C837757,38,35 to 39,Male,3/25/2020,,,,,Yes,NCR,Taguig City
 C837829,56,55 to 59,Male,3/22/2020,,3/17/2020,Died,3/23/2020,Yes,NCR,City of Parañaque
@@ -5193,6 +5361,7 @@ C845519,28,25 to 29,Female,4/7/2020,,,,,Yes,NCR,Quezon City
 C845525,19,15 to 19,Female,4/13/2020,,,,,,Quezon,Pagbilao
 C845593,74,70 to 74,Male,3/30/2020,,3/21/2020,Died,3/30/2020,Yes,NCR,Quezon City
 C845632,32,30 to 34,Female,4/11/2020,,,,,Yes,NCR,Taguig City
+C845692,21,20 to 24,Male,4/20/2020,,,,,Yes,NCR,City of Muntinlupa
 C845889,83,80+,Male,4/6/2020,,,,,,NCR,City of Valenzuela
 C845939,98,80+,Male,3/29/2020,,,,,Yes,NCR,City of Makati
 C846309,62,60 to 64,Female,3/29/2020,,,,,Yes,NCR,Caloocan City
@@ -5201,7 +5370,7 @@ C846422,54,50 to 54,Female,4/6/2020,,,,,,NCR,City of Marikina
 C846598,31,30 to 34,Female,4/18/2020,,,,,,NCR,Quezon City
 C846622,52,50 to 54,Male,3/31/2020,,,,,Yes,NCR,City of Makati
 C846709,61,60 to 64,Male,4/6/2020,,,,,,NCR,City of Mandaluyong
-C846720,91,80+,Female,4/3/2020,,,Died,4/17/2020,Yes,NCR,City of San Juan
+C846720,91,80+,Female,4/3/2020,,4/9/2020,Died,4/17/2020,Yes,NCR,City of San Juan
 C846724,68,65 to 69,Male,3/28/2020,,,,,Yes,Aklan,Kalibo (Capital)
 C846769,60,60 to 64,Male,4/13/2020,,,,,Yes,NCR,City of Manila
 C846790,51,50 to 54,Male,3/27/2020,,,,,Yes,NCR,Pasay City
@@ -5209,6 +5378,7 @@ C846799,75,75 to 79,Male,3/18/2020,,,Recovered,4/6/2020,Yes,NCR,City of San Juan
 C847020,26,25 to 29,Female,4/14/2020,,,,,Yes,Bulacan,Baliuag
 C847046,39,35 to 39,Male,4/9/2020,,,,,Yes,NCR,City of Malabon
 C847142,54,50 to 54,Female,4/9/2020,,,,,Yes,NCR,City of Marikina
+C847252,50,50 to 54,Female,4/20/2020,,,,,,,
 C847526,48,45 to 49,Female,4/15/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
 C847679,64,60 to 64,Male,4/9/2020,,,,,Yes,NCR,City of San Juan
 C847774,31,30 to 34,Female,4/2/2020,,,,,No,NCR,Caloocan City
@@ -5243,9 +5413,10 @@ C851391,11,10 to 14,Male,4/17/2020,,,,,Yes,NCR,Caloocan City
 C851415,9,5 to 9,Female,4/3/2020,,,,,,NCR,City of Parañaque
 C851464,41,40 to 44,Female,3/29/2020,,,,,Yes,NCR,City of Marikina
 C851624,44,40 to 44,Male,3/31/2020,,,,,Yes,NCR,City of Manila
-C851627,81,80+,Male,3/28/2020,,,,,Yes,NCR,City of Parañaque
+C851627,81,80+,Male,3/28/2020,,,Died,4/20/2020,Yes,NCR,City of Parañaque
 C851883,82,80+,Male,3/29/2020,,,,,Yes,NCR,Taguig City
 C851981,23,20 to 24,Female,4/19/2020,,,,,Yes,NCR,City of Muntinlupa
+C852197,61,60 to 64,Female,4/20/2020,,,,,,,
 C852268,64,60 to 64,Female,4/1/2020,,,,,Yes,NCR,City of Manila
 C852320,62,60 to 64,Female,4/14/2020,,,,,,NCR,Quezon City
 C852427,62,60 to 64,Female,3/28/2020,,4/4/2020,Died,4/4/2020,Yes,NCR,City of Manila
@@ -5263,6 +5434,7 @@ C854257,60,60 to 64,Male,3/31/2020,,3/22/2020,Died,4/13/2020,Yes,NCR,City of Pas
 C854589,55,55 to 59,Male,4/15/2020,,,,,Yes,,
 C854599,54,50 to 54,Male,3/11/2020,,3/13/2020,Died,3/14/2020,Yes,NCR,City of Pasig
 C854601,28,25 to 29,Female,4/13/2020,,,,,Yes,Cavite,Bacoor City
+C854609,14,10 to 14,Female,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C854780,28,25 to 29,Male,4/13/2020,,,,,Yes,,
 C854825,44,40 to 44,Male,4/18/2020,,,,,,NCR,City of Manila
 C855031,61,60 to 64,Male,4/17/2020,,,,,,NCR,Quezon City
@@ -5275,10 +5447,11 @@ C855895,83,80+,Male,3/24/2020,,3/17/2020,Died,4/18/2020,Yes,NCR,Quezon City
 C855962,64,60 to 64,Male,4/9/2020,,,,,Yes,NCR,Quezon City
 C856395,67,65 to 69,Male,3/29/2020,,,Recovered,4/14/2020,Yes,Benguet,Baguio City
 C856408,60,60 to 64,Female,3/31/2020,,3/30/2020,Died,4/4/2020,Yes,NCR,City of Pasig
+C856513,42,40 to 44,Female,4/20/2020,,,,,,,
 C856804,41,40 to 44,Female,4/6/2020,,,,,,NCR,Taguig City
 C857043,40,40 to 44,Female,3/28/2020,,,,,Yes,Batangas,Nasugbu
 C857046,28,25 to 29,Female,4/11/2020,,,,,,Rizal,Binangonan
-C857313,54,50 to 54,Male,4/5/2020,,,Died,4/16/2020,Yes,,
+C857313,54,50 to 54,Male,4/5/2020,,3/31/2020,Died,4/16/2020,Yes,,
 C857482,50,50 to 54,Female,3/24/2020,3/29/2020,,Recovered,4/16/2020,Yes,NCR,City of San Juan
 C857525,37,35 to 39,Male,3/30/2020,,3/20/2020,Died,4/3/2020,Yes,Davao del Sur,Davao City
 C857531,61,60 to 64,Female,3/29/2020,4/18/2020,,Recovered,4/19/2020,Yes,NCR,City of San Juan
@@ -5352,7 +5525,7 @@ C865058,27,25 to 29,Female,4/16/2020,,,,,,NCR,City of Parañaque
 C865120,24,20 to 24,Female,4/19/2020,,,,,,NCR,City of Parañaque
 C865131,62,60 to 64,Female,4/5/2020,,,,,Yes,NCR,City of Pasig
 C865280,67,65 to 69,Female,3/11/2020,,3/11/2020,Died,3/11/2020,Yes,NCR,City of Makati
-C865925,0,0 to 4,Male,4/7/2020,,,Died,4/16/2020,Yes,NCR,Caloocan City
+C865925,0,0 to 4,Male,4/7/2020,,4/2/2020,Died,4/16/2020,Yes,NCR,Caloocan City
 C866329,67,65 to 69,Male,3/29/2020,,,,,Yes,NCR,Quezon City
 C866462,68,65 to 69,Male,4/1/2020,,,,,Yes,NCR,City of Mandaluyong
 C866963,35,35 to 39,Male,4/14/2020,,,,,,NCR,Quezon City
@@ -5373,13 +5546,14 @@ C869311,66,65 to 69,Male,3/28/2020,,,,,Yes,NCR,City of Manila
 C869394,60,60 to 64,Female,3/25/2020,,,,,Yes,NCR,City of San Juan
 C869571,20,20 to 24,Female,4/19/2020,,,,,,,
 C869591,43,40 to 44,Male,4/5/2020,,,,,Yes,NCR,Quezon City
+C869714,37,35 to 39,Male,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C869815,51,50 to 54,Male,3/31/2020,,,,,Yes,Rizal,City of Antipolo (Capital)
 C869821,72,70 to 74,Male,3/20/2020,,,,,Yes,NCR,City of Pasig
 C869952,55,55 to 59,Male,3/20/2020,,,,,Yes,NCR,Quezon City
 C870247,54,50 to 54,Female,4/3/2020,,,,,Yes,NCR,Quezon City
 C870328,42,40 to 44,Male,3/30/2020,,,,,Yes,Davao del Sur,Davao City
 C870329,42,40 to 44,Female,3/10/2020,4/1/2020,,Recovered,4/5/2020,Yes,NCR,City of Marikina
-C870382,56,55 to 59,Male,4/18/2020,,,,,,NCR,City of Manila
+C870382,56,55 to 59,Male,4/18/2020,,4/17/2020,Died,4/20/2020,,NCR,City of Manila
 C870868,61,60 to 64,Male,3/29/2020,,,,,Yes,NCR,City of Manila
 C870999,59,55 to 59,Male,4/4/2020,,,,,,,
 C871075,48,45 to 49,Female,4/14/2020,,,,,,,
@@ -5416,7 +5590,7 @@ C877345,41,40 to 44,Female,4/12/2020,,,,,Yes,Laguna,San Pablo City
 C877402,35,35 to 39,Female,3/30/2020,,,,,Yes,NCR,City of San Juan
 C877407,35,35 to 39,Female,3/31/2020,,,,,,NCR,City of Makati
 C877544,49,45 to 49,Male,4/17/2020,,,,,Yes,NCR,City of Makati
-C877842,77,75 to 79,Male,4/13/2020,,,Died,4/17/2020,Yes,NCR,Pateros
+C877842,77,75 to 79,Male,4/13/2020,,4/8/2020,Died,4/17/2020,Yes,NCR,Pateros
 C877972,50,50 to 54,Female,4/9/2020,,,,,,NCR,City of Makati
 C878075,39,35 to 39,Male,4/2/2020,,,,,Yes,Batangas,City of Tanauan
 C878290,31,30 to 34,Male,4/12/2020,,,,,Yes,NCR,City of Parañaque
@@ -5427,6 +5601,7 @@ C878886,60,60 to 64,Male,3/29/2020,,,,,Yes,NCR,City of Manila
 C878969,50,50 to 54,Male,4/3/2020,,,,,Yes,NCR,City of Valenzuela
 C878987,59,55 to 59,Male,3/28/2020,,,,,Yes,Rizal,Taytay
 C879123,40,40 to 44,Female,4/4/2020,,,,,Yes,NCR,Caloocan City
+C879211,33,30 to 34,Male,4/20/2020,,,,,Yes,NCR,Caloocan City
 C879310,58,55 to 59,Male,4/1/2020,,,,,Yes,Laguna,City of Santa Rosa
 C879366,47,45 to 49,Male,3/31/2020,,,,,Yes,Bulacan,Marilao
 C879480,57,55 to 59,Male,3/25/2020,,,,,Yes,NCR,Quezon City
@@ -5480,6 +5655,7 @@ C888973,68,65 to 69,Male,4/11/2020,,,,,Yes,NCR,City of Pasig
 C889105,32,30 to 34,Male,4/14/2020,,,,,Yes,NCR,City of San Juan
 C889567,33,30 to 34,Male,4/1/2020,,,,,Yes,NCR,Pasay City
 C889673,46,45 to 49,Male,4/6/2020,,,,,,NCR,Quezon City
+C889743,25,25 to 29,Female,4/20/2020,,,,,Yes,NCR,Quezon City
 C889994,54,50 to 54,Male,3/31/2020,,,,,,NCR,Quezon City
 C890096,61,60 to 64,Female,4/3/2020,,,,,,NCR,Quezon City
 C890166,61,60 to 64,Female,3/26/2020,,,,,Yes,NCR,City of Manila
@@ -5520,6 +5696,7 @@ C895105,33,30 to 34,Female,4/15/2020,,,,,Yes,NCR,Quezon City
 C895219,54,50 to 54,Male,4/19/2020,,,,,Yes,NCR,City of Muntinlupa
 C895322,34,30 to 34,Male,4/11/2020,,,,,Yes,NCR,Caloocan City
 C895375,38,35 to 39,Female,4/11/2020,,,,,Yes,Bulacan,Paombong
+C895414,31,30 to 34,Female,4/20/2020,,,,,Yes,NCR,City of Manila
 C895429,29,25 to 29,Female,4/1/2020,4/18/2020,,Recovered,4/19/2020,Yes,Isabela,Cabagan
 C895483,38,35 to 39,Male,3/14/2020,,,Recovered,4/13/2020,Yes,NCR,City of Parañaque
 C895508,34,30 to 34,Male,4/14/2020,,,,,Yes,NCR,Quezon City
@@ -5532,7 +5709,7 @@ C896066,36,35 to 39,Female,4/1/2020,,,,,No,NCR,Taguig City
 C896134,22,20 to 24,Female,4/2/2020,,,,,No,NCR,Quezon City
 C896197,48,45 to 49,Male,4/9/2020,,,,,Yes,Cotabato (North Cotabato),City of Kidapawan (Capital)
 C896443,28,25 to 29,Female,3/25/2020,,,,,Yes,NCR,City of San Juan
-C896473,50,50 to 54,Female,4/17/2020,,,,,,,
+C896473,51,50 to 54,Female,4/17/2020,,,,,,NCR,City of Mandaluyong
 C896960,29,25 to 29,Male,4/9/2020,,,,,Yes,NCR,City of Makati
 C897113,13,10 to 14,Male,4/19/2020,,,,,,Cebu,Cebu City (Capital)
 C897235,55,55 to 59,Male,4/1/2020,4/3/2020,,Recovered,4/8/2020,Yes,NCR,Quezon City
@@ -5541,9 +5718,10 @@ C897550,68,65 to 69,Male,4/13/2020,,,,,No,Rizal,Taytay
 C897797,41,40 to 44,Female,4/17/2020,,,,,,NCR,Quezon City
 C898087,72,70 to 74,Male,4/1/2020,,,,,Yes,NCR,Quezon City
 C898266,69,65 to 69,Male,4/6/2020,,,,,,NCR,Quezon City
+C898297,21,20 to 24,Male,4/20/2020,,,,,Yes,NCR,City of San Juan
 C898341,72,70 to 74,Female,3/25/2020,,3/26/2020,Died,3/27/2020,Yes,NCR,City of Muntinlupa
 C898368,69,65 to 69,Male,3/27/2020,,,,,,NCR,Quezon City
-C899122,58,55 to 59,Male,4/3/2020,,,Died,4/14/2020,Yes,NCR,City of Parañaque
+C899122,58,55 to 59,Male,4/3/2020,,3/28/2020,Died,4/14/2020,Yes,NCR,City of Parañaque
 C899217,82,80+,Female,3/31/2020,,,,,,NCR,City of Mandaluyong
 C899269,81,80+,Male,3/31/2020,,,,,Yes,NCR,City of Las Piñas
 C899488,37,35 to 39,Male,4/17/2020,,,,,Yes,,
@@ -5585,6 +5763,7 @@ C903948,67,65 to 69,Female,4/9/2020,,,,,Yes,NCR,City of Malabon
 C904396,33,30 to 34,Male,4/19/2020,,,,,,NCR,Quezon City
 C904404,59,55 to 59,Female,4/6/2020,,,,,,Cavite,Imus City
 C904442,64,60 to 64,Male,4/6/2020,,,,,,NCR,City of Makati
+C904662,39,35 to 39,Female,4/20/2020,,,,,,,
 C904690,23,20 to 24,Female,4/11/2020,,,,,Yes,NCR,City of Manila
 C904753,33,30 to 34,Female,3/31/2020,,,,,Yes,NCR,City of San Juan
 C905025,54,50 to 54,Female,4/18/2020,,,,,Yes,Cavite,Noveleta
@@ -5592,12 +5771,15 @@ C905028,63,60 to 64,Male,3/31/2020,,,,,,NCR,City of San Juan
 C905080,41,40 to 44,Male,3/15/2020,3/23/2020,,Recovered,3/29/2020,Yes,Tarlac,City of Tarlac (Capital)
 C905235,61,60 to 64,Female,4/6/2020,,,,,Yes,Bataan,Mariveles
 C905253,45,45 to 49,Male,3/29/2020,,,,,,NCR,City of Mandaluyong
+C905345,37,35 to 39,Female,4/20/2020,,,,,,,
 C905439,23,20 to 24,Male,3/30/2020,,,Recovered,4/14/2020,Yes,Benguet,Baguio City
 C905500,23,20 to 24,Male,4/14/2020,,,,,,,
 C905906,47,45 to 49,Male,4/1/2020,,3/25/2020,Died,4/4/2020,Yes,NCR,Quezon City
+C906080,58,55 to 59,Male,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C906123,27,25 to 29,Male,4/11/2020,,,,,Yes,Cavite,Bacoor City
-C906294,30,30 to 34,Male,3/30/2020,,,,,Yes,,
+C906294,30,30 to 34,Male,3/30/2020,4/6/2020,,Recovered,4/20/2020,Yes,Rizal,City of Antipolo (Capital)
 C906398,49,45 to 49,Male,3/14/2020,,,,,Yes,NCR,Quezon City
+C906545,28,25 to 29,Female,4/20/2020,,,,,Yes,NCR,City of Manila
 C906571,62,60 to 64,Female,4/3/2020,,,,,,NCR,City of Parañaque
 C906659,30,30 to 34,Female,4/14/2020,,,,,,,
 C906800,33,30 to 34,Female,4/9/2020,,,,,Yes,NCR,Quezon City
@@ -5612,11 +5794,11 @@ C908095,35,35 to 39,Male,3/21/2020,,,,,No,NCR,City of Parañaque
 C908339,54,50 to 54,Male,3/31/2020,,,,,,NCR,City of Mandaluyong
 C908448,55,55 to 59,Female,4/6/2020,,,,,Yes,NCR,Taguig City
 C908639,38,35 to 39,Female,4/12/2020,,,,,Yes,NCR,City of Parañaque
-C908641,83,80+,Female,4/17/2020,,,,,,,
+C908641,83,80+,Female,4/17/2020,,,,,,NCR,City of Mandaluyong
 C908835,40,40 to 44,Male,3/29/2020,,,,,Yes,NCR,City of Makati
 C908927,50,50 to 54,Female,4/9/2020,,,,,Yes,Quezon,Unisan
 C909123,29,25 to 29,Female,4/10/2020,,,,,,NCR,City of Mandaluyong
-C909177,29,25 to 29,Male,3/29/2020,,,,,,Nueva Ecija,City of Gapan
+C909177,29,25 to 29,Male,3/29/2020,4/12/2020,,Recovered,4/20/2020,Yes,Nueva Ecija,City of Gapan
 C909205,73,70 to 74,Female,4/15/2020,,,,,,Quezon,Quezon
 C909334,52,50 to 54,Male,4/1/2020,,,,,,South Cotabato,T'Boli
 C909433,62,60 to 64,Male,3/29/2020,,,,,Yes,NCR,City of Makati
@@ -5638,6 +5820,7 @@ C911898,21,20 to 24,Female,4/17/2020,,,,,,,
 C911900,29,25 to 29,Female,4/4/2020,4/9/2020,,Recovered,4/16/2020,Yes,Davao del Sur,Davao City
 C911929,21,20 to 24,Female,4/18/2020,,,,,,NCR,City of Mandaluyong
 C912133,63,60 to 64,Female,3/24/2020,,,,,Yes,NCR,City of Parañaque
+C912204,31,30 to 34,Female,4/20/2020,,,,,,Laguna,City of Calamba
 C912284,33,30 to 34,Male,4/3/2020,,,,,,,
 C912621,43,40 to 44,Female,4/14/2020,,,,,,NCR,City of Pasig
 C912694,78,75 to 79,Female,4/3/2020,,,,,,NCR,City of Manila
@@ -5717,7 +5900,7 @@ C923821,64,60 to 64,Male,3/29/2020,,,,,Yes,NCR,City of Parañaque
 C923882,25,25 to 29,Male,4/3/2020,,,,,,NCR,City of Pasig
 C924028,28,25 to 29,Female,3/30/2020,,,,,Yes,La Union,Burgos
 C924030,66,65 to 69,Male,3/28/2020,,,,,Yes,NCR,City of Pasig
-C924359,85,80+,Female,3/24/2020,,,Died,4/19/2020,Yes,NCR,City of Pasig
+C924359,85,80+,Female,3/24/2020,3/29/2020,,Died,4/19/2020,Yes,NCR,City of Pasig
 C924589,38,35 to 39,Male,4/3/2020,,,,,Yes,NCR,City of Manila
 C925056,72,70 to 74,Female,3/28/2020,,,,,Yes,NCR,City of San Juan
 C925214,47,45 to 49,Female,4/14/2020,,,,,,,
@@ -5740,7 +5923,7 @@ C927067,45,45 to 49,Female,4/6/2020,,,,,,NCR,City of Pasig
 C927285,40,40 to 44,Female,3/28/2020,,,,,,,
 C927412,52,50 to 54,Female,3/31/2020,,,,,,NCR,Taguig City
 C927417,63,60 to 64,Male,4/6/2020,,,,,,,
-C928082,28,25 to 29,Female,3/28/2020,,,,,Yes,NCR,City of Manila
+C928082,28,25 to 29,Female,3/28/2020,4/18/2020,,Recovered,4/20/2020,Yes,NCR,City of Manila
 C928582,31,30 to 34,Male,3/31/2020,,,,,No,NCR,Quezon City
 C928602,79,75 to 79,Male,4/14/2020,,,,,,,
 C928643,26,25 to 29,Female,3/31/2020,,,,,Yes,NCR,City of Pasig
@@ -5776,7 +5959,7 @@ C932904,46,45 to 49,Male,4/13/2020,,,,,,NCR,Quezon City
 C933032,63,60 to 64,Female,3/29/2020,,,,,Yes,NCR,Quezon City
 C933266,52,50 to 54,Male,4/3/2020,,,,,,NCR,City of Pasig
 C933303,53,50 to 54,Female,3/28/2020,,,,,Yes,NCR,City of Parañaque
-C933473,36,35 to 39,Male,4/18/2020,,,,,Yes,NCR,Pasay City
+C933473,36,35 to 39,Male,4/18/2020,,,,,Yes,NCR,City of Parañaque
 C933497,44,40 to 44,Male,3/28/2020,,,,,Yes,Laguna,City of Biñan
 C933539,28,25 to 29,Female,4/1/2020,,,,,No,NCR,City of Pasig
 C933622,70,70 to 74,Female,4/1/2020,,3/31/2020,Died,4/7/2020,Yes,NCR,Pasay City
@@ -5798,8 +5981,9 @@ C936279,31,30 to 34,Female,4/10/2020,,,,,Yes,Laguna,City of San Pedro
 C936342,45,45 to 49,Male,4/17/2020,,,,,Yes,NCR,Caloocan City
 C936396,20,20 to 24,Female,4/12/2020,,,,,,NCR,Taguig City
 C936681,40,40 to 44,Female,4/9/2020,,,,,Yes,Batangas,Alitagtag
-C936804,61,60 to 64,Male,3/31/2020,,,,,No,NCR,City of Manila
+C936804,61,60 to 64,Male,3/31/2020,,,Died,4/20/2020,No,NCR,City of Manila
 C936961,36,35 to 39,Female,3/29/2020,4/12/2020,,Recovered,4/4/2020,Yes,Cagayan,Tuguegarao City (Capital)
+C937014,29,25 to 29,Male,4/20/2020,,,,,,NCR,City of Mandaluyong
 C937032,60,60 to 64,Female,4/11/2020,,,,,,Rizal,Cainta
 C937136,35,35 to 39,Female,4/19/2020,,,,,Yes,Rizal,Taytay
 C937246,66,65 to 69,Male,3/29/2020,,,,,Yes,NCR,Quezon City
@@ -5829,6 +6013,7 @@ C940224,24,20 to 24,Male,4/12/2020,,,,,Yes,NCR,City of Manila
 C940705,51,50 to 54,Female,3/30/2020,,,,,Yes,NCR,City of Pasig
 C940994,49,45 to 49,Male,3/29/2020,,3/31/2020,Died,4/2/2020,Yes,Davao del Sur,Davao City
 C941061,60,60 to 64,Female,4/13/2020,,,,,Yes,Laguna,City of San Pedro
+C941062,36,35 to 39,Female,4/20/2020,,,,,Yes,,
 C941315,29,25 to 29,Female,4/12/2020,,,,,,NCR,Quezon City
 C941443,26,25 to 29,Female,4/16/2020,,,,,Yes,NCR,City of Makati
 C941633,52,50 to 54,Male,3/23/2020,,,,,Yes,NCR,City of Manila
@@ -5837,6 +6022,7 @@ C941779,24,20 to 24,Male,3/9/2020,3/15/2020,,Recovered,3/18/2020,Yes,NCR,City of
 C941866,33,30 to 34,Female,4/3/2020,,,,,No,NCR,City of Manila
 C941930,0,0 to 4,Male,4/6/2020,,,,,Yes,NCR,Quezon City
 C941953,56,55 to 59,Male,3/29/2020,,,,,Yes,NCR,City of Pasig
+C942056,61,60 to 64,Female,4/20/2020,,,,,,,
 C942315,48,45 to 49,Female,4/2/2020,,,,,Yes,NCR,City of Makati
 C942353,74,70 to 74,Male,4/11/2020,,,,,Yes,NCR,City of Mandaluyong
 C942430,87,80+,Male,3/25/2020,,3/14/2020,Died,3/26/2020,Yes,Sultan Kudarat,Lambayong (Mariano Marcos)
@@ -5855,9 +6041,10 @@ C943732,75,75 to 79,Male,4/18/2020,,,,,Yes,NCR,City of Manila
 C943960,59,55 to 59,Male,4/17/2020,,,,,Yes,Bataan,City of Balanga (Capital)
 C944034,69,65 to 69,Female,3/31/2020,4/11/2020,,Recovered,4/14/2020,Yes,Cebu,Cebu City (Capital)
 C944086,64,60 to 64,Male,4/2/2020,,3/28/2020,Died,4/4/2020,Yes,NCR,Quezon City
-C944191,74,70 to 74,Male,4/15/2020,,,,,Yes,Albay,Legazpi City (Capital)
+C944191,74,70 to 74,Male,4/15/2020,,4/19/2020,Died,4/20/2020,Yes,Albay,Legazpi City (Capital)
 C944281,32,30 to 34,Female,4/11/2020,,,,,Yes,NCR,City of Marikina
 C944379,45,45 to 49,Male,3/24/2020,,,Recovered,4/4/2020,Yes,NCR,City of San Juan
+C944488,32,30 to 34,Male,4/20/2020,,,,,,,
 C944549,43,40 to 44,Male,4/3/2020,,,,,No,NCR,City of Parañaque
 C944570,35,35 to 39,Female,4/12/2020,,,,,,,
 C944586,65,65 to 69,Female,3/29/2020,,,Recovered,4/14/2020,Yes,NCR,City of Makati
@@ -5874,6 +6061,7 @@ C945622,66,65 to 69,Female,3/29/2020,,,,,Yes,NCR,City of San Juan
 C945930,56,55 to 59,Male,4/15/2020,,,,,,Cebu,Cebu City (Capital)
 C946223,30,30 to 34,Male,4/13/2020,,,,,Yes,Nueva Ecija,Cabanatuan City
 C946502,30,30 to 34,Male,4/18/2020,,,,,,,
+C946694,44,40 to 44,Female,4/20/2020,,,,,,NCR,Quezon City
 C946701,9,5 to 9,Male,4/14/2020,,,,,,NCR,City of Parañaque
 C946713,55,55 to 59,Male,4/6/2020,,,Recovered,4/16/2020,Yes,NCR,Quezon City
 C946764,31,30 to 34,Male,3/28/2020,,,,,Yes,NCR,Taguig City
@@ -5904,7 +6092,7 @@ C949999,,,,4/15/2020,,,,,,,
 C950002,34,30 to 34,Male,4/6/2020,,,,,Yes,NCR,City of Manila
 C950487,37,35 to 39,Male,3/21/2020,,,Recovered,4/10/2020,,NCR,City of San Juan
 C950714,72,70 to 74,Male,4/6/2020,,,,,,NCR,Quezon City
-C950898,64,60 to 64,Male,4/12/2020,,,,,Yes,NCR,City of Parañaque
+C950898,64,60 to 64,Male,4/12/2020,,,,,,NCR,City of Parañaque
 C950973,27,25 to 29,Female,4/6/2020,,,,,Yes,NCR,Caloocan City
 C951006,21,20 to 24,Female,4/17/2020,,,,,,NCR,City of Manila
 C951204,70,70 to 74,Female,4/17/2020,,,,,,Cebu,Cebu City (Capital)
@@ -5939,9 +6127,9 @@ C954097,44,40 to 44,Female,4/9/2020,,,,,Yes,NCR,City of Manila
 C954237,55,55 to 59,Male,4/6/2020,,,,,Yes,NCR,Quezon City
 C954346,75,75 to 79,Male,3/31/2020,,,,,Yes,Cebu,Lapu-Lapu City (Opon)
 C954541,62,60 to 64,Male,3/31/2020,,,,,Yes,NCR,City of Mandaluyong
-C954612,14,10 to 14,Male,4/5/2020,,,,,Yes,Davao del Norte,City of Tagum (Capital)
+C954612,14,10 to 14,Male,4/5/2020,4/9/2020,,Recovered,4/20/2020,Yes,Davao del Norte,City of Tagum (Capital)
 C954623,32,30 to 34,Female,4/18/2020,,,,,Yes,NCR,City of Parañaque
-C955020,20,20 to 24,Male,4/1/2020,,,,,,Davao del Norte,City of Tagum (Capital)
+C955020,20,20 to 24,Male,4/1/2020,4/13/2020,,Recovered,4/20/2020,,Davao del Norte,City of Tagum (Capital)
 C955158,59,55 to 59,Female,4/3/2020,,,,,Yes,Laguna,City of Santa Rosa
 C955166,59,55 to 59,Female,4/17/2020,,,,,,Cebu,Cebu City (Capital)
 C955232,23,20 to 24,Male,3/22/2020,4/11/2020,,Recovered,4/14/2020,No,NCR,City of Makati
@@ -5949,6 +6137,7 @@ C955412,34,30 to 34,Male,3/27/2020,,,,,,NCR,City of Mandaluyong
 C955430,55,55 to 59,Female,4/10/2020,,,,,Yes,Cavite,Bacoor City
 C955633,28,25 to 29,Female,4/2/2020,,,,,Yes,NCR,City of Manila
 C955707,83,80+,Male,4/18/2020,,,,,,Cavite,Bacoor City
+C956016,39,35 to 39,Male,4/20/2020,,,,,,,
 C956227,44,40 to 44,Male,3/29/2020,,3/31/2020,Died,4/3/2020,Yes,Pampanga,Floridablanca
 C956301,33,30 to 34,Male,4/9/2020,,,,,No,Cavite,Bacoor City
 C956311,47,45 to 49,Female,4/2/2020,,,,,Yes,NCR,City of Manila
@@ -5964,8 +6153,10 @@ C957072,46,45 to 49,Male,4/11/2020,,4/12/2020,Died,4/16/2020,Yes,NCR,City of Mar
 C957109,60,60 to 64,Female,4/3/2020,,,,,Yes,NCR,City of Parañaque
 C957160,61,60 to 64,Male,4/18/2020,,,,,,Laguna,Los Baños
 C957660,62,60 to 64,Female,3/28/2020,4/11/2020,,Recovered,4/17/2020,Yes,Cavite,Imus City
+C957841,30,30 to 34,Female,4/20/2020,,,,,,,
 C957877,58,55 to 59,Female,3/29/2020,,,,,Yes,NCR,City of Makati
 C958046,26,25 to 29,Male,3/12/2020,3/16/2020,,Recovered,3/22/2020,Yes,NCR,Quezon City
+C958088,38,35 to 39,Female,4/20/2020,,,,,Yes,NCR,Taguig City
 C958556,43,40 to 44,Female,4/1/2020,,,,,,NCR,Quezon City
 C958666,67,65 to 69,Male,3/25/2020,,3/24/2020,Died,4/11/2020,Yes,Rizal,City of Antipolo (Capital)
 C959078,24,20 to 24,Female,4/3/2020,,,,,,NCR,City of Manila
@@ -5974,13 +6165,16 @@ C959271,23,20 to 24,Male,4/12/2020,,,,,,Laguna,Pila
 C959421,35,35 to 39,Male,3/29/2020,,,,,Yes,Laguna,City of Calamba
 C959448,24,20 to 24,Male,4/18/2020,,,,,No,Iloilo,Tigbauan
 C959500,67,65 to 69,Male,4/8/2020,,,Died,4/12/2020,Yes,NCR,City of Muntinlupa
+C959521,63,60 to 64,Female,4/20/2020,,,,,,,
 C959623,53,50 to 54,Male,3/27/2020,4/4/2020,,Recovered,4/16/2020,,Albay,Legazpi City (Capital)
 C959796,55,55 to 59,Female,4/19/2020,,,,,,Zambales,Castillejos
 C959951,23,20 to 24,Male,4/16/2020,,,,,Yes,NCR,City of Manila
+C960120,85,80+,Female,4/20/2020,,,,,,,
 C960256,55,55 to 59,Male,4/2/2020,,,,,Yes,NCR,Quezon City
 C960297,67,65 to 69,Female,4/17/2020,,,,,Yes,Cavite,Naic
 C960342,32,30 to 34,Male,3/28/2020,,,,,Yes,NCR,Quezon City
 C960472,58,55 to 59,Female,4/12/2020,,,,,,NCR,City of Pasig
+C960570,53,50 to 54,Male,4/20/2020,,,,,,NCR,Pasay City
 C960617,47,45 to 49,Female,4/14/2020,,,,,Yes,NCR,City of Makati
 C960804,39,35 to 39,Male,4/14/2020,,,,,Yes,NCR,City of Manila
 C960861,27,25 to 29,Female,4/2/2020,3/28/2020,,Recovered,4/13/2020,Yes,NCR,City of Makati
@@ -6041,7 +6235,9 @@ C969640,69,65 to 69,Male,4/14/2020,,,,,,,
 C969796,33,30 to 34,Male,4/6/2020,,,,,,Rizal,Rodriguez (Montalban)
 C969978,36,35 to 39,Male,4/12/2020,,,,,,NCR,City of Mandaluyong
 C970242,57,55 to 59,Female,4/2/2020,,,,,No,NCR,City of Mandaluyong
+C970319,42,40 to 44,Male,4/20/2020,,,,,,Rizal,City of Antipolo (Capital)
 C970364,22,20 to 24,Male,4/17/2020,,,,,No,Iloilo,Miagao
+C970640,73,70 to 74,Female,4/20/2020,,,,,Yes,NCR,City of Manila
 C970686,54,50 to 54,Male,4/2/2020,,,,,Yes,Pampanga,Porac
 C970752,29,25 to 29,Female,4/2/2020,,,,,Yes,NCR,Taguig City
 C970889,35,35 to 39,Male,3/27/2020,,,,,Yes,,
@@ -6109,7 +6305,7 @@ C979149,75,75 to 79,Female,3/26/2020,,,,,Yes,Tarlac,Paniqui
 C979227,39,35 to 39,Male,3/24/2020,,,,,No,NCR,City of Pasig
 C979698,55,55 to 59,Female,4/18/2020,,,,,Yes,NCR,City of Makati
 C979977,46,45 to 49,Male,4/15/2020,,,,,Yes,NCR,Pasay City
-C980586,42,40 to 44,Female,4/5/2020,,,,,Yes,NCR,City of Pasig
+C980586,42,40 to 44,Female,4/5/2020,4/16/2020,,Recovered,4/20/2020,Yes,NCR,City of Pasig
 C980606,69,65 to 69,Male,4/19/2020,,,,,Yes,NCR,City of Mandaluyong
 C980610,51,50 to 54,Male,4/9/2020,,,,,Yes,NCR,City of Marikina
 C980747,21,20 to 24,Male,3/28/2020,,,,,Yes,NCR,City of Parañaque
@@ -6126,14 +6322,15 @@ C982064,33,30 to 34,Female,3/20/2020,4/7/2020,,Recovered,4/19/2020,Yes,NCR,City 
 C982085,75,75 to 79,Female,4/12/2020,,,,,Yes,NCR,City of Manila
 C982184,10,10 to 14,Male,4/10/2020,,,,,,NCR,Quezon City
 C982349,30,30 to 34,Female,4/11/2020,,,,,Yes,Rizal,Binangonan
-C982415,54,50 to 54,Male,4/14/2020,,,,,,,
+C982415,54,50 to 54,Male,4/14/2020,,4/12/2020,Died,4/20/2020,,NCR,City of Manila
 C982583,23,20 to 24,Female,4/6/2020,,,,,Yes,NCR,Quezon City
 C982591,78,75 to 79,Male,3/29/2020,,,,,Yes,NCR,Quezon City
 C982728,66,65 to 69,Male,4/3/2020,,,,,,,
 C982744,26,25 to 29,Male,3/31/2020,,,,,Yes,Laguna,City of San Pedro
 C982955,63,60 to 64,Female,4/6/2020,,,,,No,NCR,Pasay City
 C983374,61,60 to 64,Female,4/7/2020,,,,,Yes,,
-C983514,32,30 to 34,Male,3/22/2020,,4/3/2020,Died,4/12/2020,Yes,Batangas,Batangas City (Capital)
+C983514,32,30 to 34,Male,3/22/2020,,4/3/2020,Died,4/12/2020,Yes,Batangas,Nasugbu
+C983518,63,60 to 64,Female,4/20/2020,,,,,Yes,NCR,Quezon City
 C983548,61,60 to 64,Male,4/15/2020,,,,,,NCR,City of Makati
 C983981,43,40 to 44,Male,4/13/2020,,,,,Yes,Laguna,City of San Pedro
 C984002,40,40 to 44,Female,3/28/2020,,,,,No,NCR,Taguig City
@@ -6151,6 +6348,7 @@ C985840,51,50 to 54,Female,3/9/2020,3/21/2020,,Recovered,3/22/2020,Yes,NCR,City 
 C985857,36,35 to 39,Female,4/13/2020,,,,,Yes,Zambales,Olongapo City
 C985868,71,70 to 74,Male,4/1/2020,,,,,Yes,NCR,City of Mandaluyong
 C985929,46,45 to 49,Male,4/8/2020,,,,,Yes,NCR,Taguig City
+C986038,60,60 to 64,Male,4/20/2020,,,,,,,
 C986136,33,30 to 34,Male,4/6/2020,,,,,Yes,NCR,City of Manila
 C986216,36,35 to 39,Male,4/6/2020,,,,,,Laguna,Santa Cruz (Capital)
 C986390,68,65 to 69,Female,4/6/2020,,,,,,Bulacan,City of San Jose Del Monte
@@ -6160,10 +6358,11 @@ C986533,60,60 to 64,Female,4/17/2020,,,,,,NCR,City of Makati
 C986820,63,60 to 64,Male,3/31/2020,,,,,Yes,NCR,City of Marikina
 C987096,41,40 to 44,Male,4/15/2020,,,,,,NCR,City of Manila
 C987441,65,65 to 69,Male,3/28/2020,,3/23/2020,Died,4/3/2020,Yes,Bulacan,City of San Jose Del Monte
-C987569,64,60 to 64,Male,4/6/2020,,,Died,4/12/2020,Yes,NCR,City of Pasig
+C987569,64,60 to 64,Male,4/6/2020,,4/2/2020,Died,4/12/2020,Yes,NCR,City of Pasig
 C987670,57,55 to 59,Female,4/13/2020,,,,,Yes,NCR,City of Las Piñas
 C987901,35,35 to 39,Female,4/13/2020,,,,,Yes,NCR,Quezon City
 C987926,53,50 to 54,Male,4/3/2020,,,,,Yes,NCR,Pasay City
+C987972,54,50 to 54,Female,4/20/2020,,,,,,Cebu,Cebu City (Capital)
 C988001,67,65 to 69,Male,3/31/2020,,,Recovered,4/19/2020,Yes,NCR,Quezon City
 C988069,49,45 to 49,Female,3/31/2020,,,,,Yes,NCR,City of Makati
 C988103,8,5 to 9,Female,4/6/2020,,,,,,NCR,Taguig City
@@ -6230,6 +6429,7 @@ C995945,47,45 to 49,Female,4/1/2020,4/9/2020,,Recovered,4/16/2020,Yes,Davao del 
 C996111,79,75 to 79,Male,3/29/2020,,,,,Yes,Pampanga,Macabebe
 C996340,61,60 to 64,Male,3/24/2020,,,,,Yes,NCR,City of San Juan
 C996366,78,75 to 79,Male,3/31/2020,,,,,Yes,NCR,Caloocan City
+C996393,35,35 to 39,Female,4/20/2020,,,,,,,
 C996745,27,25 to 29,Male,3/31/2020,,,,,Yes,NCR,City of Makati
 C996798,63,60 to 64,Male,3/31/2020,,,,,Yes,NCR,Quezon City
 C996914,38,35 to 39,Female,4/9/2020,,,,,,NCR,City of Valenzuela

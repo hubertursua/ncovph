@@ -11,6 +11,10 @@ export interface Environment {
   graphql: {
     printTypeDef: boolean;
   };
+  rateLimit: {
+    windowMs: number;
+    max: number;
+  };
   port: number | string;
 }
 
@@ -22,6 +26,14 @@ const environment: Environment = {
   },
   graphql: {
     printTypeDef: process.env.GRAPHQL_PRINT_TYPEDEFS === 'false',
+  },
+  rateLimit: {
+    windowMs: process.env.RATE_LIMIT_WINDOW_MS
+      ? parseInt(process.env.RATE_LIMIT_WINDOW_MS, 10)
+      : 1000 * 60 * 1, // 1 minute
+    max: process.env.RATE_LIMIT_MAX
+      ? parseInt(process.env.RATE_LIMIT_MAX, 10)
+      : 20, // limit each IP to 20 requests per windowMs
   },
   port: process.env.PORT || 3000,
 };

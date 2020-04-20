@@ -10,5 +10,5 @@ export default (str: string): string | null => {
   }
 
 
-  return str;
+  return val;
 };
