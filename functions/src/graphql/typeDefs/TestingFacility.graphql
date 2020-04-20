@@ -1,0 +1,4 @@
+type TestingFacility {
+  name: String!
+  abbreviation: String
+}

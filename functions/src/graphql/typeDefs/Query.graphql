@@ -3,86 +3,9 @@ type Query {
   # Hello
   hello: String
 
-  # List of all confirmed cases
-  confirmedCases(
-    # Limit (1-50)
-    limit: Int
-    # Offset (>= 0)
-    offset: Int
-  ): [CaseInformation]
+  # Cases
+  cases: CasesQuery
 
-  # List of all admitted
-  admitted(
-    # Limit (1-50)
-    limit: Int
-    # Offset (>= 0)
-    offset: Int
-  ): [CaseInformation]
-
-
-  # List of all recoveries
-  recoveries(
-    # Limit (1-50)
-    limit: Int
-    # Offset (>= 0)
-    offset: Int
-  ): [CaseInformation]
-
-  # List of all deaths
-  deaths(
-    # Limit (1-50)
-    limit: Int
-    # Offset (>= 0)
-    offset: Int
-  ): [CaseInformation]
-
-  # Get a case using its case number
-  get(
-    caseNumber: String
-  ): CaseInformation
-
-  # Total confirmed cases per day
-  perDayConfirmed: [DateValue]
-
-  # Total recoveries per day
-  perDayRecoveries: [DateValue]
-
-  # Total deaths per day
-  perDayDeaths: [DateValue]
-
-  # Cumulative count of confirmed cases per day
-  cumulativeConfirmed: [DateValue]
-
-  # Cumulative count of recoveries per day
-  cumulativeRecoveries: [DateValue]
-
-  # Cumulative count of deaths per day
-  cumulativeDeaths: [DateValue]
-
-  # Count of confirmed cases
-  countConfirmedCases: Int
-
-  # Count of currently admitted
-  countAdmitted: Int
-
-  # Count of recoveries
-  countRecoveries: Int
-
-  # Count of deaths
-  countDeaths: Int
-
-  # Count per sex
-  countPerSex: CountPerSex
-
-  # Distribution of sex per age group for confirmed cases
-  distribAgeGroupSexConfirmedCases: [DistributionAgeGroupSex]
-
-  # Distribution of sex per age group for admitted
-  distribAgeGroupSexAdmitted: [DistributionAgeGroupSex]
-
-  # Distribution of sex per age group for recoveries
-  distribAgeGroupSexRecoveries: [DistributionAgeGroupSex]
-
-  # Distribution of sex per age group for deaths
-  distribAgeGroupSexDeaths: [DistributionAgeGroupSex]
+  # Testing
+  testing: TestingQuery
 }

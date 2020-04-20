@@ -1,0 +1,14 @@
+# Ratio with Unique Individuals Query
+type RatioUniqueIndQuery {
+  # Ratio of positive individuals to unique individuals
+  positiveInd: Float
+
+  # Ratio of negative individuals to unique individuals
+  negativeInd: Float
+
+  # Ratio of invalid individuals to unique individuals
+  invalidInd: Float
+
+  # Ratio of equivocal individuals to unique individuals
+  equivocalInd: Float
+}

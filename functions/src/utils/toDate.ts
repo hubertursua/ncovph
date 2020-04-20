@@ -1,12 +1,13 @@
 import moment from 'moment';
 
-export const INPUT_FORMAT = 'DD-MMM-YYYY';
+export const INPUT_FORMAT_CASE_INFORMATION = 'DD-MMM-YYYY';
+export const INPUT_FORMAT_TESTING_AGGREGATES = 'MMMM D, YYYY';
 export const OUTPUT_FORMAT = 'YYYY-MM-DD';
 
-export default (str: string): string | null => {
-  if (!moment(str, INPUT_FORMAT, true).isValid()) {
+export default (str: string, format: string): string | null => {
+  if (!moment(str, format, true).isValid()) {
     return null;
   }
 
-  return moment(str, INPUT_FORMAT, true).format(OUTPUT_FORMAT);
+  return moment(str, format, true).format(OUTPUT_FORMAT);
 };

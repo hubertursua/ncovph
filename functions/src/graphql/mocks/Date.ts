@@ -1,1 +1,1 @@
-export default (): string => '26/03/2020';
+export default (): string => '2020-03-24';

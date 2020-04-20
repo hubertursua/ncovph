@@ -1,0 +1,13 @@
+type TestingRatioUniqueInd {
+  # % positive/ unique individuals
+  positiveInd: Float
+
+  # % negative/unique individuals
+  negativeInd: Float
+
+    # % equivocal /unique individuals
+  equivocalInd: Float
+
+  # % invalid /unique individuals
+  invalidInd: Float
+}
