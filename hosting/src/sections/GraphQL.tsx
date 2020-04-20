@@ -3,6 +3,18 @@ import { Box, Heading, Paragraph } from "grommet";
 import SectionTitle from "../components/SectionTitle";
 import ExternalLink from "../components/ExternalLink";
 import CodeBlockJson from "../components/CodeBlockJson";
+import TryButton from "../components/TryButton";
+
+const Foo = (
+  <TryButton query={`
+{
+  countConfirmedCases,
+  countAdmitted,
+  countRecoveries,
+  countDeaths
+}
+  `} />
+);
 
 export default function GraphQL(): JSX.Element {
   return (
@@ -11,6 +23,8 @@ export default function GraphQL(): JSX.Element {
       <Paragraph>
         The new version of the API now uses GraphQL.
       </Paragraph>
+
+      {Foo}
 
       <Heading level={3} margin={{ bottom: "xsmall" }}>Endpoint and Playground</Heading>
       <Paragraph>
