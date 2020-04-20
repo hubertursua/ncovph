@@ -4,7 +4,11 @@ import middlewares from './middlewares';
 
 const app = express();
 app.use(middlewares.cors.handler);
-app.use(middlewares.rateLimit.handler);
+
+if (process.env.NODE_ENV !== 'development') {
+  app.use(middlewares.rateLimit.handler);
+}
+
 apollo.applyMiddleware({ app, path: '/' });
 
 export default app;
