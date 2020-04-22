@@ -33,7 +33,7 @@ const environment: Environment = {
       : 1000 * 60 * 1, // 1 minute
     max: process.env.RATE_LIMIT_MAX
       ? parseInt(process.env.RATE_LIMIT_MAX, 10)
-      : 20, // limit each IP to 20 requests per windowMs
+      : 45, // limit each IP to 20 requests per windowMs
   },
   port: process.env.PORT || 3000,
 };
