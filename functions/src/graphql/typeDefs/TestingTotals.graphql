@@ -1,0 +1,22 @@
+type TestingTotals {
+  # Total Unique Individuals Tested
+  uniqueIndTested: Int
+
+  # Total Positive Individuals
+  positiveInd: Int
+
+  # Total Negative Individuals
+  negativeInd: Int
+
+  # Total Equivocal Individuals
+  equivocalInd: Int
+
+  # Total Invalid Individuals
+  invalidInd: Int
+
+  # Total Tests Conducted
+  testsConducted: Int
+
+  # Total Remaining Int of Tests
+  remainingTests: Int
+}

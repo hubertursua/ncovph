@@ -1,0 +1,10 @@
+type TestingDailyOutput {
+  # Daily Output - Positive Individuals
+  positiveInd: Int
+
+  # Daily Output - Unique Individuals Tested
+  uniqueIndTested: Int
+
+  # Daily Output - Tests Conducted
+  testsConducted: Int
+}

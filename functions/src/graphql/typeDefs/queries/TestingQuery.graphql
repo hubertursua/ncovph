@@ -1,0 +1,43 @@
+# Testing Aggregates Query
+type TestingQuery {
+  facilities: [TestingFacility]
+
+  # Count of unique individuals
+  countUniqueInd: Int
+
+  # Count of tests conducted
+  countTestsConducted: Int
+
+  # Count of positive individuals
+  countPositiveInd: Int
+
+  # Count of negative individuals
+  countNegativeInd: Int
+
+  # Count of invalid individuals
+  countInvalidInd: Int
+
+  # Count of equivocal individuals
+  countEquivocalInd: Int
+
+  # Count of remaining tests
+  countRemainingTests: Int
+
+  perDayPositiveInd: [DateValue]
+  perDayNegativeInd: [DateValue]
+  perDayInvalidInd: [DateValue]
+  perDayEquivocalInd: [DateValue]
+  perDayTestsConducted: [DateValue]
+  perDayTestsRemaining: [DateValue]
+
+  cumulativePositiveInd: [DateValue]
+  cumulativeNegativeInd: [DateValue]
+  cumulativeInvalidInd: [DateValue]
+  cumulativeEquivocalInd: [DateValue]
+  cumulativeTestsConducted: [DateValue]
+
+  deltaTestsRemaining: [DateValue]
+
+  # # Ratio with unique individuals
+  ratioUniqueInd: RatioUniqueIndQuery
+}

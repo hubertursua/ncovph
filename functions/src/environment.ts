@@ -25,7 +25,7 @@ const environment: Environment = {
     mocks: process.env.APOLLO_MOCKS === 'true',
   },
   graphql: {
-    printTypeDef: process.env.GRAPHQL_PRINT_TYPEDEFS === 'false',
+    printTypeDef: process.env.GRAPHQL_PRINT_TYPEDEFS === 'true',
   },
   rateLimit: {
     windowMs: process.env.RATE_LIMIT_WINDOW_MS

@@ -54,7 +54,6 @@ class DataDropCaseInformation extends DataSource {
         },
       ], []);
 
-
     Cases.forEach((value) => {
       const matchIndex = deltas.findIndex((d) => (d.date === value.dateReportConfirmed));
 
@@ -64,7 +63,6 @@ class DataDropCaseInformation extends DataSource {
 
       deltas[matchIndex].value += 1;
     });
-
 
     return deltas;
   }
@@ -79,7 +77,6 @@ class DataDropCaseInformation extends DataSource {
         },
       ], []);
 
-
     Cases.forEach((value) => {
       const matchIndex = deltas.findIndex((d) => (
         value.removalType === RemovalType.RECOVERED
@@ -92,7 +89,6 @@ class DataDropCaseInformation extends DataSource {
 
       deltas[matchIndex].value += 1;
     });
-
 
     return deltas;
   }
@@ -107,7 +103,6 @@ class DataDropCaseInformation extends DataSource {
         },
       ], []);
 
-
     Cases.forEach((value) => {
       const matchIndex = deltas.findIndex((d) => (
         value.removalType === RemovalType.DIED
@@ -120,7 +115,6 @@ class DataDropCaseInformation extends DataSource {
 
       deltas[matchIndex].value += 1;
     });
-
 
     return deltas;
   }
