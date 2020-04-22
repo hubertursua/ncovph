@@ -28,6 +28,10 @@ const updates = [
         <br /><br />
         {`All Case Information queries were moved to a cases query group. Following this, the Testing
         Aggregates queries are grouped under testing.`}
+        <br /><br />
+        {`IMPORTANT: The old REST API (https://ncovph.com/api) will be discontinued on
+        April 30. Kindly migrate to the new GraphQL API before this. If you need help
+        in migrating, just file an issue on GitHub.`}
       </>
     }
   />,
