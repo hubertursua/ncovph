@@ -20,6 +20,18 @@ function Update({
 
 const updates = [
   <Update
+    key="April 22"
+    date="April 22"
+    text={
+      <>
+        {`Data from the Testing Aggregates is available in the latest version.`}
+        <br /><br />
+        {`All Case Information queries were moved to a cases query group. Following this, the Testing
+        Aggregates queries are grouped under testing.`}
+      </>
+    }
+  />,
+  <Update
     key="April 18"
     date="April 18"
     text={
