@@ -1,0 +1,16 @@
+type TestingAggregate {
+  # Date
+  date: Date!
+
+  # Facility
+  facility: TestingFacility!
+
+  # Daily output
+  dailyOutput: TestingDailyOutput!
+
+  # Testing totals
+  totals: TestingTotals!
+
+  # Ratio over unique indiduals tested
+  ratioUniqueInd: TestingRatioUniqueInd!
+}
