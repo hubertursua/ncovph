@@ -1,6 +1,6 @@
 import moment from 'moment';
 
-export const INPUT_FORMAT = 'M/D/YYYY';
+export const INPUT_FORMAT = 'DD-MMM-YYYY';
 export const OUTPUT_FORMAT = 'YYYY-MM-DD';
 
 export default (str: string): string | null => {
