@@ -20,7 +20,7 @@
     "react-scripts": "3.4.1",
     "react-syntax-highlighter": "^12.2.1",
     "styled-components": "^5.0.1",
-    "typescript": "~3.7.2"
+    "typescript": "~3.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
