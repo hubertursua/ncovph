@@ -20,6 +20,20 @@ function Update({
 
 const updates = [
   <Update
+    key="April 24"
+    date="April 24"
+    text={
+      <>
+        {`A new property "healthStatus" was added in cases.`}
+        <br /><br />
+        {`Coming up... There will be changes with the residence data. PSGC codes
+        for residence properties (province, city) were added the other
+        day and we will soon use that to translate the residence data. The current
+        code uses ISO 3166 which has some differences with PSGC.`}
+      </>
+    }
+  />,
+  <Update
     key="April 22"
     date="April 22"
     text={

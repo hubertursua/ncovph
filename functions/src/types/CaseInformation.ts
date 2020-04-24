@@ -1,3 +1,4 @@
+import HealthStatus from './HealthStatus';
 import RemovalType from './RemovalType';
 import Sex from './Sex';
 
@@ -16,6 +17,7 @@ interface CaseInformation {
     province?: string;
     city?: string;
   };
+  healthStatus: HealthStatus;
 }
 
 export default CaseInformation;
