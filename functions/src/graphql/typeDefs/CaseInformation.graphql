@@ -29,4 +29,7 @@ type CaseInformation {
 
   # Residence
   residence: Residence
+
+  # Health status
+  healthStatus: HealthStatus
 }

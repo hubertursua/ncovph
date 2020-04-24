@@ -1,0 +1,23 @@
+# Health status
+enum HealthStatus {
+  # Unknown
+  UNKNOWN
+
+  # Asymptomatic
+  ASYMPTOMATIC
+
+  # Mild
+  MILD
+
+  # Severe
+  SEVERE
+
+  # Critical
+  CRITICAL
+
+  # Recovered
+  RECOVERED
+
+  # Died
+  DIED
+}
