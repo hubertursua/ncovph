@@ -31,7 +31,7 @@
     "graphql": "^14.6.0",
     "graphql-scalars": "^1.1.0",
     "moment": "^2.24.0",
-    "ncovph-parser": "^1.1.13",
+    "ncovph-parser": "^1.1.14",
     "papaparse": "^5.2.0"
   },
   "devDependencies": {
