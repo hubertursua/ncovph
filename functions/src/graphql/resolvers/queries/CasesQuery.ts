@@ -29,7 +29,7 @@ export default {
     let validLimit = limit;
     let validOffset = offset;
 
-    if (limit < 1 || limit > 50) {
+    if (limit < 1 || limit > 500) {
       validLimit = 30;
     }
 
@@ -54,7 +54,7 @@ export default {
     let validLimit = limit;
     let validOffset = offset;
 
-    if (limit < 1 || limit > 50) {
+    if (limit < 1 || limit > 500) {
       validLimit = 30;
     }
 
@@ -79,7 +79,7 @@ export default {
     let validLimit = limit;
     let validOffset = offset;
 
-    if (limit < 1 || limit > 50) {
+    if (limit < 1 || limit > 500) {
       validLimit = 30;
     }
 
@@ -104,7 +104,7 @@ export default {
     let validLimit = limit;
     let validOffset = offset;
 
-    if (limit < 1 || limit > 50) {
+    if (limit < 1 || limit > 500) {
       validLimit = 30;
     }
 

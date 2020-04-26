@@ -2,7 +2,7 @@
 type CasesQuery {
   # List of all confirmed cases
   confirmedCases(
-    # Limit (1-50)
+    # Limit (1-500)
     limit: Int
     # Offset (>= 0)
     offset: Int
@@ -10,7 +10,7 @@ type CasesQuery {
 
   # List of all admitted
   admitted(
-    # Limit (1-50)
+    # Limit (1-500)
     limit: Int
     # Offset (>= 0)
     offset: Int
@@ -19,7 +19,7 @@ type CasesQuery {
 
   # List of all recoveries
   recoveries(
-    # Limit (1-50)
+    # Limit (1-500)
     limit: Int
     # Offset (>= 0)
     offset: Int
@@ -27,7 +27,7 @@ type CasesQuery {
 
   # List of all deaths
   deaths(
-    # Limit (1-50)
+    # Limit (1-500)
     limit: Int
     # Offset (>= 0)
     offset: Int
