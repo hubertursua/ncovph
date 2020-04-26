@@ -1,9 +1,9 @@
-import toLocation from 'ncovph-parser/dist/parsers/toLocation';
 import CaseInformation from '../../../types/CaseInformation';
 import toAge from '../../../utils/toAge';
 import toBoolean from '../../../utils/toBoolean';
 import toDate, { INPUT_FORMAT_CASE_INFORMATION } from '../../../utils/toDate';
 import toHealthStatus from '../../../utils/toHealthStatus';
+import toLocation from '../../../utils/toLocation';
 import toNullableString from '../../../utils/toNullableString';
 import toRegion from '../../../utils/toRegion';
 import toRemovalType from '../../../utils/toRemovalType';
