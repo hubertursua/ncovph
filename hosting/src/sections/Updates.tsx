@@ -20,6 +20,20 @@ function Update({
 
 const updates = [
   <Update
+    key="April 27"
+    date="April 27"
+    text={
+      <>
+        {`There are inconsistencies with the residence data for the past 2-3 days. I am
+        still verifying if these are corrections to old data or wrong changes. They have been
+        experimenting in using PSGC recently but it seems it's spawned some new problems.`}
+        <br /><br />
+        {`In line with this, this will delay the usage of PSGC that I've been working on since
+        we cannot trust the residence data to be correct.`}
+      </>
+    }
+  />,
+  <Update
     key="April 24"
     date="April 24"
     text={
