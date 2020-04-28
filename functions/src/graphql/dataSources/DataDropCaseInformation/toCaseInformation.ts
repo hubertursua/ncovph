@@ -1,22 +1,19 @@
 import CaseInformation from '../../../types/CaseInformation';
 import toAge from '../../../utils/toAge';
 import toBoolean from '../../../utils/toBoolean';
+import toCity from '../../../utils/toCity';
 import toDate, { INPUT_FORMAT_CASE_INFORMATION } from '../../../utils/toDate';
 import toHealthStatus from '../../../utils/toHealthStatus';
-import toLocation from '../../../utils/toLocation';
 import toNullableString from '../../../utils/toNullableString';
+import toProvince from '../../../utils/toProvince';
 import toRegion from '../../../utils/toRegion';
 import toRemovalType from '../../../utils/toRemovalType';
 import toSex from '../../../utils/toSex';
 
 export default (d: string[]): CaseInformation => {
-  const provinceStr = toNullableString(d[10]);
-  const cityStr = toNullableString(d[11].replace(/\s\([A-Za-z0-9\s]+\)$/, ''));
-  const {
-    region,
-    province,
-    city,
-  } = toLocation((cityStr) ? `${cityStr}, ${provinceStr}` : `${provinceStr || ''}`) || { region: null, province: null, city: null };
+  if (d[14] === 'cow') {
+    throw new Error();
+  }
 
   return {
     caseNumber: toNullableString(d[0]),
@@ -29,9 +26,9 @@ export default (d: string[]): CaseInformation => {
     dateReportRemoved: toDate(d[8], INPUT_FORMAT_CASE_INFORMATION),
     admitted: toBoolean(d[9]),
     residence: {
-      region: toRegion(toNullableString(region)),
-      province: toNullableString(province),
-      city: toNullableString(city),
+      region: toRegion(toNullableString(d[14])),
+      province: toProvince(toNullableString(d[15])),
+      city: toCity(toNullableString(d[16])),
     },
     healthStatus: toHealthStatus(d[12]),
   };

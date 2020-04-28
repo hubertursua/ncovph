@@ -19,6 +19,7 @@ GraphQL API for COVID-19 data (Philippines)
 ## Dependencies
 
 * [ncovph-parser](https://github.com/hyubs/ncovph-parser)
+* [ph-locations](https://github.com/hyubs/ph-locations)
 
 ## License
 

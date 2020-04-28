@@ -32,7 +32,8 @@
     "graphql-scalars": "^1.1.0",
     "moment": "^2.24.0",
     "ncovph-parser": "^1.1.14",
-    "papaparse": "^5.2.0"
+    "papaparse": "^5.2.0",
+    "ph-locations": "^1.1.3"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.26.0",
