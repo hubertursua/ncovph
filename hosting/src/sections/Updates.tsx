@@ -20,6 +20,17 @@ function Update({
 
 const updates = [
   <Update
+    key="April 28"
+    date="April 28"
+    text={
+      <>
+        {`The PSGC codes in the residence data seems to be stable. I'll be using that
+        to evaluate the name of a location. A separate library that I wrote, ph-locations,
+        is used for this translation.`}
+      </>
+    }
+  />,
+  <Update
     key="April 27"
     date="April 27"
     text={
