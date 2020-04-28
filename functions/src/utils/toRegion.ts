@@ -1,11 +1,13 @@
-import Regions from 'ncovph-parser/dist/types/Region';
+import { psgc } from 'ph-locations';
 
-export default (str: string | null): string | null => {
-  if (!str) {
+const { regions } = psgc;
+
+export default (regionCode: string | null): string | null => {
+  if (!regionCode) {
     return null;
   }
 
-  const match = Regions[str];
+  const match = regions.find((r) => `PH${r.code}` === regionCode);
 
-  return (match) || null;
+  return (match && match.name) || null;
 };

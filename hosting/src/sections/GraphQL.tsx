@@ -8,10 +8,12 @@ import TryButton from "../components/TryButton";
 const Foo = (
   <TryButton query={`
 {
-  countConfirmedCases,
-  countAdmitted,
-  countRecoveries,
-  countDeaths
+  cases {
+    countConfirmedCases,
+    countAdmitted,
+    countRecoveries,
+    countDeaths
+  }
 }
   `} />
 );
