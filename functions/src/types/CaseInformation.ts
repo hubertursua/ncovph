@@ -1,4 +1,5 @@
 import HealthStatus from './HealthStatus';
+import QuarantineStatus from './QuarantineStatus';
 import RemovalType from './RemovalType';
 import Sex from './Sex';
 
@@ -18,6 +19,7 @@ interface CaseInformation {
     city?: string;
   };
   healthStatus: HealthStatus;
+  isQuarantined: QuarantineStatus;
 }
 
 export default CaseInformation;

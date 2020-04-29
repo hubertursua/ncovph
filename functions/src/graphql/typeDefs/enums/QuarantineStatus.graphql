@@ -1,0 +1,11 @@
+# Quarantine status
+enum QuarantineStatus {
+  # Unknown
+  UNKNOWN
+
+  # Yes
+  YES
+
+  # No
+  NO
+}
