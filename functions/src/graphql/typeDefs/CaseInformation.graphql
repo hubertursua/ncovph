@@ -32,4 +32,7 @@ type CaseInformation {
 
   # Health status
   healthStatus: HealthStatus
+
+  # Is quarantined
+  isQuarantined: QuarantineStatus
 }

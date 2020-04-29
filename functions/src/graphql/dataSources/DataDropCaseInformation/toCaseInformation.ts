@@ -4,6 +4,7 @@ import toBoolean from '../../../utils/toBoolean';
 import toCity from '../../../utils/toCity';
 import toDate, { INPUT_FORMAT_CASE_INFORMATION } from '../../../utils/toDate';
 import toHealthStatus from '../../../utils/toHealthStatus';
+import toIsQuarantined from '../../../utils/toIsQuarantined';
 import toNullableString from '../../../utils/toNullableString';
 import toProvince from '../../../utils/toProvince';
 import toRegion from '../../../utils/toRegion';
@@ -31,5 +32,6 @@ export default (d: string[]): CaseInformation => {
       city: toCity(toNullableString(d[16])),
     },
     healthStatus: toHealthStatus(d[12]),
+    isQuarantined: toIsQuarantined(d[17]),
   };
 };
