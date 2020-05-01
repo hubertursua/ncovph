@@ -23,21 +23,42 @@ type TestingQuery {
   # Count of remaining tests
   countRemainingTests: Int
 
+  # Total positive individual tests per day
   perDayPositiveInd: [DateValue]
+
+  # Total negative individual tests per day
   perDayNegativeInd: [DateValue]
+
+  # Total invalid individual tests per day
   perDayInvalidInd: [DateValue]
+
+  # Total equivocal individual tests per day
   perDayEquivocalInd: [DateValue]
+
+  # Total tests conducted per day
   perDayTestsConducted: [DateValue]
+
+  # Total test kits remaining per day
   perDayTestsRemaining: [DateValue]
 
+  # Cumulative count of positive individual tests per day
   cumulativePositiveInd: [DateValue]
+
+  # Cumulative count of negative individual tests per day
   cumulativeNegativeInd: [DateValue]
+
+  # Cumulative count of invalid individual tests per day
   cumulativeInvalidInd: [DateValue]
+
+  # Cumulative count of equivocal individual tests per day
   cumulativeEquivocalInd: [DateValue]
+
+  # Cumulative count of tests conducted per day
   cumulativeTestsConducted: [DateValue]
 
+  # Changes in the number of test kits remaining per day
   deltaTestsRemaining: [DateValue]
 
-  # # Ratio with unique individuals
+  # Ratio with unique individuals
   ratioUniqueInd: RatioUniqueIndQuery
 }

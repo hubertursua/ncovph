@@ -17,6 +17,6 @@ type TestingTotals {
   # Total Tests Conducted
   testsConducted: Int
 
-  # Total Remaining Int of Tests
+  # Total Remaining Test Kits
   remainingTests: Int
 }

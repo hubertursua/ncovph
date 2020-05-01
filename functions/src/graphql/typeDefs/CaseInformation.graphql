@@ -33,6 +33,6 @@ type CaseInformation {
   # Health status
   healthStatus: HealthStatus
 
-  # Is quarantined
-  isQuarantined: QuarantineStatus
+  # Ever been in home quarantine, not necessarily currently in home quarantine
+  didHomeQuarantine: QuarantineStatus
 }

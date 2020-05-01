@@ -19,7 +19,7 @@ interface CaseInformation {
     city?: string;
   };
   healthStatus: HealthStatus;
-  isQuarantined: QuarantineStatus;
+  didHomeQuarantine: QuarantineStatus;
 }
 
 export default CaseInformation;
