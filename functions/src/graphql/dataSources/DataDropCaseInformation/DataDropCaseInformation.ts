@@ -16,24 +16,26 @@ export interface ListProps {
   offset: number;
 }
 
+const DEFAULT_LIMIT = 30;
+
 class DataDropCaseInformation extends DataSource {
-  list({ limit = 30, offset = 0 }: ListProps): CaseInformation[] {
+  list({ limit = DEFAULT_LIMIT, offset = 0 }: ListProps): CaseInformation[] {
     return Cases.slice(offset, offset + limit);
   }
 
-  listAdmitted({ limit = 30, offset = 0 }: ListProps): CaseInformation[] {
+  listAdmitted({ limit = DEFAULT_LIMIT, offset = 0 }: ListProps): CaseInformation[] {
     return Cases
       .filter((d) => (d.admitted && !d.removalType))
       .slice(offset, offset + limit);
   }
 
-  listRecoveries({ limit = 30, offset = 0 }: ListProps): CaseInformation[] {
+  listRecoveries({ limit = DEFAULT_LIMIT, offset = 0 }: ListProps): CaseInformation[] {
     return Cases
       .filter((d) => (d.removalType === RemovalType.RECOVERED))
       .slice(offset, offset + limit);
   }
 
-  listDeaths({ limit = 30, offset = 0 }: ListProps): CaseInformation[] {
+  listDeaths({ limit = DEFAULT_LIMIT, offset = 0 }: ListProps): CaseInformation[] {
     return Cases
       .filter((d) => (d.removalType === RemovalType.DIED))
       .slice(offset, offset + limit);
