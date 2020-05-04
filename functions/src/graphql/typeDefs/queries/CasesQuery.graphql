@@ -2,16 +2,36 @@
 type CasesQuery {
   # List of all confirmed cases
   confirmedCases(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+
     # Limit (1-500)
     limit: Int
+
     # Offset (>= 0)
     offset: Int
   ): [CaseInformation]
 
   # List of all admitted
   admitted(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+
     # Limit (1-500)
     limit: Int
+
     # Offset (>= 0)
     offset: Int
   ): [CaseInformation]
@@ -19,16 +39,36 @@ type CasesQuery {
 
   # List of all recoveries
   recoveries(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+
     # Limit (1-500)
     limit: Int
+
     # Offset (>= 0)
     offset: Int
   ): [CaseInformation]
 
   # List of all deaths
   deaths(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+
     # Limit (1-500)
     limit: Int
+
     # Offset (>= 0)
     offset: Int
   ): [CaseInformation]
@@ -39,47 +79,182 @@ type CasesQuery {
   ): CaseInformation
 
   # Total confirmed cases per day
-  perDayConfirmed: [DateValue]
+  perDayConfirmed(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+  ): [DateValue]
 
   # Total recoveries per day
-  perDayRecoveries: [DateValue]
+  perDayRecoveries(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+  ): [DateValue]
 
   # Total deaths per day
-  perDayDeaths: [DateValue]
+  perDayDeaths(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+  ): [DateValue]
 
   # Cumulative count of confirmed cases per day
-  cumulativeConfirmed: [DateValue]
+  cumulativeConfirmed(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+  ): [DateValue]
 
   # Cumulative count of recoveries per day
-  cumulativeRecoveries: [DateValue]
+  cumulativeRecoveries(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+  ): [DateValue]
 
   # Cumulative count of deaths per day
-  cumulativeDeaths: [DateValue]
+  cumulativeDeaths(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+  ): [DateValue]
 
   # Count of confirmed cases
-  countConfirmedCases: Int
+  countConfirmedCases(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+  ): Int
 
   # Count of currently admitted
-  countAdmitted: Int
+  countAdmitted(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+  ): Int
 
   # Count of recoveries
-  countRecoveries: Int
+  countRecoveries(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+  ): Int
 
   # Count of deaths
-  countDeaths: Int
+  countDeaths(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+  ): Int
 
   # Count per sex
-  countPerSex: CountPerSex
+  countPerSex(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+  ): CountPerSex
 
   # Distribution of sex per age group for confirmed cases
-  distribAgeGroupSexConfirmedCases: [DistributionAgeGroupSex]
+  distribAgeGroupSexConfirmedCases(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+  ): [DistributionAgeGroupSex]
 
   # Distribution of sex per age group for admitted
-  distribAgeGroupSexAdmitted: [DistributionAgeGroupSex]
+  distribAgeGroupSexAdmitted(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+  ): [DistributionAgeGroupSex]
 
   # Distribution of sex per age group for recoveries
-  distribAgeGroupSexRecoveries: [DistributionAgeGroupSex]
+  distribAgeGroupSexRecoveries(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+  ): [DistributionAgeGroupSex]
 
   # Distribution of sex per age group for deaths
-  distribAgeGroupSexDeaths: [DistributionAgeGroupSex]
+  distribAgeGroupSexDeaths(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+  ): [DistributionAgeGroupSex]
 }

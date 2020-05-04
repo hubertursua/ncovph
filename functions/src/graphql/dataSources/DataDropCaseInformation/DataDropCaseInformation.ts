@@ -12,32 +12,110 @@ import dateRangeArray from '../../../utils/dateRangeArray';
 import Cases from './Cases';
 
 export interface ListProps {
+  region?: string;
+  province?: string;
+  city?: string;
   limit: number;
   offset: number;
 }
 
+export interface CountProps {
+  region?: string;
+  province?: string;
+  city?: string;
+}
+
+export interface PerDayProps {
+  region?: string;
+  province?: string;
+  city?: string;
+}
+
+export interface CumulativeProps {
+  region?: string;
+  province?: string;
+  city?: string;
+}
+
+export interface DistributionProps {
+  region?: string;
+  province?: string;
+  city?: string;
+}
+
 const DEFAULT_LIMIT = 30;
 
-class DataDropCaseInformation extends DataSource {
-  list({ limit = DEFAULT_LIMIT, offset = 0 }: ListProps): CaseInformation[] {
-    return Cases.slice(offset, offset + limit);
+const filterByResidence = (
+  region: string,
+  province: string,
+  city: string,
+) => (d: CaseInformation): boolean => {
+  if (!region) {
+    return true;
   }
 
-  listAdmitted({ limit = DEFAULT_LIMIT, offset = 0 }: ListProps): CaseInformation[] {
+  let match = d.residence.region === region;
+
+  if (province) {
+    match = match && (d.residence.province === province);
+
+    if (city) {
+      match = match && (d.residence.city === city);
+    }
+  }
+
+  return match;
+};
+
+class DataDropCaseInformation extends DataSource {
+  list({
+    region = null,
+    province = null,
+    city = null,
+    limit = DEFAULT_LIMIT,
+    offset = 0,
+  }: ListProps): CaseInformation[] {
+    return Cases
+      .filter(filterByResidence(region, province, city))
+      .slice(offset, offset + limit);
+  }
+
+  listAdmitted({
+    region = null,
+    province = null,
+    city = null,
+    limit = DEFAULT_LIMIT,
+    offset = 0,
+  }: ListProps): CaseInformation[] {
     return Cases
       .filter((d) => (d.admitted && !d.removalType))
+      .filter(filterByResidence(region, province, city))
       .slice(offset, offset + limit);
   }
 
-  listRecoveries({ limit = DEFAULT_LIMIT, offset = 0 }: ListProps): CaseInformation[] {
+  listRecoveries({
+    region = null,
+    province = null,
+    city = null,
+    limit = DEFAULT_LIMIT,
+    offset = 0,
+  }: ListProps): CaseInformation[] {
     return Cases
       .filter((d) => (d.removalType === RemovalType.RECOVERED))
+      .filter(filterByResidence(region, province, city))
       .slice(offset, offset + limit);
   }
 
-  listDeaths({ limit = DEFAULT_LIMIT, offset = 0 }: ListProps): CaseInformation[] {
+  listDeaths({
+    region = null,
+    province = null,
+    city = null,
+    limit = DEFAULT_LIMIT,
+    offset = 0,
+  }: ListProps): CaseInformation[] {
     return Cases
       .filter((d) => (d.removalType === RemovalType.DIED))
+      .filter(filterByResidence(region, province, city))
       .slice(offset, offset + limit);
   }
 
@@ -46,7 +124,11 @@ class DataDropCaseInformation extends DataSource {
     return (match) || null;
   }
 
-  getDailyConfirmedDelta(): DateValue[] {
+  getDailyConfirmedDelta({
+    region = null,
+    province = null,
+    city = null,
+  }: PerDayProps): DateValue[] {
     const deltas = dateRangeArray(DATE_FIRST_CASE)
       .reduce((out, date) => [
         ...out,
@@ -56,7 +138,7 @@ class DataDropCaseInformation extends DataSource {
         },
       ], []);
 
-    Cases.forEach((value) => {
+    Cases.filter(filterByResidence(region, province, city)).forEach((value) => {
       const matchIndex = deltas.findIndex((d) => (d.date === value.dateReportConfirmed));
 
       if (matchIndex === -1) {
@@ -69,7 +151,11 @@ class DataDropCaseInformation extends DataSource {
     return deltas;
   }
 
-  getDailyRecoveriesDelta(): DateValue[] {
+  getDailyRecoveriesDelta({
+    region = null,
+    province = null,
+    city = null,
+  }: PerDayProps): DateValue[] {
     const deltas = dateRangeArray(DATE_FIRST_CASE)
       .reduce((out, date) => [
         ...out,
@@ -79,7 +165,7 @@ class DataDropCaseInformation extends DataSource {
         },
       ], []);
 
-    Cases.forEach((value) => {
+    Cases.filter(filterByResidence(region, province, city)).forEach((value) => {
       const matchIndex = deltas.findIndex((d) => (
         value.removalType === RemovalType.RECOVERED
         && d.date === value.dateReportRemoved
@@ -95,7 +181,11 @@ class DataDropCaseInformation extends DataSource {
     return deltas;
   }
 
-  getDailyDeathsDelta(): DateValue[] {
+  getDailyDeathsDelta({
+    region = null,
+    province = null,
+    city = null,
+  }: PerDayProps): DateValue[] {
     const deltas = dateRangeArray(DATE_FIRST_CASE)
       .reduce((out, date) => [
         ...out,
@@ -105,7 +195,7 @@ class DataDropCaseInformation extends DataSource {
         },
       ], []);
 
-    Cases.forEach((value) => {
+    Cases.filter(filterByResidence(region, province, city)).forEach((value) => {
       const matchIndex = deltas.findIndex((d) => (
         value.removalType === RemovalType.DIED
         && d.date === value.dateReportRemoved
@@ -121,16 +211,40 @@ class DataDropCaseInformation extends DataSource {
     return deltas;
   }
 
-  getDailyConfirmedCumulative(): DateValue[] {
-    return this.dailyCumulative(this.getDailyConfirmedDelta());
+  getDailyConfirmedCumulative({
+    region = null,
+    province = null,
+    city = null,
+  }: CumulativeProps): DateValue[] {
+    return this.dailyCumulative(this.getDailyConfirmedDelta({
+      region,
+      province,
+      city,
+    }));
   }
 
-  getDailyRecoveriesCumulative(): DateValue[] {
-    return this.dailyCumulative(this.getDailyRecoveriesDelta());
+  getDailyRecoveriesCumulative({
+    region = null,
+    province = null,
+    city = null,
+  }: CumulativeProps): DateValue[] {
+    return this.dailyCumulative(this.getDailyRecoveriesDelta({
+      region,
+      province,
+      city,
+    }));
   }
 
-  getDailyDeathsCumulative(): DateValue[] {
-    return this.dailyCumulative(this.getDailyDeathsDelta());
+  getDailyDeathsCumulative({
+    region = null,
+    province = null,
+    city = null,
+  }: CumulativeProps): DateValue[] {
+    return this.dailyCumulative(this.getDailyDeathsDelta({
+      region,
+      province,
+      city,
+    }));
   }
 
   private dailyCumulative(deltas: DateValue[]): DateValue[] {
@@ -153,77 +267,171 @@ class DataDropCaseInformation extends DataSource {
     return cumulative;
   }
 
-  count(): number {
-    return Cases.length;
+  count({
+    region = null,
+    province = null,
+    city = null,
+  }: CountProps): number {
+    return Cases.filter(filterByResidence(region, province, city)).length;
   }
 
-  countAdmitted(): number {
-    return this.list({ limit: this.count(), offset: 0 })
-      .filter((d) => (d.admitted && !d.removalType))
+  countAdmitted({
+    region = null,
+    province = null,
+    city = null,
+  }: CountProps): number {
+    return this.listAdmitted({
+      region,
+      province,
+      city,
+      limit: this.count({
+        region,
+        province,
+        city,
+      }),
+      offset: 0,
+    })
       .length;
   }
 
-  countRecoveries(): number {
-    return this.list({ limit: this.count(), offset: 0 })
-      .filter((d) => (d.removalType && d.removalType === RemovalType.RECOVERED))
+  countRecoveries({
+    region = null,
+    province = null,
+    city = null,
+  }: CountProps): number {
+    return this.listRecoveries({
+      region,
+      province,
+      city,
+      limit: this.count({
+        region,
+        province,
+        city,
+      }),
+      offset: 0,
+    })
       .length;
   }
 
-  countDeaths(): number {
-    return this.list({ limit: this.count(), offset: 0 })
-      .filter((d) => (d.removalType && d.removalType === RemovalType.DIED))
+  countDeaths({
+    region = null,
+    province = null,
+    city = null,
+  }: CountProps): number {
+    return this.listDeaths({
+      region,
+      province,
+      city,
+      limit: this.count({
+        region,
+        province,
+        city,
+      }),
+      offset: 0,
+    })
       .length;
   }
 
-  countPerSex(): CountPerSex {
-    return Cases.reduce((acc: CountPerSex, currentValue: CaseInformation) => {
-      if (currentValue.sex === Sex.FEMALE) {
+  countPerSex({
+    region = null,
+    province = null,
+    city = null,
+  }: CountProps): CountPerSex {
+    return Cases
+      .filter(filterByResidence(region, province, city))
+      .reduce((acc: CountPerSex, currentValue: CaseInformation) => {
+        if (currentValue.sex === Sex.FEMALE) {
+          return {
+            ...acc,
+            female: acc.female + 1,
+          };
+        }
+
+        if (currentValue.sex === Sex.MALE) {
+          return {
+            ...acc,
+            male: acc.male + 1,
+          };
+        }
+
         return {
           ...acc,
-          female: acc.female + 1,
+          unknown: acc.unknown + 1,
         };
-      }
-
-      if (currentValue.sex === Sex.MALE) {
-        return {
-          ...acc,
-          male: acc.male + 1,
-        };
-      }
-
-      return {
-        ...acc,
-        unknown: acc.unknown + 1,
-      };
-    }, ({ female: 0, male: 0, unknown: 0 } as CountPerSex));
+      }, ({ female: 0, male: 0, unknown: 0 } as CountPerSex));
   }
 
-  distribAgeGroupSexConfirmedCases(): DistributionAgeGroupSex[] {
-    return this.distribAgeGroupSex(Cases);
+  distribAgeGroupSexConfirmedCases({
+    region = null,
+    province = null,
+    city = null,
+  }: DistributionProps): DistributionAgeGroupSex[] {
+    return this.distribAgeGroupSex(
+      Cases.filter(
+        filterByResidence(
+          region,
+          province,
+          city,
+        ),
+      ),
+    );
   }
 
-  distribAgeGroupSexAdmitted(): DistributionAgeGroupSex[] {
+  distribAgeGroupSexAdmitted({
+    region = null,
+    province = null,
+    city = null,
+  }: DistributionProps): DistributionAgeGroupSex[] {
     return this.distribAgeGroupSex(
       this.listAdmitted({
-        limit: this.countAdmitted(),
+        region,
+        province,
+        city,
+        limit: this.countAdmitted({
+          region,
+          province,
+          city,
+        }),
         offset: 0,
       }),
     );
   }
 
-  distribAgeGroupSexRecoveries(): DistributionAgeGroupSex[] {
+  distribAgeGroupSexRecoveries({
+    region = null,
+    province = null,
+    city = null,
+  }: DistributionProps): DistributionAgeGroupSex[] {
     return this.distribAgeGroupSex(
       this.listRecoveries({
-        limit: this.countRecoveries(),
+        region,
+        province,
+        city,
+        limit: this.countRecoveries({
+          region,
+          province,
+          city,
+        }),
         offset: 0,
       }),
     );
   }
 
-  distribAgeGroupSexDeaths(): DistributionAgeGroupSex[] {
+  distribAgeGroupSexDeaths({
+    region = null,
+    province = null,
+    city = null,
+  }: DistributionProps): DistributionAgeGroupSex[] {
     return this.distribAgeGroupSex(
       this.listDeaths({
-        limit: this.countDeaths(),
+        region,
+        province,
+        city,
+        limit: this.countDeaths({
+          region,
+          province,
+          city,
+        }),
         offset: 0,
       }),
     );

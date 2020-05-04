@@ -8,7 +8,34 @@ export interface Context {
   dataSources: DataSources;
 }
 
-export interface ConfirmedCasesArgs {
+export interface CountArgs {
+  region?: string;
+  province?: string;
+  city?: string;
+}
+
+export interface PerDayArgs {
+  region?: string;
+  province?: string;
+  city?: string;
+}
+
+export interface CumulativeArgs {
+  region?: string;
+  province?: string;
+  city?: string;
+}
+
+export interface DistributionArgs {
+  region?: string;
+  province?: string;
+  city?: string;
+}
+
+export interface CaseListArgs {
+  region?: string;
+  province?: string;
+  city?: string;
   limit: number;
   offset: number;
 }
@@ -21,13 +48,31 @@ export default {
   confirmedCases: (
     _obj: unknown,
     {
+      region = null,
+      province = null,
+      city = null,
       limit = 30,
       offset = 0,
-    }: ConfirmedCasesArgs,
+    }: CaseListArgs,
     { dataSources }: Context,
   ): CaseInformation[] => {
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
     let validLimit = limit;
     let validOffset = offset;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
 
     if (limit < 1 || limit > 500) {
       validLimit = 30;
@@ -38,6 +83,9 @@ export default {
     }
 
     return dataSources.dataDropCaseInformation.list({
+      region: validRegion,
+      province: validProvince,
+      city: validCity,
       limit: validLimit,
       offset: validOffset,
     });
@@ -46,13 +94,31 @@ export default {
   admitted: (
     _obj: unknown,
     {
+      region = null,
+      province = null,
+      city = null,
       limit = 30,
       offset = 0,
-    }: ConfirmedCasesArgs,
+    }: CaseListArgs,
     { dataSources }: Context,
   ): CaseInformation[] => {
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
     let validLimit = limit;
     let validOffset = offset;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
 
     if (limit < 1 || limit > 500) {
       validLimit = 30;
@@ -63,6 +129,9 @@ export default {
     }
 
     return dataSources.dataDropCaseInformation.listAdmitted({
+      region: validRegion,
+      province: validProvince,
+      city: validCity,
       limit: validLimit,
       offset: validOffset,
     });
@@ -71,13 +140,31 @@ export default {
   recoveries: (
     _obj: unknown,
     {
+      region = null,
+      province = null,
+      city = null,
       limit = 30,
       offset = 0,
-    }: ConfirmedCasesArgs,
+    }: CaseListArgs,
     { dataSources }: Context,
   ): CaseInformation[] => {
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
     let validLimit = limit;
     let validOffset = offset;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
 
     if (limit < 1 || limit > 500) {
       validLimit = 30;
@@ -88,6 +175,9 @@ export default {
     }
 
     return dataSources.dataDropCaseInformation.listRecoveries({
+      region: validRegion,
+      province: validProvince,
+      city: validCity,
       limit: validLimit,
       offset: validOffset,
     });
@@ -96,13 +186,31 @@ export default {
   deaths: (
     _obj: unknown,
     {
+      region = null,
+      province = null,
+      city = null,
       limit = 30,
       offset = 0,
-    }: ConfirmedCasesArgs,
+    }: CaseListArgs,
     { dataSources }: Context,
   ): CaseInformation[] => {
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
     let validLimit = limit;
     let validOffset = offset;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
 
     if (limit < 1 || limit > 500) {
       validLimit = 30;
@@ -113,6 +221,9 @@ export default {
     }
 
     return dataSources.dataDropCaseInformation.listDeaths({
+      region: validRegion,
+      province: validProvince,
+      city: validCity,
       limit: validLimit,
       offset: validOffset,
     });
@@ -128,107 +239,489 @@ export default {
 
   perDayConfirmed: (
     _obj: unknown,
-    _args: unknown,
+    {
+      region = null,
+      province = null,
+      city = null,
+    }: PerDayArgs,
     { dataSources }: Context,
-  ): DateValue[] | null => dataSources.dataDropCaseInformation.getDailyConfirmedDelta(),
+  ): DateValue[] | null => {
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
+
+    return dataSources.dataDropCaseInformation.getDailyConfirmedDelta({
+      region: validRegion,
+      province: validProvince,
+      city: validCity,
+    });
+  },
 
   perDayRecoveries: (
     _obj: unknown,
-    _args: unknown,
+    {
+      region = null,
+      province = null,
+      city = null,
+    }: PerDayArgs,
     { dataSources }: Context,
-  ): DateValue[] | null => dataSources.dataDropCaseInformation.getDailyRecoveriesDelta(),
+  ): DateValue[] | null => {
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
+
+    return dataSources.dataDropCaseInformation.getDailyRecoveriesDelta({
+      region: validRegion,
+      province: validProvince,
+      city: validCity,
+    });
+  },
 
   perDayDeaths: (
     _obj: unknown,
-    _args: unknown,
+    {
+      region = null,
+      province = null,
+      city = null,
+    }: PerDayArgs,
     { dataSources }: Context,
-  ): DateValue[] | null => dataSources.dataDropCaseInformation.getDailyDeathsDelta(),
+  ): DateValue[] | null => {
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
+
+    return dataSources.dataDropCaseInformation.getDailyDeathsDelta({
+      region: validRegion,
+      province: validProvince,
+      city: validCity,
+    });
+  },
 
   cumulativeConfirmed: (
     _obj: unknown,
-    _args: unknown,
+    {
+      region = null,
+      province = null,
+      city = null,
+    }: CumulativeArgs,
     { dataSources }: Context,
-  ): DateValue[] | null => dataSources.dataDropCaseInformation.getDailyConfirmedCumulative(),
+  ): DateValue[] | null => {
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
+
+    return dataSources.dataDropCaseInformation.getDailyConfirmedCumulative({
+      region: validRegion,
+      province: validProvince,
+      city: validCity,
+    });
+  },
 
   cumulativeRecoveries: (
     _obj: unknown,
-    _args: unknown,
+    {
+      region = null,
+      province = null,
+      city = null,
+    }: CumulativeArgs,
     { dataSources }: Context,
-  ): DateValue[] | null => dataSources.dataDropCaseInformation.getDailyRecoveriesCumulative(),
+  ): DateValue[] | null => {
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
+
+    return dataSources.dataDropCaseInformation.getDailyRecoveriesCumulative({
+      region: validRegion,
+      province: validProvince,
+      city: validCity,
+    });
+  },
 
   cumulativeDeaths: (
     _obj: unknown,
-    _args: unknown,
+    {
+      region = null,
+      province = null,
+      city = null,
+    }: CumulativeArgs,
     { dataSources }: Context,
-  ): DateValue[] | null => dataSources.dataDropCaseInformation.getDailyDeathsCumulative(),
+  ): DateValue[] | null => {
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
+
+    return dataSources.dataDropCaseInformation.getDailyDeathsCumulative({
+      region: validRegion,
+      province: validProvince,
+      city: validCity,
+    });
+  },
 
   countConfirmedCases(
     _obj: unknown,
-    _args: unknown,
+    {
+      region = null,
+      province = null,
+      city = null,
+    }: CumulativeArgs,
     { dataSources }: Context,
   ): number {
-    return dataSources.dataDropCaseInformation.count();
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
+
+    return dataSources.dataDropCaseInformation.count({
+      region: validRegion,
+      province: validProvince,
+      city: validCity,
+    });
   },
 
   countAdmitted(
     _obj: unknown,
-    _args: unknown,
+    {
+      region = null,
+      province = null,
+      city = null,
+    }: CountArgs,
     { dataSources }: Context,
   ): number {
-    return dataSources.dataDropCaseInformation.countAdmitted();
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
+
+    return dataSources.dataDropCaseInformation.countAdmitted({
+      region: validRegion,
+      province: validProvince,
+      city: validCity,
+    });
   },
 
   countRecoveries(
     _obj: unknown,
-    _args: unknown,
+    {
+      region = null,
+      province = null,
+      city = null,
+    }: CountArgs,
     { dataSources }: Context,
   ): number {
-    return dataSources.dataDropCaseInformation.countRecoveries();
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
+
+    return dataSources.dataDropCaseInformation.countRecoveries({
+      region: validRegion,
+      province: validProvince,
+      city: validCity,
+    });
   },
 
   countDeaths(
     _obj: unknown,
-    _args: unknown,
+    {
+      region = null,
+      province = null,
+      city = null,
+    }: CountArgs,
     { dataSources }: Context,
   ): number {
-    return dataSources.dataDropCaseInformation.countDeaths();
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
+
+    return dataSources.dataDropCaseInformation.countDeaths({
+      region: validRegion,
+      province: validProvince,
+      city: validCity,
+    });
   },
 
   countPerSex: (
     _obj: unknown,
-    _args: unknown,
+    {
+      region = null,
+      province = null,
+      city = null,
+    }: CountArgs,
     { dataSources }: Context,
-  ): CountPerSex => dataSources.dataDropCaseInformation.countPerSex(),
+  ): CountPerSex => {
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
+
+    return dataSources.dataDropCaseInformation.countPerSex({
+      region: validRegion,
+      province: validProvince,
+      city: validCity,
+    });
+  },
 
   distribAgeGroupSexConfirmedCases: (
     _obj: unknown,
-    _args: unknown,
+    {
+      region = null,
+      province = null,
+      city = null,
+    }: DistributionArgs,
     { dataSources }: Context,
-  ): DistributionAgeGroupSex[] => dataSources
-    .dataDropCaseInformation
-    .distribAgeGroupSexConfirmedCases(),
+  ): DistributionAgeGroupSex[] => {
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
+
+    return dataSources
+      .dataDropCaseInformation
+      .distribAgeGroupSexConfirmedCases({
+        region: validRegion,
+        province: validProvince,
+        city: validCity,
+      });
+  },
 
   distribAgeGroupSexAdmitted: (
     _obj: unknown,
-    _args: unknown,
+    {
+      region = null,
+      province = null,
+      city = null,
+    }: DistributionArgs,
     { dataSources }: Context,
-  ): DistributionAgeGroupSex[] => dataSources
-    .dataDropCaseInformation
-    .distribAgeGroupSexAdmitted(),
+  ): DistributionAgeGroupSex[] => {
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
+
+    return dataSources
+      .dataDropCaseInformation
+      .distribAgeGroupSexAdmitted({
+        region: validRegion,
+        province: validProvince,
+        city: validCity,
+      });
+  },
 
   distribAgeGroupSexRecoveries: (
     _obj: unknown,
-    _args: unknown,
+    {
+      region = null,
+      province = null,
+      city = null,
+    }: DistributionArgs,
     { dataSources }: Context,
-  ): DistributionAgeGroupSex[] => dataSources
-    .dataDropCaseInformation
-    .distribAgeGroupSexRecoveries(),
+  ): DistributionAgeGroupSex[] => {
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
+
+    return dataSources
+      .dataDropCaseInformation
+      .distribAgeGroupSexRecoveries({
+        region: validRegion,
+        province: validProvince,
+        city: validCity,
+      });
+  },
 
   distribAgeGroupSexDeaths: (
     _obj: unknown,
-    _args: unknown,
+    {
+      region = null,
+      province = null,
+      city = null,
+    }: DistributionArgs,
     { dataSources }: Context,
-  ): DistributionAgeGroupSex[] => dataSources
-    .dataDropCaseInformation
-    .distribAgeGroupSexDeaths(),
+  ): DistributionAgeGroupSex[] => {
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
+
+    return dataSources
+      .dataDropCaseInformation
+      .distribAgeGroupSexDeaths({
+        region: validRegion,
+        province: validProvince,
+        city: validCity,
+      });
+  },
 };
