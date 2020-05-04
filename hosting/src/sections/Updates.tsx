@@ -20,6 +20,20 @@ function Update({
 
 const updates = [
   <Update
+    key="May 4"
+    date="May 4"
+    text={
+      <>
+        {`IMPORTANT: The old REST API (https://ncovph.com/api) is now discontinued. This was
+        scheduled last April 30 as previously announced but gave a few more days extension.
+        Current users are expected to migrate to the new GraphQL API.`}
+        <br /><br />
+        {`You can now filter using residence locations (i.e. region, province, city)
+        for Case Information data.`}
+      </>
+    }
+  />,
+  <Update
     key="April 28"
     date="April 28"
     text={
