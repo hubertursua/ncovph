@@ -1,0 +1,23 @@
+# City and Municipality
+type PSGCCityMunicipality {
+  # Code
+  code: String!
+
+  # Name
+  name: String!
+
+  # Full name
+  fullName: String!
+
+  # Alternate name
+  altName: String
+
+  # Province code
+  province: String!
+
+  # Classification (MUNICIPALITY or CITY)
+  classification: String!
+
+  # Is capital
+  isCapital: Boolean!
+}

@@ -1,0 +1,11 @@
+# Location Query
+type LocationQuery {
+  # Regions
+  regions: [PSGCRegion]
+
+  # Provinces
+  provinces: [PSGCProvince]
+
+  # Cities
+  cities: [PSGCCityMunicipality]
+}

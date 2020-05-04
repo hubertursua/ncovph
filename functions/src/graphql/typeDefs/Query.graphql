@@ -8,4 +8,7 @@ type Query {
 
   # Testing
   testing: TestingQuery
+
+  # Metadata
+  metadata: MetadataQuery
 }

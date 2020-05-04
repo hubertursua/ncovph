@@ -1,4 +1,5 @@
 import CasesQuery from './queries/CasesQuery';
+import MetadataQuery from './queries/MetadataQuery';
 import TestingQuery from './queries/TestingQuery';
 
 export default {
@@ -12,5 +13,9 @@ export default {
 
   testing(): object {
     return TestingQuery;
+  },
+
+  metadata(): object {
+    return MetadataQuery;
   },
 };

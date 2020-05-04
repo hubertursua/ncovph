@@ -1,0 +1,5 @@
+# Metadata Query
+type MetadataQuery {
+  # Location
+  location: LocationQuery
+}
