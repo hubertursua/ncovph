@@ -20,6 +20,18 @@ function Update({
 
 const updates = [
   <Update
+    key="May 7"
+    date="May 7"
+    text={
+      <>
+        {`Short update. If you noticed for the past few days the data is updated late.
+        The data drop is now being uploaded at a much later time (a bit random so can't really say when exactly).
+        I check per hour starting around 6pm until it shows up on the DOH COVID-19 Google Drive. If
+        for some reason they fail to upload it by 11pm, I'll check the next day.`}
+      </>
+    }
+  />,
+  <Update
     key="May 4"
     date="May 4"
     text={
