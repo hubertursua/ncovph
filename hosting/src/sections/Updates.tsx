@@ -20,6 +20,17 @@ function Update({
 
 const updates = [
   <Update
+    key="May 8"
+    date="May 8"
+    text={
+      <>
+        {`PSGC codes were removed again. Some names of cities / municipalities will change because of this.`}
+        <br /><br />
+        {`Testing Aggregates data was included in the data drop but there is no May 8 data included in the latest file.`}
+      </>
+    }
+  />,
+  <Update
     key="May 7"
     date="May 7"
     text={

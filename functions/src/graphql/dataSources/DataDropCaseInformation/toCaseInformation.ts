@@ -22,10 +22,10 @@ export default (d: string[]): CaseInformation => ({
   dateReportRemoved: toDate(d[8], INPUT_FORMAT_CASE_INFORMATION),
   admitted: toBoolean(d[9]),
   residence: {
-    region: toRegion(toNullableString(d[13])),
-    province: toProvince(toNullableString(d[14])),
-    city: toCity(toNullableString(d[15])),
+    region: toRegion(toNullableString(d[10])),
+    province: toProvince(toNullableString(d[11])),
+    city: toCity(toNullableString(d[12])),
   },
-  healthStatus: toHealthStatus(d[16]),
-  didHomeQuarantine: toQuarantined(d[17]),
+  healthStatus: toHealthStatus(d[13]),
+  didHomeQuarantine: toQuarantined(d[14]),
 });
