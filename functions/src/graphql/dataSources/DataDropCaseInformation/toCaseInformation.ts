@@ -26,6 +26,6 @@ export default (d: string[]): CaseInformation => ({
     province: toProvince(toNullableString(d[11])),
     city: toCity(toNullableString(d[12])),
   },
-  healthStatus: toHealthStatus(d[13]),
-  didHomeQuarantine: toQuarantined(d[14]),
+  healthStatus: toHealthStatus(d[14]),
+  didHomeQuarantine: toQuarantined(d[15]),
 });
