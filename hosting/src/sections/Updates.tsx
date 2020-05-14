@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Box, Paragraph, Collapsible, Button } from "grommet";
 import SectionTitle from "../components/SectionTitle";
+import ExternalLink from "../components/ExternalLink";
 
 function Update({
   date,
@@ -19,6 +20,17 @@ function Update({
 }
 
 const updates = [
+  <Update
+    key="May 14"
+    date="May 14"
+    text={
+      <>
+        {`No May 14 data drop. `}
+        <ExternalLink label="All the files" href="https://drive.google.com/drive/folders/10VkiUA8x7TS2jkibhSZK1gmWxFM-EoZP" />
+        {` except for the "READ ME" are missing.`}
+      </>
+    }
+  />,
   <Update
     key="May 8"
     date="May 8"
