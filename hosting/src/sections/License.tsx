@@ -19,7 +19,7 @@ export default function License(): JSX.Element {
         {`Data in `}
         <code className="inline-code">functions/src/data</code>
         {` and everything that is outputted by the API is governed by the `}
-        <ExternalLink href="https://drive.google.com/open?id=1jlzCrN0l0uBj096XvkLCimBgJ30Qrp8l" label="Privacy and Confidentiality Statement" />
+        <ExternalLink href="https://drive.google.com/file/d/16IoGNbsG9GiKfhafJX4QSyhZLqPb650k/view?usp=sharing" label="Privacy and Confidentiality Statement" />
         {` of the Republic of the Philippines Department of Health.`}
       </Paragraph>
     </Box>
