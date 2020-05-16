@@ -21,6 +21,23 @@ function Update({
 
 const updates = [
   <Update
+    key="May 16"
+    date="May 16"
+    text={
+      <>
+        {`Latest data drop is now up.`}
+        <br />
+        {`Two new fields have been added in Case Information. First is dateOnsetSymptoms.
+        This is the date when the first COVID-19 symptoms of the patient manifested.
+        The second is the isPregnant field which specifies if the patient is currently
+        pregnant.`}
+        <br />
+        {`I will be creating more aggregate queries based on these new fields next
+        week if DOH decides to keep the fields permanently.`}
+      </>
+    }
+  />,
+  <Update
     key="May 14"
     date="May 14"
     text={
