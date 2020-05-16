@@ -1,4 +1,5 @@
 import HealthStatus from './HealthStatus';
+import PregnancyStatus from './PregnancyStatus';
 import QuarantineStatus from './QuarantineStatus';
 import RemovalType from './RemovalType';
 import Sex from './Sex';
@@ -20,6 +21,8 @@ interface CaseInformation {
   };
   healthStatus: HealthStatus;
   didHomeQuarantine: QuarantineStatus;
+  dateOnsetSymptoms: string;
+  isPregnant: PregnancyStatus;
 }
 
 export default CaseInformation;

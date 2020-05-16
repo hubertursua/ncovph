@@ -35,4 +35,10 @@ type CaseInformation {
 
   # Ever been in home quarantine, not necessarily currently in home quarantine
   didHomeQuarantine: QuarantineStatus
+
+  # Date of onset of symptoms
+  dateOnsetSymptoms: Date
+
+  # Is the patient pregnant?
+  isPregnant: PregnancyStatus
 }
