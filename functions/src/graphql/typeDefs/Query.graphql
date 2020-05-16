@@ -9,6 +9,12 @@ type Query {
   # Testing
   testing: TestingQuery
 
+  # PPE
+  ppe: PPEQuery
+
+  # Health Facility Capacity
+  healthFacilityCapacity: HealthFacilityCapacityQuery
+
   # Metadata
   metadata: MetadataQuery
 }

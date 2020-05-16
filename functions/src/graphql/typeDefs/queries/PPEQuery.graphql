@@ -1,0 +1,4 @@
+# PPE query
+type PPEQuery {
+  latest: [PPEReport]
+}

@@ -1,0 +1,4 @@
+# Health Facility Capacity Query
+type HealthFacilityCapacityQuery {
+  latest: [HealthFacilityCapacityReport]
+}

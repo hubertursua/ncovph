@@ -1,0 +1,8 @@
+# Health Facility
+type HealthFacility {
+  # Health facility's identification code (hfhudcode)
+  code: String
+
+  # Name
+  name: String
+}
