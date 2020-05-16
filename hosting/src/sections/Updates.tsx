@@ -21,17 +21,35 @@ function Update({
 
 const updates = [
   <Update
+    key="May 16 (evening)"
+    date="May 16 (evening)"
+    text={
+      <>
+        {`The weekly reports and daily reports have now been added. Finally!
+        You can query them using the "ppe" (for weekly reports) and
+        "healthFacilityCapacity" (for daily reports). For now, only the latest data
+        can be queried. But let me know if you need some aggregate queries for these
+        data sets.`}
+        <br /><br />
+        {`I do not plan on exposing a query which dumps everything. These are very large
+        data sets and those use cases do not align for the intended scope of this API.`}
+        <br /><br />
+        {`Be sure to check out the May 16 moring update below also.`}
+      </>
+    }
+  />,
+  <Update
     key="May 16"
     date="May 16"
     text={
       <>
         {`Latest data drop is now up.`}
-        <br />
+        <br /><br />
         {`Two new fields have been added in Case Information. First is dateOnsetSymptoms.
         This is the date when the first COVID-19 symptoms of the patient manifested.
         The second is the isPregnant field which specifies if the patient is currently
         pregnant.`}
-        <br />
+        <br /><br />
         {`I will be creating more aggregate queries based on these new fields next
         week if DOH decides to keep the fields permanently.`}
       </>

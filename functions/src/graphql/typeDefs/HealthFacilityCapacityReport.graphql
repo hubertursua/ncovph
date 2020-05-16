@@ -1,0 +1,31 @@
+type HealthFacilityCapacityReport {
+  # Health Facility
+  healthFacility: HealthFacility!
+
+  # Date Reported
+  dateReported: Date!
+
+  # Total number of ICU beds with or without negative pressure in your facility that are currently occupied by suspect, probable, or confirmed COVID-19 patients
+  icuVacant: Int!
+
+  # Total number of ICU beds with or without negative pressure in your facility that are currently vacant and available for use by suspect, probable, or confirmed COVID-19 patients
+  icuOccupied: Int!
+
+  # Total number of beds in converted wards/units dedicated for confirmed COVID-19 cases in your facility that are currently occupied. Wards are not allowed for Suspect or Probable cases (PUIs) and should not included.
+  isolationBedsVacant: Int!
+
+  # Total number of beds in converted wards/units dedicated for confirmed COVID-19 cases in your facility that are currently vacant and available for use. Wards are not allowed for Suspect or Probable cases (PUIs) and should not included.
+  isolationBedsOccupied: Int!
+
+  # Total number of isolation beds and converted/makeshift isolation beds based on DOH standardsin your facility that are currently occupied by suspect, probable, or confirmed COVID-19 patients
+  wardBedsVacant: Int!
+
+  # Total number of isolation beds and converted/makeshift isolation beds based on DOH standards in your facility that are currently vacant and available for use.
+  wardBedsOccupied: Int!
+
+  # Total number of mechanical ventilators in your facility, whether outsourced or in-house, that are currently occupied by PUIs (Suspect or Probable patients) or Confirmed COVID-19 patients
+  mechVentilatorsVacant: Int!
+
+  # Total number of mechanical ventilators that are vacant and available for use by PUIs (Suspect or Probable patients) or Confirmed COVID-19 patients
+  mechVentilatorsOccupied: Int!
+}

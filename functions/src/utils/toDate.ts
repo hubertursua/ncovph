@@ -2,6 +2,8 @@ import moment from 'moment';
 
 export const INPUT_FORMAT_CASE_INFORMATION = 'YYYY-MM-DD';
 export const INPUT_FORMAT_TESTING_AGGREGATES = 'MMMM D, YYYY';
+export const INPUT_FORMAT_WEEKLY_REPORT = 'YYYY-MM-DD';
+export const INPUT_FORMAT_DAILY_REPORT = 'YYYY-MM-DD';
 export const OUTPUT_FORMAT = 'YYYY-MM-DD';
 
 export default (str: string, format: string): string | null => {

@@ -15,10 +15,9 @@ app.use((req, _res, next) => {
   if (req.body && req.body.operationName === null) {
     // eslint-disable-next-line no-console
     console.log(
-      'GraphQL query:',
-      JSON.stringify(req.body.query, null, 2)
-        .replace(/[\\n]/g, '')
-        .replace(/\s+/g, ' '),
+      `GraphQL query: ${JSON.stringify(req.body.query, null, 2)
+        .replace(/\\n/g, '')
+        .replace(/\s+/g, ' ')}`,
     );
   }
 

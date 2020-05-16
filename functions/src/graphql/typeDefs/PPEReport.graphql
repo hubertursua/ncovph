@@ -1,0 +1,34 @@
+type PPEReport {
+  # Health Facility
+  healthFacility: HealthFacility!
+
+  # Date Reported
+  dateReported: Date!
+
+  # Gowns
+  gowns: Int!
+
+  # Gloves
+  gloves: Int!
+
+  # Head Covers
+  headCovers: Int!
+
+  # Goggles
+  goggles: Int!
+
+  # Coveralls
+  coveralls: Int!
+
+  # Shoe Covers
+  shoeCovers: Int!
+
+  # Face Shields
+  faceShields: Int!
+
+  # Surgical Masks
+  surgicalMasks: Int!
+
+  # N95 Masks
+  n95Masks: Int!
+}
