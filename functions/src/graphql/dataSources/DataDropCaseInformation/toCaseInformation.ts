@@ -5,6 +5,7 @@ import toCity from '../../../utils/toCity';
 import toDate, { INPUT_FORMAT_CASE_INFORMATION } from '../../../utils/toDate';
 import toHealthStatus from '../../../utils/toHealthStatus';
 import toNullableString from '../../../utils/toNullableString';
+import toPregnancyStatus from '../../../utils/toPregnancyStatus';
 import toProvince from '../../../utils/toProvince';
 import toQuarantined from '../../../utils/toQuarantined';
 import toRegion from '../../../utils/toRegion';
@@ -16,16 +17,18 @@ export default (d: string[]): CaseInformation => ({
   age: toAge(d[1]),
   sex: toSex(d[3]),
   dateReportConfirmed: toDate(d[4], INPUT_FORMAT_CASE_INFORMATION),
-  dateRecovery: toDate(d[5], INPUT_FORMAT_CASE_INFORMATION),
-  dateDeath: toDate(d[6], INPUT_FORMAT_CASE_INFORMATION),
+  dateRecovery: toDate(d[6], INPUT_FORMAT_CASE_INFORMATION),
+  dateDeath: toDate(d[5], INPUT_FORMAT_CASE_INFORMATION),
   removalType: toRemovalType(d[7]),
   dateReportRemoved: toDate(d[8], INPUT_FORMAT_CASE_INFORMATION),
   admitted: toBoolean(d[9]),
   residence: {
-    region: toRegion(toNullableString(d[13])),
-    province: toProvince(toNullableString(d[14])),
-    city: toCity(toNullableString(d[15])),
+    region: toRegion(toNullableString(d[10])),
+    province: toProvince(toNullableString(d[11])),
+    city: toCity(toNullableString(d[12])),
   },
-  healthStatus: toHealthStatus(d[16]),
-  didHomeQuarantine: toQuarantined(d[17]),
+  healthStatus: toHealthStatus(d[14]),
+  didHomeQuarantine: toQuarantined(d[15]),
+  dateOnsetSymptoms: toDate(d[16], INPUT_FORMAT_CASE_INFORMATION),
+  isPregnant: toPregnancyStatus(d[17]),
 });

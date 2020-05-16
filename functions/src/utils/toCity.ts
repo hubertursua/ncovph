@@ -1,13 +1,11 @@
-import { psgc } from 'ph-locations';
+import stripAltName from './stripAltName';
 
-const { citiesMunicipalities } = psgc;
-
-export default (cityCode: string | null): string | null => {
-  if (!cityCode) {
+export default (city: string | null): string | null => {
+  if (!city) {
     return null;
   }
 
-  const match = citiesMunicipalities.find((c) => `PH${c.code}` === cityCode);
+  const citySanitized = stripAltName(city).replace('For Validation', '') || null;
 
-  return (match && match.name) || null;
+  return citySanitized;
 };

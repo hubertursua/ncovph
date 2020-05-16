@@ -1,0 +1,11 @@
+# Region
+type PSGCRegion {
+  # Code
+  code: String!
+
+  # Name
+  name: String!
+
+  # Alternate name
+  altName: String
+}

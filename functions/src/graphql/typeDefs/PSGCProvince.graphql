@@ -1,0 +1,14 @@
+# Province
+type PSGCProvince {
+  # Code
+  code: String!
+
+  # Name
+  name: String!
+
+  # Alternate name
+  altName: String
+
+  # Region code
+  region: String!
+}

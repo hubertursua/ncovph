@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Box, Paragraph, Collapsible, Button } from "grommet";
 import SectionTitle from "../components/SectionTitle";
+import ExternalLink from "../components/ExternalLink";
 
 function Update({
   date,
@@ -19,6 +20,57 @@ function Update({
 }
 
 const updates = [
+  <Update
+    key="May 16"
+    date="May 16"
+    text={
+      <>
+        {`Latest data drop is now up.`}
+        <br />
+        {`Two new fields have been added in Case Information. First is dateOnsetSymptoms.
+        This is the date when the first COVID-19 symptoms of the patient manifested.
+        The second is the isPregnant field which specifies if the patient is currently
+        pregnant.`}
+        <br />
+        {`I will be creating more aggregate queries based on these new fields next
+        week if DOH decides to keep the fields permanently.`}
+      </>
+    }
+  />,
+  <Update
+    key="May 14"
+    date="May 14"
+    text={
+      <>
+        {`No May 14 data drop. `}
+        <ExternalLink label="All the files" href="https://drive.google.com/drive/folders/10VkiUA8x7TS2jkibhSZK1gmWxFM-EoZP" />
+        {` except for the "READ ME" are missing.`}
+      </>
+    }
+  />,
+  <Update
+    key="May 8"
+    date="May 8"
+    text={
+      <>
+        {`PSGC codes were removed again. Some names of cities / municipalities will change because of this.`}
+        <br /><br />
+        {`Testing Aggregates data was included in the data drop but there is no May 8 data included in the latest file.`}
+      </>
+    }
+  />,
+  <Update
+    key="May 7"
+    date="May 7"
+    text={
+      <>
+        {`Short update. If you noticed for the past few days the data is updated late.
+        The data drop is now being uploaded at a much later time (a bit random so can't really say when exactly).
+        I check per hour starting around 6pm until it shows up on the DOH COVID-19 Google Drive. If
+        for some reason they fail to upload it by 11pm, I'll check the next day.`}
+      </>
+    }
+  />,
   <Update
     key="May 4"
     date="May 4"

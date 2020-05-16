@@ -8,7 +8,7 @@ export default function DataSource(): JSX.Element {
     <Box>
       <SectionTitle title="Data Source" />
       <Paragraph>
-        The data is uploaded manually from official sources daily around 8am and 5pm. Data comes from the following official sources:
+        The data is uploaded manually from official sources daily as early as 5pm (sometimes late). Data comes from the following official sources:
         <ul>
           <li>
             <ExternalLink

@@ -1,0 +1,11 @@
+# Pregnancy Status
+enum PregnancyStatus {
+  # Unknown
+  UNKNOWN
+
+  # No
+  NO
+
+  # Yes
+  YES
+}
