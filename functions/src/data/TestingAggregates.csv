@@ -1,657 +1,686 @@
-Date,Name of Health Facility/Laboratory,Abbrev of Health Facility,Daily Output - Positive Individuals,Daily Output - Unique Individuals Tested ,Daily Output - Tests Conducted,UNIQUE INDIVIDUALS TESTED,POSITIVE INDIVIDUALS,% positive/ unique individuals,NEGATIVE INDIVIDUALS,% negative/ unique individuals,EQUIVOCAL,% equivocal /unique individuals,INVALID,% invalid /unique individuals,TOTAL TESTS CONDUCTED,REMAINING AVAILABLE TESTS,
-"April 2, 2020",Research Institute for Tropical Medicine (RITM),RITM,,,,"15,197","2,652",17%,"11,367",75%,32,0.20%,,,"20,826","75,396",
-"April 2, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,,,,473,21,4%,452,96%,0,0.00%,,,478,"4,519",
-"April 2, 2020",San Lazaro Hospital (SLH),SLH,,,,115,31,27%,84,73%,0,0.00%,,,193,"4,846",
-"April 2, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,,,,672,37,6%,634,94%,1,0.10%,,,672,"23,812",
-"April 2, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,,,,332,43,13%,279,84%,10,3.00%,,,335,"4,565",
-"April 2, 2020",Western Visayas Medical Center (WVMC),WVMC,,,,369,31,8%,319,86%,19,5.10%,,,396,"4,584",
-"April 2, 2020",Southern Philippines Medical Center (SPMC),SPMC,,,,721,67,9%,736,102%,3,0.40%,,,927,"4,289",
-"April 2, 2020",Lung Center of the Philippines (LCP),LCP,,,,168,22,13%,146,87%,2,1.20%,,,168,"4,787",
-"April 3, 2020",Research Institute for Tropical Medicine (RITM),RITM,,,,"16,838","3,133",19%,"13,673",81%,32,0.20%,,,"19,196","56,200",
-"April 3, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,,,,604,23,4%,581,96%,0,0.00%,,,612,"4,363",
-"April 3, 2020",San Lazaro Hospital (SLH),SLH,,,,124,37,30%,87,70%,0,0.00%,,,221,"4,846",
-"April 3, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,,,,720,22,3%,698,97%,0,0.00%,,,737,"23,716",
-"April 3, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,,,,351,43,12%,298,85%,10,2.80%,,,357,"4,514",
-"April 3, 2020",Western Visayas Medical Center (WVMC),WVMC,,,,467,31,7%,417,89%,19,4.10%,,,496,"4,368",
-"April 3, 2020",Southern Philippines Medical Center (SPMC),SPMC,,,,958,74,8%,881,92%,3,0.30%,,,"1,089","3,941",
-"April 3, 2020",Lung Center of the Philippines (LCP),LCP,,,,250,32,13%,218,87%,0,0.00%,,,250,"4,649",
-"April 4, 2020",Research Institute for Tropical Medicine (RITM),RITM,,,,"18,642","3,692",20%,"14,924",80%,26,0.10%,,,"22,527","53,800",
-"April 4, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,,,,780,26,3%,754,97%,0,0.00%,,,791,"4,163",
-"April 4, 2020",San Lazaro Hospital (SLH),SLH,,,,124,37,30%,87,70%,0,0.00%,,,221,"4,846",
-"April 4, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,,,,784,22,3%,762,97%,0,0.00%,,,931,"23,620",
-"April 4, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,,,,374,49,13%,310,83%,15,4.00%,,,386,"4,479",
-"April 4, 2020",Western Visayas Medical Center (WVMC),WVMC,,,,650,32,5%,618,95%,0,0.00%,,,696,"4,152",
-"April 4, 2020",Southern Philippines Medical Center (SPMC),SPMC,,,,"1,109",79,7%,"1,030",93%,0,0.00%,,,"1,109","3,590",
-"April 4, 2020",Lung Center of the Philippines (LCP),LCP,,,,250,32,13%,218,87%,0,0.00%,,,250,"4,649",
-"April 5, 2020",Research Institute for Tropical Medicine (RITM),RITM,,,,"18,642","3,692",20%,"14,924",80%,26,0.10%,,,"23,424","53,800",
-"April 5, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,,,,937,27,3%,910,97%,0,0.00%,,,950,"3,988",
-"April 5, 2020",San Lazaro Hospital (SLH),SLH,,,,124,37,30%,87,70%,0,0.00%,,,221,"4,846",
-"April 5, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,,,,867,24,3%,843,97%,0,0.00%,,,"1,020","23,524",
-"April 5, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,,,,375,49,13%,311,83%,15,4.00%,,,386,"4,479",
-"April 5, 2020",Western Visayas Medical Center (WVMC),WVMC,,,,753,33,4%,720,96%,0,0.00%,,,781,"4,032",
-"April 5, 2020",Southern Philippines Medical Center (SPMC),SPMC,,,,"1,109",79,7%,"1,030",93%,0,0.00%,,,"1,109","3,416",
-"April 5, 2020",Lung Center of the Philippines (LCP),LCP,,,,250,32,13%,218,87%,0,0.00%,,,250,"4,649",
-"April 6, 2020",Research Institute for Tropical Medicine (RITM),RITM,,,,"19,937","3,836",19%,"16,075",81%,26,0.10%,,,"23,863","53,680",
-"April 6, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,,,,960,25,3%,935,97%,0,0.00%,,,975,"3,958",
-"April 6, 2020",San Lazaro Hospital (SLH),SLH,,,,159,42,26%,117,74%,0,0.00%,,,273,"4,765",
-"April 6, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,,,,951,25,3%,926,97%,0,0.00%,,,"1,106","23,404",
-"April 6, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,,,,375,49,13%,311,83%,15,4.00%,,,386,"4,479",
-"April 6, 2020",Western Visayas Medical Center (WVMC),WVMC,,,,772,35,5%,737,95%,0,0.00%,,,800,"4,032",
-"April 6, 2020",Southern Philippines Medical Center (SPMC),SPMC,,,,"1,261",82,7%,"1,179",93%,0,0.00%,,,"1,261","3,226",
-"April 6, 2020",Lung Center of the Philippines (LCP),LCP,,,,340,50,15%,290,85%,0,0.00%,,,340,"4,512",
-"April 7, 2020",Research Institute for Tropical Medicine (RITM),RITM,,,,"20,688","3,881",19%,"16,775",81%,26,0.10%,6,0.00%,"24,768","50,776",
-"April 7, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,,,,"1,141",28,2%,"1,113",98%,0,0.00%,0,0.00%,"1,153","3,758",
-"April 7, 2020",San Lazaro Hospital (SLH),SLH,,,,192,48,25%,144,75%,0,0.00%,0,0.00%,309,"4,725",
-"April 7, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,,,,"1,032",25,2%,"1,007",98%,0,0.00%,0,0.00%,"1,202","23,284",
-"April 7, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,,,,501,88,18%,398,79%,15,3.00%,0,0.00%,522,"4,421",
-"April 7, 2020",Western Visayas Medical Center (WVMC),WVMC,,,,884,36,4%,848,96%,0,0.00%,0,0.00%,912,"3,888",
-"April 7, 2020",Southern Philippines Medical Center (SPMC),SPMC,,,,"1,587",97,6%,"1,490",94%,0,0.00%,0,0.00%,"1,625","2,826",
-"April 7, 2020",Lung Center of the Philippines (LCP),LCP,,,,423,55,13%,368,87%,0,0.00%,0,0.00%,423,"4,424",
-"April 7, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,,,,25,0,0%,25,100%,0,0.00%,0,0.00%,28,"5,142",
-"April 7, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,,,,80,10,13%,70,88%,0,0.00%,0,0.00%,80,"2,000",
-"April 8, 2020",Research Institute for Tropical Medicine (RITM),RITM,165,"2,335","1,826","23,023","4,046",18%,"18,944",82%,26,0.10%,7,0.00%,"26,594","42,952",
-"April 8, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,4,179,184,"1,320",32,2%,"1,288",98%,0,0.00%,0,0.00%,"1,337","3,538",
-"April 8, 2020",San Lazaro Hospital (SLH),SLH,2,43,46,235,50,21%,185,79%,0,0.00%,0,0.00%,355,"4,636",
-"April 8, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,0,63,67,"1,095",25,2%,"1,070",98%,0,0.00%,0,0.00%,"1,269","23,112",
-"April 8, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,13,29,31,512,101,20%,409,80%,0,0.00%,2,0.40%,553,"4,421",
-"April 8, 2020",Western Visayas Medical Center (WVMC),WVMC,0,54,148,938,36,4%,902,96%,0,0.00%,0,0.00%,"1,060","3,600",
-"April 8, 2020",Southern Philippines Medical Center (SPMC),SPMC,3,57,161,"1,644",100,6%,"1,543",94%,1,0.10%,0,0.00%,"1,786","2,669",
-"April 8, 2020",Lung Center of the Philippines (LCP),LCP,7,148,148,571,62,11%,509,89%,0,0.00%,0,0.00%,571,"4,263",
-"April 8, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,2,34,34,59,2,3%,57,97%,0,0.00%,0,0.00%,62,"5,128",
-"April 8, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,8,95,95,175,18,10%,157,90%,0,0.00%,0,0.00%,175,"1,800",
-"April 9, 2020",Research Institute for Tropical Medicine (RITM),RITM,146,948,"1,133","23,971","4,192",17%,"19,750",82%,26,0.10%,3,0.00%,"27,727","40,664",
-"April 9, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,87,91,"1,407",32,2%,"1,375",98%,0,0.00%,0,0.00%,"1,428","3,418",
-"April 9, 2020",San Lazaro Hospital (SLH),SLH,7,80,80,315,57,18%,258,82%,0,0.00%,0,0.00%,435,"4,571",
-"April 9, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,0,157,174,"1,252",25,2%,"1,227",98%,0,0.00%,3,0.20%,"1,443","22,896",
-"April 9, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,4,21,21,533,105,20%,427,80%,0,0.00%,1,0.20%,574,"4,242",
-"April 9, 2020",Western Visayas Medical Center (WVMC),WVMC,0,245,247,"1,183",36,3%,"1,147",97%,0,0.00%,0,0.00%,"1,307","3,432",
-"April 9, 2020",Southern Philippines Medical Center (SPMC),SPMC,0,179,195,"1,823",100,5%,"1,722",94%,1,0.10%,2,0.10%,"1,981","2,669",
-"April 9, 2020",Lung Center of the Philippines (LCP),LCP,3,89,89,660,65,10%,595,90%,0,0.00%,1,0.20%,660,"4,163",
-"April 9, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,4,7,63,3,5%,60,95%,0,0.00%,0,0.00%,69,"5,116",
-"April 9, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,31,173,173,348,49,14%,155,45%,0,0.00%,0,0.00%,348,"1,704",
-"April 10, 2020",Research Institute for Tropical Medicine (RITM),RITM,130,859,"1,053","24,830","4,322",17%,"20,480",82%,25,0.10%,3,0.00%,"28,780","40,664",
-"April 10, 2020",Southern Philippines Medical Center (SPMC),SPMC,0,37,45,"1,860",100,5%,"1,760",95%,0,0.00%,3,0.20%,"2,026","2,560",
-"April 10, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,2,82,80,"1,489",34,2%,"1,455",98%,0,0.00%,0,0.00%,"1,508","3,318",
-"April 10, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,0,52,62,"1,304",25,2%,"1,279",98%,15,1.20%,7,0.50%,"1,505","22,824",
-"April 10, 2020",Western Visayas Medical Center (WVMC),WVMC,0,0,0,"1,183",36,3%,"1,147",97%,0,0.00%,0,0.00%,"1,307","3,432",
-"April 10, 2020",Lung Center of the Philippines (LCP),LCP,3,93,93,753,68,9%,685,91%,0,0.00%,0,0.00%,753,"4,037",
-"April 10, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,7,39,40,572,112,20%,455,80%,0,0.00%,5,0.90%,614,"4,142",
-"April 10, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,11,83,83,431,60,14%,371,86%,0,0.00%,0,0.00%,431,"1,560",
-"April 10, 2020",San Lazaro Hospital (SLH),SLH,0,0,0,315,57,18%,258,82%,0,0.00%,0,0.00%,435,"4,571",
-"April 10, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,0,0,63,3,5%,60,95%,0,0.00%,0,0.00%,69,"5,097",
-"April 11, 2020",Research Institute for Tropical Medicine (RITM),RITM,83,570,710,"25,400","4,405",17%,"20,967",83%,25,0.10%,3,0.00%,"29,490","35,664",
-"April 11, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,1,185,190,"1,674",35,2%,"1,639",98%,0,0.00%,0,0.00%,"1,698","3,178",
-"April 11, 2020",San Lazaro Hospital (SLH),SLH,0,0,0,315,57,18%,258,82%,0,0.00%,0,0.00%,435,"4,571",
-"April 11, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,3,87,108,"1,391",28,2%,"1,363",98%,0,0.00%,0,0.00%,"1,613","22,608",
-"April 11, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,7,26,29,583,117,20%,466,80%,0,0.00%,0,0.00%,643,"4,100",
-"April 11, 2020",Western Visayas Medical Center (WVMC),WVMC,0,99,103,"1,282",36,3%,"1,246",97%,0,0.00%,0,0.00%,"1,410","3,432",
-"April 11, 2020",Southern Philippines Medical Center (SPMC),SPMC,3,45,54,"1,908",103,5%,"1,802",94%,0,0.00%,3,0.20%,"2,084","2,450",
-"April 11, 2020",Lung Center of the Philippines (LCP),LCP,0,0,0,753,68,9%,685,91%,0,0.00%,0,0.00%,753,"4,037",
-"April 11, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,14,14,77,4,5%,73,95%,0,0.00%,0,0.00%,83,"5,097",
-"April 11, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,0,0,0,431,60,14%,371,86%,0,0.00%,0,0.00%,431,"1,488",
-"April 12, 2020",Research Institute for Tropical Medicine (RITM),RITM,226,"1,140","1,360","26,540","4,631",17%,"21,881",82%,25,0.10%,3,0.00%,"30,850","35,664",
-"April 12, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,1,270,276,"1,944",36,2%,"1,908",98%,0,0.00%,0,0.00%,"1,974","2,773",
-"April 12, 2020",San Lazaro Hospital (SLH),SLH,0,0,0,315,57,18%,258,82%,0,0.00%,0,0.00%,435,"4,571",
-"April 12, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,0,10,17,"1,401",28,2%,"1,373",98%,0,0.00%,0,0.00%,"1,630","22,584",
-"April 12, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,3,8,10,591,120,20%,471,80%,0,0.00%,0,0.00%,653,"4,080",
-"April 12, 2020",Western Visayas Medical Center (WVMC),WVMC,1,97,107,"1,379",37,3%,"1,342",97%,0,0.00%,0,0.00%,"1,517","3,192",
-"April 12, 2020",Southern Philippines Medical Center (SPMC),SPMC,0,0,0,"1,908",103,5%,"1,802",94%,0,0.00%,3,0.20%,"2,084","2,450",
-"April 12, 2020",Lung Center of the Philippines (LCP),LCP,5,93,93,850,73,9%,776,91%,0,0.00%,1,0.10%,864,"3,930",
-"April 12, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,0,0,77,4,5%,73,95%,0,0.00%,0,0.00%,83,"5,097",
-"April 12, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,10,92,92,799,98,12%,701,88%,0,0.00%,0,0.00%,799,"1,272",
-"April 13, 2020",Research Institute for Tropical Medicine (RITM),RITM,367,"1,934","2,226","28,474","4,998",18%,"23,447",82%,25,0.10%,4,0.00%,"33,076","50,664",
-"April 13, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,41,45,"1,985",36,2%,"1,949",98%,0,0.00%,0,0.00%,"2,019","2,708",
-"April 13, 2020",San Lazaro Hospital (SLH),SLH,6,43,45,358,63,18%,295,82%,0,0.00%,0,0.00%,480,"4,522",
-"April 13, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,0,31,32,"1,432",28,2%,"1,404",98%,0,0.00%,0,0.00%,"1,662","22,488",
-"April 13, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,23,134,144,725,143,20%,570,79%,3,0.40%,9,1.20%,797,"3,922",
-"April 13, 2020",Western Visayas Medical Center (WVMC),WVMC,0,0,0,"1,379",37,3%,"1,342",97%,0,0.00%,0,0.00%,"1,517","3,192",
-"April 13, 2020",Southern Philippines Medical Center (SPMC),SPMC,2,7,10,"1,915",105,5%,"1,807",94%,0,0.00%,3,0.20%,"2,094","2,450",
-"April 13, 2020",Lung Center of the Philippines (LCP),LCP,11,109,109,959,84,9%,874,91%,0,0.00%,1,0.10%,973,"3,750",
-"April 13, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,0,0,77,4,5%,73,95%,0,0.00%,0,0.00%,83,"4,854",
-"April 13, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,0,0,0,799,98,12%,701,88%,0,0.00%,0,0.00%,799,"1,200",
-"April 14, 2020",Research Institute for Tropical Medicine (RITM),RITM,95,788,834,"29,262","5,093",17%,"24,137",82%,25,0.10%,7,0.00%,"33,910","50,664",
-"April 14, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,6,214,216,"2,199",42,2%,"2,157",98%,0,0.00%,0,0.00%,"2,235","2,443",
-"April 14, 2020",San Lazaro Hospital (SLH),SLH,5,30,30,388,68,18%,320,82%,0,0.00%,0,0.00%,510,"4,488",
-"April 14, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,7,102,130,"1,534",35,2%,"1,499",98%,0,0.00%,0,0.00%,"1,792","22,128",
-"April 14, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,3,47,47,772,146,19%,614,80%,3,0.40%,9,1.20%,844,"3,867",
-"April 14, 2020",Western Visayas Medical Center (WVMC),WVMC,0,43,89,"1,422",37,3%,"1,385",97%,0,0.00%,0,0.00%,"1,606","3,096",
-"April 14, 2020",Southern Philippines Medical Center (SPMC),SPMC,3,60,79,"1,975",108,5%,"1,864",94%,0,0.00%,3,0.20%,"2,173","2,337",
-"April 14, 2020",Lung Center of the Philippines (LCP),LCP,17,214,214,"1,173",101,9%,"1,070",91%,0,0.00%,2,0.20%,"1,187","3,500",
-"April 14, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,25,26,102,5,5%,97,95%,0,0.00%,0,0.00%,109,"4,835",
-"April 14, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,47,265,265,"1,064",145,14%,919,86%,0,0.00%,0,0.00%,"1,064","1,056",
-"April 14, 2020",Makati Medical Center (MMC),MMC,0,23,23,23,0,0%,23,100%,0,0.00%,0,0.00%,23,"1,901",
-"April 14, 2020",Detoxicare Molecular Diagnostics Laboratory,,0,13,13,13,0,0%,13,100%,0,0.00%,0,0.00%,13,970,
-"April 14, 2020",The Medical City (TMC),TMC,2,20,20,20,2,10%,18,90%,0,0.00%,0,0.00%,20,"1,945",
-"April 15, 2020",Research Institute for Tropical Medicine (RITM),RITM,305,"1,372","1,622","30,634","5,398",18%,"25,204",82%,25,0.10%,7,0.00%,"35,532","45,864",
-"April 15, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,78,81,"2,277",42,2%,"2,235",98%,0,0.00%,0,0.00%,"2,316","2,338",
-"April 15, 2020",San Lazaro Hospital (SLH),SLH,21,91,91,409,89,22%,320,78%,0,0.00%,0,0.00%,601,"4,389",
-"April 15, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,23,156,216,"1,690",58,3%,"1,632",97%,0,0.00%,0,0.00%,"2,008","21,984",
-"April 15, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,36,116,118,876,182,21%,690,79%,0,0.00%,4,0.50%,962,"3,729",
-"April 15, 2020",Western Visayas Medical Center (WVMC),WVMC,2,50,52,"1,472",39,3%,"1,433",97%,0,0.00%,0,0.00%,"1,658","3,796",
-"April 15, 2020",Southern Philippines Medical Center (SPMC),SPMC,2,39,97,"2,055",110,5%,"1,942",95%,0,0.00%,3,0.10%,"2,270","2,222",
-"April 15, 2020",Lung Center of the Philippines (LCP),LCP,10,186,186,"1,358",111,8%,"1,245",92%,0,0.00%,2,0.10%,"1,373","3,300",
-"April 15, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,9,9,111,5,5%,106,95%,0,0.00%,0,0.00%,118,"4,816",
-"April 15, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,0,0,0,"1,064",145,14%,919,86%,0,0.00%,0,0.00%,"1,064",936,
-"April 15, 2020",Makati Medical Center (MMC),MMC,2,127,127,150,2,1%,148,99%,0,0.00%,0,0.00%,150,"1,797",
-"April 15, 2020",Detoxicare Molecular Diagnostics Laboratory,,0,5,5,18,0,0%,17,94%,0,0.00%,1,5.60%,18,960,
-"April 15, 2020",The Medical City (TMC),TMC,5,40,40,60,7,12%,53,88%,0,0.00%,0,0.00%,60,"1,917",
-"April 15, 2020",V. Luna Hospital,,0,41,41,41,0,0%,41,100%,0,0.00%,0,0.00%,41,"9,956",
-"April 16, 2020",Research Institute for Tropical Medicine (RITM),RITM,161,"1,213","1,387","31,847","5,559",17%,"26,256",82%,24,0.10%,8,0.00%,"36,919","40,848",
-"April 16, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,132,136,"2,409",42,2%,"2,367",98%,0,0.00%,0,0.00%,"2,452","2,163",
-"April 16, 2020",San Lazaro Hospital (SLH),SLH,14,124,124,603,103,17%,497,82%,0,0.00%,3,0.50%,725,"4,257",
-"April 16, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,28,223,237,"1,913",86,4%,"1,827",96%,0,0.00%,0,0.00%,"2,245","21,480",
-"April 16, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,16,130,131,"1,002",198,20%,803,80%,1,0.10%,0,0.00%,"1,093","3,568",
-"April 16, 2020",Western Visayas Medical Center (WVMC),WVMC,5,72,171,"1,544",44,3%,"1,500",97%,0,0.00%,0,0.00%,"1,829","3,548",
-"April 16, 2020",Southern Philippines Medical Center (SPMC),SPMC,8,97,159,"2,195",118,5%,"2,074",94%,0,0.00%,3,0.10%,"2,429","2,045",
-"April 16, 2020",Lung Center of the Philippines (LCP),LCP,6,279,279,"1,637",117,7%,"1,518",93%,0,0.00%,2,0.10%,"1,652","3,000",
-"April 16, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,15,15,126,5,4%,121,96%,0,0.00%,0,0.00%,133,"4,781",
-"April 16, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,NR,NR,NR,"1,064",145,14%,919,86%,0,0.00%,0,0.00%,"1,064",936,
-"April 16, 2020",Makati Medical Center (MMC),MMC,4,31,31,181,6,3%,175,97%,0,0.00%,0,0.00%,181,"1,762",
-"April 16, 2020",Detoxicare Molecular Diagnostics Laboratory,,0,1,1,19,0,0%,18,95%,0,0.00%,1,5.30%,19,960,
-"April 16, 2020",The Medical City (TMC),TMC,6,33,33,93,13,14%,80,86%,0,0.00%,0,0.00%,93,"1,891",
-"April 16, 2020",V. Luna Hospital,,1,20,20,61,1,2%,60,98%,0,0.00%,0,0.00%,61,"9,932",
-"April 16, 2020",Philippine Red Cross (PRC),PRC,4,258,258,258,4,2%,254,98%,0,0.00%,0,0.00%,258,"10,000",
-"April 16, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,57,928,929,928,57,6%,871,94%,0,0.00%,0,0.00%,929,"4,790",
-"April 17, 2020",Research Institute for Tropical Medicine (RITM),RITM,213,995,"1,164","32,842","5,772",18%,"27,038",82%,24,0.10%,8,0.00%,"38,083","31,648",
-"April 17, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,330,330,"2,730",42,2%,"2,688",98%,0,0.00%,0,0.00%,"2,782","1,763",
-"April 17, 2020",San Lazaro Hospital (SLH),SLH,3,73,91,676,106,16%,567,84%,0,0.00%,3,0.40%,816,"4,154",
-"April 17, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,85,417,423,"2,330",171,7%,"2,159",93%,0,0.00%,0,0.00%,"2,668","21,072",
-"April 17, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,8,96,96,"1,098",206,19%,890,81%,2,0.20%,0,0.00%,"1,189","3,464",
-"April 17, 2020",Western Visayas Medical Center (WVMC),WVMC,1,79,100,"1,623",45,3%,"1,578",97%,0,0.00%,0,0.00%,"1,929","3,324",
-"April 17, 2020",Southern Philippines Medical Center (SPMC),SPMC,0,46,54,"2,241",118,5%,"2,120",95%,0,0.00%,3,0.10%,"2,483","1,987",
-"April 17, 2020",Lung Center of the Philippines (LCP),LCP,13,446,459,"2,095",130,6%,"1,964",94%,0,0.00%,1,0.00%,"2,111","2,400",
-"April 17, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,14,15,140,5,4%,135,96%,0,0.00%,0,0.00%,148,"4,700",
-"April 17, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,33,276,276,"1,340",178,13%,"1,162",87%,0,0.00%,0,0.00%,"1,340",672,
-"April 17, 2020",Makati Medical Center (MMC),MMC,13,121,121,302,19,6%,283,94%,0,0.00%,0,0.00%,302,"1,617",
-"April 17, 2020",Detoxicare Molecular Diagnostics Laboratory,,1,46,46,65,1,2%,63,97%,0,0.00%,1,1.50%,65,905,
-"April 17, 2020",The Medical City (TMC),TMC,5,69,69,162,18,11%,144,89%,0,0.00%,0,0.00%,162,"1,816",
-"April 17, 2020",V. Luna Hospital,,0,24,24,85,1,1%,84,99%,0,0.00%,0,0.00%,85,"9,903",
-"April 17, 2020",Philippine Red Cross (PRC),PRC,10,358,358,616,14,2%,602,98%,0,0.00%,0,0.00%,616,"10,000",
-"April 17, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,8,291,291,"1,219",65,5%,"1,154",95%,0,0.00%,0,0.00%,"1,220","3,846",
-"April 17, 2020",Chinese General Hospital (CGH),CGH,3,49,49,49,3,6%,46,94%,0,0.00%,0,0.00%,49,"1,610",
-"April 18, 2020",Research Institute for Tropical Medicine (RITM),RITM,178,"1,035","1,247","33,877","5,950",18%,"27,895",82%,24,0.10%,8,0.00%,"39,330","31,648",
-"April 18, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,330,330,"2,730",42,2%,"2,688",98%,0,0.00%,0,0.00%,"3,112","1,763",
-"April 18, 2020",San Lazaro Hospital (SLH),SLH,11,227,288,903,117,13%,783,87%,0,0.00%,3,0.30%,"1,104","3,851",
-"April 18, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,7,245,256,"2,575",178,7%,"2,397",93%,0,0.00%,0,0.00%,"2,924","20,904",
-"April 18, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,4,84,85,"1,182",210,18%,968,82%,4,0.30%,0,0.00%,"1,274","3,464",
-"April 18, 2020",Western Visayas Medical Center (WVMC),WVMC,4,240,241,"1,863",49,3%,"1,814",97%,0,0.00%,0,0.00%,"2,170","3,124",
-"April 18, 2020",Southern Philippines Medical Center (SPMC),SPMC,4,115,159,"2,368",122,5%,"2,243",95%,0,0.00%,3,0.10%,"2,642","1,803",
-"April 18, 2020",Lung Center of the Philippines (LCP),LCP,1,181,181,"2,277",131,6%,"2,144",94%,0,0.00%,2,0.10%,"2,292","2,220",
-"April 18, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,6,34,34,174,11,6%,163,94%,0,0.00%,0,0.00%,182,"4,700",
-"April 18, 2020",V. Luna Hospital,,0,16,16,101,1,1%,100,99%,0,0.00%,0,0.00%,101,"9,881",
-"April 18, 2020",Detoxicare Molecular Diagnostics Laboratory,,0,3,3,68,1,1%,66,97%,0,0.00%,1,1.50%,68,899,
-"April 18, 2020",Makati Medical Center (MMC),MMC,12,266,266,568,31,5%,537,95%,0,0.00%,0,0.00%,568,"1,324",
-"April 18, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,2,92,92,"1,524",187,12%,"1,337",88%,0,0.00%,0,0.00%,"1,524",600,
-"April 18, 2020",The Medical City (TMC),TMC,5,70,70,232,23,10%,209,90%,0,0.00%,0,0.00%,232,"1,741",
-"April 18, 2020",Philippine Red Cross (PRC),PRC,6,64,64,"1,277",71,6%,"1,206",94%,0,0.00%,0,0.00%,"1,284","11,180",
-"April 18, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,23,399,399,"1,014",36,4%,978,96%,0,0.00%,0,0.00%,"1,014","82,752",
-"April 18, 2020",Chinese General Hospital (CGH),CGH,3,55,58,104,6,6%,98,94%,0,0.00%,0,0.00%,107,"1,550",
-"April 19, 2020",Research Institute for Tropical Medicine (RITM),RITM,18,473,654,"34,350","5,968",17%,"28,349",83%,25,0.10%,8,0.00%,"39,984","31,648",
-"April 19, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,178,184,"3,107",42,1%,"3,065",99%,0,0.00%,0,0.00%,"3,172","1,275",
-"April 19, 2020",San Lazaro Hospital (SLH),SLH,12,215,215,"1,118",129,12%,983,88%,0,0.00%,6,0.50%,"1,319","3,627",
-"April 19, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,4,116,118,"2,691",182,7%,"2,509",93%,0,0.00%,0,0.00%,"3,042","20,736",
-"April 19, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,12,82,82,"1,264",222,18%,"1,034",82%,8,0.60%,0,0.00%,"1,356","3,225",
-"April 19, 2020",Western Visayas Medical Center (WVMC),WVMC,0,40,42,"1,903",49,3%,"1,854",97%,0,0.00%,0,0.00%,"2,212","3,052",
-"April 19, 2020",Southern Philippines Medical Center (SPMC),SPMC,3,34,39,"2,402",125,5%,"2,274",95%,0,0.00%,3,0.10%,"2,681","11,759",
-"April 19, 2020",Lung Center of the Philippines (LCP),LCP,3,88,88,"2,365",134,6%,"2,229",94%,0,0.00%,2,0.10%,"2,380","2,100",
-"April 19, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,0,0,174,11,6%,163,94%,0,0.00%,0,0.00%,182,"4,700",
-"April 19, 2020",V. Luna Hospital,,0,0,0,101,1,1%,100,99%,0,0.00%,0,0.00%,101,"9,881",
-"April 19, 2020",Detoxicare Molecular Diagnostics Laboratory,,2,112,112,179,3,2%,176,98%,0,0.00%,0,0.00%,179,779,
-"April 19, 2020",Makati Medical Center (MMC),MMC,0,0,0,568,31,5%,537,95%,0,0.00%,0,0.00%,568,"1,324",
-"April 19, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,35,88,88,"1,612",222,14%,"1,390",86%,0,0.00%,0,0.00%,"1,612",600,
-"April 19, 2020",The Medical City (TMC),TMC,6,33,33,265,29,11%,236,89%,0,0.00%,0,0.00%,265,"1,741",
-"April 19, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,56,369,419,"1,646",127,8%,"1,519",92%,0,0.00%,0,0.00%,"1,702","11,029",
-"April 19, 2020",Philippine Red Cross (PRC),PRC,55,576,576,"1,590",91,6%,"1,499",94%,0,0.00%,0,0.00%,"1,590","81,672",
-"April 19, 2020",Chinese General Hospital (CGH),CGH,1,26,26,130,7,5%,123,95%,0,0.00%,0,0.00%,130,"1,298",
-"April 20, 2020",Research Institute for Tropical Medicine (RITM),RITM,27,499,644,"34,849","5,995",17%,"28,821",83%,25,0.10%,8,0.00%,"40,628","28,552",
-"April 20, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,1,141,144,"3,248",43,1%,"3,205",99%,0,0.00%,0,0.00%,"3,316","1,100",
-"April 20, 2020",San Lazaro Hospital (SLH),SLH,1,183,183,"1,301",130,10%,"1,165",90%,0,0.00%,6,0.50%,"1,502","3,436",
-"April 20, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,2,201,207,"2,892",184,6%,"2,708",94%,0,0.00%,0,0.00%,"3,249","20,424",
-"April 20, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,9,92,93,"1,356",231,17%,"1,117",82%,8,0.60%,0,0.00%,"1,449","3,093",
-"April 20, 2020",Western Visayas Medical Center (WVMC),WVMC,0,80,85,"1,983",49,2%,"1,934",98%,0,0.00%,0,0.00%,"2,297","2,880",
-"April 20, 2020",Southern Philippines Medical Center (SPMC),SPMC,5,158,196,"2,560",130,5%,"2,427",95%,0,0.00%,3,0.10%,"2,877","11,525",
-"April 20, 2020",Lung Center of the Philippines (LCP),LCP,4,186,186,"2,551",138,5%,"2,411",95%,0,0.00%,2,0.10%,"2,566","1,900",
-"April 20, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,0,0,174,11,6%,163,94%,0,0.00%,0,0.00%,182,"4,646",
-"April 20, 2020",V. Luna Hospital,,1,13,14,114,2,2%,112,98%,0,0.00%,0,0.00%,115,"9,861",
-"April 20, 2020",Detoxicare Molecular Diagnostics Laboratory,,20,120,120,299,23,8%,276,92%,0,0.00%,0,0.00%,299,647,
-"April 20, 2020",Makati Medical Center (MMC),MMC,15,108,108,676,46,7%,630,93%,0,0.00%,0,0.00%,676,"1,139",
-"April 20, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,7,92,92,"1,704",229,13%,"1,475",87%,0,0.00%,0,0.00%,"1,704",288,
-"April 20, 2020",The Medical City (TMC),TMC,16,86,86,351,45,13%,306,87%,0,0.00%,0,0.00%,351,"1,773",
-"April 20, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,28,226,243,"1,872",155,8%,"1,715",92%,0,0.00%,2,0.10%,"1,945","10,997",
-"April 20, 2020",Philippine Red Cross (PRC),PRC,6,99,99,"1,689",97,6%,"1,592",94%,0,0.00%,0,0.00%,"1,689","81,672",
-"April 20, 2020",Chinese General Hospital (CGH),CGH,17,159,159,453,39,9%,414,91%,0,0.00%,0,0.00%,456,"1,128",
-"April 21, 2020",Research Institute for Tropical Medicine (RITM),RITM,18,640,805,"35,489","5,995",17%,"29,461",83%,25,0.10%,8,0.00%,"41,433","18,784",
-"April 21, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,186,190,"3,434",43,1%,"3,391",99%,0,0.00%,0,0.00%,"3,506",885,
-"April 21, 2020",San Lazaro Hospital (SLH),SLH,6,128,128,"1,429",136,10%,"1,287",90%,0,0.00%,6,0.40%,"1,630","3,100",
-"April 21, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,7,53,57,"2,945",191,6%,"2,754",94%,0,0.00%,0,0.00%,"3,306",920,
-"April 21, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,40,267,271,"1,623",271,17%,"1,294",80%,12,0.70%,46,2.80%,"1,720","2,799",
-"April 21, 2020",Western Visayas Medical Center (WVMC),WVMC,2,164,178,"2,147",51,2%,"2,096",98%,0,0.00%,0,0.00%,"2,475","2,736",
-"April 21, 2020",Southern Philippines Medical Center (SPMC),SPMC,2,121,179,"2,681",132,5%,"2,546",95%,0,0.00%,3,0.10%,"3,056","11,330",
-"April 21, 2020",Lung Center of the Philippines (LCP),LCP,6,93,93,"2,644",144,5%,"2,498",94%,0,0.00%,2,0.10%,"2,659","1,800",
-"April 21, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,3,41,42,215,14,7%,198,92%,3,1.40%,0,0.00%,224,"4,587",
-"April 21, 2020",V. Luna Hospital,,1,25,29,139,3,2%,136,98%,0,0.00%,0,0.00%,144,"9,825",
-"April 21, 2020",Detoxicare Molecular Diagnostics Laboratory,,2,60,60,359,25,7%,334,93%,0,0.00%,0,0.00%,359,583,
-"April 21, 2020",Makati Medical Center (MMC),MMC,27,160,160,836,73,9%,763,91%,0,0.00%,0,0.00%,836,964,
-"April 21, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,33,184,184,"1,888",262,14%,"1,626",86%,0,0.00%,0,0.00%,"1,888",144,
-"April 21, 2020",The Medical City (TMC),TMC,11,39,39,390,56,14%,334,86%,0,0.00%,0,0.00%,390,"1,773",
-"April 21, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,47,511,558,"2,430",202,8%,"2,228",92%,0,0.00%,0,0.00%,"2,503","10,534",
-"April 21, 2020",Philippine Red Cross (PRC),PRC,53,196,196,"1,885",150,8%,"1,735",92%,0,0.00%,0,0.00%,"1,885","70,000",
-"April 21, 2020",Chinese General Hospital (CGH),CGH,10,62,62,515,49,10%,466,90%,0,0.00%,0,0.00%,518,"1,063",
-"April 22, 2020",Research Institute for Tropical Medicine (RITM),RITM,339,"1,033","1,157","36,522","6,334",17%,"30,161",83%,22,0.10%,5,0.00%,"42,590","20,944",
-"April 22, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,92,93,"3,526",43,1%,"3,483",99%,0,0.00%,0,0.00%,"3,599",735,
-"April 22, 2020",San Lazaro Hospital (SLH),SLH,8,299,299,"1,728",144,8%,"1,578",91%,0,0.00%,6,0.30%,"1,929","2,785",
-"April 22, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,142,434,443,"3,379",333,10%,"3,045",90%,1,0.00%,0,0.00%,"3,749","19,700",
-"April 22, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,32,290,298,"1,913",303,16%,"1,546",81%,18,0.90%,46,2.40%,"2,018","2,436",
-"April 22, 2020",Western Visayas Medical Center (WVMC),WVMC,3,243,277,"2,390",54,2%,"2,336",98%,0,0.00%,0,0.00%,"2,752","2,400",
-"April 22, 2020",Southern Philippines Medical Center (SPMC),SPMC,2,108,123,"2,789",134,5%,"2,652",95%,0,0.00%,3,0.10%,"3,179","11,194",
-"April 22, 2020",Lung Center of the Philippines (LCP),LCP,18,458,458,"3,102",162,5%,"2,938",95%,0,0.00%,2,0.10%,"3,117","1,300",
-"April 22, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,6,32,38,253,20,8%,230,91%,3,1.20%,0,0.00%,262,"4,446",
-"April 22, 2020",V. Luna Hospital,,0,31,31,170,3,2%,167,98%,0,0.00%,0,0.00%,175,"9,786",
-"April 22, 2020",Detoxicare Molecular Diagnostics Laboratory,,0,5,5,364,25,7%,339,93%,0,0.00%,0,0.00%,364,574,
-"April 22, 2020",Makati Medical Center (MMC),MMC,1,8,8,844,74,9%,770,91%,0,0.00%,0,0.00%,844,888,
-"April 22, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,,,,"1,888",262,14%,"1,626",86%,0,0.00%,0,0.00%,"1,888",144,
-"April 22, 2020",The Medical City (TMC),TMC,7,69,69,459,63,14%,396,86%,0,0.00%,0,0.00%,459,"1,677",
-"April 22, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,0,73,164,"2,503",195,8%,"2,308",92%,0,0.00%,0,0.00%,"2,667","10,240",
-"April 22, 2020",Philippine Red Cross (PRC),PRC,10,217,217,"2,102",160,8%,"1,942",92%,0,0.00%,0,0.00%,"2,102","70,000",
-"April 22, 2020",Chinese General Hospital (CGH),CGH,20,134,134,649,69,11%,580,89%,0,0.00%,0,0.00%,652,918,
-"April 23, 2020",Research Institute for Tropical Medicine (RITM),RITM,25,929,"1,120","37,451","6,359",17%,"31,065",83%,22,0.10%,5,0.00%,"43,710","18,944",
-"April 23, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,7,350,453,"3,876",50,1%,"3,826",99%,0,0.00%,0,0.00%,"4,052","3,185",
-"April 23, 2020",San Lazaro Hospital (SLH),SLH,14,274,274,"2,002",158,8%,"1,838",92%,0,0.00%,6,0.30%,"2,203","2,489",
-"April 23, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,20,346,356,"3,725",353,9%,"3,371",90%,1,0.00%,0,0.00%,"4,105","19,272",
-"April 23, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,37,292,300,"2,205",340,15%,"1,793",81%,19,0.90%,53,2.40%,"2,318","2,116",
-"April 23, 2020",Western Visayas Medical Center (WVMC),WVMC,0,95,111,"2,485",54,2%,"2,431",98%,0,0.00%,0,0.00%,"2,863","2,280",
-"April 23, 2020",Southern Philippines Medical Center (SPMC),SPMC,1,166,210,"2,955",135,5%,"2,817",95%,0,0.00%,3,0.10%,"3,389","10,971",
-"April 23, 2020",Lung Center of the Philippines (LCP),LCP,41,341,341,"3,443",203,6%,"3,238",94%,0,0.00%,2,0.10%,"3,458","4,300",
-"April 23, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,55,55,308,21,7%,284,92%,3,1.00%,0,0.00%,317,"4,360",
-"April 23, 2020",V. Luna Hospital,,0,35,40,205,3,1%,202,99%,0,0.00%,0,0.00%,215,"9,739",
-"April 23, 2020",Detoxicare Molecular Diagnostics Laboratory,,0,22,22,386,25,6%,361,94%,0,0.00%,0,0.00%,386,548,
-"April 23, 2020",Makati Medical Center (MMC),MMC,8,107,107,951,82,9%,869,91%,0,0.00%,0,0.00%,951,765,
-"April 23, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,12,93,93,"2,074",293,14%,"1,781",86%,0,0.00%,0,0.00%,"2,074",960,
-"April 23, 2020",The Medical City (TMC),TMC,6,41,41,500,69,14%,431,86%,0,0.00%,0,0.00%,500,"1,677",
-"April 23, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,11,238,287,"2,741",206,8%,"2,533",92%,0,0.00%,2,0.10%,"2,954","9,972",
-"April 23, 2020",Philippine Red Cross (PRC),PRC,59,626,626,"2,728",219,8%,"2,509",92%,0,0.00%,0,0.00%,"2,728","70,000",
-"April 23, 2020",Chinese General Hospital (CGH),CGH,6,81,81,730,75,10%,655,90%,0,0.00%,0,0.00%,733,832,
-"April 24, 2020",Research Institute for Tropical Medicine (RITM),RITM,16,575,691,"38,026","6,375",17%,"31,625",83%,22,0.10%,4,0.00%,"44,401","13,144",
-"April 24, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,8,278,301,"4,153",58,1%,"4,079",98%,0,0.00%,16,0.40%,"4,353","2,885",
-"April 24, 2020",San Lazaro Hospital (SLH),SLH,4,229,238,"2,231",162,7%,"2,063",92%,0,0.00%,6,0.30%,"2,441","2,235",
-"April 24, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,32,267,277,"3,992",385,10%,"3,606",90%,1,0.00%,0,0.00%,"4,382","19,000",
-"April 24, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,52,336,370,"2,541",392,15%,"2,069",81%,27,1.10%,53,2.10%,"2,688","1,698",
-"April 24, 2020",Western Visayas Medical Center (WVMC),WVMC,0,134,140,"2,619",54,2%,"2,565",98%,0,0.00%,0,0.00%,"3,003","2,088",
-"April 24, 2020",Southern Philippines Medical Center (SPMC),SPMC,6,91,120,"3,046",141,5%,"2,902",95%,0,0.00%,3,0.10%,"3,509","10,835",
-"April 24, 2020",Lung Center of the Philippines (LCP),LCP,36,759,759,"4,202",239,6%,"3,961",94%,0,0.00%,2,0.00%,"4,217","3,400",
-"April 24, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,27,27,335,21,6%,311,93%,3,0.90%,0,0.00%,344,"4,286",
-"April 24, 2020",V. Luna Hospital,,0,49,50,254,3,1%,251,99%,0,0.00%,0,0.00%,265,"9,683",
-"April 24, 2020",Detoxicare Molecular Diagnostics Laboratory,,2,68,68,454,27,6%,427,94%,0,0.00%,0,0.00%,454,468,
-"April 24, 2020",Makati Medical Center (MMC),MMC,4,103,103,"1,054",86,8%,968,92%,0,0.00%,0,0.00%,"1,054",650,
-"April 24, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,,,,"2,074",293,14%,"1,781",86%,0,0.00%,0,0.00%,"2,074",960,
-"April 24, 2020",The Medical City (TMC),TMC,13,54,54,554,82,15%,472,85%,0,0.00%,0,0.00%,554,"1,537",
-"April 24, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,5,58,135,"2,799",211,8%,"2,588",92%,0,0.00%,0,0.00%,"3,089","8,380",
-"April 24, 2020",Philippine Red Cross (PRC),PRC,75,895,895,"3,623",294,8%,"3,329",92%,0,0.00%,0,0.00%,"3,623","70,000",
-"April 24, 2020",Chinese General Hospital (CGH),CGH,26,107,108,837,101,12%,736,88%,0,0.00%,0,0.00%,841,722,
-"April 25, 2020",Research Institute for Tropical Medicine (RITM),RITM,104,"1,275","1,418","39,301","6,479",16%,"32,796",83%,22,0.10%,4,0.00%,"45,819","48,144",
-"April 25, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,10,219,250,"4,356",68,2%,"4,288",98%,0,0.00%,0,0.00%,"4,603","2,550",
-"April 25, 2020",San Lazaro Hospital (SLH),SLH,7,235,236,"2,466",169,7%,"2,291",93%,0,0.00%,6,0.20%,"2,677","1,889",
-"April 25, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,63,123,124,"4,115",448,11%,"3,666",89%,1,0.00%,0,0.00%,"4,506","18,700",
-"April 25, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,57,338,369,"2,879",449,16%,"2,343",81%,34,1.20%,53,1.80%,"3,057","1,296",
-"April 25, 2020",Western Visayas Medical Center (WVMC),WVMC,5,186,193,"2,805",59,2%,"2,746",98%,0,0.00%,0,0.00%,"3,196","1,848",
-"April 25, 2020",Southern Philippines Medical Center (SPMC),SPMC,4,95,130,"3,141",145,5%,"2,993",95%,0,0.00%,3,0.10%,"3,639","10,705",
-"April 25, 2020",Lung Center of the Philippines (LCP),LCP,14,199,199,"4,401",253,6%,"4,146",94%,0,0.00%,2,0.00%,"4,416","3,150",
-"April 25, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,62,63,397,21,5%,373,94%,3,0.80%,0,0.00%,407,"4,216",
-"April 25, 2020",V. Luna Hospital,,0,55,56,309,3,1%,306,99%,0,0.00%,0,0.00%,321,"9,619",
-"April 25, 2020",Detoxicare Molecular Diagnostics Laboratory,,3,36,36,490,30,6%,460,94%,0,0.00%,0,0.00%,490,426,
-"April 25, 2020",Makati Medical Center (MMC),MMC,5,80,80,"1,134",91,8%,"1,043",92%,0,0.00%,0,0.00%,"1,134",572,
-"April 25, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,,,,"2,074",293,14%,"1,781",86%,0,0.00%,0,0.00%,"2,074",960,
-"April 25, 2020",The Medical City (TMC),TMC,12,64,64,618,94,15%,524,85%,0,0.00%,0,0.00%,618,"1,537",
-"April 25, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,54,220,220,"3,026",265,9%,"2,761",91%,0,0.00%,0,0.00%,"3,309","7,920",
-"April 25, 2020",Philippine Red Cross (PRC),PRC,,,,"3,623",294,8%,"3,329",92%,0,0.00%,0,0.00%,"3,623","70,000",
-"April 25, 2020",Chinese General Hospital (CGH),CGH,0,58,59,895,101,11%,794,89%,0,0.00%,0,0.00%,900,722,
-"April 26, 2020",Research Institute for Tropical Medicine (RITM),RITM,91,"1,180","1,344","40,481","6,570",16%,"33,885",84%,22,0.10%,4,0.00%,"47,163","48,144",
-"April 26, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,5,355,391,"4,711",73,2%,"4,637",98%,0,0.00%,0,0.00%,"4,994","2,100",
-"April 26, 2020",San Lazaro Hospital (SLH),SLH,13,186,186,"2,652",182,7%,"2,464",93%,0,0.00%,6,0.20%,"2,863","1,557",
-"April 26, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,40,411,425,"4,526",488,11%,"4,037",89%,1,0.00%,0,0.00%,"4,931","17,900",
-"April 26, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,31,192,192,"3,071",480,16%,"2,504",82%,34,1.10%,53,1.70%,"3,249","1,296",
-"April 26, 2020",Western Visayas Medical Center (WVMC),WVMC,1,129,131,"2,934",60,2%,"2,874",98%,0,0.00%,0,0.00%,"3,327","1,752",
-"April 26, 2020",Southern Philippines Medical Center (SPMC),SPMC,3,54,62,"3,195",148,5%,"3,044",95%,0,0.00%,3,0.10%,"3,701","10,639",
-"April 26, 2020",Lung Center of the Philippines (LCP),LCP,11,254,254,"4,655",264,6%,"4,389",94%,0,0.00%,2,0.00%,"4,670","2,850",
-"April 26, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,25,25,422,21,5%,398,94%,3,0.70%,0,0.00%,432,"4,173",
-"April 26, 2020",V. Luna Hospital,,0,0,0,309,3,1%,306,99%,0,0.00%,0,0.00%,321,"9,619",
-"April 26, 2020",Detoxicare Molecular Diagnostics Laboratory,,14,152,152,642,44,7%,598,93%,0,0.00%,0,0.00%,642,260,
-"April 26, 2020",Makati Medical Center (MMC),MMC,9,123,123,"1,257",100,8%,"1,157",92%,0,0.00%,0,0.00%,"1,257",398,
-"April 26, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,27,182,182,"2,461",333,14%,"2,127",86%,1,0.00%,0,0.00%,"2,461",960,
-"April 26, 2020",The Medical City (TMC),TMC,21,116,116,734,115,16%,619,84%,0,0.00%,0,0.00%,734,"1,363",
-"April 26, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,12,431,469,"3,447",277,8%,"3,170",92%,0,0.00%,0,0.00%,"3,778","21,240",
-"April 26, 2020",Philippine Red Cross (PRC),PRC,33,843,843,"4,466",327,7%,"4,139",93%,0,0.00%,0,0.00%,"4,466","70,000",
-"April 26, 2020",Chinese General Hospital (CGH),CGH,0,0,0,895,101,11%,794,89%,0,0.00%,0,0.00%,900,722,
-"April 27, 2020",Research Institute for Tropical Medicine (RITM),RITM,129,"1,390","1,575","41,871","6,699",16%,"35,144",84%,22,0.10%,6,0.00%,"48,738","47,280",
-"April 27, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,367,466,"5,078",73,1%,"5,005",99%,0,0.00%,0,0.00%,"5,460","1,510",
-"April 27, 2020",San Lazaro Hospital (SLH),SLH,16,290,316,"2,942",198,7%,"2,738",93%,0,0.00%,6,0.20%,"3,179","1,225",
-"April 27, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,37,465,499,"4,991",525,11%,"4,465",89%,1,0.00%,0,0.00%,"5,430","17,400",
-"April 27, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,30,222,240,"3,293",510,15%,"2,692",82%,37,1.10%,54,1.60%,"3,489",0,
-"April 27, 2020",Western Visayas Medical Center (WVMC),WVMC,0,0,0,"2,934",60,2%,"2,874",98%,0,0.00%,0,0.00%,"3,327","1,752",
-"April 27, 2020",Southern Philippines Medical Center (SPMC),SPMC,3,199,218,"3,394",151,4%,"3,240",95%,0,0.00%,3,0.10%,"3,919","10,404",
-"April 27, 2020",Lung Center of the Philippines (LCP),LCP,12,272,272,"4,927",276,6%,"4,649",94%,0,0.00%,2,0.00%,"4,942","2,550",
-"April 27, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,19,19,441,21,5%,417,95%,3,0.70%,0,0.00%,451,"4,108",
-"April 27, 2020",V. Luna Hospital,,0,49,50,358,3,1%,355,99%,0,0.00%,0,0.00%,371,"9,563",
-"April 27, 2020",Detoxicare Molecular Diagnostics Laboratory,,22,165,165,807,66,8%,741,92%,0,0.00%,0,0.00%,807,83,
-"April 27, 2020",Makati Medical Center (MMC),MMC,3,56,56,"1,313",103,8%,"1,210",92%,0,0.00%,0,0.00%,"1,313",393,
-"April 27, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,,,,"2,461",333,14%,"2,127",86%,1,0.00%,0,0.00%,"2,461",960,
-"April 27, 2020",The Medical City (TMC),TMC,11,61,61,795,126,16%,669,84%,0,0.00%,0,0.00%,795,"1,537",
-"April 27, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,9,325,348,"3,772",286,8%,"3,484",92%,0,0.00%,2,0.10%,"4,126","20,060",
-"April 27, 2020",Philippine Red Cross (PRC),PRC,25,534,534,"5,236",361,7%,"4,875",93%,0,0.00%,0,0.00%,"5,236","70,000",
-"April 27, 2020",Chinese General Hospital (CGH),CGH,14,88,88,983,115,12%,868,88%,0,0.00%,0,0.00%,988,722,
-"April 28, 2020",Research Institute for Tropical Medicine (RITM),RITM,37,848,"1,104","42,719","6,736",16%,"35,956",84%,21,0.00%,6,0.00%,"49,842","47,280",
-"April 28, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,257,321,"5,335",73,1%,"5,262",99%,0,0.00%,0,0.00%,"5,781","1,110",
-"April 28, 2020",San Lazaro Hospital (SLH),SLH,16,209,245,"3,151",214,7%,"2,929",93%,0,0.00%,8,0.30%,"3,424",968,
-"April 28, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,73,438,452,"5,429",598,11%,"4,829",89%,2,0.00%,0,0.00%,"5,882","16,800",
-"April 28, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,3,25,67,"3,318",513,15%,"2,713",82%,38,1.10%,54,1.60%,"3,556",0,
-"April 28, 2020",Western Visayas Medical Center (WVMC),WVMC,3,287,287,"3,221",63,2%,"3,158",98%,0,0.00%,0,0.00%,"3,614","1,200",
-"April 28, 2020",Southern Philippines Medical Center (SPMC),SPMC,3,221,249,"3,615",154,4%,"3,458",96%,0,0.00%,3,0.10%,"4,168","10,087",
-"April 28, 2020",Lung Center of the Philippines (LCP),LCP,19,237,237,"5,164",295,6%,"4,867",94%,0,0.00%,2,0.00%,"5,179","2,250",
-"April 28, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,3,44,48,485,24,5%,458,94%,3,0.60%,0,0.00%,499,"4,073",
-"April 28, 2020",V. Luna Hospital,,1,44,50,402,4,1%,398,99%,0,0.00%,0,0.00%,421,"9,500",
-"April 28, 2020",Detoxicare Molecular Diagnostics Laboratory,,7,103,103,910,73,8%,837,92%,0,0.00%,0,0.00%,910,83,
-"April 28, 2020",Makati Medical Center (MMC),MMC,13,186,186,"1,499",116,8%,"1,383",92%,0,0.00%,0,0.00%,"1,499",185,
-"April 28, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,,,,"2,461",333,14%,"2,127",86%,1,0.00%,0,0.00%,"2,461",960,
-"April 28, 2020",The Medical City (TMC),TMC,8,80,80,875,134,15%,741,85%,0,0.00%,0,0.00%,875,"1,363",
-"April 28, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,9,250,284,"4,022",295,7%,"3,713",92%,0,0.00%,14,0.30%,"4,410","21,060",
-"April 28, 2020",Philippine Red Cross (PRC),PRC,,,,"5,236",361,7%,"4,875",93%,0,0.00%,0,0.00%,"5,236","70,000",
-"April 28, 2020",Chinese General Hospital (CGH),CGH,38,196,196,"1,179",153,13%,"1,026",87%,0,0.00%,0,0.00%,"1,184",722,
-"April 29, 2020",Research Institute for Tropical Medicine (RITM),RITM,18,954,"1,349","43,673","6,754",15%,"36,892",84%,21,0.00%,6,0.00%,"51,191","45,600",
-"April 29, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,3,367,415,"5,702",76,1%,"5,626",99%,0,0.00%,0,0.00%,"6,196",560,
-"April 29, 2020",San Lazaro Hospital (SLH),SLH,4,284,339,"3,435",218,6%,"3,209",93%,0,0.00%,8,0.20%,"3,763",98,
-"April 29, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,36,455,471,"5,884",634,11%,"5,248",89%,2,0.00%,0,0.00%,"6,353","16,400",
-"April 29, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,0,0,0,"3,318",513,15%,"2,713",82%,38,1.10%,54,1.60%,"3,556",0,
-"April 29, 2020",Western Visayas Medical Center (WVMC),WVMC,0,261,268,"3,482",63,2%,"3,419",98%,0,0.00%,0,0.00%,"3,882","2,928",
-"April 29, 2020",Southern Philippines Medical Center (SPMC),SPMC,6,152,192,"3,767",160,4%,"3,604",96%,0,0.00%,3,0.10%,"4,360","9,880",
-"April 29, 2020",Lung Center of the Philippines (LCP),LCP,60,833,833,"5,997",355,6%,"5,640",94%,0,0.00%,2,0.00%,"6,012","1,550",
-"April 29, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,64,64,549,25,5%,520,95%,4,0.70%,0,0.00%,563,"4,857",
-"April 29, 2020",V. Luna Hospital,,0,49,50,451,4,1%,447,99%,0,0.00%,0,0.00%,471,"9,442",
-"April 29, 2020",Detoxicare Molecular Diagnostics Laboratory,,5,115,115,"1,025",78,8%,947,92%,0,0.00%,0,0.00%,"1,025",83,
-"April 29, 2020",Makati Medical Center (MMC),MMC,1,63,64,"1,562",117,7%,"1,445",93%,0,0.00%,0,0.00%,"1,563",56,
-"April 29, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,,,,"2,461",333,14%,"2,127",86%,1,0.00%,0,0.00%,"2,461",960,
-"April 29, 2020",The Medical City (TMC),TMC,12,104,104,979,146,15%,833,85%,0,0.00%,0,0.00%,979,"1,206",
-"April 29, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,0,0,48,"3,933",249,6%,"3,684",94%,0,0.00%,0,0.00%,"4,458","20,700",
-"April 29, 2020",Philippine Red Cross (PRC),PRC,,,,"5,940",398,7%,"5,542",93%,0,0.00%,0,0.00%,"5,940","70,000",
-"April 29, 2020",Chinese General Hospital (CGH),CGH,6,189,189,"1,368",159,12%,"1,209",88%,0,0.00%,0,0.00%,"1,373",722,
-"April 30, 2020",Research Institute for Tropical Medicine (RITM),RITM,6,570,943,"44,243","6,760",15%,"37,457",85%,20,0.00%,6,0.00%,"52,134","1,480",
-"April 30, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,548,567,"6,250",76,1%,"6,174",99%,0,0.00%,0,0.00%,"6,763",0,
-"April 30, 2020",San Lazaro Hospital (SLH),SLH,4,303,316,"3,738",222,6%,"3,506",94%,0,0.00%,10,0.30%,"4,079",0,
-"April 30, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,182,505,519,"6,389",816,13%,"5,571",87%,2,0.00%,0,0.00%,"6,872","15,800",
-"April 30, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,54,420,435,"3,738",567,15%,"3,063",82%,49,1.30%,59,1.60%,"3,991","1,229",
-"April 30, 2020",Western Visayas Medical Center (WVMC),WVMC,0,241,248,"3,723",63,2%,"3,660",98%,0,0.00%,0,0.00%,"4,130","2,640",
-"April 30, 2020",Southern Philippines Medical Center (SPMC),SPMC,2,120,137,"3,887",162,4%,"3,722",96%,0,0.00%,3,0.10%,"4,497","9,733",
-"April 30, 2020",Lung Center of the Philippines (LCP),LCP,14,367,367,"6,364",369,6%,"5,993",94%,0,0.00%,2,0.00%,"6,379","1,850",
-"April 30, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,3,46,46,595,28,5%,563,95%,4,0.70%,0,0.00%,609,"4,799",
-"April 30, 2020",V. Luna Hospital,,0,53,53,504,4,1%,500,99%,0,0.00%,0,0.00%,524,"9,382",
-"April 30, 2020",Detoxicare Molecular Diagnostics Laboratory,,18,115,115,"1,140",96,8%,"1,044",92%,0,0.00%,0,0.00%,"1,140","2,016",
-"April 30, 2020",Makati Medical Center (MMC),MMC,1,40,40,"1,602",118,7%,"1,484",93%,0,0.00%,0,0.00%,"1,603",11,
-"April 30, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,1,8,8,"2,682",391,15%,"2,290",85%,1,0.00%,0,0.00%,"2,682",375,
-"April 30, 2020",The Medical City (TMC),TMC,11,88,88,"1,067",157,15%,910,85%,0,0.00%,0,0.00%,"1,067","1,206",
-"April 30, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,60,254,351,"4,187",309,7%,"3,878",93%,0,0.00%,0,0.00%,"4,809","20,340",
-"April 30, 2020",Philippine Red Cross (PRC),PRC,,,,"5,940",398,7%,"5,542",93%,0,0.00%,0,0.00%,"5,940","70,000",
-"April 30, 2020",Chinese General Hospital (CGH),CGH,5,88,88,"1,456",164,11%,"1,292",89%,0,0.00%,0,0.00%,"1,461",722,
-"May 1, 2020",Research Institute for Tropical Medicine (RITM),RITM,2,633,913,"44,876","6,762",15%,"38,088",85%,20,0.00%,6,0.00%,"53,047",480,
-"May 1, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,0,0,"6,250",76,1%,"6,174",99%,0,0.00%,0,0.00%,"6,763",0,
-"May 1, 2020",San Lazaro Hospital (SLH),SLH,9,186,212,"3,924",231,6%,"3,680",94%,0,0.00%,13,0.30%,"4,291","1,620",
-"May 1, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,50,503,513,"6,892",866,13%,"6,024",87%,2,0.00%,0,0.00%,"7,385","15,000",
-"May 1, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,93,503,504,"4,241",660,16%,"3,412",80%,69,1.60%,100,2.40%,"4,495",645,
-"May 1, 2020",Western Visayas Medical Center (WVMC),WVMC,6,232,262,"3,955",69,2%,"3,886",98%,0,0.00%,0,0.00%,"4,392","2,136",
-"May 1, 2020",Southern Philippines Medical Center (SPMC),SPMC,6,189,229,"4,076",168,4%,"3,905",96%,0,0.00%,3,0.10%,"4,721","9,490",
-"May 1, 2020",Lung Center of the Philippines (LCP),LCP,27,278,278,"6,642",396,6%,"6,244",94%,0,0.00%,2,0.00%,"6,657","1,550",
-"May 1, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,55,55,650,29,4%,617,95%,4,0.60%,0,0.00%,664,"4,694",
-"May 1, 2020",V. Luna Hospital,,0,60,60,564,4,1%,560,99%,0,0.00%,0,0.00%,584,"9,318",
-"May 1, 2020",Philippine Genome Center,PGC,4,41,41,41,4,10%,37,90%,0,0.00%,0,0.00%,41,"1,609",
-"May 1, 2020",Detoxicare Molecular Diagnostics Laboratory,,10,65,65,"1,191",107,9%,"1,084",91%,0,0.00%,0,0.00%,"1,205","1,851",
-"May 1, 2020",Makati Medical Center (MMC),MMC,5,73,87,"1,675",123,7%,"1,552",93%,0,0.00%,0,0.00%,"1,690","9,939",
-"May 1, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,15,46,46,"2,728",406,15%,"2,321",85%,1,0.00%,0,0.00%,"2,728",375,
-"May 1, 2020",The Medical City (TMC),TMC,15,113,113,"1,180",172,15%,"1,008",85%,0,0.00%,0,0.00%,"1,180","1,023",
-"May 1, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,5,68,78,"4,255",314,7%,"3,941",93%,0,0.00%,0,0.00%,"4,887","21,420",
-"May 1, 2020",Philippine Red Cross (PRC),PRC,15,540,540,"7,616",468,6%,"7,148",94%,0,0.00%,0,0.00%,"7,616","70,000",
-"May 1, 2020",Chinese General Hospital (CGH),CGH,19,229,229,"1,685",183,11%,"1,502",89%,0,0.00%,0,0.00%,"1,690",722,
-"May 1, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,17,268,268,"1,251",59,5%,"1,192",95%,0,0.00%,0,0.00%,"1,251",0,
-"May 2, 2020",Research Institute for Tropical Medicine (RITM),RITM,54,"1,211","1,467","46,087","6,816",15%,"39,245",85%,20,0.00%,6,0.00%,"54,514","93,288",
-"May 2, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,75,93,"6,325",77,1%,"6,248",99%,0,0.00%,0,0.00%,"6,856","2,840",
-"May 2, 2020",San Lazaro Hospital (SLH),SLH,8,302,342,"4,226",239,6%,"3,974",94%,0,0.00%,13,0.30%,"4,633","1,260",
-"May 2, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,124,601,619,"7,493",990,13%,"6,491",87%,11,0.10%,1,0.00%,"8,004","14,200",
-"May 2, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,65,425,464,"4,666",725,16%,"3,762",81%,79,1.70%,100,2.10%,"4,959",360,
-"May 2, 2020",Western Visayas Medical Center (WVMC),WVMC,0,243,275,"4,198",69,2%,"4,129",98%,0,0.00%,0,0.00%,"4,667","1,896",
-"May 2, 2020",Southern Philippines Medical Center (SPMC),SPMC,2,148,179,"4,225",170,4%,"4,052",96%,0,0.00%,3,0.10%,"4,905","9,298",
-"May 2, 2020",Lung Center of the Philippines (LCP),LCP,21,371,371,"7,013",417,6%,"6,594",94%,0,0.00%,2,0.00%,"7,028","1,150",
-"May 2, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,3,64,64,714,32,4%,677,95%,5,0.70%,0,0.00%,728,"4,614",
-"May 2, 2020",V. Luna Hospital,,0,59,60,623,4,1%,619,99%,0,0.00%,0,0.00%,644,"9,250",
-"May 2, 2020",Philippine Genome Center,PGC,0,0,0,41,4,10%,37,90%,0,0.00%,0,0.00%,41,"1,609",
-"May 2, 2020",Detoxicare Molecular Diagnostics Laboratory,,17,146,146,"1,337",124,9%,"1,213",91%,0,0.00%,0,0.00%,"1,337","1,851",
-"May 2, 2020",Makati Medical Center (MMC),MMC,2,49,56,"1,723",125,7%,"1,598",93%,0,0.00%,0,0.00%,"1,746","9,846",
-"May 2, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,16,53,53,"2,781",422,15%,"2,356",85%,3,0.10%,0,0.00%,"2,781",375,
-"May 2, 2020",The Medical City (TMC),TMC,22,139,139,"1,319",194,15%,"1,125",85%,0,0.00%,0,0.00%,"1,319","1,023",
-"May 2, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,59,245,287,"4,500",373,8%,"4,127",92%,0,0.00%,0,0.00%,"5,174","20,970",
-"May 2, 2020",Philippine Red Cross (PRC),PRC,38,413,413,"8,031",506,6%,"7,525",94%,0,0.00%,0,0.00%,"8,031","70,000",
-"May 2, 2020",Chinese General Hospital (CGH),CGH,2,94,94,"1,779",185,10%,"1,594",90%,0,0.00%,0,0.00%,"1,784",722,
-"May 2, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,64,701,701,"2,132",132,6%,"2,000",94%,0,0.00%,0,0.00%,"2,132",0,
-"May 3, 2020",Research Institute for Tropical Medicine (RITM),RITM,71,"1,106","1,274","47,193","6,887",15%,"40,280",85%,20,0.00%,6,0.00%,"55,788","192,096",
-"May 3, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,167,185,"6,492",77,1%,"6,415",99%,0,0.00%,0,0.00%,"7,041","2,620",
-"May 3, 2020",San Lazaro Hospital (SLH),SLH,3,256,261,"4,482",242,5%,"4,224",94%,0,0.00%,16,0.40%,"4,894",993,
-"May 3, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,92,679,700,"8,162","1,082",13%,"7,078",87%,2,0.00%,0,0.00%,"8,704","13,300",
-"May 3, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,35,219,232,"4,885",760,16%,"3,941",81%,82,1.70%,102,2.10%,"5,191",112,
-"May 3, 2020",Western Visayas Medical Center (WVMC),WVMC,1,289,425,"4,487",70,2%,"4,417",98%,0,0.00%,0,0.00%,"5,092","1,896",
-"May 3, 2020",Southern Philippines Medical Center (SPMC),SPMC,0,49,55,"4,274",170,4%,"4,101",96%,0,0.00%,3,0.10%,"4,960","9,238",
-"May 3, 2020",Lung Center of the Philippines (LCP),LCP,13,556,556,"7,569",430,6%,"7,137",94%,0,0.00%,2,0.00%,"7,584",600,
-"May 3, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,23,23,737,32,4%,700,95%,5,0.70%,0,0.00%,751,"4,583",
-"May 3, 2020",V. Luna Hospital,,0,41,41,664,4,1%,660,99%,0,0.00%,0,0.00%,685,"9,202",
-"May 3, 2020",Philippine Genome Center,PGC,0,0,0,41,4,10%,37,90%,0,0.00%,0,0.00%,41,"1,609",
-"May 3, 2020",Detoxicare Molecular Diagnostics Laboratory,,0,0,0,"1,337",124,9%,"1,213",91%,0,0.00%,0,0.00%,"1,337","1,705",
-"May 3, 2020",Makati Medical Center (MMC),MMC,2,25,31,"1,748",127,7%,"1,621",93%,0,0.00%,0,0.00%,"1,777","9,812",
-"May 3, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,0,0,0,"2,781",422,15%,"2,356",85%,3,0.10%,0,0.00%,"2,781","4,416",
-"May 3, 2020",The Medical City (TMC),TMC,8,41,50,"1,360",202,15%,"1,158",85%,0,0.00%,0,0.00%,"1,369","1,023",
-"May 3, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,45,360,374,"4,746",418,9%,"4,328",91%,0,0.00%,0,0.00%,"5,548","20,700",
-"May 3, 2020",Philippine Red Cross (PRC),PRC,24,269,269,"8,298",530,6%,"7,768",94%,0,0.00%,0,0.00%,"8,298","70,000",
-"May 3, 2020",Chinese General Hospital (CGH),CGH,0,0,0,"1,779",185,10%,"1,594",90%,0,0.00%,0,0.00%,"1,784",722,
-"May 3, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,19,407,407,"2,539",151,6%,"2,388",94%,0,0.00%,0,0.00%,"2,539",0,
-"May 4, 2020",Research Institute for Tropical Medicine (RITM),RITM,99,"1,006","1,135","48,199","6,986",14%,"41,187",85%,20,0.00%,6,0.00%,"56,923","190,296",
-"May 4, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,176,190,"6,668",77,1%,"6,591",99%,0,0.00%,0,0.00%,"7,231","2,390",
-"May 4, 2020",San Lazaro Hospital (SLH),SLH,17,429,498,"4,911",259,5%,"4,636",94%,0,0.00%,16,0.30%,"5,392",420,
-"May 4, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,187,528,538,"8,690","1,269",15%,"7,419",85%,2,0.00%,0,0.00%,"9,242","12,700",
-"May 4, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,49,347,348,"5,232",809,15%,"4,220",81%,97,1.90%,106,2.00%,"5,539","1,632",
-"May 4, 2020",Western Visayas Medical Center (WVMC),WVMC,8,374,460,"4,861",78,2%,"4,783",98%,0,0.00%,0,0.00%,"5,552",792,
-"May 4, 2020",Southern Philippines Medical Center (SPMC),SPMC,20,225,283,"4,499",190,4%,"4,306",96%,0,0.00%,3,0.10%,"5,243","8,918",
-"May 4, 2020",Lung Center of the Philippines (LCP),LCP,11,557,557,"8,126",441,5%,"7,683",95%,0,0.00%,2,0.00%,"8,141",40,
-"May 4, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,61,60,798,33,4%,759,95%,5,0.60%,1,0.10%,811,"4,503",
-"May 4, 2020",V. Luna Hospital,,1,63,68,727,5,1%,722,99%,0,0.00%,0,0.00%,753,"9,126",
-"May 4, 2020",Philippine Genome Center,PGC,4,80,80,121,8,7%,112,93%,1,0.80%,0,0.00%,121,"1,529",
-"May 4, 2020",Detoxicare Molecular Diagnostics Laboratory,,,,,"1,337",124,9%,1213,91%,0,0.00%,0,0.00%,"1,337","1,705",
-"May 4, 2020",Makati Medical Center (MMC),MMC,1,52,63,"1,800",128,7%,"1,672",93%,0,0.00%,0,0.00%,"1,840","9,735",
-"May 4, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,0,21,21,"2,802",422,15%,"2,377",85%,3,0.10%,0,0.00%,"2,802","4,395",
-"May 4, 2020",The Medical City (TMC),TMC,22,132,142,"1,492",224,15%,1268,85%,0,0.00%,0,0.00%,"1,511","1,023",
-"May 4, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,33,229,276,"5,089",451,9%,"4,638",91%,0,0.00%,0,0.00%,"5,824","20,610",
-"May 4, 2020",Philippine Red Cross (PRC),PRC,20,630,630,"8,928",550,6%,"8,378",94%,0,0.00%,0,0.00%,"8,928","70,000",
-"May 4, 2020",Chinese General Hospital (CGH),CGH,2,21,21,"1,800",187,10%,"1,613",90%,0,0.00%,0,0.00%,"1,805",722,
-"May 4, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,22,540,540,"3,694",214,6%,3480,94%,0,0.00%,0,0.00%,"3,694",,-
-"May 5, 2020",Research Institute for Tropical Medicine (RITM),RITM,48,"1,167","1,306","49,366","7,034",14%,"42,306",86%,20,0.00%,6,0.00%,"58,229","89,088",
-"May 5, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,229,279,"6,897",77,1%,"6,820",99%,0,0.00%,0,0.00%,"7,510","2,080",
-"May 5, 2020",San Lazaro Hospital (SLH),SLH,4,462,465,"5,373",263,5%,"5,090",95%,0,0.00%,20,0.40%,"5,857",0,
-"May 5, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,191,605,613,"9,295","1,460",16%,"7,831",84%,4,0.00%,0,0.00%,"9,855","10,900",
-"May 5, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,18,170,170,"5,402",827,15%,"4,367",81%,102,1.90%,106,2.00%,"5,709","1,500",
-"May 5, 2020",Western Visayas Medical Center (WVMC),WVMC,6,179,196,"5,040",84,2%,"4,956",98%,0,0.00%,0,0.00%,"5,748",576,
-"May 5, 2020",Southern Philippines Medical Center (SPMC),SPMC,4,217,242,"4,721",194,4%,"4,521",96%,0,0.00%,6,0.10%,"5,492","8,644",
-"May 5, 2020",Lung Center of the Philippines (LCP),LCP,10,279,279,"8,405",451,5%,"7,952",95%,0,0.00%,2,0.00%,"8,420",40,
-"May 5, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,2,80,82,878,35,4%,831,95%,11,1.30%,1,0.10%,893,"4,383",
-"May 5, 2020",V. Luna Hospital,,0,48,50,776,5,1%,771,99%,0,0.00%,0,0.00%,803,"9,068",
-"May 5, 2020",Philippine Genome Center,PGC,0,3,3,123,8,7%,115,93%,0,0.00%,0,0.00%,124,"1,526",
-"May 5, 2020",Detoxicare Molecular Diagnostics Laboratory,,17,233,233,"1,686",148,9%,"1,538",91%,0,0.00%,0,0.00%,"1,686","1,381",
-"May 5, 2020",Makati Medical Center (MMC),MMC,5,67,71,"1,868",133,7%,"1,735",93%,0,0.00%,0,0.00%,"1,911","9,666",
-"May 5, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,0,68,68,"2,867",422,15%,"2,397",84%,0,0.00%,48,1.70%,"3,068","4,194",
-"May 5, 2020",The Medical City (TMC),TMC,13,87,89,"1,579",237,15%,"1,342",85%,0,0.00%,0,0.00%,"1,600","1,023",
-"May 5, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,32,191,243,"5,280",483,9%,"4,797",91%,0,0.00%,0,0.00%,"6,067","20,520",
-"May 5, 2020",Philippine Red Cross (PRC),PRC,66,"1,516","1,516","10,438",630,6%,"9,808",94%,0,0.00%,0,0.00%,"10,438","70,000",
-"May 5, 2020",Chinese General Hospital (CGH),CGH,6,56,56,"1,856",193,10%,"1,663",90%,0,0.00%,0,0.00%,"1,861",722,
-"May 5, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,77,"1,169","1,169","4,863",292,6%,"4,571",94%,0,0.00%,0,0.00%,"4,863",0,
-"May 6, 2020",Research Institute for Tropical Medicine (RITM),RITM,56,467,575,"49,833","7,090",14%,"42,717",86%,20,0.00%,6,0.01%,"58,804","88,488",
-"May 6, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,178,235,"7,075",77,1%,"6,998",99%,0,0.00%,0,0.00%,"7,745","1,780",
-"May 6, 2020",San Lazaro Hospital (SLH),SLH,7,361,372,"5,734",270,5%,"5,443",95%,0,0.00%,21,0.37%,"6,229",0,
-"May 6, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,120,536,555,"9,831","1,580",16%,"8,244",84%,7,0.10%,0,0.00%,"10,410","10,400",
-"May 6, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,17,113,116,"5,515",844,15%,"4,459",81%,104,1.90%,108,1.96%,"5,825","1,500",
-"May 6, 2020",Western Visayas Medical Center (WVMC),WVMC,6,248,254,"5,288",90,2%,"5,198",98%,0,0.00%,0,0.00%,"6,002",264,
-"May 6, 2020",Southern Philippines Medical Center (SPMC),SPMC,1,206,239,"4,927",195,4%,"4,725",96%,0,0.00%,7,0.14%,"5,731","8,390",
-"May 6, 2020",Lung Center of the Philippines (LCP),LCP,10,91,91,"8,496",461,5%,"8,033",95%,0,0.00%,2,0.02%,"8,511",40,
-"May 6, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,30,30,908,36,4%,860,95%,11,1.20%,1,0.11%,923,"4,343",
-"May 6, 2020",V. Luna Hospital,,0,60,60,836,5,1%,831,99%,0,0.00%,0,0.00%,863,"9,000",
-"May 6, 2020",Philippine Genome Center,PGC,3,61,61,184,11,6%,171,93%,0,0.00%,2,1.09%,185,"1,465",
-"May 6, 2020",Detoxicare Molecular Diagnostics Laboratory,,,,,"1,686",148,9%,"1,538",91%,0,0.00%,0,0.00%,"1,686","1,381",
-"May 6, 2020",Makati Medical Center (MMC),MMC,5,68,87,"1,936",138,7%,"1,798",93%,0,0.00%,0,0.00%,"1,998","9,566",
-"May 6, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,99,180,180,"2,999",521,17%,"2,478",83%,0,0.00%,0,0.00%,"3,248","3,946",
-"May 6, 2020",The Medical City (TMC),TMC,21,118,121,"1,697",258,15%,"1,439",85%,0,0.00%,0,0.00%,"1,721","1,023",
-"May 6, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,18,141,211,"5,421",501,9%,"4,920",91%,0,0.00%,0,0.00%,"6,278","20,520",
-"May 6, 2020",Philippine Red Cross (PRC),PRC,26,791,791,"11,229",656,7%,"10,571",94%,0,0.00%,2,0.00%,"11,229","70,000",
-"May 6, 2020",Chinese General Hospital (CGH),CGH,12,130,130,"1,986",205,10%,"1,781",90%,0,0.00%,0,0.00%,"1,991",722,
-"May 6, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,27,"1,344","1,344","6,205",319,5%,"5,881",95%,5,0.10%,0,0.00%,"6,207",0,
-"May 7, 2020",Research Institute for Tropical Medicine (RITM),RITM,4,406,537,"50,239","7,094",14%,"43,119",86%,20,0.00%,6,0.01%,"59,341","76,488",
-"May 7, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,238,267,"7,313",77,1%,"7,236",99%,0,0.00%,0,0.00%,"8,012","1,480",
-"May 7, 2020",San Lazaro Hospital (SLH),SLH,0,184,184,"5,918",270,5%,"5,597",95%,0,0.00%,51,0.86%,"6,413","5,000",
-"May 7, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,30,501,515,"10,332","1,610",16%,"8,711",84%,11,0.10%,0,0.00%,"10,925","9,600",
-"May 7, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,25,234,239,"5,749",869,15%,"4,654",81%,113,2.00%,113,1.97%,"6,064","6,000",
-"May 7, 2020",Western Visayas Medical Center (WVMC),WVMC,0,318,324,"5,606",90,2%,"5,516",98%,0,0.00%,0,0.00%,"6,326",0,
-"May 7, 2020",Southern Philippines Medical Center (SPMC),SPMC,9,182,230,"5,109",204,4%,"4,896",96%,0,0.00%,9,0.18%,"5,961","8,132",
-"May 7, 2020",Lung Center of the Philippines (LCP),LCP,22,358,358,"8,854",483,5%,"8,369",95%,0,0.00%,2,0.02%,"8,869","5,400",
-"May 7, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,2,68,68,976,38,4%,925,95%,12,1.20%,1,0.10%,991,"4,303",
-"May 7, 2020",V. Luna Hospital,,2,64,64,900,7,1%,893,99%,0,0.00%,0,0.00%,927,"8,928",
-"May 7, 2020",Philippine Genome Center,PGC,4,77,79,259,15,6%,240,93%,0,0.00%,4,1.54%,264,"7,388",
-"May 7, 2020",Cebu TB Reference Laboratory,,3,44,44,44,3,7%,41,93%,0,0.00%,0,0.00%,44,"9,856",
-"May 7, 2020",UP-PGH Molecular Laboratory,,0,26,26,42,0,0%,42,100%,0,0.00%,0,0.00%,42,35,
-"May 7, 2020",Marikina Molecular Diagnostics Laboratory,MMDL,3,94,94,60,3,5%,57,95%,0,0.00%,0,0.00%,94,308,
-"May 7, 2020",Detoxicare Molecular Diagnostics Laboratory,,,,,"1,686",148,9%,"1,538",91%,0,0.00%,0,0.00%,"1,686","1,381",
-"May 7, 2020",Makati Medical Center (MMC),MMC,0,85,98,"2,021",138,7%,"1,883",93%,0,0.00%,0,0.00%,"2,096","9,456",
-"May 7, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,17,113,113,"3,098",538,17%,"2,560",83%,0,0.00%,0,0.00%,"3,098","3,946",
-"May 7, 2020",The Medical City (TMC),TMC,13,117,124,"1,814",271,15%,"1,543",85%,0,0.00%,0,0.00%,"1,845","1,023",
-"May 7, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,19,192,207,"5,613",520,9%,"5,093",91%,0,0.00%,0,0.00%,"6,485","18,900",
-"May 7, 2020",Philippine Red Cross (PRC),PRC,46,810,900,"12,039",702,7%,"11,335",94%,0,0.00%,2,0.00%,"12,129","70,000",
-"May 7, 2020",Chinese General Hospital (CGH),CGH,65,300,300,"2,286",270,12%,"2,016",88%,0,0.00%,0,0.00%,"2,291",722,
-"May 7, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,46,810,810,"7,017",365,5%,"6,647",95%,5,0.10%,0,0.00%,"7,017",0,
-"May 7, 2020",Singapore Diagnostics,,7,80,80,80,7,9%,73,91%,0,0.00%,0,0.00%,160,"9,440",
-"May 8, 2020",Research Institute for Tropical Medicine (RITM),RITM,6,123,141,"50,362","7,100",14%,"43,236",86%,20,0.00%,6,0.01%,"59,482","52,488",
-"May 8, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,43,46,"7,356",77,1%,"7,279",99%,0,0.00%,0,0.00%,"8,058","1,420",
-"May 8, 2020",San Lazaro Hospital (SLH),SLH,0,465,465,"6,383",270,4%,"6,004",94%,0,0.00%,109,1.71%,"6,878","4,139",
-"May 8, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,26,486,531,"10,818","1,636",15%,"9,171",85%,11,0.10%,0,0.00%,"11,456","8,200",
-"May 8, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,62,464,464,"6,213",931,15%,"5,012",81%,128,2.10%,142,2.29%,"6,528","5,000",
-"May 8, 2020",Western Visayas Medical Center (WVMC),WVMC,1,248,251,"5,854",91,2%,"5,763",98%,0,0.00%,0,0.00%,"6,577",0,
-"May 8, 2020",Southern Philippines Medical Center (SPMC),SPMC,6,255,302,"5,364",210,4%,"5,106",95%,0,0.00%,48,0.89%,"6,263","7,808",
-"May 8, 2020",Lung Center of the Philippines (LCP),LCP,12,462,462,"9,316",495,5%,"8,819",95%,0,0.00%,2,0.02%,"9,331","5,000",
-"May 8, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,6,96,96,"1,072",44,4%,"1,015",95%,12,1.10%,1,0.09%,"1,087","4,223",
-"May 8, 2020",V. Luna Hospital,,0,48,48,948,7,1%,941,99%,0,0.00%,0,0.00%,975,"8,872",
-"May 8, 2020",Philippine Genome Center,PGC,0,0,0,259,15,6%,240,93%,0,0.00%,4,1.54%,264,"7,388",
-"May 8, 2020",Cebu TB Reference Laboratory,,0,41,41,85,3,2%,82,67%,0,0.00%,0,30.89%,85,"9,815",
-"May 8, 2020",UP-PGH Molecular Laboratory,,0,15,15,57,0,0%,57,100%,0,0.00%,0,0.00%,57,"1,000",
-"May 8, 2020",Marikina Molecular Diagnostics Laboratory,MMDL,6,120,120,180,9,5%,171,95%,0,0.00%,0,0.00%,214,308,
-"May 8, 2020",Detoxicare Molecular Diagnostics Laboratory,,,,,"1,686",148,9%,"1,538",91%,0,0.00%,0,0.00%,"1,686",0,
-"May 8, 2020",Makati Medical Center (MMC),MMC,0,47,55,"2,068",138,7%,"1,930",93%,0,0.00%,0,0.00%,"2,151","9,393",
-"May 8, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,12,67,67,"3,152",550,17%,"2,602",83%,0,0.00%,0,0.00%,"3,428","3,833",
-"May 8, 2020",The Medical City (TMC),TMC,44,146,146,"1,960",315,16%,"1,645",84%,0,0.00%,0,0.00%,"1,991","1,023",
-"May 8, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,33,425,457,"6,038",553,9%,"5,485",91%,0,0.00%,0,0.00%,"6,942","18,450",
-"May 8, 2020",Philippine Red Cross (PRC),PRC,70,810,810,"12,939",781,7%,"12,138",94%,20,0.00%,0,0.00%,"12,939","70,000",
-"May 8, 2020",Chinese General Hospital (CGH),CGH,4,80,80,"2,366",274,12%,"2,092",88%,0,0.00%,0,0.00%,"2,371",722,
-"May 8, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,46,"1,080","1,080","8,097",411,5%,"7,680",95%,6,0.10%,0,0.00%,"8,097",0,
-"May 8, 2020",Singapore Diagnostics,,6,53,54,133,13,10%,120,90%,0,0.00%,0,0.00%,134,"9,390",
-"May 8, 2020",Lung Center of the Philippines GeneXpert Laboratory,,6,39,39,83,14,17%,69,83%,0,0.00%,0,0.00%,83,0,
-"May 8, 2020",Zamboanga City Medical Center GeneXpert Laboratory,ZCMC,2,42,42,84,2,2%,81,96%,1,1.20%,0,0.00%,84,0,
-"May 9, 2020",Research Institute for Tropical Medicine (RITM),RITM,56,"1,020","1,161","51,382","7,156",14%,"44,200",86%,20,0.00%,6,0.01%,"60,643","592,788",
-"May 9, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,260,261,"7,616",77,1%,"7,539",99%,0,0.00%,0,0.00%,"8,319","7,120",
-"May 9, 2020",San Lazaro Hospital (SLH),SLH,9,354,373,"6,737",279,4%,"6,348",94%,0,0.00%,110,1.63%,"7,251","3,740",
-"May 9, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,57,608,627,"11,426","1,693",16%,"9,722",90%,11,0.10%,0,0.00%,"12,083","8,200",
-"May 9, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,26,174,174,"6,387",957,15%,"5,155",81%,133,2.10%,142,2.22%,"6,702","4,784",
-"May 9, 2020",Western Visayas Medical Center (WVMC),WVMC,1,293,305,"6,147",92,2%,"6,055",99%,0,0.00%,0,0.00%,"6,882","6,000",
-"May 9, 2020",Southern Philippines Medical Center (SPMC),SPMC,0,252,265,"5,616",210,4%,"5,350",95%,0,0.00%,56,1.00%,"6,528","7,524",
-"May 9, 2020",Lung Center of the Philippines (LCP),LCP,27,834,833,"10,150",522,5%,"9,625",95%,0,0.00%,3,0.03%,"10,164","4,100",
-"May 9, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,58,58,"1,130",45,4%,"1,072",95%,12,1.10%,1,0.09%,"1,145","4,183",
-"May 9, 2020",V. Luna Hospital,,0,49,49,997,7,1%,990,99%,0,0.00%,0,0.00%,"1,024","8,816",
-"May 9, 2020",Philippine Genome Center,PGC,23,43,43,302,38,13%,257,85%,0,0.00%,7,2.32%,307,"7,211",
-"May 9, 2020",Cebu TB Reference Laboratory,,0,0,0,85,3,4%,82,96%,0,0.00%,0,0.00%,85,"9,815",
-"May 9, 2020",UP-PGH Molecular Laboratory,,0,15,15,72,0,0%,72,100%,0,0.00%,0,0.00%,72,"2,035",
-"May 9, 2020",Marikina Molecular Diagnostics Laboratory,MMDL,0,0,0,180,9,5%,171,95%,0,0.00%,0,0.00%,214,308,
-"May 9, 2020",Detoxicare Molecular Diagnostics Laboratory,,,,,"1,686",148,9%,"1,538",91%,0,0.00%,0,0.00%,"1,686",0,
-"May 9, 2020",Makati Medical Center (MMC),MMC,2,83,86,"2,151",140,7%,"2,011",93%,0,0.00%,0,0.00%,"2,237","9,301",
-"May 9, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,70,205,205,"3,356",620,18%,"2,736",82%,0,0.00%,0,0.00%,"3,633","3,766",
-"May 9, 2020",The Medical City (TMC),TMC,12,86,89,"2,046",327,16%,"1,719",84%,0,0.00%,0,0.00%,"2,080","1,020",
-"May 9, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,48,221,286,"6,259",601,10%,"5,658",90%,0,0.00%,0,0.00%,"7,228","18,000",
-"May 9, 2020",Philippine Red Cross (PRC),PRC,75,"1,440","1,440","14,379",856,7%,"13,500",94%,23,0.00%,0,0.00%,"14,379","70,000",
-"May 9, 2020",Chinese General Hospital (CGH),CGH,1,101,101,"2,467",275,11%,"2,192",89%,0,0.00%,0,0.00%,"2,472",722,
-"May 9, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,43,810,810,"8,907",454,5%,"8,447",95%,6,0.10%,0,0.00%,"8,907",0,
-"May 9, 2020",Singapore Diagnostics,,15,90,90,223,28,13%,195,87%,0,0.00%,0,0.00%,224,"9,390",
-"May 9, 2020",Lung Center of the Philippines GeneXpert Laboratory,,0,0,0,83,14,17%,69,83%,0,0.00%,0,0.00%,83,0,
-"May 9, 2020",Zamboanga City Medical Center GeneXpert Laboratory,ZCMC,15,76,76,158,17,11%,141,88%,0,1.30%,0,0.00%,160,979,
-"May 10, 2020",Research Institute for Tropical Medicine (RITM),RITM,55,"1,326","1,463","52,708","7,211",14%,"45,471",86%,20,0.00%,6,0.01%,"62,106","610,528",
-"May 10, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,1,424,432,"8,040",78,1%,"7,962",99%,0,0.00%,0,0.00%,"8,751","6,630",
-"May 10, 2020",San Lazaro Hospital (SLH),SLH,6,281,315,"7,018",285,4%,"6,611",94%,0,0.00%,122,1.74%,"7,566","3,480",
-"May 10, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,104,637,664,"12,063","1,797",15%,"10,254",85%,12,0.10%,0,0.00%,"12,747","7,500",
-"May 10, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,45,260,286,"6,647","1,002",15%,"5,361",81%,141,2.10%,143,2.15%,"6,988","4,496",
-"May 10, 2020",Western Visayas Medical Center (WVMC),WVMC,3,246,258,"6,393",95,1%,"6,298",99%,0,0.00%,0,0.00%,"7,140","5,520",
-"May 10, 2020",Southern Philippines Medical Center (SPMC),SPMC,0,0,0,"5,616",210,4%,"5,350",95%,0,0.00%,56,1.00%,"6,528","17,524",
-"May 10, 2020",Lung Center of the Philippines (LCP),LCP,29,930,930,"11,080",551,5%,"10,526",95%,0,0.00%,3,0.03%,"11,094","3,100",
-"May 10, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,2,31,31,"1,161",47,4%,"1,101",95%,12,1.00%,1,0.09%,"1,176","4,102",
-"May 10, 2020",V. Luna Hospital,,0,21,21,"1,018",7,1%,"1,011",99%,0,0.00%,0,0.00%,"1,045","8,791",
-"May 10, 2020",Philippine Genome Center,PGC,0,0,0,302,38,13%,257,85%,0,0.00%,7,2.32%,307,"7,211",
-"May 10, 2020",Cebu TB Reference Laboratory,,0,0,0,85,3,4%,82,96%,0,0.00%,0,0.00%,85,"9,815",
-"May 10, 2020",UP-PGH Molecular Laboratory,,8,100,100,172,8,5%,164,95%,0,0.00%,0,0.00%,172,"1,935",
-"May 10, 2020",Marikina Molecular Diagnostics Laboratory,MMDL,0,0,0,180,9,5%,171,95%,0,0.00%,0,0.00%,214,308,
-"May 10, 2020",Detoxicare Molecular Diagnostics Laboratory,,21,208,208,"1,894",169,9%,"1,725",91%,0,0.00%,0,0.00%,"1,894",83,
-"May 10, 2020",Makati Medical Center (MMC),MMC,2,39,49,"2,190",142,6%,"2,048",94%,0,0.00%,0,0.00%,"2,286","9,284",
-"May 10, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,24,85,85,"3,440",644,19%,"2,796",81%,0,0.00%,0,0.00%,"3,718","3,476",
-"May 10, 2020",The Medical City (TMC),TMC,19,108,108,"2,154",346,16%,"1,808",84%,0,0.00%,0,0.00%,"2,188",373,
-"May 10, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,16,117,140,"6,376",617,10%,"5,759",90%,0,0.00%,0,0.00%,"7,368","17,910",
-"May 10, 2020",Philippine Red Cross (PRC),PRC,64,"1,706","1,706","15,959",920,7%,"15,039",94%,0,0.00%,0,0.00%,"16,085","70,000",
-"May 10, 2020",Chinese General Hospital (CGH),CGH,0,0,0,"2,467",275,11%,"2,192",89%,0,0.00%,0,0.00%,"2,472",722,
-"May 10, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,32,"1,980","1,980","10,887",486,4%,"10,392",95%,9,0.10%,0,0.00%,"10,887",0,
-"May 10, 2020",Singapore Diagnostics,,0,0,0,223,28,13%,195,87%,0,0.00%,0,0.00%,224,"9,390",
-"May 10, 2020",Lung Center of the Philippines GeneXpert Laboratory,,5,70,69,152,19,13%,133,88%,0,0.00%,0,0,152,865,
-"May 10, 2020",Zamboanga City Medical Center GeneXpert Laboratory,ZCMC,0,0,0,159,15,11%,142,89%,2,0.00%,0,0,159,979,
-"May 11, 2020",Research Institute for Tropical Medicine (RITM),RITM,63,"1,104","1,202","53,812","7,274",14%,"46,512",86%,20,0.00%,6,0.01%,"63,308","606,928",
-"May 11, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,2,766,775,"8,806",80,1%,"8,726",99%,0,0.00%,0,0.00%,"9,526","5,750",
-"May 11, 2020",San Lazaro Hospital (SLH),SLH,9,289,372,"7,307",294,4%,"6,888",94%,0,0.00%,125,1.71%,"7,938","3,240",
-"May 11, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,104,641,702,"12,704","1,901",15%,"10,789",85%,14,0.10%,0,0.00%,"13,449","6,700",
-"May 11, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,32,281,290,"6,928","1,034",15%,"5,583",81%,160,2.30%,151,2.18%,"7,278","4,376",
-"May 11, 2020",Western Visayas Medical Center (WVMC),WVMC,1,41,47,"6,434",96,1%,"6,338",99%,0,0.00%,0,0.00%,"7,187","5,448",
-"May 11, 2020",Southern Philippines Medical Center (SPMC),SPMC,1,94,136,"5,710",211,4%,"5,443",95%,0,0.00%,56,0.98%,"6,664","18,361",
-"May 11, 2020",Lung Center of the Philippines (LCP),LCP,28,372,372,"11,452",579,5%,"10,870",95%,0,0.00%,3,0.03%,"11,466","2,500",
-"May 11, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,62,62,"1,223",48,4%,"1,162",95%,12,1.00%,1,0.08%,"1,238","3,982",
-"May 11, 2020",V. Luna Hospital,,0,38,39,"1,056",7,1%,"1,049",99%,0,0.00%,0,0.00%,"1,084","8,744",
-"May 11, 2020",Philippine Genome Center,PGC,0,0,8,302,38,13%,257,85%,0,0.00%,7,2.32%,315,"7,104",
-"May 11, 2020",Cebu TB Reference Laboratory,,0,40,40,125,3,2%,122,98%,0,0.00%,0,0.00%,125,"9,775",
-"May 11, 2020",UP-PGH Molecular Laboratory,,5,42,42,214,13,6%,201,94%,0,0.00%,0,0.00%,214,"1,893",
-"May 11, 2020",Marikina Molecular Diagnostics Laboratory,MMDL,,,,180,9,5%,171,95%,0,0.00%,0,0.00%,214,,
-"May 11, 2020",Eastern Visayas Regional Covid Testing Center,,0,8,7,8,0,0%,7,88%,0,0.00%,1,12.50%,7,-,
-"May 11, 2020",Detoxicare Molecular Diagnostics Laboratory,,,,,"1,894",169,9%,"1,725",91%,0,0.00%,0,0.00%,"1,894",,
-"May 11, 2020",Makati Medical Center (MMC),MMC,4,62,73,"2,252",146,6%,"2,106",94%,0,0.00%,0,0.00%,"2,359","9,167",
-"May 11, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,32,117,117,"3,557",676,19%,"2,881",81%,0,0.00%,0,0.00%,"3,835","3,539",
-"May 11, 2020",The Medical City (TMC),TMC,15,123,123,"2,277",361,16%,"1,916",84%,0,0.00%,0,0.00%,"2,311",373,
-"May 11, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,0,0,0,"6,376",617,10%,"5,759",90%,0,0.00%,0,0.00%,"7,368","17,910",
-"May 11, 2020",Philippine Red Cross (PRC),PRC,74,"2,054","2,054","18,114",994,7%,"17,120",95%,0,0.00%,0,0.00%,"18,139","130,000",
-"May 11, 2020",Chinese General Hospital (CGH),CGH,24,366,366,"2,833",299,11%,"2,534",89%,0,0.00%,0,0.00%,"2,838",-,
-"May 11, 2020",Philippine Red Cross Logistics & Multipurpose Center,PLMC,22,"1,710","1,710","12,596",508,4%,"12,079",96%,9,0.10%,0,0.00%,"12,597",0,
-"May 11, 2020",Singapore Diagnostics,,3,29,29,252,31,12%,221,88%,0,0.00%,0,0.00%,253,"9,115",
-"May 11, 2020",Lung Center of the Philippines GeneXpert Laboratory,,15,48,49,201,34,17%,167,83%,0,0.00%,0,0,201,816,
-"May 11, 2020",Zamboanga City Medical Center GeneXpert Laboratory,ZCMC,21,64,65,226,38,16%,187,83%,1,1.40%,0,0,226,914,
-"May 12, 2020",Research Institute for Tropical Medicine (RITM),RITM,33,916,973,"54,728","7,307",13%,"47,395",87%,20,0.00%,6,0.01%,"64,281","591,848",
-"May 12, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,1,595,602,"9,401",81,1%,"9,320",99%,0,0.00%,0,0.00%,"10,128","5,090",
-"May 12, 2020",San Lazaro Hospital (SLH),SLH,10,286,343,"7,593",304,4%,"7,159",94%,0,0.00%,130,1.71%,"8,281","3,060",
-"May 12, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,42,495,523,"13,199","1,943",15%,"11,241",85%,15,0.10%,0,0.00%,"13,972","5,800",
-"May 12, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,22,139,169,"7,067","1,056",15%,"5,700",81%,160,2.30%,151,2.14%,"7,428","4,137",
-"May 12, 2020",Western Visayas Medical Center (WVMC),WVMC,2,211,228,"6,645",98,1%,"6,547",99%,0,0.00%,0,0.00%,"7,415","5,136",
-"May 12, 2020",Southern Philippines Medical Center (SPMC),SPMC,0,212,230,"5,922",211,4%,"5,654",95%,0,0.00%,57,0.96%,"6,894","18,116",
-"May 12, 2020",Lung Center of the Philippines (LCP),LCP,0,0,0,"11,452",579,5%,"10,870",95%,0,0.00%,3,0.03%,"11,466","2,500",
-"May 12, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,88,88,"1,311",49,4%,"1,246",95%,15,1.10%,1,0.08%,"1,326","3,942",
-"May 12, 2020",V. Luna Hospital,,0,43,43,43,7,16%,43,100%,0,0.00%,0,0.00%,"1,127","8,695",
-"May 12, 2020",Philippine Genome Center,PGC,16,144,144,446,54,12%,320,72%,0,0.00%,72,16.14%,459,"7,000",
-"May 12, 2020",Cebu TB Reference Laboratory,,8,40,42,165,11,7%,154,93%,0,0.00%,0,0.00%,167,"9,733",
-"May 12, 2020",UP-PGH Molecular Laboratory,,4,19,19,233,17,7%,216,93%,0,0.00%,0,0.00%,233,"1,851",
-"May 12, 2020",Marikina Molecular Diagnostics Laboratory,MMDL,13,40,40,220,22,10%,198,90%,0,0.00%,0,0.00%,254,,
-"May 12, 2020",Jose B. Lingad Memorial Regional Hospital,JBLMRH,1,90,90,90,1,1%,89,99%,0,0.00%,0,0.00%,90,"44,650",
-"May 12, 2020",Eastern Visayas Regional Covid Testing Center,EVRCTC,0,16,17,16,0,0%,24,150%,0,0.00%,0,0.00%,24,-,
-"May 12, 2020",Detoxicare Molecular Diagnostics Laboratory,,,,,"1,894",169,9%,"1,725",91%,0,0.00%,0,0.00%,"1,894",,
-"May 12, 2020",Makati Medical Center (MMC),MMC,6,64,76,"2,316",152,7%,"2,164",93%,0,0.00%,0,0.00%,"2,435","9,075",
-"May 12, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,65,174,174,"3,717",741,20%,"2,976",80%,0,0.00%,0,0.00%,"4,009","3,337",
-"May 12, 2020",The Medical City (TMC),TMC,9,98,99,"2,375",370,16%,"2,005",84%,0,0.00%,0,0.00%,"2,410","1,175",
-"May 12, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,0,0,0,"6,376",617,10%,"5,759",90%,0,0.00%,0,0.00%,"7,368","17,910",
-"May 12, 2020",Philippine Red Cross (PRC),PRC,,,,"18,114",994,7%,"17,120",95%,0,0.00%,0,0.00%,"18,139","130,000",
-"May 12, 2020",Chinese General Hospital (CGH),CGH,22,439,439,"3,272",321,10%,"2,951",90%,0,0.00%,0,0.00%,"3,277",-,
-"May 12, 2020",Philippine Red Cross Logistics & Multipurpose Center,PLMC,30,"2,158","2,158","14,754",538,4%,"14,202",96%,14,0.10%,0,0.00%,"14,755",-,
-"May 12, 2020",Singapore Diagnostics,,8,99,99,351,39,11%,312,89%,0,0.00%,0,0.00%,352,"9,069",
-"May 12, 2020",Lung Center of the Philippines GeneXpert Laboratory,,13,42,42,243,47,19%,196,81%,0,0.00%,0,0,243,894,
-"May 12, 2020",Zamboanga City Medical Center GeneXpert Laboratory,ZCMC,13,72,72,295,51,17%,243,82%,1,0.30%,0,0,298,842,
+Date,Name of Health Facility/Laboratory,Abbrev of Health Facility,Daily Output - Positive Individuals,Daily Output - Unique Individuals Tested ,Daily Output - Tests Conducted,UNIQUE INDIVIDUALS TESTED,POSITIVE INDIVIDUALS,% positive/ unique individuals,NEGATIVE INDIVIDUALS,% negative/ unique individuals,EQUIVOCAL,% equivocal /unique individuals,INVALID,% invalid /unique individuals,TOTAL TESTS CONDUCTED,REMAINING AVAILABLE TESTS
+"April 2, 2020",Research Institute for Tropical Medicine (RITM),RITM,,,,"15,197","2,652",17%,"11,367",75%,32,0.20%,,,"20,826","75,396"
+"April 2, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,,,,473,21,4%,452,96%,0,0.00%,,,478,"4,519"
+"April 2, 2020",San Lazaro Hospital (SLH),SLH,,,,115,31,27%,84,73%,0,0.00%,,,193,"4,846"
+"April 2, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,,,,672,37,6%,634,94%,1,0.10%,,,672,"23,812"
+"April 2, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,,,,332,43,13%,279,84%,10,3.00%,,,335,"4,565"
+"April 2, 2020",Western Visayas Medical Center (WVMC),WVMC,,,,369,31,8%,319,86%,19,5.10%,,,396,"4,584"
+"April 2, 2020",Southern Philippines Medical Center (SPMC),SPMC,,,,721,67,9%,736,102%,3,0.40%,,,927,"4,289"
+"April 2, 2020",Lung Center of the Philippines (LCP),LCP,,,,168,22,13%,146,87%,2,1.20%,,,168,"4,787"
+"April 3, 2020",Research Institute for Tropical Medicine (RITM),RITM,,,,"16,838","3,133",19%,"13,673",81%,32,0.20%,,,"19,196","56,200"
+"April 3, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,,,,604,23,4%,581,96%,0,0.00%,,,612,"4,363"
+"April 3, 2020",San Lazaro Hospital (SLH),SLH,,,,124,37,30%,87,70%,0,0.00%,,,221,"4,846"
+"April 3, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,,,,720,22,3%,698,97%,0,0.00%,,,737,"23,716"
+"April 3, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,,,,351,43,12%,298,85%,10,2.80%,,,357,"4,514"
+"April 3, 2020",Western Visayas Medical Center (WVMC),WVMC,,,,467,31,7%,417,89%,19,4.10%,,,496,"4,368"
+"April 3, 2020",Southern Philippines Medical Center (SPMC),SPMC,,,,958,74,8%,881,92%,3,0.30%,,,"1,089","3,941"
+"April 3, 2020",Lung Center of the Philippines (LCP),LCP,,,,250,32,13%,218,87%,0,0.00%,,,250,"4,649"
+"April 4, 2020",Research Institute for Tropical Medicine (RITM),RITM,,,,"18,642","3,692",20%,"14,924",80%,26,0.10%,,,"22,527","53,800"
+"April 4, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,,,,780,26,3%,754,97%,0,0.00%,,,791,"4,163"
+"April 4, 2020",San Lazaro Hospital (SLH),SLH,,,,124,37,30%,87,70%,0,0.00%,,,221,"4,846"
+"April 4, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,,,,784,22,3%,762,97%,0,0.00%,,,931,"23,620"
+"April 4, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,,,,374,49,13%,310,83%,15,4.00%,,,386,"4,479"
+"April 4, 2020",Western Visayas Medical Center (WVMC),WVMC,,,,650,32,5%,618,95%,0,0.00%,,,696,"4,152"
+"April 4, 2020",Southern Philippines Medical Center (SPMC),SPMC,,,,"1,109",79,7%,"1,030",93%,0,0.00%,,,"1,109","3,590"
+"April 4, 2020",Lung Center of the Philippines (LCP),LCP,,,,250,32,13%,218,87%,0,0.00%,,,250,"4,649"
+"April 5, 2020",Research Institute for Tropical Medicine (RITM),RITM,,,,"18,642","3,692",20%,"14,924",80%,26,0.10%,,,"23,424","53,800"
+"April 5, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,,,,937,27,3%,910,97%,0,0.00%,,,950,"3,988"
+"April 5, 2020",San Lazaro Hospital (SLH),SLH,,,,124,37,30%,87,70%,0,0.00%,,,221,"4,846"
+"April 5, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,,,,867,24,3%,843,97%,0,0.00%,,,"1,020","23,524"
+"April 5, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,,,,375,49,13%,311,83%,15,4.00%,,,386,"4,479"
+"April 5, 2020",Western Visayas Medical Center (WVMC),WVMC,,,,753,33,4%,720,96%,0,0.00%,,,781,"4,032"
+"April 5, 2020",Southern Philippines Medical Center (SPMC),SPMC,,,,"1,109",79,7%,"1,030",93%,0,0.00%,,,"1,109","3,416"
+"April 5, 2020",Lung Center of the Philippines (LCP),LCP,,,,250,32,13%,218,87%,0,0.00%,,,250,"4,649"
+"April 6, 2020",Research Institute for Tropical Medicine (RITM),RITM,,,,"19,937","3,836",19%,"16,075",81%,26,0.10%,,,"23,863","53,680"
+"April 6, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,,,,960,25,3%,935,97%,0,0.00%,,,975,"3,958"
+"April 6, 2020",San Lazaro Hospital (SLH),SLH,,,,159,42,26%,117,74%,0,0.00%,,,273,"4,765"
+"April 6, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,,,,951,25,3%,926,97%,0,0.00%,,,"1,106","23,404"
+"April 6, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,,,,375,49,13%,311,83%,15,4.00%,,,386,"4,479"
+"April 6, 2020",Western Visayas Medical Center (WVMC),WVMC,,,,772,35,5%,737,95%,0,0.00%,,,800,"4,032"
+"April 6, 2020",Southern Philippines Medical Center (SPMC),SPMC,,,,"1,261",82,7%,"1,179",93%,0,0.00%,,,"1,261","3,226"
+"April 6, 2020",Lung Center of the Philippines (LCP),LCP,,,,340,50,15%,290,85%,0,0.00%,,,340,"4,512"
+"April 7, 2020",Research Institute for Tropical Medicine (RITM),RITM,,,,"20,688","3,881",19%,"16,775",81%,26,0.10%,6,0.00%,"24,768","50,776"
+"April 7, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,,,,"1,141",28,2%,"1,113",98%,0,0.00%,0,0.00%,"1,153","3,758"
+"April 7, 2020",San Lazaro Hospital (SLH),SLH,,,,192,48,25%,144,75%,0,0.00%,0,0.00%,309,"4,725"
+"April 7, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,,,,"1,032",25,2%,"1,007",98%,0,0.00%,0,0.00%,"1,202","23,284"
+"April 7, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,,,,501,88,18%,398,79%,15,3.00%,0,0.00%,522,"4,421"
+"April 7, 2020",Western Visayas Medical Center (WVMC),WVMC,,,,884,36,4%,848,96%,0,0.00%,0,0.00%,912,"3,888"
+"April 7, 2020",Southern Philippines Medical Center (SPMC),SPMC,,,,"1,587",97,6%,"1,490",94%,0,0.00%,0,0.00%,"1,625","2,826"
+"April 7, 2020",Lung Center of the Philippines (LCP),LCP,,,,423,55,13%,368,87%,0,0.00%,0,0.00%,423,"4,424"
+"April 7, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,,,,25,0,0%,25,100%,0,0.00%,0,0.00%,28,"5,142"
+"April 7, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,,,,80,10,13%,70,88%,0,0.00%,0,0.00%,80,"2,000"
+"April 8, 2020",Research Institute for Tropical Medicine (RITM),RITM,165,"2,335","1,826","23,023","4,046",18%,"18,944",82%,26,0.10%,7,0.00%,"26,594","42,952"
+"April 8, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,4,179,184,"1,320",32,2%,"1,288",98%,0,0.00%,0,0.00%,"1,337","3,538"
+"April 8, 2020",San Lazaro Hospital (SLH),SLH,2,43,46,235,50,21%,185,79%,0,0.00%,0,0.00%,355,"4,636"
+"April 8, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,0,63,67,"1,095",25,2%,"1,070",98%,0,0.00%,0,0.00%,"1,269","23,112"
+"April 8, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,13,29,31,512,101,20%,409,80%,0,0.00%,2,0.40%,553,"4,421"
+"April 8, 2020",Western Visayas Medical Center (WVMC),WVMC,0,54,148,938,36,4%,902,96%,0,0.00%,0,0.00%,"1,060","3,600"
+"April 8, 2020",Southern Philippines Medical Center (SPMC),SPMC,3,57,161,"1,644",100,6%,"1,543",94%,1,0.10%,0,0.00%,"1,786","2,669"
+"April 8, 2020",Lung Center of the Philippines (LCP),LCP,7,148,148,571,62,11%,509,89%,0,0.00%,0,0.00%,571,"4,263"
+"April 8, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,2,34,34,59,2,3%,57,97%,0,0.00%,0,0.00%,62,"5,128"
+"April 8, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,8,95,95,175,18,10%,157,90%,0,0.00%,0,0.00%,175,"1,800"
+"April 9, 2020",Research Institute for Tropical Medicine (RITM),RITM,146,948,"1,133","23,971","4,192",17%,"19,750",82%,26,0.10%,3,0.00%,"27,727","40,664"
+"April 9, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,87,91,"1,407",32,2%,"1,375",98%,0,0.00%,0,0.00%,"1,428","3,418"
+"April 9, 2020",San Lazaro Hospital (SLH),SLH,7,80,80,315,57,18%,258,82%,0,0.00%,0,0.00%,435,"4,571"
+"April 9, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,0,157,174,"1,252",25,2%,"1,227",98%,0,0.00%,3,0.20%,"1,443","22,896"
+"April 9, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,4,21,21,533,105,20%,427,80%,0,0.00%,1,0.20%,574,"4,242"
+"April 9, 2020",Western Visayas Medical Center (WVMC),WVMC,0,245,247,"1,183",36,3%,"1,147",97%,0,0.00%,0,0.00%,"1,307","3,432"
+"April 9, 2020",Southern Philippines Medical Center (SPMC),SPMC,0,179,195,"1,823",100,5%,"1,722",94%,1,0.10%,2,0.10%,"1,981","2,669"
+"April 9, 2020",Lung Center of the Philippines (LCP),LCP,3,89,89,660,65,10%,595,90%,0,0.00%,1,0.20%,660,"4,163"
+"April 9, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,4,7,63,3,5%,60,95%,0,0.00%,0,0.00%,69,"5,116"
+"April 9, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,31,173,173,348,49,14%,155,45%,0,0.00%,0,0.00%,348,"1,704"
+"April 10, 2020",Research Institute for Tropical Medicine (RITM),RITM,130,859,"1,053","24,830","4,322",17%,"20,480",82%,25,0.10%,3,0.00%,"28,780","40,664"
+"April 10, 2020",Southern Philippines Medical Center (SPMC),SPMC,0,37,45,"1,860",100,5%,"1,760",95%,0,0.00%,3,0.20%,"2,026","2,560"
+"April 10, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,2,82,80,"1,489",34,2%,"1,455",98%,0,0.00%,0,0.00%,"1,508","3,318"
+"April 10, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,0,52,62,"1,304",25,2%,"1,279",98%,15,1.20%,7,0.50%,"1,505","22,824"
+"April 10, 2020",Western Visayas Medical Center (WVMC),WVMC,0,0,0,"1,183",36,3%,"1,147",97%,0,0.00%,0,0.00%,"1,307","3,432"
+"April 10, 2020",Lung Center of the Philippines (LCP),LCP,3,93,93,753,68,9%,685,91%,0,0.00%,0,0.00%,753,"4,037"
+"April 10, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,7,39,40,572,112,20%,455,80%,0,0.00%,5,0.90%,614,"4,142"
+"April 10, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,11,83,83,431,60,14%,371,86%,0,0.00%,0,0.00%,431,"1,560"
+"April 10, 2020",San Lazaro Hospital (SLH),SLH,0,0,0,315,57,18%,258,82%,0,0.00%,0,0.00%,435,"4,571"
+"April 10, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,0,0,63,3,5%,60,95%,0,0.00%,0,0.00%,69,"5,097"
+"April 11, 2020",Research Institute for Tropical Medicine (RITM),RITM,83,570,710,"25,400","4,405",17%,"20,967",83%,25,0.10%,3,0.00%,"29,490","35,664"
+"April 11, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,1,185,190,"1,674",35,2%,"1,639",98%,0,0.00%,0,0.00%,"1,698","3,178"
+"April 11, 2020",San Lazaro Hospital (SLH),SLH,0,0,0,315,57,18%,258,82%,0,0.00%,0,0.00%,435,"4,571"
+"April 11, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,3,87,108,"1,391",28,2%,"1,363",98%,0,0.00%,0,0.00%,"1,613","22,608"
+"April 11, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,7,26,29,583,117,20%,466,80%,0,0.00%,0,0.00%,643,"4,100"
+"April 11, 2020",Western Visayas Medical Center (WVMC),WVMC,0,99,103,"1,282",36,3%,"1,246",97%,0,0.00%,0,0.00%,"1,410","3,432"
+"April 11, 2020",Southern Philippines Medical Center (SPMC),SPMC,3,45,54,"1,908",103,5%,"1,802",94%,0,0.00%,3,0.20%,"2,084","2,450"
+"April 11, 2020",Lung Center of the Philippines (LCP),LCP,0,0,0,753,68,9%,685,91%,0,0.00%,0,0.00%,753,"4,037"
+"April 11, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,14,14,77,4,5%,73,95%,0,0.00%,0,0.00%,83,"5,097"
+"April 11, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,0,0,0,431,60,14%,371,86%,0,0.00%,0,0.00%,431,"1,488"
+"April 12, 2020",Research Institute for Tropical Medicine (RITM),RITM,226,"1,140","1,360","26,540","4,631",17%,"21,881",82%,25,0.10%,3,0.00%,"30,850","35,664"
+"April 12, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,1,270,276,"1,944",36,2%,"1,908",98%,0,0.00%,0,0.00%,"1,974","2,773"
+"April 12, 2020",San Lazaro Hospital (SLH),SLH,0,0,0,315,57,18%,258,82%,0,0.00%,0,0.00%,435,"4,571"
+"April 12, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,0,10,17,"1,401",28,2%,"1,373",98%,0,0.00%,0,0.00%,"1,630","22,584"
+"April 12, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,3,8,10,591,120,20%,471,80%,0,0.00%,0,0.00%,653,"4,080"
+"April 12, 2020",Western Visayas Medical Center (WVMC),WVMC,1,97,107,"1,379",37,3%,"1,342",97%,0,0.00%,0,0.00%,"1,517","3,192"
+"April 12, 2020",Southern Philippines Medical Center (SPMC),SPMC,0,0,0,"1,908",103,5%,"1,802",94%,0,0.00%,3,0.20%,"2,084","2,450"
+"April 12, 2020",Lung Center of the Philippines (LCP),LCP,5,93,93,850,73,9%,776,91%,0,0.00%,1,0.10%,864,"3,930"
+"April 12, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,0,0,77,4,5%,73,95%,0,0.00%,0,0.00%,83,"5,097"
+"April 12, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,10,92,92,799,98,12%,701,88%,0,0.00%,0,0.00%,799,"1,272"
+"April 13, 2020",Research Institute for Tropical Medicine (RITM),RITM,367,"1,934","2,226","28,474","4,998",18%,"23,447",82%,25,0.10%,4,0.00%,"33,076","50,664"
+"April 13, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,41,45,"1,985",36,2%,"1,949",98%,0,0.00%,0,0.00%,"2,019","2,708"
+"April 13, 2020",San Lazaro Hospital (SLH),SLH,6,43,45,358,63,18%,295,82%,0,0.00%,0,0.00%,480,"4,522"
+"April 13, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,0,31,32,"1,432",28,2%,"1,404",98%,0,0.00%,0,0.00%,"1,662","22,488"
+"April 13, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,23,134,144,725,143,20%,570,79%,3,0.40%,9,1.20%,797,"3,922"
+"April 13, 2020",Western Visayas Medical Center (WVMC),WVMC,0,0,0,"1,379",37,3%,"1,342",97%,0,0.00%,0,0.00%,"1,517","3,192"
+"April 13, 2020",Southern Philippines Medical Center (SPMC),SPMC,2,7,10,"1,915",105,5%,"1,807",94%,0,0.00%,3,0.20%,"2,094","2,450"
+"April 13, 2020",Lung Center of the Philippines (LCP),LCP,11,109,109,959,84,9%,874,91%,0,0.00%,1,0.10%,973,"3,750"
+"April 13, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,0,0,77,4,5%,73,95%,0,0.00%,0,0.00%,83,"4,854"
+"April 13, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,0,0,0,799,98,12%,701,88%,0,0.00%,0,0.00%,799,"1,200"
+"April 14, 2020",Research Institute for Tropical Medicine (RITM),RITM,95,788,834,"29,262","5,093",17%,"24,137",82%,25,0.10%,7,0.00%,"33,910","50,664"
+"April 14, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,6,214,216,"2,199",42,2%,"2,157",98%,0,0.00%,0,0.00%,"2,235","2,443"
+"April 14, 2020",San Lazaro Hospital (SLH),SLH,5,30,30,388,68,18%,320,82%,0,0.00%,0,0.00%,510,"4,488"
+"April 14, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,7,102,130,"1,534",35,2%,"1,499",98%,0,0.00%,0,0.00%,"1,792","22,128"
+"April 14, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,3,47,47,772,146,19%,614,80%,3,0.40%,9,1.20%,844,"3,867"
+"April 14, 2020",Western Visayas Medical Center (WVMC),WVMC,0,43,89,"1,422",37,3%,"1,385",97%,0,0.00%,0,0.00%,"1,606","3,096"
+"April 14, 2020",Southern Philippines Medical Center (SPMC),SPMC,3,60,79,"1,975",108,5%,"1,864",94%,0,0.00%,3,0.20%,"2,173","2,337"
+"April 14, 2020",Lung Center of the Philippines (LCP),LCP,17,214,214,"1,173",101,9%,"1,070",91%,0,0.00%,2,0.20%,"1,187","3,500"
+"April 14, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,25,26,102,5,5%,97,95%,0,0.00%,0,0.00%,109,"4,835"
+"April 14, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,47,265,265,"1,064",145,14%,919,86%,0,0.00%,0,0.00%,"1,064","1,056"
+"April 14, 2020",Makati Medical Center (MMC),MMC,0,23,23,23,0,0%,23,100%,0,0.00%,0,0.00%,23,"1,901"
+"April 14, 2020",Detoxicare Molecular Diagnostics Laboratory,,0,13,13,13,0,0%,13,100%,0,0.00%,0,0.00%,13,970
+"April 14, 2020",The Medical City (TMC),TMC,2,20,20,20,2,10%,18,90%,0,0.00%,0,0.00%,20,"1,945"
+"April 15, 2020",Research Institute for Tropical Medicine (RITM),RITM,305,"1,372","1,622","30,634","5,398",18%,"25,204",82%,25,0.10%,7,0.00%,"35,532","45,864"
+"April 15, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,78,81,"2,277",42,2%,"2,235",98%,0,0.00%,0,0.00%,"2,316","2,338"
+"April 15, 2020",San Lazaro Hospital (SLH),SLH,21,91,91,409,89,22%,320,78%,0,0.00%,0,0.00%,601,"4,389"
+"April 15, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,23,156,216,"1,690",58,3%,"1,632",97%,0,0.00%,0,0.00%,"2,008","21,984"
+"April 15, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,36,116,118,876,182,21%,690,79%,0,0.00%,4,0.50%,962,"3,729"
+"April 15, 2020",Western Visayas Medical Center (WVMC),WVMC,2,50,52,"1,472",39,3%,"1,433",97%,0,0.00%,0,0.00%,"1,658","3,796"
+"April 15, 2020",Southern Philippines Medical Center (SPMC),SPMC,2,39,97,"2,055",110,5%,"1,942",95%,0,0.00%,3,0.10%,"2,270","2,222"
+"April 15, 2020",Lung Center of the Philippines (LCP),LCP,10,186,186,"1,358",111,8%,"1,245",92%,0,0.00%,2,0.10%,"1,373","3,300"
+"April 15, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,9,9,111,5,5%,106,95%,0,0.00%,0,0.00%,118,"4,816"
+"April 15, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,0,0,0,"1,064",145,14%,919,86%,0,0.00%,0,0.00%,"1,064",936
+"April 15, 2020",Makati Medical Center (MMC),MMC,2,127,127,150,2,1%,148,99%,0,0.00%,0,0.00%,150,"1,797"
+"April 15, 2020",Detoxicare Molecular Diagnostics Laboratory,,0,5,5,18,0,0%,17,94%,0,0.00%,1,5.60%,18,960
+"April 15, 2020",The Medical City (TMC),TMC,5,40,40,60,7,12%,53,88%,0,0.00%,0,0.00%,60,"1,917"
+"April 15, 2020",V. Luna Hospital,,0,41,41,41,0,0%,41,100%,0,0.00%,0,0.00%,41,"9,956"
+"April 16, 2020",Research Institute for Tropical Medicine (RITM),RITM,161,"1,213","1,387","31,847","5,559",17%,"26,256",82%,24,0.10%,8,0.00%,"36,919","40,848"
+"April 16, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,132,136,"2,409",42,2%,"2,367",98%,0,0.00%,0,0.00%,"2,452","2,163"
+"April 16, 2020",San Lazaro Hospital (SLH),SLH,14,124,124,603,103,17%,497,82%,0,0.00%,3,0.50%,725,"4,257"
+"April 16, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,28,223,237,"1,913",86,4%,"1,827",96%,0,0.00%,0,0.00%,"2,245","21,480"
+"April 16, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,16,130,131,"1,002",198,20%,803,80%,1,0.10%,0,0.00%,"1,093","3,568"
+"April 16, 2020",Western Visayas Medical Center (WVMC),WVMC,5,72,171,"1,544",44,3%,"1,500",97%,0,0.00%,0,0.00%,"1,829","3,548"
+"April 16, 2020",Southern Philippines Medical Center (SPMC),SPMC,8,97,159,"2,195",118,5%,"2,074",94%,0,0.00%,3,0.10%,"2,429","2,045"
+"April 16, 2020",Lung Center of the Philippines (LCP),LCP,6,279,279,"1,637",117,7%,"1,518",93%,0,0.00%,2,0.10%,"1,652","3,000"
+"April 16, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,15,15,126,5,4%,121,96%,0,0.00%,0,0.00%,133,"4,781"
+"April 16, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,NR,NR,NR,"1,064",145,14%,919,86%,0,0.00%,0,0.00%,"1,064",936
+"April 16, 2020",Makati Medical Center (MMC),MMC,4,31,31,181,6,3%,175,97%,0,0.00%,0,0.00%,181,"1,762"
+"April 16, 2020",Detoxicare Molecular Diagnostics Laboratory,,0,1,1,19,0,0%,18,95%,0,0.00%,1,5.30%,19,960
+"April 16, 2020",The Medical City (TMC),TMC,6,33,33,93,13,14%,80,86%,0,0.00%,0,0.00%,93,"1,891"
+"April 16, 2020",V. Luna Hospital,,1,20,20,61,1,2%,60,98%,0,0.00%,0,0.00%,61,"9,932"
+"April 16, 2020",Philippine Red Cross (PRC),PRC,4,258,258,258,4,2%,254,98%,0,0.00%,0,0.00%,258,"10,000"
+"April 16, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,57,928,929,928,57,6%,871,94%,0,0.00%,0,0.00%,929,"4,790"
+"April 17, 2020",Research Institute for Tropical Medicine (RITM),RITM,213,995,"1,164","32,842","5,772",18%,"27,038",82%,24,0.10%,8,0.00%,"38,083","31,648"
+"April 17, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,330,330,"2,730",42,2%,"2,688",98%,0,0.00%,0,0.00%,"2,782","1,763"
+"April 17, 2020",San Lazaro Hospital (SLH),SLH,3,73,91,676,106,16%,567,84%,0,0.00%,3,0.40%,816,"4,154"
+"April 17, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,85,417,423,"2,330",171,7%,"2,159",93%,0,0.00%,0,0.00%,"2,668","21,072"
+"April 17, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,8,96,96,"1,098",206,19%,890,81%,2,0.20%,0,0.00%,"1,189","3,464"
+"April 17, 2020",Western Visayas Medical Center (WVMC),WVMC,1,79,100,"1,623",45,3%,"1,578",97%,0,0.00%,0,0.00%,"1,929","3,324"
+"April 17, 2020",Southern Philippines Medical Center (SPMC),SPMC,0,46,54,"2,241",118,5%,"2,120",95%,0,0.00%,3,0.10%,"2,483","1,987"
+"April 17, 2020",Lung Center of the Philippines (LCP),LCP,13,446,459,"2,095",130,6%,"1,964",94%,0,0.00%,1,0.00%,"2,111","2,400"
+"April 17, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,14,15,140,5,4%,135,96%,0,0.00%,0,0.00%,148,"4,700"
+"April 17, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,33,276,276,"1,340",178,13%,"1,162",87%,0,0.00%,0,0.00%,"1,340",672
+"April 17, 2020",Makati Medical Center (MMC),MMC,13,121,121,302,19,6%,283,94%,0,0.00%,0,0.00%,302,"1,617"
+"April 17, 2020",Detoxicare Molecular Diagnostics Laboratory,,1,46,46,65,1,2%,63,97%,0,0.00%,1,1.50%,65,905
+"April 17, 2020",The Medical City (TMC),TMC,5,69,69,162,18,11%,144,89%,0,0.00%,0,0.00%,162,"1,816"
+"April 17, 2020",V. Luna Hospital,,0,24,24,85,1,1%,84,99%,0,0.00%,0,0.00%,85,"9,903"
+"April 17, 2020",Philippine Red Cross (PRC),PRC,10,358,358,616,14,2%,602,98%,0,0.00%,0,0.00%,616,"10,000"
+"April 17, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,8,291,291,"1,219",65,5%,"1,154",95%,0,0.00%,0,0.00%,"1,220","3,846"
+"April 17, 2020",Chinese General Hospital (CGH),CGH,3,49,49,49,3,6%,46,94%,0,0.00%,0,0.00%,49,"1,610"
+"April 18, 2020",Research Institute for Tropical Medicine (RITM),RITM,178,"1,035","1,247","33,877","5,950",18%,"27,895",82%,24,0.10%,8,0.00%,"39,330","31,648"
+"April 18, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,330,330,"2,730",42,2%,"2,688",98%,0,0.00%,0,0.00%,"3,112","1,763"
+"April 18, 2020",San Lazaro Hospital (SLH),SLH,11,227,288,903,117,13%,783,87%,0,0.00%,3,0.30%,"1,104","3,851"
+"April 18, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,7,245,256,"2,575",178,7%,"2,397",93%,0,0.00%,0,0.00%,"2,924","20,904"
+"April 18, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,4,84,85,"1,182",210,18%,968,82%,4,0.30%,0,0.00%,"1,274","3,464"
+"April 18, 2020",Western Visayas Medical Center (WVMC),WVMC,4,240,241,"1,863",49,3%,"1,814",97%,0,0.00%,0,0.00%,"2,170","3,124"
+"April 18, 2020",Southern Philippines Medical Center (SPMC),SPMC,4,115,159,"2,368",122,5%,"2,243",95%,0,0.00%,3,0.10%,"2,642","1,803"
+"April 18, 2020",Lung Center of the Philippines (LCP),LCP,1,181,181,"2,277",131,6%,"2,144",94%,0,0.00%,2,0.10%,"2,292","2,220"
+"April 18, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,6,34,34,174,11,6%,163,94%,0,0.00%,0,0.00%,182,"4,700"
+"April 18, 2020",V. Luna Hospital,,0,16,16,101,1,1%,100,99%,0,0.00%,0,0.00%,101,"9,881"
+"April 18, 2020",Detoxicare Molecular Diagnostics Laboratory,,0,3,3,68,1,1%,66,97%,0,0.00%,1,1.50%,68,899
+"April 18, 2020",Makati Medical Center (MMC),MMC,12,266,266,568,31,5%,537,95%,0,0.00%,0,0.00%,568,"1,324"
+"April 18, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,2,92,92,"1,524",187,12%,"1,337",88%,0,0.00%,0,0.00%,"1,524",600
+"April 18, 2020",The Medical City (TMC),TMC,5,70,70,232,23,10%,209,90%,0,0.00%,0,0.00%,232,"1,741"
+"April 18, 2020",Philippine Red Cross (PRC),PRC,6,64,64,"1,277",71,6%,"1,206",94%,0,0.00%,0,0.00%,"1,284","11,180"
+"April 18, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,23,399,399,"1,014",36,4%,978,96%,0,0.00%,0,0.00%,"1,014","82,752"
+"April 18, 2020",Chinese General Hospital (CGH),CGH,3,55,58,104,6,6%,98,94%,0,0.00%,0,0.00%,107,"1,550"
+"April 19, 2020",Research Institute for Tropical Medicine (RITM),RITM,18,473,654,"34,350","5,968",17%,"28,349",83%,25,0.10%,8,0.00%,"39,984","31,648"
+"April 19, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,178,184,"3,107",42,1%,"3,065",99%,0,0.00%,0,0.00%,"3,172","1,275"
+"April 19, 2020",San Lazaro Hospital (SLH),SLH,12,215,215,"1,118",129,12%,983,88%,0,0.00%,6,0.50%,"1,319","3,627"
+"April 19, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,4,116,118,"2,691",182,7%,"2,509",93%,0,0.00%,0,0.00%,"3,042","20,736"
+"April 19, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,12,82,82,"1,264",222,18%,"1,034",82%,8,0.60%,0,0.00%,"1,356","3,225"
+"April 19, 2020",Western Visayas Medical Center (WVMC),WVMC,0,40,42,"1,903",49,3%,"1,854",97%,0,0.00%,0,0.00%,"2,212","3,052"
+"April 19, 2020",Southern Philippines Medical Center (SPMC),SPMC,3,34,39,"2,402",125,5%,"2,274",95%,0,0.00%,3,0.10%,"2,681","11,759"
+"April 19, 2020",Lung Center of the Philippines (LCP),LCP,3,88,88,"2,365",134,6%,"2,229",94%,0,0.00%,2,0.10%,"2,380","2,100"
+"April 19, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,0,0,174,11,6%,163,94%,0,0.00%,0,0.00%,182,"4,700"
+"April 19, 2020",V. Luna Hospital,,0,0,0,101,1,1%,100,99%,0,0.00%,0,0.00%,101,"9,881"
+"April 19, 2020",Detoxicare Molecular Diagnostics Laboratory,,2,112,112,179,3,2%,176,98%,0,0.00%,0,0.00%,179,779
+"April 19, 2020",Makati Medical Center (MMC),MMC,0,0,0,568,31,5%,537,95%,0,0.00%,0,0.00%,568,"1,324"
+"April 19, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,35,88,88,"1,612",222,14%,"1,390",86%,0,0.00%,0,0.00%,"1,612",600
+"April 19, 2020",The Medical City (TMC),TMC,6,33,33,265,29,11%,236,89%,0,0.00%,0,0.00%,265,"1,741"
+"April 19, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,56,369,419,"1,646",127,8%,"1,519",92%,0,0.00%,0,0.00%,"1,702","11,029"
+"April 19, 2020",Philippine Red Cross (PRC),PRC,55,576,576,"1,590",91,6%,"1,499",94%,0,0.00%,0,0.00%,"1,590","81,672"
+"April 19, 2020",Chinese General Hospital (CGH),CGH,1,26,26,130,7,5%,123,95%,0,0.00%,0,0.00%,130,"1,298"
+"April 20, 2020",Research Institute for Tropical Medicine (RITM),RITM,27,499,644,"34,849","5,995",17%,"28,821",83%,25,0.10%,8,0.00%,"40,628","28,552"
+"April 20, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,1,141,144,"3,248",43,1%,"3,205",99%,0,0.00%,0,0.00%,"3,316","1,100"
+"April 20, 2020",San Lazaro Hospital (SLH),SLH,1,183,183,"1,301",130,10%,"1,165",90%,0,0.00%,6,0.50%,"1,502","3,436"
+"April 20, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,2,201,207,"2,892",184,6%,"2,708",94%,0,0.00%,0,0.00%,"3,249","20,424"
+"April 20, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,9,92,93,"1,356",231,17%,"1,117",82%,8,0.60%,0,0.00%,"1,449","3,093"
+"April 20, 2020",Western Visayas Medical Center (WVMC),WVMC,0,80,85,"1,983",49,2%,"1,934",98%,0,0.00%,0,0.00%,"2,297","2,880"
+"April 20, 2020",Southern Philippines Medical Center (SPMC),SPMC,5,158,196,"2,560",130,5%,"2,427",95%,0,0.00%,3,0.10%,"2,877","11,525"
+"April 20, 2020",Lung Center of the Philippines (LCP),LCP,4,186,186,"2,551",138,5%,"2,411",95%,0,0.00%,2,0.10%,"2,566","1,900"
+"April 20, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,0,0,174,11,6%,163,94%,0,0.00%,0,0.00%,182,"4,646"
+"April 20, 2020",V. Luna Hospital,,1,13,14,114,2,2%,112,98%,0,0.00%,0,0.00%,115,"9,861"
+"April 20, 2020",Detoxicare Molecular Diagnostics Laboratory,,20,120,120,299,23,8%,276,92%,0,0.00%,0,0.00%,299,647
+"April 20, 2020",Makati Medical Center (MMC),MMC,15,108,108,676,46,7%,630,93%,0,0.00%,0,0.00%,676,"1,139"
+"April 20, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,7,92,92,"1,704",229,13%,"1,475",87%,0,0.00%,0,0.00%,"1,704",288
+"April 20, 2020",The Medical City (TMC),TMC,16,86,86,351,45,13%,306,87%,0,0.00%,0,0.00%,351,"1,773"
+"April 20, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,28,226,243,"1,872",155,8%,"1,715",92%,0,0.00%,2,0.10%,"1,945","10,997"
+"April 20, 2020",Philippine Red Cross (PRC),PRC,6,99,99,"1,689",97,6%,"1,592",94%,0,0.00%,0,0.00%,"1,689","81,672"
+"April 20, 2020",Chinese General Hospital (CGH),CGH,17,159,159,453,39,9%,414,91%,0,0.00%,0,0.00%,456,"1,128"
+"April 21, 2020",Research Institute for Tropical Medicine (RITM),RITM,18,640,805,"35,489","5,995",17%,"29,461",83%,25,0.10%,8,0.00%,"41,433","18,784"
+"April 21, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,186,190,"3,434",43,1%,"3,391",99%,0,0.00%,0,0.00%,"3,506",885
+"April 21, 2020",San Lazaro Hospital (SLH),SLH,6,128,128,"1,429",136,10%,"1,287",90%,0,0.00%,6,0.40%,"1,630","3,100"
+"April 21, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,7,53,57,"2,945",191,6%,"2,754",94%,0,0.00%,0,0.00%,"3,306",920
+"April 21, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,40,267,271,"1,623",271,17%,"1,294",80%,12,0.70%,46,2.80%,"1,720","2,799"
+"April 21, 2020",Western Visayas Medical Center (WVMC),WVMC,2,164,178,"2,147",51,2%,"2,096",98%,0,0.00%,0,0.00%,"2,475","2,736"
+"April 21, 2020",Southern Philippines Medical Center (SPMC),SPMC,2,121,179,"2,681",132,5%,"2,546",95%,0,0.00%,3,0.10%,"3,056","11,330"
+"April 21, 2020",Lung Center of the Philippines (LCP),LCP,6,93,93,"2,644",144,5%,"2,498",94%,0,0.00%,2,0.10%,"2,659","1,800"
+"April 21, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,3,41,42,215,14,7%,198,92%,3,1.40%,0,0.00%,224,"4,587"
+"April 21, 2020",V. Luna Hospital,,1,25,29,139,3,2%,136,98%,0,0.00%,0,0.00%,144,"9,825"
+"April 21, 2020",Detoxicare Molecular Diagnostics Laboratory,,2,60,60,359,25,7%,334,93%,0,0.00%,0,0.00%,359,583
+"April 21, 2020",Makati Medical Center (MMC),MMC,27,160,160,836,73,9%,763,91%,0,0.00%,0,0.00%,836,964
+"April 21, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,33,184,184,"1,888",262,14%,"1,626",86%,0,0.00%,0,0.00%,"1,888",144
+"April 21, 2020",The Medical City (TMC),TMC,11,39,39,390,56,14%,334,86%,0,0.00%,0,0.00%,390,"1,773"
+"April 21, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,47,511,558,"2,430",202,8%,"2,228",92%,0,0.00%,0,0.00%,"2,503","10,534"
+"April 21, 2020",Philippine Red Cross (PRC),PRC,53,196,196,"1,885",150,8%,"1,735",92%,0,0.00%,0,0.00%,"1,885","70,000"
+"April 21, 2020",Chinese General Hospital (CGH),CGH,10,62,62,515,49,10%,466,90%,0,0.00%,0,0.00%,518,"1,063"
+"April 22, 2020",Research Institute for Tropical Medicine (RITM),RITM,339,"1,033","1,157","36,522","6,334",17%,"30,161",83%,22,0.10%,5,0.00%,"42,590","20,944"
+"April 22, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,92,93,"3,526",43,1%,"3,483",99%,0,0.00%,0,0.00%,"3,599",735
+"April 22, 2020",San Lazaro Hospital (SLH),SLH,8,299,299,"1,728",144,8%,"1,578",91%,0,0.00%,6,0.30%,"1,929","2,785"
+"April 22, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,142,434,443,"3,379",333,10%,"3,045",90%,1,0.00%,0,0.00%,"3,749","19,700"
+"April 22, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,32,290,298,"1,913",303,16%,"1,546",81%,18,0.90%,46,2.40%,"2,018","2,436"
+"April 22, 2020",Western Visayas Medical Center (WVMC),WVMC,3,243,277,"2,390",54,2%,"2,336",98%,0,0.00%,0,0.00%,"2,752","2,400"
+"April 22, 2020",Southern Philippines Medical Center (SPMC),SPMC,2,108,123,"2,789",134,5%,"2,652",95%,0,0.00%,3,0.10%,"3,179","11,194"
+"April 22, 2020",Lung Center of the Philippines (LCP),LCP,18,458,458,"3,102",162,5%,"2,938",95%,0,0.00%,2,0.10%,"3,117","1,300"
+"April 22, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,6,32,38,253,20,8%,230,91%,3,1.20%,0,0.00%,262,"4,446"
+"April 22, 2020",V. Luna Hospital,,0,31,31,170,3,2%,167,98%,0,0.00%,0,0.00%,175,"9,786"
+"April 22, 2020",Detoxicare Molecular Diagnostics Laboratory,,0,5,5,364,25,7%,339,93%,0,0.00%,0,0.00%,364,574
+"April 22, 2020",Makati Medical Center (MMC),MMC,1,8,8,844,74,9%,770,91%,0,0.00%,0,0.00%,844,888
+"April 22, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,,,,"1,888",262,14%,"1,626",86%,0,0.00%,0,0.00%,"1,888",144
+"April 22, 2020",The Medical City (TMC),TMC,7,69,69,459,63,14%,396,86%,0,0.00%,0,0.00%,459,"1,677"
+"April 22, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,0,73,164,"2,503",195,8%,"2,308",92%,0,0.00%,0,0.00%,"2,667","10,240"
+"April 22, 2020",Philippine Red Cross (PRC),PRC,10,217,217,"2,102",160,8%,"1,942",92%,0,0.00%,0,0.00%,"2,102","70,000"
+"April 22, 2020",Chinese General Hospital (CGH),CGH,20,134,134,649,69,11%,580,89%,0,0.00%,0,0.00%,652,918
+"April 23, 2020",Research Institute for Tropical Medicine (RITM),RITM,25,929,"1,120","37,451","6,359",17%,"31,065",83%,22,0.10%,5,0.00%,"43,710","18,944"
+"April 23, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,7,350,453,"3,876",50,1%,"3,826",99%,0,0.00%,0,0.00%,"4,052","3,185"
+"April 23, 2020",San Lazaro Hospital (SLH),SLH,14,274,274,"2,002",158,8%,"1,838",92%,0,0.00%,6,0.30%,"2,203","2,489"
+"April 23, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,20,346,356,"3,725",353,9%,"3,371",90%,1,0.00%,0,0.00%,"4,105","19,272"
+"April 23, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,37,292,300,"2,205",340,15%,"1,793",81%,19,0.90%,53,2.40%,"2,318","2,116"
+"April 23, 2020",Western Visayas Medical Center (WVMC),WVMC,0,95,111,"2,485",54,2%,"2,431",98%,0,0.00%,0,0.00%,"2,863","2,280"
+"April 23, 2020",Southern Philippines Medical Center (SPMC),SPMC,1,166,210,"2,955",135,5%,"2,817",95%,0,0.00%,3,0.10%,"3,389","10,971"
+"April 23, 2020",Lung Center of the Philippines (LCP),LCP,41,341,341,"3,443",203,6%,"3,238",94%,0,0.00%,2,0.10%,"3,458","4,300"
+"April 23, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,55,55,308,21,7%,284,92%,3,1.00%,0,0.00%,317,"4,360"
+"April 23, 2020",V. Luna Hospital,,0,35,40,205,3,1%,202,99%,0,0.00%,0,0.00%,215,"9,739"
+"April 23, 2020",Detoxicare Molecular Diagnostics Laboratory,,0,22,22,386,25,6%,361,94%,0,0.00%,0,0.00%,386,548
+"April 23, 2020",Makati Medical Center (MMC),MMC,8,107,107,951,82,9%,869,91%,0,0.00%,0,0.00%,951,765
+"April 23, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,12,93,93,"2,074",293,14%,"1,781",86%,0,0.00%,0,0.00%,"2,074",960
+"April 23, 2020",The Medical City (TMC),TMC,6,41,41,500,69,14%,431,86%,0,0.00%,0,0.00%,500,"1,677"
+"April 23, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,11,238,287,"2,741",206,8%,"2,533",92%,0,0.00%,2,0.10%,"2,954","9,972"
+"April 23, 2020",Philippine Red Cross (PRC),PRC,59,626,626,"2,728",219,8%,"2,509",92%,0,0.00%,0,0.00%,"2,728","70,000"
+"April 23, 2020",Chinese General Hospital (CGH),CGH,6,81,81,730,75,10%,655,90%,0,0.00%,0,0.00%,733,832
+"April 24, 2020",Research Institute for Tropical Medicine (RITM),RITM,16,575,691,"38,026","6,375",17%,"31,625",83%,22,0.10%,4,0.00%,"44,401","13,144"
+"April 24, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,8,278,301,"4,153",58,1%,"4,079",98%,0,0.00%,16,0.40%,"4,353","2,885"
+"April 24, 2020",San Lazaro Hospital (SLH),SLH,4,229,238,"2,231",162,7%,"2,063",92%,0,0.00%,6,0.30%,"2,441","2,235"
+"April 24, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,32,267,277,"3,992",385,10%,"3,606",90%,1,0.00%,0,0.00%,"4,382","19,000"
+"April 24, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,52,336,370,"2,541",392,15%,"2,069",81%,27,1.10%,53,2.10%,"2,688","1,698"
+"April 24, 2020",Western Visayas Medical Center (WVMC),WVMC,0,134,140,"2,619",54,2%,"2,565",98%,0,0.00%,0,0.00%,"3,003","2,088"
+"April 24, 2020",Southern Philippines Medical Center (SPMC),SPMC,6,91,120,"3,046",141,5%,"2,902",95%,0,0.00%,3,0.10%,"3,509","10,835"
+"April 24, 2020",Lung Center of the Philippines (LCP),LCP,36,759,759,"4,202",239,6%,"3,961",94%,0,0.00%,2,0.00%,"4,217","3,400"
+"April 24, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,27,27,335,21,6%,311,93%,3,0.90%,0,0.00%,344,"4,286"
+"April 24, 2020",V. Luna Hospital,,0,49,50,254,3,1%,251,99%,0,0.00%,0,0.00%,265,"9,683"
+"April 24, 2020",Detoxicare Molecular Diagnostics Laboratory,,2,68,68,454,27,6%,427,94%,0,0.00%,0,0.00%,454,468
+"April 24, 2020",Makati Medical Center (MMC),MMC,4,103,103,"1,054",86,8%,968,92%,0,0.00%,0,0.00%,"1,054",650
+"April 24, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,,,,"2,074",293,14%,"1,781",86%,0,0.00%,0,0.00%,"2,074",960
+"April 24, 2020",The Medical City (TMC),TMC,13,54,54,554,82,15%,472,85%,0,0.00%,0,0.00%,554,"1,537"
+"April 24, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,5,58,135,"2,799",211,8%,"2,588",92%,0,0.00%,0,0.00%,"3,089","8,380"
+"April 24, 2020",Philippine Red Cross (PRC),PRC,75,895,895,"3,623",294,8%,"3,329",92%,0,0.00%,0,0.00%,"3,623","70,000"
+"April 24, 2020",Chinese General Hospital (CGH),CGH,26,107,108,837,101,12%,736,88%,0,0.00%,0,0.00%,841,722
+"April 25, 2020",Research Institute for Tropical Medicine (RITM),RITM,104,"1,275","1,418","39,301","6,479",16%,"32,796",83%,22,0.10%,4,0.00%,"45,819","48,144"
+"April 25, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,10,219,250,"4,356",68,2%,"4,288",98%,0,0.00%,0,0.00%,"4,603","2,550"
+"April 25, 2020",San Lazaro Hospital (SLH),SLH,7,235,236,"2,466",169,7%,"2,291",93%,0,0.00%,6,0.20%,"2,677","1,889"
+"April 25, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,63,123,124,"4,115",448,11%,"3,666",89%,1,0.00%,0,0.00%,"4,506","18,700"
+"April 25, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,57,338,369,"2,879",449,16%,"2,343",81%,34,1.20%,53,1.80%,"3,057","1,296"
+"April 25, 2020",Western Visayas Medical Center (WVMC),WVMC,5,186,193,"2,805",59,2%,"2,746",98%,0,0.00%,0,0.00%,"3,196","1,848"
+"April 25, 2020",Southern Philippines Medical Center (SPMC),SPMC,4,95,130,"3,141",145,5%,"2,993",95%,0,0.00%,3,0.10%,"3,639","10,705"
+"April 25, 2020",Lung Center of the Philippines (LCP),LCP,14,199,199,"4,401",253,6%,"4,146",94%,0,0.00%,2,0.00%,"4,416","3,150"
+"April 25, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,62,63,397,21,5%,373,94%,3,0.80%,0,0.00%,407,"4,216"
+"April 25, 2020",V. Luna Hospital,,0,55,56,309,3,1%,306,99%,0,0.00%,0,0.00%,321,"9,619"
+"April 25, 2020",Detoxicare Molecular Diagnostics Laboratory,,3,36,36,490,30,6%,460,94%,0,0.00%,0,0.00%,490,426
+"April 25, 2020",Makati Medical Center (MMC),MMC,5,80,80,"1,134",91,8%,"1,043",92%,0,0.00%,0,0.00%,"1,134",572
+"April 25, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,,,,"2,074",293,14%,"1,781",86%,0,0.00%,0,0.00%,"2,074",960
+"April 25, 2020",The Medical City (TMC),TMC,12,64,64,618,94,15%,524,85%,0,0.00%,0,0.00%,618,"1,537"
+"April 25, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,54,220,220,"3,026",265,9%,"2,761",91%,0,0.00%,0,0.00%,"3,309","7,920"
+"April 25, 2020",Philippine Red Cross (PRC),PRC,,,,"3,623",294,8%,"3,329",92%,0,0.00%,0,0.00%,"3,623","70,000"
+"April 25, 2020",Chinese General Hospital (CGH),CGH,0,58,59,895,101,11%,794,89%,0,0.00%,0,0.00%,900,722
+"April 26, 2020",Research Institute for Tropical Medicine (RITM),RITM,91,"1,180","1,344","40,481","6,570",16%,"33,885",84%,22,0.10%,4,0.00%,"47,163","48,144"
+"April 26, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,5,355,391,"4,711",73,2%,"4,637",98%,0,0.00%,0,0.00%,"4,994","2,100"
+"April 26, 2020",San Lazaro Hospital (SLH),SLH,13,186,186,"2,652",182,7%,"2,464",93%,0,0.00%,6,0.20%,"2,863","1,557"
+"April 26, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,40,411,425,"4,526",488,11%,"4,037",89%,1,0.00%,0,0.00%,"4,931","17,900"
+"April 26, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,31,192,192,"3,071",480,16%,"2,504",82%,34,1.10%,53,1.70%,"3,249","1,296"
+"April 26, 2020",Western Visayas Medical Center (WVMC),WVMC,1,129,131,"2,934",60,2%,"2,874",98%,0,0.00%,0,0.00%,"3,327","1,752"
+"April 26, 2020",Southern Philippines Medical Center (SPMC),SPMC,3,54,62,"3,195",148,5%,"3,044",95%,0,0.00%,3,0.10%,"3,701","10,639"
+"April 26, 2020",Lung Center of the Philippines (LCP),LCP,11,254,254,"4,655",264,6%,"4,389",94%,0,0.00%,2,0.00%,"4,670","2,850"
+"April 26, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,25,25,422,21,5%,398,94%,3,0.70%,0,0.00%,432,"4,173"
+"April 26, 2020",V. Luna Hospital,,0,0,0,309,3,1%,306,99%,0,0.00%,0,0.00%,321,"9,619"
+"April 26, 2020",Detoxicare Molecular Diagnostics Laboratory,,14,152,152,642,44,7%,598,93%,0,0.00%,0,0.00%,642,260
+"April 26, 2020",Makati Medical Center (MMC),MMC,9,123,123,"1,257",100,8%,"1,157",92%,0,0.00%,0,0.00%,"1,257",398
+"April 26, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,27,182,182,"2,461",333,14%,"2,127",86%,1,0.00%,0,0.00%,"2,461",960
+"April 26, 2020",The Medical City (TMC),TMC,21,116,116,734,115,16%,619,84%,0,0.00%,0,0.00%,734,"1,363"
+"April 26, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,12,431,469,"3,447",277,8%,"3,170",92%,0,0.00%,0,0.00%,"3,778","21,240"
+"April 26, 2020",Philippine Red Cross (PRC),PRC,33,843,843,"4,466",327,7%,"4,139",93%,0,0.00%,0,0.00%,"4,466","70,000"
+"April 26, 2020",Chinese General Hospital (CGH),CGH,0,0,0,895,101,11%,794,89%,0,0.00%,0,0.00%,900,722
+"April 27, 2020",Research Institute for Tropical Medicine (RITM),RITM,129,"1,390","1,575","41,871","6,699",16%,"35,144",84%,22,0.10%,6,0.00%,"48,738","47,280"
+"April 27, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,367,466,"5,078",73,1%,"5,005",99%,0,0.00%,0,0.00%,"5,460","1,510"
+"April 27, 2020",San Lazaro Hospital (SLH),SLH,16,290,316,"2,942",198,7%,"2,738",93%,0,0.00%,6,0.20%,"3,179","1,225"
+"April 27, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,37,465,499,"4,991",525,11%,"4,465",89%,1,0.00%,0,0.00%,"5,430","17,400"
+"April 27, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,30,222,240,"3,293",510,15%,"2,692",82%,37,1.10%,54,1.60%,"3,489",0
+"April 27, 2020",Western Visayas Medical Center (WVMC),WVMC,0,0,0,"2,934",60,2%,"2,874",98%,0,0.00%,0,0.00%,"3,327","1,752"
+"April 27, 2020",Southern Philippines Medical Center (SPMC),SPMC,3,199,218,"3,394",151,4%,"3,240",95%,0,0.00%,3,0.10%,"3,919","10,404"
+"April 27, 2020",Lung Center of the Philippines (LCP),LCP,12,272,272,"4,927",276,6%,"4,649",94%,0,0.00%,2,0.00%,"4,942","2,550"
+"April 27, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,19,19,441,21,5%,417,95%,3,0.70%,0,0.00%,451,"4,108"
+"April 27, 2020",V. Luna Hospital,,0,49,50,358,3,1%,355,99%,0,0.00%,0,0.00%,371,"9,563"
+"April 27, 2020",Detoxicare Molecular Diagnostics Laboratory,,22,165,165,807,66,8%,741,92%,0,0.00%,0,0.00%,807,83
+"April 27, 2020",Makati Medical Center (MMC),MMC,3,56,56,"1,313",103,8%,"1,210",92%,0,0.00%,0,0.00%,"1,313",393
+"April 27, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,,,,"2,461",333,14%,"2,127",86%,1,0.00%,0,0.00%,"2,461",960
+"April 27, 2020",The Medical City (TMC),TMC,11,61,61,795,126,16%,669,84%,0,0.00%,0,0.00%,795,"1,537"
+"April 27, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,9,325,348,"3,772",286,8%,"3,484",92%,0,0.00%,2,0.10%,"4,126","20,060"
+"April 27, 2020",Philippine Red Cross (PRC),PRC,25,534,534,"5,236",361,7%,"4,875",93%,0,0.00%,0,0.00%,"5,236","70,000"
+"April 27, 2020",Chinese General Hospital (CGH),CGH,14,88,88,983,115,12%,868,88%,0,0.00%,0,0.00%,988,722
+"April 28, 2020",Research Institute for Tropical Medicine (RITM),RITM,37,848,"1,104","42,719","6,736",16%,"35,956",84%,21,0.00%,6,0.00%,"49,842","47,280"
+"April 28, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,257,321,"5,335",73,1%,"5,262",99%,0,0.00%,0,0.00%,"5,781","1,110"
+"April 28, 2020",San Lazaro Hospital (SLH),SLH,16,209,245,"3,151",214,7%,"2,929",93%,0,0.00%,8,0.30%,"3,424",968
+"April 28, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,73,438,452,"5,429",598,11%,"4,829",89%,2,0.00%,0,0.00%,"5,882","16,800"
+"April 28, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,3,25,67,"3,318",513,15%,"2,713",82%,38,1.10%,54,1.60%,"3,556",0
+"April 28, 2020",Western Visayas Medical Center (WVMC),WVMC,3,287,287,"3,221",63,2%,"3,158",98%,0,0.00%,0,0.00%,"3,614","1,200"
+"April 28, 2020",Southern Philippines Medical Center (SPMC),SPMC,3,221,249,"3,615",154,4%,"3,458",96%,0,0.00%,3,0.10%,"4,168","10,087"
+"April 28, 2020",Lung Center of the Philippines (LCP),LCP,19,237,237,"5,164",295,6%,"4,867",94%,0,0.00%,2,0.00%,"5,179","2,250"
+"April 28, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,3,44,48,485,24,5%,458,94%,3,0.60%,0,0.00%,499,"4,073"
+"April 28, 2020",V. Luna Hospital,,1,44,50,402,4,1%,398,99%,0,0.00%,0,0.00%,421,"9,500"
+"April 28, 2020",Detoxicare Molecular Diagnostics Laboratory,,7,103,103,910,73,8%,837,92%,0,0.00%,0,0.00%,910,83
+"April 28, 2020",Makati Medical Center (MMC),MMC,13,186,186,"1,499",116,8%,"1,383",92%,0,0.00%,0,0.00%,"1,499",185
+"April 28, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,,,,"2,461",333,14%,"2,127",86%,1,0.00%,0,0.00%,"2,461",960
+"April 28, 2020",The Medical City (TMC),TMC,8,80,80,875,134,15%,741,85%,0,0.00%,0,0.00%,875,"1,363"
+"April 28, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,9,250,284,"4,022",295,7%,"3,713",92%,0,0.00%,14,0.30%,"4,410","21,060"
+"April 28, 2020",Philippine Red Cross (PRC),PRC,,,,"5,236",361,7%,"4,875",93%,0,0.00%,0,0.00%,"5,236","70,000"
+"April 28, 2020",Chinese General Hospital (CGH),CGH,38,196,196,"1,179",153,13%,"1,026",87%,0,0.00%,0,0.00%,"1,184",722
+"April 29, 2020",Research Institute for Tropical Medicine (RITM),RITM,18,954,"1,349","43,673","6,754",15%,"36,892",84%,21,0.00%,6,0.00%,"51,191","45,600"
+"April 29, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,3,367,415,"5,702",76,1%,"5,626",99%,0,0.00%,0,0.00%,"6,196",560
+"April 29, 2020",San Lazaro Hospital (SLH),SLH,4,284,339,"3,435",218,6%,"3,209",93%,0,0.00%,8,0.20%,"3,763",98
+"April 29, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,36,455,471,"5,884",634,11%,"5,248",89%,2,0.00%,0,0.00%,"6,353","16,400"
+"April 29, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,0,0,0,"3,318",513,15%,"2,713",82%,38,1.10%,54,1.60%,"3,556",0
+"April 29, 2020",Western Visayas Medical Center (WVMC),WVMC,0,261,268,"3,482",63,2%,"3,419",98%,0,0.00%,0,0.00%,"3,882","2,928"
+"April 29, 2020",Southern Philippines Medical Center (SPMC),SPMC,6,152,192,"3,767",160,4%,"3,604",96%,0,0.00%,3,0.10%,"4,360","9,880"
+"April 29, 2020",Lung Center of the Philippines (LCP),LCP,60,833,833,"5,997",355,6%,"5,640",94%,0,0.00%,2,0.00%,"6,012","1,550"
+"April 29, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,64,64,549,25,5%,520,95%,4,0.70%,0,0.00%,563,"4,857"
+"April 29, 2020",V. Luna Hospital,,0,49,50,451,4,1%,447,99%,0,0.00%,0,0.00%,471,"9,442"
+"April 29, 2020",Detoxicare Molecular Diagnostics Laboratory,,5,115,115,"1,025",78,8%,947,92%,0,0.00%,0,0.00%,"1,025",83
+"April 29, 2020",Makati Medical Center (MMC),MMC,1,63,64,"1,562",117,7%,"1,445",93%,0,0.00%,0,0.00%,"1,563",56
+"April 29, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,,,,"2,461",333,14%,"2,127",86%,1,0.00%,0,0.00%,"2,461",960
+"April 29, 2020",The Medical City (TMC),TMC,12,104,104,979,146,15%,833,85%,0,0.00%,0,0.00%,979,"1,206"
+"April 29, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,0,0,48,"3,933",249,6%,"3,684",94%,0,0.00%,0,0.00%,"4,458","20,700"
+"April 29, 2020",Philippine Red Cross (PRC),PRC,,,,"5,940",398,7%,"5,542",93%,0,0.00%,0,0.00%,"5,940","70,000"
+"April 29, 2020",Chinese General Hospital (CGH),CGH,6,189,189,"1,368",159,12%,"1,209",88%,0,0.00%,0,0.00%,"1,373",722
+"April 30, 2020",Research Institute for Tropical Medicine (RITM),RITM,6,570,943,"44,243","6,760",15%,"37,457",85%,20,0.00%,6,0.00%,"52,134","1,480"
+"April 30, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,548,567,"6,250",76,1%,"6,174",99%,0,0.00%,0,0.00%,"6,763",0
+"April 30, 2020",San Lazaro Hospital (SLH),SLH,4,303,316,"3,738",222,6%,"3,506",94%,0,0.00%,10,0.30%,"4,079",0
+"April 30, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,182,505,519,"6,389",816,13%,"5,571",87%,2,0.00%,0,0.00%,"6,872","15,800"
+"April 30, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,54,420,435,"3,738",567,15%,"3,063",82%,49,1.30%,59,1.60%,"3,991","1,229"
+"April 30, 2020",Western Visayas Medical Center (WVMC),WVMC,0,241,248,"3,723",63,2%,"3,660",98%,0,0.00%,0,0.00%,"4,130","2,640"
+"April 30, 2020",Southern Philippines Medical Center (SPMC),SPMC,2,120,137,"3,887",162,4%,"3,722",96%,0,0.00%,3,0.10%,"4,497","9,733"
+"April 30, 2020",Lung Center of the Philippines (LCP),LCP,14,367,367,"6,364",369,6%,"5,993",94%,0,0.00%,2,0.00%,"6,379","1,850"
+"April 30, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,3,46,46,595,28,5%,563,95%,4,0.70%,0,0.00%,609,"4,799"
+"April 30, 2020",V. Luna Hospital,,0,53,53,504,4,1%,500,99%,0,0.00%,0,0.00%,524,"9,382"
+"April 30, 2020",Detoxicare Molecular Diagnostics Laboratory,,18,115,115,"1,140",96,8%,"1,044",92%,0,0.00%,0,0.00%,"1,140","2,016"
+"April 30, 2020",Makati Medical Center (MMC),MMC,1,40,40,"1,602",118,7%,"1,484",93%,0,0.00%,0,0.00%,"1,603",11
+"April 30, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,1,8,8,"2,682",391,15%,"2,290",85%,1,0.00%,0,0.00%,"2,682",375
+"April 30, 2020",The Medical City (TMC),TMC,11,88,88,"1,067",157,15%,910,85%,0,0.00%,0,0.00%,"1,067","1,206"
+"April 30, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,60,254,351,"4,187",309,7%,"3,878",93%,0,0.00%,0,0.00%,"4,809","20,340"
+"April 30, 2020",Philippine Red Cross (PRC),PRC,,,,"5,940",398,7%,"5,542",93%,0,0.00%,0,0.00%,"5,940","70,000"
+"April 30, 2020",Chinese General Hospital (CGH),CGH,5,88,88,"1,456",164,11%,"1,292",89%,0,0.00%,0,0.00%,"1,461",722
+"May 1, 2020",Research Institute for Tropical Medicine (RITM),RITM,2,633,913,"44,876","6,762",15%,"38,088",85%,20,0.00%,6,0.00%,"53,047",480
+"May 1, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,0,0,"6,250",76,1%,"6,174",99%,0,0.00%,0,0.00%,"6,763",0
+"May 1, 2020",San Lazaro Hospital (SLH),SLH,9,186,212,"3,924",231,6%,"3,680",94%,0,0.00%,13,0.30%,"4,291","1,620"
+"May 1, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,50,503,513,"6,892",866,13%,"6,024",87%,2,0.00%,0,0.00%,"7,385","15,000"
+"May 1, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,93,503,504,"4,241",660,16%,"3,412",80%,69,1.60%,100,2.40%,"4,495",645
+"May 1, 2020",Western Visayas Medical Center (WVMC),WVMC,6,232,262,"3,955",69,2%,"3,886",98%,0,0.00%,0,0.00%,"4,392","2,136"
+"May 1, 2020",Southern Philippines Medical Center (SPMC),SPMC,6,189,229,"4,076",168,4%,"3,905",96%,0,0.00%,3,0.10%,"4,721","9,490"
+"May 1, 2020",Lung Center of the Philippines (LCP),LCP,27,278,278,"6,642",396,6%,"6,244",94%,0,0.00%,2,0.00%,"6,657","1,550"
+"May 1, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,55,55,650,29,4%,617,95%,4,0.60%,0,0.00%,664,"4,694"
+"May 1, 2020",V. Luna Hospital,,0,60,60,564,4,1%,560,99%,0,0.00%,0,0.00%,584,"9,318"
+"May 1, 2020",Philippine Genome Center,PGC,4,41,41,41,4,10%,37,90%,0,0.00%,0,0.00%,41,"1,609"
+"May 1, 2020",Detoxicare Molecular Diagnostics Laboratory,,10,65,65,"1,191",107,9%,"1,084",91%,0,0.00%,0,0.00%,"1,205","1,851"
+"May 1, 2020",Makati Medical Center (MMC),MMC,5,73,87,"1,675",123,7%,"1,552",93%,0,0.00%,0,0.00%,"1,690","9,939"
+"May 1, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,15,46,46,"2,728",406,15%,"2,321",85%,1,0.00%,0,0.00%,"2,728",375
+"May 1, 2020",The Medical City (TMC),TMC,15,113,113,"1,180",172,15%,"1,008",85%,0,0.00%,0,0.00%,"1,180","1,023"
+"May 1, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,5,68,78,"4,255",314,7%,"3,941",93%,0,0.00%,0,0.00%,"4,887","21,420"
+"May 1, 2020",Philippine Red Cross (PRC),PRC,15,540,540,"7,616",468,6%,"7,148",94%,0,0.00%,0,0.00%,"7,616","70,000"
+"May 1, 2020",Chinese General Hospital (CGH),CGH,19,229,229,"1,685",183,11%,"1,502",89%,0,0.00%,0,0.00%,"1,690",722
+"May 1, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,17,268,268,"1,251",59,5%,"1,192",95%,0,0.00%,0,0.00%,"1,251",0
+"May 2, 2020",Research Institute for Tropical Medicine (RITM),RITM,54,"1,211","1,467","46,087","6,816",15%,"39,245",85%,20,0.00%,6,0.00%,"54,514","93,288"
+"May 2, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,75,93,"6,325",77,1%,"6,248",99%,0,0.00%,0,0.00%,"6,856","2,840"
+"May 2, 2020",San Lazaro Hospital (SLH),SLH,8,302,342,"4,226",239,6%,"3,974",94%,0,0.00%,13,0.30%,"4,633","1,260"
+"May 2, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,124,601,619,"7,493",990,13%,"6,491",87%,11,0.10%,1,0.00%,"8,004","14,200"
+"May 2, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,65,425,464,"4,666",725,16%,"3,762",81%,79,1.70%,100,2.10%,"4,959",360
+"May 2, 2020",Western Visayas Medical Center (WVMC),WVMC,0,243,275,"4,198",69,2%,"4,129",98%,0,0.00%,0,0.00%,"4,667","1,896"
+"May 2, 2020",Southern Philippines Medical Center (SPMC),SPMC,2,148,179,"4,225",170,4%,"4,052",96%,0,0.00%,3,0.10%,"4,905","9,298"
+"May 2, 2020",Lung Center of the Philippines (LCP),LCP,21,371,371,"7,013",417,6%,"6,594",94%,0,0.00%,2,0.00%,"7,028","1,150"
+"May 2, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,3,64,64,714,32,4%,677,95%,5,0.70%,0,0.00%,728,"4,614"
+"May 2, 2020",V. Luna Hospital,,0,59,60,623,4,1%,619,99%,0,0.00%,0,0.00%,644,"9,250"
+"May 2, 2020",Philippine Genome Center,PGC,0,0,0,41,4,10%,37,90%,0,0.00%,0,0.00%,41,"1,609"
+"May 2, 2020",Detoxicare Molecular Diagnostics Laboratory,,17,146,146,"1,337",124,9%,"1,213",91%,0,0.00%,0,0.00%,"1,337","1,851"
+"May 2, 2020",Makati Medical Center (MMC),MMC,2,49,56,"1,723",125,7%,"1,598",93%,0,0.00%,0,0.00%,"1,746","9,846"
+"May 2, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,16,53,53,"2,781",422,15%,"2,356",85%,3,0.10%,0,0.00%,"2,781",375
+"May 2, 2020",The Medical City (TMC),TMC,22,139,139,"1,319",194,15%,"1,125",85%,0,0.00%,0,0.00%,"1,319","1,023"
+"May 2, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,59,245,287,"4,500",373,8%,"4,127",92%,0,0.00%,0,0.00%,"5,174","20,970"
+"May 2, 2020",Philippine Red Cross (PRC),PRC,38,413,413,"8,031",506,6%,"7,525",94%,0,0.00%,0,0.00%,"8,031","70,000"
+"May 2, 2020",Chinese General Hospital (CGH),CGH,2,94,94,"1,779",185,10%,"1,594",90%,0,0.00%,0,0.00%,"1,784",722
+"May 2, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,64,701,701,"2,132",132,6%,"2,000",94%,0,0.00%,0,0.00%,"2,132",0
+"May 3, 2020",Research Institute for Tropical Medicine (RITM),RITM,71,"1,106","1,274","47,193","6,887",15%,"40,280",85%,20,0.00%,6,0.00%,"55,788","192,096"
+"May 3, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,167,185,"6,492",77,1%,"6,415",99%,0,0.00%,0,0.00%,"7,041","2,620"
+"May 3, 2020",San Lazaro Hospital (SLH),SLH,3,256,261,"4,482",242,5%,"4,224",94%,0,0.00%,16,0.40%,"4,894",993
+"May 3, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,92,679,700,"8,162","1,082",13%,"7,078",87%,2,0.00%,0,0.00%,"8,704","13,300"
+"May 3, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,35,219,232,"4,885",760,16%,"3,941",81%,82,1.70%,102,2.10%,"5,191",112
+"May 3, 2020",Western Visayas Medical Center (WVMC),WVMC,1,289,425,"4,487",70,2%,"4,417",98%,0,0.00%,0,0.00%,"5,092","1,896"
+"May 3, 2020",Southern Philippines Medical Center (SPMC),SPMC,0,49,55,"4,274",170,4%,"4,101",96%,0,0.00%,3,0.10%,"4,960","9,238"
+"May 3, 2020",Lung Center of the Philippines (LCP),LCP,13,556,556,"7,569",430,6%,"7,137",94%,0,0.00%,2,0.00%,"7,584",600
+"May 3, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,0,23,23,737,32,4%,700,95%,5,0.70%,0,0.00%,751,"4,583"
+"May 3, 2020",V. Luna Hospital,,0,41,41,664,4,1%,660,99%,0,0.00%,0,0.00%,685,"9,202"
+"May 3, 2020",Philippine Genome Center,PGC,0,0,0,41,4,10%,37,90%,0,0.00%,0,0.00%,41,"1,609"
+"May 3, 2020",Detoxicare Molecular Diagnostics Laboratory,,0,0,0,"1,337",124,9%,"1,213",91%,0,0.00%,0,0.00%,"1,337","1,705"
+"May 3, 2020",Makati Medical Center (MMC),MMC,2,25,31,"1,748",127,7%,"1,621",93%,0,0.00%,0,0.00%,"1,777","9,812"
+"May 3, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,0,0,0,"2,781",422,15%,"2,356",85%,3,0.10%,0,0.00%,"2,781","4,416"
+"May 3, 2020",The Medical City (TMC),TMC,8,41,50,"1,360",202,15%,"1,158",85%,0,0.00%,0,0.00%,"1,369","1,023"
+"May 3, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,45,360,374,"4,746",418,9%,"4,328",91%,0,0.00%,0,0.00%,"5,548","20,700"
+"May 3, 2020",Philippine Red Cross (PRC),PRC,24,269,269,"8,298",530,6%,"7,768",94%,0,0.00%,0,0.00%,"8,298","70,000"
+"May 3, 2020",Chinese General Hospital (CGH),CGH,0,0,0,"1,779",185,10%,"1,594",90%,0,0.00%,0,0.00%,"1,784",722
+"May 3, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,19,407,407,"2,539",151,6%,"2,388",94%,0,0.00%,0,0.00%,"2,539",0
+"May 4, 2020",Research Institute for Tropical Medicine (RITM),RITM,99,"1,006","1,135","48,199","6,986",14%,"41,187",85%,20,0.00%,6,0.00%,"56,923","190,296"
+"May 4, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,176,190,"6,668",77,1%,"6,591",99%,0,0.00%,0,0.00%,"7,231","2,390"
+"May 4, 2020",San Lazaro Hospital (SLH),SLH,17,429,498,"4,911",259,5%,"4,636",94%,0,0.00%,16,0.30%,"5,392",420
+"May 4, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,187,528,538,"8,690","1,269",15%,"7,419",85%,2,0.00%,0,0.00%,"9,242","12,700"
+"May 4, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,49,347,348,"5,232",809,15%,"4,220",81%,97,1.90%,106,2.00%,"5,539","1,632"
+"May 4, 2020",Western Visayas Medical Center (WVMC),WVMC,8,374,460,"4,861",78,2%,"4,783",98%,0,0.00%,0,0.00%,"5,552",792
+"May 4, 2020",Southern Philippines Medical Center (SPMC),SPMC,20,225,283,"4,499",190,4%,"4,306",96%,0,0.00%,3,0.10%,"5,243","8,918"
+"May 4, 2020",Lung Center of the Philippines (LCP),LCP,11,557,557,"8,126",441,5%,"7,683",95%,0,0.00%,2,0.00%,"8,141",40
+"May 4, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,61,60,798,33,4%,759,95%,5,0.60%,1,0.10%,811,"4,503"
+"May 4, 2020",V. Luna Hospital,,1,63,68,727,5,1%,722,99%,0,0.00%,0,0.00%,753,"9,126"
+"May 4, 2020",Philippine Genome Center,PGC,4,80,80,121,8,7%,112,93%,1,0.80%,0,0.00%,121,"1,529"
+"May 4, 2020",Detoxicare Molecular Diagnostics Laboratory,,,,,"1,337",124,9%,1213,91%,0,0.00%,0,0.00%,"1,337","1,705"
+"May 4, 2020",Makati Medical Center (MMC),MMC,1,52,63,"1,800",128,7%,"1,672",93%,0,0.00%,0,0.00%,"1,840","9,735"
+"May 4, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,0,21,21,"2,802",422,15%,"2,377",85%,3,0.10%,0,0.00%,"2,802","4,395"
+"May 4, 2020",The Medical City (TMC),TMC,22,132,142,"1,492",224,15%,1268,85%,0,0.00%,0,0.00%,"1,511","1,023"
+"May 4, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,33,229,276,"5,089",451,9%,"4,638",91%,0,0.00%,0,0.00%,"5,824","20,610"
+"May 4, 2020",Philippine Red Cross (PRC),PRC,20,630,630,"8,928",550,6%,"8,378",94%,0,0.00%,0,0.00%,"8,928","70,000"
+"May 4, 2020",Chinese General Hospital (CGH),CGH,2,21,21,"1,800",187,10%,"1,613",90%,0,0.00%,0,0.00%,"1,805",722
+"May 4, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,22,540,540,"3,694",214,6%,3480,94%,0,0.00%,0,0.00%,"3,694",
+"May 5, 2020",Research Institute for Tropical Medicine (RITM),RITM,48,"1,167","1,306","49,366","7,034",14%,"42,306",86%,20,0.00%,6,0.00%,"58,229","89,088"
+"May 5, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,229,279,"6,897",77,1%,"6,820",99%,0,0.00%,0,0.00%,"7,510","2,080"
+"May 5, 2020",San Lazaro Hospital (SLH),SLH,4,462,465,"5,373",263,5%,"5,090",95%,0,0.00%,20,0.40%,"5,857",0
+"May 5, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,191,605,613,"9,295","1,460",16%,"7,831",84%,4,0.00%,0,0.00%,"9,855","10,900"
+"May 5, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,18,170,170,"5,402",827,15%,"4,367",81%,102,1.90%,106,2.00%,"5,709","1,500"
+"May 5, 2020",Western Visayas Medical Center (WVMC),WVMC,6,179,196,"5,040",84,2%,"4,956",98%,0,0.00%,0,0.00%,"5,748",576
+"May 5, 2020",Southern Philippines Medical Center (SPMC),SPMC,4,217,242,"4,721",194,4%,"4,521",96%,0,0.00%,6,0.10%,"5,492","8,644"
+"May 5, 2020",Lung Center of the Philippines (LCP),LCP,10,279,279,"8,405",451,5%,"7,952",95%,0,0.00%,2,0.00%,"8,420",40
+"May 5, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,2,80,82,878,35,4%,831,95%,11,1.30%,1,0.10%,893,"4,383"
+"May 5, 2020",V. Luna Hospital,,0,48,50,776,5,1%,771,99%,0,0.00%,0,0.00%,803,"9,068"
+"May 5, 2020",Philippine Genome Center,PGC,0,3,3,123,8,7%,115,93%,0,0.00%,0,0.00%,124,"1,526"
+"May 5, 2020",Detoxicare Molecular Diagnostics Laboratory,,17,233,233,"1,686",148,9%,"1,538",91%,0,0.00%,0,0.00%,"1,686","1,381"
+"May 5, 2020",Makati Medical Center (MMC),MMC,5,67,71,"1,868",133,7%,"1,735",93%,0,0.00%,0,0.00%,"1,911","9,666"
+"May 5, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,0,68,68,"2,867",422,15%,"2,397",84%,0,0.00%,48,1.70%,"3,068","4,194"
+"May 5, 2020",The Medical City (TMC),TMC,13,87,89,"1,579",237,15%,"1,342",85%,0,0.00%,0,0.00%,"1,600","1,023"
+"May 5, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,32,191,243,"5,280",483,9%,"4,797",91%,0,0.00%,0,0.00%,"6,067","20,520"
+"May 5, 2020",Philippine Red Cross (PRC),PRC,66,"1,516","1,516","10,438",630,6%,"9,808",94%,0,0.00%,0,0.00%,"10,438","70,000"
+"May 5, 2020",Chinese General Hospital (CGH),CGH,6,56,56,"1,856",193,10%,"1,663",90%,0,0.00%,0,0.00%,"1,861",722
+"May 5, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,77,"1,169","1,169","4,863",292,6%,"4,571",94%,0,0.00%,0,0.00%,"4,863",0
+"May 6, 2020",Research Institute for Tropical Medicine (RITM),RITM,56,467,575,"49,833","7,090",14%,"42,717",86%,20,0.00%,6,0.01%,"58,804","88,488"
+"May 6, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,178,235,"7,075",77,1%,"6,998",99%,0,0.00%,0,0.00%,"7,745","1,780"
+"May 6, 2020",San Lazaro Hospital (SLH),SLH,7,361,372,"5,734",270,5%,"5,443",95%,0,0.00%,21,0.37%,"6,229",0
+"May 6, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,120,536,555,"9,831","1,580",16%,"8,244",84%,7,0.10%,0,0.00%,"10,410","10,400"
+"May 6, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,17,113,116,"5,515",844,15%,"4,459",81%,104,1.90%,108,1.96%,"5,825","1,500"
+"May 6, 2020",Western Visayas Medical Center (WVMC),WVMC,6,248,254,"5,288",90,2%,"5,198",98%,0,0.00%,0,0.00%,"6,002",264
+"May 6, 2020",Southern Philippines Medical Center (SPMC),SPMC,1,206,239,"4,927",195,4%,"4,725",96%,0,0.00%,7,0.14%,"5,731","8,390"
+"May 6, 2020",Lung Center of the Philippines (LCP),LCP,10,91,91,"8,496",461,5%,"8,033",95%,0,0.00%,2,0.02%,"8,511",40
+"May 6, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,30,30,908,36,4%,860,95%,11,1.20%,1,0.11%,923,"4,343"
+"May 6, 2020",V. Luna Hospital,,0,60,60,836,5,1%,831,99%,0,0.00%,0,0.00%,863,"9,000"
+"May 6, 2020",Philippine Genome Center,PGC,3,61,61,184,11,6%,171,93%,0,0.00%,2,1.09%,185,"1,465"
+"May 6, 2020",Detoxicare Molecular Diagnostics Laboratory,,,,,"1,686",148,9%,"1,538",91%,0,0.00%,0,0.00%,"1,686","1,381"
+"May 6, 2020",Makati Medical Center (MMC),MMC,5,68,87,"1,936",138,7%,"1,798",93%,0,0.00%,0,0.00%,"1,998","9,566"
+"May 6, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,99,180,180,"2,999",521,17%,"2,478",83%,0,0.00%,0,0.00%,"3,248","3,946"
+"May 6, 2020",The Medical City (TMC),TMC,21,118,121,"1,697",258,15%,"1,439",85%,0,0.00%,0,0.00%,"1,721","1,023"
+"May 6, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,18,141,211,"5,421",501,9%,"4,920",91%,0,0.00%,0,0.00%,"6,278","20,520"
+"May 6, 2020",Philippine Red Cross (PRC),PRC,26,791,791,"11,229",656,7%,"10,571",94%,0,0.00%,2,0.00%,"11,229","70,000"
+"May 6, 2020",Chinese General Hospital (CGH),CGH,12,130,130,"1,986",205,10%,"1,781",90%,0,0.00%,0,0.00%,"1,991",722
+"May 6, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,27,"1,344","1,344","6,205",319,5%,"5,881",95%,5,0.10%,0,0.00%,"6,207",0
+"May 7, 2020",Research Institute for Tropical Medicine (RITM),RITM,4,406,537,"50,239","7,094",14%,"43,119",86%,20,0.00%,6,0.01%,"59,341","76,488"
+"May 7, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,238,267,"7,313",77,1%,"7,236",99%,0,0.00%,0,0.00%,"8,012","1,480"
+"May 7, 2020",San Lazaro Hospital (SLH),SLH,0,184,184,"5,918",270,5%,"5,597",95%,0,0.00%,51,0.86%,"6,413","5,000"
+"May 7, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,30,501,515,"10,332","1,610",16%,"8,711",84%,11,0.10%,0,0.00%,"10,925","9,600"
+"May 7, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,25,234,239,"5,749",869,15%,"4,654",81%,113,2.00%,113,1.97%,"6,064","6,000"
+"May 7, 2020",Western Visayas Medical Center (WVMC),WVMC,0,318,324,"5,606",90,2%,"5,516",98%,0,0.00%,0,0.00%,"6,326",0
+"May 7, 2020",Southern Philippines Medical Center (SPMC),SPMC,9,182,230,"5,109",204,4%,"4,896",96%,0,0.00%,9,0.18%,"5,961","8,132"
+"May 7, 2020",Lung Center of the Philippines (LCP),LCP,22,358,358,"8,854",483,5%,"8,369",95%,0,0.00%,2,0.02%,"8,869","5,400"
+"May 7, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,2,68,68,976,38,4%,925,95%,12,1.20%,1,0.10%,991,"4,303"
+"May 7, 2020",V. Luna Hospital,,2,64,64,900,7,1%,893,99%,0,0.00%,0,0.00%,927,"8,928"
+"May 7, 2020",Philippine Genome Center,PGC,4,77,79,259,15,6%,240,93%,0,0.00%,4,1.54%,264,"7,388"
+"May 7, 2020",Cebu TB Reference Laboratory,,3,44,44,44,3,7%,41,93%,0,0.00%,0,0.00%,44,"9,856"
+"May 7, 2020",UP-PGH Molecular Laboratory,,0,26,26,42,0,0%,42,100%,0,0.00%,0,0.00%,42,35
+"May 7, 2020",Marikina Molecular Diagnostics Laboratory,MMDL,3,94,94,60,3,5%,57,95%,0,0.00%,0,0.00%,94,308
+"May 7, 2020",Detoxicare Molecular Diagnostics Laboratory,,,,,"1,686",148,9%,"1,538",91%,0,0.00%,0,0.00%,"1,686","1,381"
+"May 7, 2020",Makati Medical Center (MMC),MMC,0,85,98,"2,021",138,7%,"1,883",93%,0,0.00%,0,0.00%,"2,096","9,456"
+"May 7, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,17,113,113,"3,098",538,17%,"2,560",83%,0,0.00%,0,0.00%,"3,098","3,946"
+"May 7, 2020",The Medical City (TMC),TMC,13,117,124,"1,814",271,15%,"1,543",85%,0,0.00%,0,0.00%,"1,845","1,023"
+"May 7, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,19,192,207,"5,613",520,9%,"5,093",91%,0,0.00%,0,0.00%,"6,485","18,900"
+"May 7, 2020",Philippine Red Cross (PRC),PRC,46,810,900,"12,039",702,7%,"11,335",94%,0,0.00%,2,0.00%,"12,129","70,000"
+"May 7, 2020",Chinese General Hospital (CGH),CGH,65,300,300,"2,286",270,12%,"2,016",88%,0,0.00%,0,0.00%,"2,291",722
+"May 7, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,46,810,810,"7,017",365,5%,"6,647",95%,5,0.10%,0,0.00%,"7,017",0
+"May 7, 2020",Singapore Diagnostics,,7,80,80,80,7,9%,73,91%,0,0.00%,0,0.00%,160,"9,440"
+"May 8, 2020",Research Institute for Tropical Medicine (RITM),RITM,6,123,141,"50,362","7,100",14%,"43,236",86%,20,0.00%,6,0.01%,"59,482","52,488"
+"May 8, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,43,46,"7,356",77,1%,"7,279",99%,0,0.00%,0,0.00%,"8,058","1,420"
+"May 8, 2020",San Lazaro Hospital (SLH),SLH,0,465,465,"6,383",270,4%,"6,004",94%,0,0.00%,109,1.71%,"6,878","4,139"
+"May 8, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,26,486,531,"10,818","1,636",15%,"9,171",85%,11,0.10%,0,0.00%,"11,456","8,200"
+"May 8, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,62,464,464,"6,213",931,15%,"5,012",81%,128,2.10%,142,2.29%,"6,528","5,000"
+"May 8, 2020",Western Visayas Medical Center (WVMC),WVMC,1,248,251,"5,854",91,2%,"5,763",98%,0,0.00%,0,0.00%,"6,577",0
+"May 8, 2020",Southern Philippines Medical Center (SPMC),SPMC,6,255,302,"5,364",210,4%,"5,106",95%,0,0.00%,48,0.89%,"6,263","7,808"
+"May 8, 2020",Lung Center of the Philippines (LCP),LCP,12,462,462,"9,316",495,5%,"8,819",95%,0,0.00%,2,0.02%,"9,331","5,000"
+"May 8, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,6,96,96,"1,072",44,4%,"1,015",95%,12,1.10%,1,0.09%,"1,087","4,223"
+"May 8, 2020",V. Luna Hospital,,0,48,48,948,7,1%,941,99%,0,0.00%,0,0.00%,975,"8,872"
+"May 8, 2020",Philippine Genome Center,PGC,0,0,0,259,15,6%,240,93%,0,0.00%,4,1.54%,264,"7,388"
+"May 8, 2020",Cebu TB Reference Laboratory,,0,41,41,85,3,2%,82,67%,0,0.00%,0,30.89%,85,"9,815"
+"May 8, 2020",UP-PGH Molecular Laboratory,,0,15,15,57,0,0%,57,100%,0,0.00%,0,0.00%,57,"1,000"
+"May 8, 2020",Marikina Molecular Diagnostics Laboratory,MMDL,6,120,120,180,9,5%,171,95%,0,0.00%,0,0.00%,214,308
+"May 8, 2020",Detoxicare Molecular Diagnostics Laboratory,,,,,"1,686",148,9%,"1,538",91%,0,0.00%,0,0.00%,"1,686",0
+"May 8, 2020",Makati Medical Center (MMC),MMC,0,47,55,"2,068",138,7%,"1,930",93%,0,0.00%,0,0.00%,"2,151","9,393"
+"May 8, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,12,67,67,"3,152",550,17%,"2,602",83%,0,0.00%,0,0.00%,"3,428","3,833"
+"May 8, 2020",The Medical City (TMC),TMC,44,146,146,"1,960",315,16%,"1,645",84%,0,0.00%,0,0.00%,"1,991","1,023"
+"May 8, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,33,425,457,"6,038",553,9%,"5,485",91%,0,0.00%,0,0.00%,"6,942","18,450"
+"May 8, 2020",Philippine Red Cross (PRC),PRC,70,810,810,"12,939",781,7%,"12,138",94%,20,0.00%,0,0.00%,"12,939","70,000"
+"May 8, 2020",Chinese General Hospital (CGH),CGH,4,80,80,"2,366",274,12%,"2,092",88%,0,0.00%,0,0.00%,"2,371",722
+"May 8, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,46,"1,080","1,080","8,097",411,5%,"7,680",95%,6,0.10%,0,0.00%,"8,097",0
+"May 8, 2020",Singapore Diagnostics,,6,53,54,133,13,10%,120,90%,0,0.00%,0,0.00%,134,"9,390"
+"May 8, 2020",Lung Center of the Philippines GeneXpert Laboratory,,6,39,39,83,14,17%,69,83%,0,0.00%,0,0.00%,83,0
+"May 8, 2020",Zamboanga City Medical Center GeneXpert Laboratory,ZCMC,2,42,42,84,2,2%,81,96%,1,1.20%,0,0.00%,84,0
+"May 9, 2020",Research Institute for Tropical Medicine (RITM),RITM,56,"1,020","1,161","51,382","7,156",14%,"44,200",86%,20,0.00%,6,0.01%,"60,643","592,788"
+"May 9, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,0,260,261,"7,616",77,1%,"7,539",99%,0,0.00%,0,0.00%,"8,319","7,120"
+"May 9, 2020",San Lazaro Hospital (SLH),SLH,9,354,373,"6,737",279,4%,"6,348",94%,0,0.00%,110,1.63%,"7,251","3,740"
+"May 9, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,57,608,627,"11,426","1,693",16%,"9,722",90%,11,0.10%,0,0.00%,"12,083","8,200"
+"May 9, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,26,174,174,"6,387",957,15%,"5,155",81%,133,2.10%,142,2.22%,"6,702","4,784"
+"May 9, 2020",Western Visayas Medical Center (WVMC),WVMC,1,293,305,"6,147",92,2%,"6,055",99%,0,0.00%,0,0.00%,"6,882","6,000"
+"May 9, 2020",Southern Philippines Medical Center (SPMC),SPMC,0,252,265,"5,616",210,4%,"5,350",95%,0,0.00%,56,1.00%,"6,528","7,524"
+"May 9, 2020",Lung Center of the Philippines (LCP),LCP,27,834,833,"10,150",522,5%,"9,625",95%,0,0.00%,3,0.03%,"10,164","4,100"
+"May 9, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,58,58,"1,130",45,4%,"1,072",95%,12,1.10%,1,0.09%,"1,145","4,183"
+"May 9, 2020",V. Luna Hospital,,0,49,49,997,7,1%,990,99%,0,0.00%,0,0.00%,"1,024","8,816"
+"May 9, 2020",Philippine Genome Center,PGC,23,43,43,302,38,13%,257,85%,0,0.00%,7,2.32%,307,"7,211"
+"May 9, 2020",Cebu TB Reference Laboratory,,0,0,0,85,3,4%,82,96%,0,0.00%,0,0.00%,85,"9,815"
+"May 9, 2020",UP-PGH Molecular Laboratory,,0,15,15,72,0,0%,72,100%,0,0.00%,0,0.00%,72,"2,035"
+"May 9, 2020",Marikina Molecular Diagnostics Laboratory,MMDL,0,0,0,180,9,5%,171,95%,0,0.00%,0,0.00%,214,308
+"May 9, 2020",Detoxicare Molecular Diagnostics Laboratory,,,,,"1,686",148,9%,"1,538",91%,0,0.00%,0,0.00%,"1,686",0
+"May 9, 2020",Makati Medical Center (MMC),MMC,2,83,86,"2,151",140,7%,"2,011",93%,0,0.00%,0,0.00%,"2,237","9,301"
+"May 9, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,70,205,205,"3,356",620,18%,"2,736",82%,0,0.00%,0,0.00%,"3,633","3,766"
+"May 9, 2020",The Medical City (TMC),TMC,12,86,89,"2,046",327,16%,"1,719",84%,0,0.00%,0,0.00%,"2,080","1,020"
+"May 9, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,48,221,286,"6,259",601,10%,"5,658",90%,0,0.00%,0,0.00%,"7,228","18,000"
+"May 9, 2020",Philippine Red Cross (PRC),PRC,75,"1,440","1,440","14,379",856,7%,"13,500",94%,23,0.00%,0,0.00%,"14,379","70,000"
+"May 9, 2020",Chinese General Hospital (CGH),CGH,1,101,101,"2,467",275,11%,"2,192",89%,0,0.00%,0,0.00%,"2,472",722
+"May 9, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,43,810,810,"8,907",454,5%,"8,447",95%,6,0.10%,0,0.00%,"8,907",0
+"May 9, 2020",Singapore Diagnostics,,15,90,90,223,28,13%,195,87%,0,0.00%,0,0.00%,224,"9,390"
+"May 9, 2020",Lung Center of the Philippines GeneXpert Laboratory,,0,0,0,83,14,17%,69,83%,0,0.00%,0,0.00%,83,0
+"May 9, 2020",Zamboanga City Medical Center GeneXpert Laboratory,ZCMC,15,76,76,158,17,11%,141,88%,0,1.30%,0,0.00%,160,979
+"May 10, 2020",Research Institute for Tropical Medicine (RITM),RITM,55,"1,326","1,463","52,708","7,211",14%,"45,471",86%,20,0.00%,6,0.01%,"62,106","610,528"
+"May 10, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,1,424,432,"8,040",78,1%,"7,962",99%,0,0.00%,0,0.00%,"8,751","6,630"
+"May 10, 2020",San Lazaro Hospital (SLH),SLH,6,281,315,"7,018",285,4%,"6,611",94%,0,0.00%,122,1.74%,"7,566","3,480"
+"May 10, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,104,637,664,"12,063","1,797",15%,"10,254",85%,12,0.10%,0,0.00%,"12,747","7,500"
+"May 10, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,45,260,286,"6,647","1,002",15%,"5,361",81%,141,2.10%,143,2.15%,"6,988","4,496"
+"May 10, 2020",Western Visayas Medical Center (WVMC),WVMC,3,246,258,"6,393",95,1%,"6,298",99%,0,0.00%,0,0.00%,"7,140","5,520"
+"May 10, 2020",Southern Philippines Medical Center (SPMC),SPMC,0,0,0,"5,616",210,4%,"5,350",95%,0,0.00%,56,1.00%,"6,528","17,524"
+"May 10, 2020",Lung Center of the Philippines (LCP),LCP,29,930,930,"11,080",551,5%,"10,526",95%,0,0.00%,3,0.03%,"11,094","3,100"
+"May 10, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,2,31,31,"1,161",47,4%,"1,101",95%,12,1.00%,1,0.09%,"1,176","4,102"
+"May 10, 2020",V. Luna Hospital,,0,21,21,"1,018",7,1%,"1,011",99%,0,0.00%,0,0.00%,"1,045","8,791"
+"May 10, 2020",Philippine Genome Center,PGC,0,0,0,302,38,13%,257,85%,0,0.00%,7,2.32%,307,"7,211"
+"May 10, 2020",Cebu TB Reference Laboratory,,0,0,0,85,3,4%,82,96%,0,0.00%,0,0.00%,85,"9,815"
+"May 10, 2020",UP-PGH Molecular Laboratory,,8,100,100,172,8,5%,164,95%,0,0.00%,0,0.00%,172,"1,935"
+"May 10, 2020",Marikina Molecular Diagnostics Laboratory,MMDL,0,0,0,180,9,5%,171,95%,0,0.00%,0,0.00%,214,308
+"May 10, 2020",Detoxicare Molecular Diagnostics Laboratory,,21,208,208,"1,894",169,9%,"1,725",91%,0,0.00%,0,0.00%,"1,894",83
+"May 10, 2020",Makati Medical Center (MMC),MMC,2,39,49,"2,190",142,6%,"2,048",94%,0,0.00%,0,0.00%,"2,286","9,284"
+"May 10, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,24,85,85,"3,440",644,19%,"2,796",81%,0,0.00%,0,0.00%,"3,718","3,476"
+"May 10, 2020",The Medical City (TMC),TMC,19,108,108,"2,154",346,16%,"1,808",84%,0,0.00%,0,0.00%,"2,188",373
+"May 10, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,16,117,140,"6,376",617,10%,"5,759",90%,0,0.00%,0,0.00%,"7,368","17,910"
+"May 10, 2020",Philippine Red Cross (PRC),PRC,64,"1,706","1,706","15,959",920,7%,"15,039",94%,0,0.00%,0,0.00%,"16,085","70,000"
+"May 10, 2020",Chinese General Hospital (CGH),CGH,0,0,0,"2,467",275,11%,"2,192",89%,0,0.00%,0,0.00%,"2,472",722
+"May 10, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,32,"1,980","1,980","10,887",486,4%,"10,392",95%,9,0.10%,0,0.00%,"10,887",0
+"May 10, 2020",Singapore Diagnostics,,0,0,0,223,28,13%,195,87%,0,0.00%,0,0.00%,224,"9,390"
+"May 10, 2020",Lung Center of the Philippines GeneXpert Laboratory,,5,70,69,152,19,13%,133,88%,0,0.00%,0,0,152,865
+"May 10, 2020",Zamboanga City Medical Center GeneXpert Laboratory,ZCMC,0,0,0,159,15,11%,142,89%,2,0.00%,0,0,159,979
+"May 11, 2020",Research Institute for Tropical Medicine (RITM),RITM,63,"1,104","1,202","53,812","7,274",14%,"46,512",86%,20,0.00%,6,0.01%,"63,308","606,928"
+"May 11, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,2,766,775,"8,806",80,1%,"8,726",99%,0,0.00%,0,0.00%,"9,526","5,750"
+"May 11, 2020",San Lazaro Hospital (SLH),SLH,9,289,372,"7,307",294,4%,"6,888",94%,0,0.00%,125,1.71%,"7,938","3,240"
+"May 11, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,104,641,702,"12,704","1,901",15%,"10,789",85%,14,0.10%,0,0.00%,"13,449","6,700"
+"May 11, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,32,281,290,"6,928","1,034",15%,"5,583",81%,160,2.30%,151,2.18%,"7,278","4,376"
+"May 11, 2020",Western Visayas Medical Center (WVMC),WVMC,1,41,47,"6,434",96,1%,"6,338",99%,0,0.00%,0,0.00%,"7,187","5,448"
+"May 11, 2020",Southern Philippines Medical Center (SPMC),SPMC,1,94,136,"5,710",211,4%,"5,443",95%,0,0.00%,56,0.98%,"6,664","18,361"
+"May 11, 2020",Lung Center of the Philippines (LCP),LCP,28,372,372,"11,452",579,5%,"10,870",95%,0,0.00%,3,0.03%,"11,466","2,500"
+"May 11, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,62,62,"1,223",48,4%,"1,162",95%,12,1.00%,1,0.08%,"1,238","3,982"
+"May 11, 2020",V. Luna Hospital,,0,38,39,"1,056",7,1%,"1,049",99%,0,0.00%,0,0.00%,"1,084","8,744"
+"May 11, 2020",Philippine Genome Center,PGC,0,0,8,302,38,13%,257,85%,0,0.00%,7,2.32%,315,"7,104"
+"May 11, 2020",Cebu TB Reference Laboratory,,0,40,40,125,3,2%,122,98%,0,0.00%,0,0.00%,125,"9,775"
+"May 11, 2020",UP-PGH Molecular Laboratory,,5,42,42,214,13,6%,201,94%,0,0.00%,0,0.00%,214,"1,893"
+"May 11, 2020",Marikina Molecular Diagnostics Laboratory,MMDL,,,,180,9,5%,171,95%,0,0.00%,0,0.00%,214,
+"May 11, 2020",Eastern Visayas Regional Covid Testing Center,,0,8,7,8,0,0%,7,88%,0,0.00%,1,12.50%,7,-
+"May 11, 2020",Detoxicare Molecular Diagnostics Laboratory,,,,,"1,894",169,9%,"1,725",91%,0,0.00%,0,0.00%,"1,894",
+"May 11, 2020",Makati Medical Center (MMC),MMC,4,62,73,"2,252",146,6%,"2,106",94%,0,0.00%,0,0.00%,"2,359","9,167"
+"May 11, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,32,117,117,"3,557",676,19%,"2,881",81%,0,0.00%,0,0.00%,"3,835","3,539"
+"May 11, 2020",The Medical City (TMC),TMC,15,123,123,"2,277",361,16%,"1,916",84%,0,0.00%,0,0.00%,"2,311",373
+"May 11, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,0,0,0,"6,376",617,10%,"5,759",90%,0,0.00%,0,0.00%,"7,368","17,910"
+"May 11, 2020",Philippine Red Cross (PRC),PRC,74,"2,054","2,054","18,114",994,7%,"17,120",95%,0,0.00%,0,0.00%,"18,139","130,000"
+"May 11, 2020",Chinese General Hospital (CGH),CGH,24,366,366,"2,833",299,11%,"2,534",89%,0,0.00%,0,0.00%,"2,838",-
+"May 11, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,22,"1,710","1,710","12,596",508,4%,"12,079",96%,9,0.10%,0,0.00%,"12,597",0
+"May 11, 2020",Singapore Diagnostics,,3,29,29,252,31,12%,221,88%,0,0.00%,0,0.00%,253,"9,115"
+"May 11, 2020",Lung Center of the Philippines GeneXpert Laboratory,,15,48,49,201,34,17%,167,83%,0,0.00%,0,0,201,816
+"May 11, 2020",Zamboanga City Medical Center GeneXpert Laboratory,ZCMC,21,64,65,226,38,16%,187,83%,1,1.40%,0,0,226,914
+"May 12, 2020",Research Institute for Tropical Medicine (RITM),RITM,33,916,973,"54,728","7,307",13%,"47,395",87%,20,0.00%,6,0.01%,"64,281","591,848"
+"May 12, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,1,595,602,"9,401",81,1%,"9,320",99%,0,0.00%,0,0.00%,"10,128","5,090"
+"May 12, 2020",San Lazaro Hospital (SLH),SLH,10,286,343,"7,593",304,4%,"7,159",94%,0,0.00%,130,1.71%,"8,281","3,060"
+"May 12, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,42,495,523,"13,199","1,943",15%,"11,241",85%,15,0.10%,0,0.00%,"13,972","5,800"
+"May 12, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,22,139,169,"7,067","1,056",15%,"5,700",81%,160,2.30%,151,2.14%,"7,428","4,137"
+"May 12, 2020",Western Visayas Medical Center (WVMC),WVMC,2,211,228,"6,645",98,1%,"6,547",99%,0,0.00%,0,0.00%,"7,415","5,136"
+"May 12, 2020",Southern Philippines Medical Center (SPMC),SPMC,0,212,230,"5,922",211,4%,"5,654",95%,0,0.00%,57,0.96%,"6,894","18,116"
+"May 12, 2020",Lung Center of the Philippines (LCP),LCP,0,0,0,"11,452",579,5%,"10,870",95%,0,0.00%,3,0.03%,"11,466","2,500"
+"May 12, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,1,88,88,"1,311",49,4%,"1,246",95%,15,1.10%,1,0.08%,"1,326","3,942"
+"May 12, 2020",V. Luna Hospital,,0,43,43,"1,099",7,1%,"1,092",99%,0,0.00%,0,0.00%,"1,127","8,695"
+"May 12, 2020",Philippine Genome Center,PGC,16,144,144,446,54,12%,320,72%,0,0.00%,72,16.14%,459,"7,000"
+"May 12, 2020",Cebu TB Reference Laboratory,,8,40,42,165,11,7%,154,93%,0,0.00%,0,0.00%,167,"9,733"
+"May 12, 2020",UP-PGH Molecular Laboratory,,4,19,19,233,17,7%,216,93%,0,0.00%,0,0.00%,233,"1,851"
+"May 12, 2020",Marikina Molecular Diagnostics Laboratory,MMDL,13,40,40,220,22,10%,198,90%,0,0.00%,0,0.00%,254,
+"May 12, 2020",Jose B. Lingad Memorial Regional Hospital ,JBLMRH,1,90,90,90,1,1%,89,99%,0,0.00%,0,0.00%,90,"44,650"
+"May 12, 2020",Eastern Visayas Regional Covid Testing Center,EVRCTC,0,16,17,24,0,0%,24,100%,0,0.00%,0,0.00%,24,-
+"May 12, 2020",Detoxicare Molecular Diagnostics Laboratory,,,,,"1,894",169,9%,"1,725",91%,0,0.00%,0,0.00%,"1,894",
+"May 12, 2020",Makati Medical Center (MMC),MMC,6,64,76,"2,316",152,7%,"2,164",93%,0,0.00%,0,0.00%,"2,435","9,075"
+"May 12, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,65,174,174,"3,717",741,20%,"2,976",80%,0,0.00%,0,0.00%,"4,009","3,337"
+"May 12, 2020",The Medical City (TMC),TMC,9,98,99,"2,375",370,16%,"2,005",84%,0,0.00%,0,0.00%,"2,410","1,175"
+"May 12, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,0,0,0,"6,376",617,10%,"5,759",90%,0,0.00%,0,0.00%,"7,368","17,910"
+"May 12, 2020",Philippine Red Cross (PRC),PRC,,,,"18,114",994,7%,"17,120",95%,0,0.00%,0,0.00%,"18,139","130,000"
+"May 12, 2020",Chinese General Hospital (CGH),CGH,22,439,439,"3,272",321,10%,"2,951",90%,0,0.00%,0,0.00%,"3,277",-
+"May 12, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,30,"2,158","2,158","14,754",538,4%,"14,202",96%,14,0.10%,0,0.00%,"14,755",-
+"May 12, 2020",Singapore Diagnostics,,8,99,99,351,39,11%,312,89%,0,0.00%,0,0.00%,352,"9,069"
+"May 12, 2020",Lung Center of the Philippines GeneXpert Laboratory,,13,42,42,243,47,19%,196,81%,0,0.00%,0,0,243,894
+"May 12, 2020",Zamboanga City Medical Center GeneXpert Laboratory,ZCMC,13,72,72,295,51,17%,243,82%,1,0.30%,0,0,298,842
+"May 13, 2020",Research Institute for Tropical Medicine (RITM),RITM,129,"2,097","2,303","56,825","7,436",13%,"49,363",87%,20,0.00%,6,0.01%,"66,584","591,848"
+"May 13, 2020",Baguio General Hospital and Medical Center (BGHMC),BGHMC,1,52,53,"9,112",82,1%,"9,030",99%,0,0.00%,0,0.00%,"10,181","5,025"
+"May 13, 2020",San Lazaro Hospital (SLH),SLH,26,316,334,"7,789",330,4%,"7,459",96%,0,0.00%,0,0.00%,334,"2,880"
+"May 13, 2020",Vicente Sotto Memorial Medical Center (VSMMC),VSMMC,17,238,266,"13,436","1,960",15%,"11,461",85%,15,0.10%,0,0.00%,"14,238","5,500"
+"May 13, 2020",UP National Institutes of Health (UP-NIH),UP-NIH,32,109,178,"7,635","1,203",16%,"6,395",84%,37,0.50%,0,0.00%,"7,598","3,959"
+"May 13, 2020",Western Visayas Medical Center (WVMC),WVMC,2,201,205,"6,861",100,1%,"6,746",98%,0,0.00%,15,0.22%,"7,620","4,824"
+"May 13, 2020",Southern Philippines Medical Center (SPMC),SPMC,12,171,240,"6,105",223,4%,"5,825",95%,0,0.00%,57,0.93%,"7,134","17,860"
+"May 13, 2020",Lung Center of the Philippines (LCP),LCP,0,0,0,"11,452",579,5%,"10,870",95%,0,0.00%,3,0.03%,"11,466","2,500"
+"May 13, 2020",Bicol Regional Diagnostic and Reference Laboratory (BRDRL),BRDRL,2,61,63,"1,372",51,4%,"1,304",95%,16,1.20%,1,0.07%,"1,389","3,860"
+"May 13, 2020",V. Luna Hospital,,0,46,48,"1,064",7,1%,"1,057",99%,0,0.00%,0,0.00%,"1,137","8,639"
+"May 13, 2020",Philippine Genome Center,PGC,16,108,108,419,55,13%,331,79%,0,0.00%,33,7.88%,419,"7,000"
+"May 13, 2020",Cebu TB Reference Laboratory,,4,72,72,239,16,7%,223,93%,0,0.00%,0,0.00%,239,"9,661"
+"May 13, 2020",UP-PGH Molecular Laboratory,,2,38,40,273,19,7%,254,93%,0,0.00%,0,0.00%,273,"1,813"
+"May 13, 2020",Marikina Molecular Diagnostics Laboratory,MMDL,4,87,96,440,38,9%,401,91%,0,0.00%,1,0.23%,408,357
+"May 13, 2020",Jose B. Lingad Memorial Regional Hospital ,JBLMRH,0,93,93,183,1,1%,182,99%,0,0.00%,0,0.00%,183,"44,557"
+"May 13, 2020",Eastern Visayas Regional Covid Testing Center,EVRCTC,0,37,37,60,0,0%,60,100%,0,0.00%,0,0.00%,60,300
+"May 13, 2020",Detoxicare Molecular Diagnostics Laboratory,,,,,"1,894",169,9%,"1,725",91%,0,0.00%,0,0.00%,"1,894",0
+"May 13, 2020",Makati Medical Center (MMC),MMC,11,62,76,"2,435",172,7%,"2,263",93%,0,0.00%,0,0.00%,"2,435","9,075"
+"May 13, 2020",St. Luke's Medical Center - Quezon City (SLMC-QC),SLMC-QC,19,39,90,"3,810",760,20%,"3,047",80%,3,0.10%,0,0.00%,"3,807","2,880"
+"May 13, 2020",The Medical City (TMC),TMC,22,120,120,"2,495",392,16%,"2,103",84%,0,0.00%,0,0.00%,"2,495",300
+"May 13, 2020",St. Luke's Medical Center - BGC (SLMC-BGC),SLMC-BGC,4,195,220,"6,588",621,9%,"5,950",90%,17,0.30%,0,0.00%,"7,646","25,820"
+"May 13, 2020",Philippine Red Cross (PRC),PRC,0,"2,325","2,325","22,509","1,110",6%,"21,389",94%,10,0.10%,0,0.00%,"22,534","130,000"
+"May 13, 2020",Chinese General Hospital (CGH),CGH,11,315,315,"3,587",332,9%,"3,255",91%,0,0.00%,0,0.00%,"3,592","3,380"
+"May 13, 2020",Philippine Red Cross Logistics & Multipurpose Center ,PLMC,6,"1,705","1,705","16,799",544,3%,"16,255",97%,0,0.00%,0,0.00%,"16,820",0
+"May 13, 2020",Singapore Diagnostics,,8,97,106,458,47,10%,410,90%,0,0.00%,1,0.22%,457,"8,960"
+"May 13, 2020",Allegiant Regional Care Hospital,ARCH,9,20,20,20,9,45%,11,55%,0,0.00%,0,0.00%,20,120
+"May 13, 2020",De La Salle University - Cavite,,6,146,146,325,6,2%,316,97%,0,0.00%,3,0.92%,325,440
+"May 13, 2020",Lung Center of the Philippines GeneXpert Laboratory,,17,71,70,314,64,20%,249,79%,0,0.00%,0,0.00%,313,823
+"May 13, 2020",Zamboanga City Medical Center GeneXpert Laboratory,ZCMC,29,136,136,358,67,19%,290,81%,1,0.30%,0,0.00%,362,777
