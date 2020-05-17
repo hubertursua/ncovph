@@ -21,6 +21,27 @@ function Update({
 
 const updates = [
   <Update
+    key="May 17"
+    date="May 17"
+    text={
+      <>
+        {`Here's another set of new queries!`}
+        <br /><br />
+        {`Unique individuals tested now has its own cumulative and per-day queries. This should've been
+        included in the first versions but I didn't notice it was missing.`}
+        <br /><br />
+        {`Running averages for almost all per-day numbers in both cases and testing queries. Because
+        the data tends to fluctuate a lot due to external variables, we can use running averages to
+        reduce the noise in the data.`}
+        <br /><br />
+        {`Finally, positivity rates! Wondering how many of those being tested turns out positive? This
+        is the metric that you can explore. This  can be queried using per-day and per-day running average.`}
+        <br /><br />
+        {`Be sure to check out the May 16 updates below also. Lots of changes this weekend.`}
+      </>
+    }
+  />,
+  <Update
     key="May 16 (evening)"
     date="May 16 (evening)"
     text={
