@@ -81,6 +81,10 @@ class DataDropTestingAggregates extends DataSource {
     return this.getDailyCumulative('equivocalInd');
   }
 
+  getDailyUniqueIndCumulative(): DateValue[] {
+    return this.getDailyCumulative('uniqueIndTested');
+  }
+
   getDailyTestsConductedCumulative(): DateValue[] {
     return this.getDailyCumulative('testsConducted');
   }
@@ -103,6 +107,10 @@ class DataDropTestingAggregates extends DataSource {
 
   getDailyEquivocalIndDelta(): DateValue[] {
     return this.dailyDelta(this.getDailyEquivocalIndCumulative());
+  }
+
+  getDailyUniqueIndDelta(): DateValue[] {
+    return this.dailyDelta(this.getDailyUniqueIndCumulative());
   }
 
   getDailyTestsConductedDelta(): DateValue[] {

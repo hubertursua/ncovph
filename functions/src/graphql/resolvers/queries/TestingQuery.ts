@@ -104,6 +104,14 @@ export default {
     .dataDropTestingAggregates
     .getDailyEquivocalIndDelta(),
 
+  perDayUniqueInd: (
+    _obj: unknown,
+    _args: unknown,
+    { dataSources }: Context,
+  ): DateValue[] => dataSources
+    .dataDropTestingAggregates
+    .getDailyUniqueIndDelta(),
+
   perDayTestsConducted: (
     _obj: unknown,
     _args: unknown,
@@ -151,6 +159,14 @@ export default {
   ): DateValue[] => dataSources
     .dataDropTestingAggregates
     .getDailyEquivocalIndCumulative(),
+
+  cumulativeUnqiueInd: (
+    _obj: unknown,
+    _args: unknown,
+    { dataSources }: Context,
+  ): DateValue[] => dataSources
+    .dataDropTestingAggregates
+    .getDailyUniqueIndCumulative(),
 
   cumulativeTestsConducted: (
     _obj: unknown,
