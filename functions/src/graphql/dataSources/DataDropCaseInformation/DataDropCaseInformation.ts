@@ -43,6 +43,12 @@ export interface DistributionProps {
   city?: string;
 }
 
+export interface RunningAverageProps {
+  region?: string;
+  province?: string;
+  city?: string;
+}
+
 const DEFAULT_LIMIT = 30;
 
 const filterByResidence = (
@@ -435,6 +441,99 @@ class DataDropCaseInformation extends DataSource {
         offset: 0,
       }),
     );
+  }
+
+  getRunningAveConfirmedCases({
+    region = null,
+    province = null,
+    city = null,
+  }: RunningAverageProps): DateValue[] {
+    const deltas: DateValue[] = dateRangeArray(DATE_FIRST_CASE)
+      .reduce((out, date) => [
+        ...out,
+        {
+          date,
+          value: 0,
+        },
+      ], []);
+
+    const dailyConfirmedDelta = this.getDailyConfirmedDelta({ region, province, city });
+
+    for (let i = 4; i < dailyConfirmedDelta.length; i += 1) {
+      const runningAverage = (
+        dailyConfirmedDelta[i].value
+        + dailyConfirmedDelta[i - 1].value
+        + dailyConfirmedDelta[i - 2].value
+        + dailyConfirmedDelta[i - 3].value
+        + dailyConfirmedDelta[i - 4].value
+      ) / 5;
+
+      deltas[i].value = runningAverage;
+    }
+
+    return deltas.slice(4);
+  }
+
+  getRunningAveRecoveries({
+    region = null,
+    province = null,
+    city = null,
+  }: RunningAverageProps): DateValue[] {
+    const deltas: DateValue[] = dateRangeArray(DATE_FIRST_CASE)
+      .reduce((out, date) => [
+        ...out,
+        {
+          date,
+          value: 0,
+        },
+      ], []);
+
+    const dailyRecoveriesDelta = this.getDailyRecoveriesDelta({ region, province, city });
+
+    for (let i = 4; i < dailyRecoveriesDelta.length; i += 1) {
+      const runningAverage = (
+        dailyRecoveriesDelta[i].value
+        + dailyRecoveriesDelta[i - 1].value
+        + dailyRecoveriesDelta[i - 2].value
+        + dailyRecoveriesDelta[i - 3].value
+        + dailyRecoveriesDelta[i - 4].value
+      ) / 5;
+
+      deltas[i].value = runningAverage;
+    }
+
+    return deltas.slice(4);
+  }
+
+  getRunningAveDeaths({
+    region = null,
+    province = null,
+    city = null,
+  }: RunningAverageProps): DateValue[] {
+    const deltas: DateValue[] = dateRangeArray(DATE_FIRST_CASE)
+      .reduce((out, date) => [
+        ...out,
+        {
+          date,
+          value: 0,
+        },
+      ], []);
+
+    const dailyConfirmedDelta = this.getDailyDeathsDelta({ region, province, city });
+
+    for (let i = 4; i < dailyConfirmedDelta.length; i += 1) {
+      const runningAverage = (
+        dailyConfirmedDelta[i].value
+        + dailyConfirmedDelta[i - 1].value
+        + dailyConfirmedDelta[i - 2].value
+        + dailyConfirmedDelta[i - 3].value
+        + dailyConfirmedDelta[i - 4].value
+      ) / 5;
+
+      deltas[i].value = runningAverage;
+    }
+
+    return deltas.slice(4);
   }
 
   private distribAgeGroupSex(list: CaseInformation[]): DistributionAgeGroupSex[] {

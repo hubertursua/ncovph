@@ -1,0 +1,8 @@
+# Value per date
+type DateValueFloat {
+  # Date
+  date: Date
+
+  # Value for a particular date
+  value: Float
+}

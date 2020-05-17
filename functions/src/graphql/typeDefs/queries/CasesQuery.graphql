@@ -257,4 +257,40 @@ type CasesQuery {
     # City (requires region & province to be also set)
     city: String
   ): [DistributionAgeGroupSex]
+
+  # Running average of confirmed cases (5-day average)
+  runningAveConfirmedCases(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+  ): [DateValueFloat]
+
+  # Running average of recoveries (5-day average)
+  runningAveRecoveries(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+  ): [DateValueFloat]
+
+  # Running average of deaths (5-day average)
+  runningAveDeaths(
+    # Region
+    region: String
+
+    # Province (requires region to be also set)
+    province: String
+
+    # City (requires region & province to be also set)
+    city: String
+  ): [DateValueFloat]
 }

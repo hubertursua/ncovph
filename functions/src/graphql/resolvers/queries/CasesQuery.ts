@@ -44,6 +44,12 @@ export interface ConfirmedCaseArgs {
   caseNumber: string;
 }
 
+export interface RunningAverageArgs {
+  region?: string;
+  province?: string;
+  city?: string;
+}
+
 export default {
   confirmedCases: (
     _obj: unknown,
@@ -723,5 +729,101 @@ export default {
         province: validProvince,
         city: validCity,
       });
+  },
+
+  runningAveConfirmedCases: (
+    _obj: unknown,
+    {
+      region = null,
+      province = null,
+      city = null,
+    }: RunningAverageArgs,
+    { dataSources }: Context,
+  ): DateValue[] => {
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
+
+    return dataSources.dataDropCaseInformation.getRunningAveConfirmedCases({
+      region: validRegion,
+      province: validProvince,
+      city: validCity,
+    });
+  },
+
+  runningAveRecoveries: (
+    _obj: unknown,
+    {
+      region = null,
+      province = null,
+      city = null,
+    }: RunningAverageArgs,
+    { dataSources }: Context,
+  ): DateValue[] => {
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
+
+    return dataSources.dataDropCaseInformation.getRunningAveRecoveries({
+      region: validRegion,
+      province: validProvince,
+      city: validCity,
+    });
+  },
+
+  runningAveDeaths: (
+    _obj: unknown,
+    {
+      region = null,
+      province = null,
+      city = null,
+    }: RunningAverageArgs,
+    { dataSources }: Context,
+  ): DateValue[] => {
+    let validRegion = null;
+    let validProvince = null;
+    let validCity = null;
+
+    if (region) {
+      validRegion = region.trim();
+    }
+
+    if (province) {
+      validProvince = province.trim();
+    }
+
+    if (city) {
+      validCity = city.trim();
+    }
+
+    return dataSources.dataDropCaseInformation.getRunningAveDeaths({
+      region: validRegion,
+      province: validProvince,
+      city: validCity,
+    });
   },
 };
