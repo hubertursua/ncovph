@@ -59,6 +59,21 @@ type TestingQuery {
   # Changes in the number of test kits remaining per day
   deltaTestsRemaining: [DateValue]
 
+  # Running average of positive individual tests per day
+  runningAvePositiveInd: [DateValueFloat]
+
+  # Running average of negative individual tests per day
+  runningAveNegativeInd: [DateValueFloat]
+
+  # Running average of invalid individual tests per day
+  runningAveInvalidInd: [DateValueFloat]
+
+  # Running average of equivocal individual tests per day
+  runningAveEquivocalInd: [DateValueFloat]
+
+  # Running average of tests conducted
+  runningAveTestsConducted: [DateValueFloat]
+
   # Ratio with unique individuals
   ratioUniqueInd: RatioUniqueIndQuery
 }

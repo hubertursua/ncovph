@@ -113,6 +113,141 @@ class DataDropTestingAggregates extends DataSource {
     return this.dailyDelta(this.getDailyTestsRemainingCumulative());
   }
 
+  getRunningAvePositiveInd(): DateValue[] {
+    const deltas: DateValue[] = dateRangeArray(DATE_FIRST_TESTING_RECORDED)
+      .reduce((out, date) => [
+        ...out,
+        {
+          date,
+          value: 0,
+        },
+      ], []);
+
+    const data = this.getDailyPositiveIndDelta();
+
+    for (let i = 4; i < data.length; i += 1) {
+      const runningAverage = (
+        data[i].value
+        + data[i - 1].value
+        + data[i - 2].value
+        + data[i - 3].value
+        + data[i - 4].value
+      ) / 5;
+
+      deltas[i].value = runningAverage;
+    }
+
+    return deltas.slice(4);
+  }
+
+  getRunningAveNegativeInd(): DateValue[] {
+    const deltas: DateValue[] = dateRangeArray(DATE_FIRST_TESTING_RECORDED)
+      .reduce((out, date) => [
+        ...out,
+        {
+          date,
+          value: 0,
+        },
+      ], []);
+
+    const data = this.getDailyNegativeIndDelta();
+
+    for (let i = 4; i < data.length; i += 1) {
+      const runningAverage = (
+        data[i].value
+        + data[i - 1].value
+        + data[i - 2].value
+        + data[i - 3].value
+        + data[i - 4].value
+      ) / 5;
+
+      deltas[i].value = runningAverage;
+    }
+
+    return deltas.slice(4);
+  }
+
+  getRunningAveInvalidInd(): DateValue[] {
+    const deltas: DateValue[] = dateRangeArray(DATE_FIRST_TESTING_RECORDED)
+      .reduce((out, date) => [
+        ...out,
+        {
+          date,
+          value: 0,
+        },
+      ], []);
+
+    const data = this.getDailyInvalidIndDelta();
+
+    for (let i = 4; i < data.length; i += 1) {
+      const runningAverage = (
+        data[i].value
+        + data[i - 1].value
+        + data[i - 2].value
+        + data[i - 3].value
+        + data[i - 4].value
+      ) / 5;
+
+      deltas[i].value = runningAverage;
+    }
+
+    return deltas.slice(4);
+  }
+
+  getRunningAveEquivocalInd(): DateValue[] {
+    const deltas: DateValue[] = dateRangeArray(DATE_FIRST_TESTING_RECORDED)
+      .reduce((out, date) => [
+        ...out,
+        {
+          date,
+          value: 0,
+        },
+      ], []);
+
+    const data = this.getDailyEquivocalIndDelta();
+
+    for (let i = 4; i < data.length; i += 1) {
+      const runningAverage = (
+        data[i].value
+        + data[i - 1].value
+        + data[i - 2].value
+        + data[i - 3].value
+        + data[i - 4].value
+      ) / 5;
+
+      deltas[i].value = runningAverage;
+    }
+
+    return deltas.slice(4);
+  }
+
+  getRunningAveTestsConducted(): DateValue[] {
+    const deltas: DateValue[] = dateRangeArray(DATE_FIRST_TESTING_RECORDED)
+      .reduce((out, date) => [
+        ...out,
+        {
+          date,
+          value: 0,
+        },
+      ], []);
+
+    const data = this.getDailyTestsConductedDelta();
+
+    for (let i = 4; i < data.length; i += 1) {
+      const runningAverage = (
+        data[i].value
+        + data[i - 1].value
+        + data[i - 2].value
+        + data[i - 3].value
+        + data[i - 4].value
+      ) / 5;
+
+      deltas[i].value = runningAverage;
+    }
+
+    return deltas.slice(4);
+  }
+
   private dailyDelta(cumulative: DateValue[]): DateValue[] {
     const deltas = cumulative.map((c, i) => {
       if (i === 0) {

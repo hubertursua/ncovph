@@ -168,6 +168,46 @@ export default {
     .dataDropTestingAggregates
     .getDailyTestsRemainingDelta(),
 
+  runningAvePositiveInd: (
+    _obj: unknown,
+    _args: unknown,
+    { dataSources }: Context,
+  ): DateValue[] => dataSources
+    .dataDropTestingAggregates
+    .getRunningAvePositiveInd(),
+
+  runningAveNegativeInd: (
+    _obj: unknown,
+    _args: unknown,
+    { dataSources }: Context,
+  ): DateValue[] => dataSources
+    .dataDropTestingAggregates
+    .getRunningAveNegativeInd(),
+
+  runningAveInvalidInd: (
+    _obj: unknown,
+    _args: unknown,
+    { dataSources }: Context,
+  ): DateValue[] => dataSources
+    .dataDropTestingAggregates
+    .getRunningAveInvalidInd(),
+
+  runningAveEquivocalInd: (
+    _obj: unknown,
+    _args: unknown,
+    { dataSources }: Context,
+  ): DateValue[] => dataSources
+    .dataDropTestingAggregates
+    .getRunningAveEquivocalInd(),
+
+  runningAveTestsConducted: (
+    _obj: unknown,
+    _args: unknown,
+    { dataSources }: Context,
+  ): DateValue[] => dataSources
+    .dataDropTestingAggregates
+    .getRunningAveTestsConducted(),
+
   ratioUniqueInd(): object {
     return RatioUniqueIndQuery;
   },
