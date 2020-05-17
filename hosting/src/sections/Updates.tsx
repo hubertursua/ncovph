@@ -21,6 +21,18 @@ function Update({
 
 const updates = [
   <Update
+    key="May 17 (evening)"
+    date="May 17 (evening)"
+    text={
+      <>
+        {`DOH is validating the testing data set. The current version of the testing
+        data set has a lot of missing data. I won't be updating this until they return
+        the original data. There's really no point in adjusting right now. If you need
+        the latest data, you can check out the original data drop source.`}
+      </>
+    }
+  />,
+  <Update
     key="May 17"
     date="May 17"
     text={
