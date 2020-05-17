@@ -224,6 +224,22 @@ export default {
     .dataDropTestingAggregates
     .getRunningAveTestsConducted(),
 
+  positivityRate: (
+    _obj: unknown,
+    _args: unknown,
+    { dataSources }: Context,
+  ): DateValue[] => dataSources
+    .dataDropTestingAggregates
+    .getPositivityRate(),
+
+  runningAvePositivityRate: (
+    _obj: unknown,
+    _args: unknown,
+    { dataSources }: Context,
+  ): DateValue[] => dataSources
+    .dataDropTestingAggregates
+    .getRunningAvePositivityRate(),
+
   ratioUniqueInd(): object {
     return RatioUniqueIndQuery;
   },

@@ -80,6 +80,12 @@ type TestingQuery {
   # Running average of tests conducted (5-day average)
   runningAveTestsConducted: [DateValueFloat]
 
+  # Positivity rate
+  positivityRate: [DateValueFloat]
+
+  # Running average of positivity rate (5-day average)
+  runningAvePositivityRate: [DateValueFloat]
+
   # Ratio with unique individuals
   ratioUniqueInd: RatioUniqueIndQuery
 }

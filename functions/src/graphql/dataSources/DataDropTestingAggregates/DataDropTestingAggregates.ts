@@ -256,6 +256,56 @@ class DataDropTestingAggregates extends DataSource {
     return deltas.slice(4);
   }
 
+  getPositivityRate(): DateValue[] {
+    const positives = this.getDailyPositiveIndDelta();
+    const uniqueIndTested = this.getDailyUniqueIndDelta();
+
+    const perDayRate: DateValue[] = dateRangeArray(
+      DATE_FIRST_TESTING_RECORDED,
+      this.getLastReportDate(),
+    )
+      .reduce((out, date) => [
+        ...out,
+        {
+          date,
+          value: 0,
+        },
+      ], []);
+
+    for (let i = 0; i < perDayRate.length; i += 1) {
+      perDayRate[i].value = positives[i].value / uniqueIndTested[i].value;
+    }
+
+    return perDayRate;
+  }
+
+  getRunningAvePositivityRate(): DateValue[] {
+    const deltas: DateValue[] = dateRangeArray(DATE_FIRST_TESTING_RECORDED)
+      .reduce((out, date) => [
+        ...out,
+        {
+          date,
+          value: 0,
+        },
+      ], []);
+
+    const data = this.getPositivityRate();
+
+    for (let i = 4; i < data.length; i += 1) {
+      const runningAverage = (
+        data[i].value
+        + data[i - 1].value
+        + data[i - 2].value
+        + data[i - 3].value
+        + data[i - 4].value
+      ) / 5;
+
+      deltas[i].value = runningAverage;
+    }
+
+    return deltas.slice(4);
+  }
+
   private dailyDelta(cumulative: DateValue[]): DateValue[] {
     const deltas = cumulative.map((c, i) => {
       if (i === 0) {
