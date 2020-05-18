@@ -7,6 +7,10 @@ export default (region: string | null): string | null => {
     return null;
   }
 
+  if (region === 'repatriate') {
+    return null;
+  }
+
   const match = regions.find((r) => region.includes(r.name) || region.includes(r.altName));
 
   if (!match) {
