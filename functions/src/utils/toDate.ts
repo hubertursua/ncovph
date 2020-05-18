@@ -1,6 +1,6 @@
 import moment from 'moment';
 
-export const INPUT_FORMAT_CASE_INFORMATION = 'YYYY-MM-DD';
+export const INPUT_FORMAT_CASE_INFORMATION = 'DD/MM/YYYY';
 export const INPUT_FORMAT_TESTING_AGGREGATES = 'MMMM D, YYYY';
 export const INPUT_FORMAT_WEEKLY_REPORT = 'YYYY-MM-DD';
 export const INPUT_FORMAT_DAILY_REPORT = 'YYYY-MM-DD';
