@@ -7,7 +7,7 @@ export default (region: string | null): string | null => {
     return null;
   }
 
-  if (region === 'repatriate') {
+  if (region.toUpperCase() === 'REPATRIATE') {
     return null;
   }
 
