@@ -21,6 +21,25 @@ function Update({
 
 const updates = [
   <Update
+    key="May 22"
+    date="May 22"
+    text={
+      <>
+        {`Testing Aggregates are now back in the DOH data drop.`}
+        <br /><br />
+        {`I'll include this on Monday. Why that long? First of all, the schema of
+        the table changed drastically. Some columns were removed and some were added.
+        Overall it's a plus since we're getting some juicy data like the testing backlog.
+        Because of this, I'll have to go through and re-write some of the aggregate
+        functions. And then, I'll have to write new ones for the added data.`}
+        <br /><br />
+        {`Second, I want to observe first if the new schema is still experimental or
+        permanent. This has happened before and I had to throw a lot of work the next
+        day.`}
+      </>
+    }
+  />,
+  <Update
     key="May 17 (evening)"
     date="May 17 (evening)"
     text={
