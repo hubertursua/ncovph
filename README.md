@@ -1,6 +1,8 @@
-# ncovph
+# (DISCONTINUED) ncovph
 
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://raw.githubusercontent.com/hyubs/ncovph/master/LICENSE)
+
+DISCONTINUED - Check [website](https://ncovph.com) for more info
 
 GraphQL API for COVID-19 data (Philippines)
 
