@@ -21,6 +21,30 @@ function Update({
 
 const updates = [
   <Update
+    key="May 25"
+    date="May 25"
+    text={
+      <>
+        {`ncovph is now discontinued. Thank you to everyone
+        who used and contributed to this project.`}
+        <br /><br />
+        {`The usage of the API has dropped significantly over the past few weeks.
+        This is expected as some lose interest in maintaining their own projects.
+        Nonetheless, I hope in the span of this project's lifetime, it became useful
+        in delivering more accurate and transparent data.`}
+        <br /><br />
+        {`And because of that low traffic, I deem it not worth it to continue maintaining
+        this project as well; especially that DOH loves changing the data schema
+        every few days.`}
+        <br /><br />
+        {`I'll be keeping this page up for a few more weeks. For the GraphQL API, it
+        will no longer be updated but can still be accessed until mid-June.`}
+        <br /><br />
+        {`If you have any questions, feel free to contact me here on GitHub.`}
+      </>
+    }
+  />,
+  <Update
     key="May 22"
     date="May 22"
     text={
